@@ -80,3 +80,4 @@ react-native-pdf,7.0.5,pass
 react-native-google-mobile-ads,16.5.0,fail-newdsl
 react-native-edge-to-edge,1.8.1,fail-newdsl
 @react-native-firebase/auth,26.3.3,fail-baseline
+react-native-vision-camera,5.2.3,fail-baseline
