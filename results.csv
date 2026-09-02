@@ -42,3 +42,4 @@ react-native-purchases,10.8.1,fail-baseline
 expo-sqlite,58.0.0-canary-20260902-26df09e,fail-baseline
 expo-keep-awake,58.0.0-canary-20260902-26df09e,fail-baseline
 expo-media-library,58.0.0-canary-20260902-26df09e,fail-baseline
+react-native-qrcode-svg,6.3.21,fail-baseline
