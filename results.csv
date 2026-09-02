@@ -70,3 +70,4 @@ react-native-blob-util,0.24.10,pass
 @react-native-firebase/crashlytics,26.3.3,fail-baseline
 expo-calendar,58.0.0-canary-20260902-26df09e,pass
 react-native-share,12.3.1,pass
+expo-contacts,58.0.0-canary-20260902-26df09e,pass
