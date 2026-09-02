@@ -50,3 +50,4 @@ expo-print,58.0.0-canary-20260902-26df09e,pass
 lottie-react-native,7.3.8,fail-newdsl
 expo-task-manager,58.0.0-canary-20260902-26df09e,pass
 react-native-pager-view,8.0.2,fail-newdsl
+expo-network,58.0.0-canary-20260902-26df09e,pass
