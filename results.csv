@@ -113,3 +113,4 @@ react-native-video,6.19.2,fail-newdsl
 @maplibre/maplibre-react-native,11.3.8,fail-newdsl
 react-native-worklets-core,1.6.3,fail-newdsl
 @braze/react-native-sdk,23.0.0,fail-newdsl
+react-native-localize,3.7.0,fail-newdsl
