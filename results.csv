@@ -3,3 +3,4 @@ react-native-svg,15.15.4,pass
 @react-native-async-storage/async-storage,2.2.0,fail-newdsl
 expo-notifications,58.0.0-canary-20260902-26df09e,pass
 expo-secure-store,58.0.0-canary-20260902-26df09e,pass
+expo-image-picker,58.0.0-canary-20260902-26df09e,pass
