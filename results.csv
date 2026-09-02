@@ -13,3 +13,4 @@ react-native-webview,13.16.1,fail-newdsl
 expo-sharing,58.0.0-canary-20260902-26df09e,pass
 expo-crypto,58.0.0-canary-20260902-26df09e,pass
 react-native-safe-area-context,5.7.0,fail-baseline
+react-native-screens,4.27.0,pass
