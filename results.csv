@@ -127,3 +127,4 @@ expo-quick-actions,6.0.2,fail-baseline
 @livekit/react-native,,fail-baseline
 @livekit/react-native-webrtc,144.1.2,fail-baseline
 react-native-ios-utilities,5.2.0,fail-baseline
+@react-native-firebase/perf,26.3.3,fail-baseline
