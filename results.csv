@@ -87,3 +87,4 @@ react-native-appsflyer,7.0.2,fail-baseline
 expo-insights,58.0.0-canary-20260902-26df09e,pass
 expo-background-task,58.0.0-canary-20260902-26df09e,pass
 expo-iap,5.5.0,fail-baseline
+react-native-linear-gradient,2.8.3,pass
