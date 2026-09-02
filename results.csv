@@ -150,3 +150,4 @@ react-native-auth0,5.11.0,fail-baseline
 react-native-restart,0.0.29,fail-baseline
 @invertase/react-native-apple-authentication,2.5.1,fail-baseline
 react-native-incall-manager,4.2.2,fail-baseline
+react-native-plaid-link-sdk,13.1.0,fail-baseline
