@@ -65,3 +65,4 @@ expo-navigation-bar,58.0.0-canary-20260902-26df09e,pass
 expo-speech,58.0.0-canary-20260902-26df09e,pass
 react-native-device-info,15.0.2,pass
 @stripe/stripe-react-native,0.64.0,fail-baseline
+expo-intent-launcher,58.0.0-canary-20260902-26df09e,pass
