@@ -154,3 +154,4 @@ react-native-plaid-link-sdk,13.1.0,fail-baseline
 @op-engineering/op-sqlite,18.1.4,fail-newdsl
 react-native-image-crop-picker,0.51.1,pass
 @clerk/expo,4.6.2,fail-baseline
+react-native-quick-crypto,1.1.7,fail-baseline
