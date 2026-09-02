@@ -142,3 +142,4 @@ react-native-fs,2.20.0,pass
 expo-widgets,58.0.0-canary-20260902-26df09e,fail-baseline
 react-native-android-widget,0.22.1,fail-baseline
 @config-plugins/react-native-branch,13.0.2,fail-baseline
+@react-native-firebase/storage,26.3.3,fail-baseline
