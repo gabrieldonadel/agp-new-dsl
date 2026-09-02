@@ -1,0 +1,5 @@
+@expo/vector-icons
+@react-navigation/native
+expo-build-properties
+@react-navigation/bottom-tabs
+@tanstack/react-query

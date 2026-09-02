@@ -1,0 +1,13 @@
+@react-native-async-storage/async-storage
+react-native-svg
+expo-notifications
+expo-secure-store
+expo-image-picker
+expo-dev-client
+expo-haptics
+expo-file-system
+expo-linear-gradient
+expo-updates
+react-native-webview
+expo-sharing
+expo-crypto
