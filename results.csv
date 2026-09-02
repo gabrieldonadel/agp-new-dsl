@@ -125,3 +125,4 @@ react-native-webrtc,124.0.8,fail-baseline
 expo-observe,58.0.0-canary-20260902-26df09e,fail-baseline
 expo-quick-actions,6.0.2,fail-baseline
 @livekit/react-native,,fail-baseline
+@livekit/react-native-webrtc,144.1.2,fail-baseline
