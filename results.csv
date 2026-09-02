@@ -56,3 +56,4 @@ react-native-mmkv,4.3.2,fail-baseline
 @shopify/react-native-skia,2.6.2,pass
 @react-native-picker/picker,2.11.4,pass
 @react-native-masked-view/masked-view,0.3.2,fail-newdsl
+expo-av,16.0.8,pass
