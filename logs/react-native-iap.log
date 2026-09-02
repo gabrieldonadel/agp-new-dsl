@@ -1,0 +1,1481 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add react-native-iap
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning " > react-native-iap@16.5.0" has unmet peer dependency "react-native-nitro-modules@^0.36.5".
+warning Workspaces can only be enabled in private projects.
+[4/4] Building fresh packages...
+success Saved lockfile.
+warning Workspaces can only be enabled in private projects.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ react-native-iap@16.5.0
+info All dependencies
+└─ react-native-iap@16.5.0
+Done in 1.06s.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors
+> Task :expo-module-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :expo-module-gradle-plugin:compileKotlin
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes
+> Task :expo-module-gradle-plugin:jar
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file '/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build.gradle' line: 82
+
+* What went wrong:
+A problem occurred evaluating project ':react-native-iap'.
+> Failed to apply plugin 'org.jetbrains.kotlin.android'.
+   > Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+A problem occurred configuring project ':react-native-iap'.
+> Android Gradle Plugin: project ':react-native-iap' does not specify `compileSdk` in build.gradle (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build.gradle).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+28 actionable tasks: 28 executed
+== retry without new DSL flags
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Configure project :react-native-iap
+[NitroModules] 🔥 NitroIap is boosted by nitro!
+
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :react-native-iap:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :react-native-iap:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:processDebugNavigationResources
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :expo-modules-core:processDebugNavigationResources
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :expo-log-box:generateDebugBuildConfig
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :react-native-iap:processDebugNavigationResources
+> Task :react-native-iap:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:generateDebugResources
+> Task :app:generateReactNativeEntryPoint
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources
+> Task :expo-log-box:packageDebugResources
+> Task :react-native-iap:generateDebugBuildConfig
+> Task :expo-modules-core:packageDebugResources
+> Task :react-native-iap:generateDebugResources
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:mergeDebugAssets
+> Task :expo-modules-core:mergeDebugAssets
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo-log-box:writeDebugAarMetadata
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-modules-core:extractDeepLinksDebug
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :react-native-iap:packageDebugResources
+> Task :expo-log-box:processDebugManifest
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo-modules-core:mapDebugSourceSetPaths
+> Task :expo-log-box:generateDebugRFile
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :react-native-iap:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-iap:parseDebugLocalResources
+> Task :react-native-iap:javaPreCompileDebug
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :react-native-iap:mergeDebugAssets
+> Task :react-native-iap:writeDebugAarMetadata
+> Task :react-native-iap:generateDebugRFile
+> Task :react-native-iap:extractDeepLinksDebug
+> Task :expo:generateInlineModules
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo:processDebugNavigationResources
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugResources
+> Task :expo:packageDebugResources
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo:mergeDebugAssets
+> Task :expo:parseDebugLocalResources
+> Task :expo:writeDebugAarMetadata
+> Task :expo:generateDebugRFile
+> Task :expo:extractDeepLinksDebug
+> Task :expo:mapDebugSourceSetPaths
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-constants:preDebugBuild
+> Task :expo-constants:processDebugNavigationResources
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateDebugResources
+> Task :expo:compileDebugLibraryResources
+> Task :expo-constants:packageDebugResources
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:generateDebugRFile
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo:processDebugManifest
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo-constants:mergeDebugAssets
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:processDebugManifest
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :react-native-iap:processDebugManifest
+> Task :react-native-iap:mapDebugSourceSetPaths
+> Task :react-native-iap:compileDebugLibraryResources
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:checkDebugAarMetadata
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+
+> Task :react-native-iap:configureCMakeDebug[arm64-v8a] FAILED
+C/C++: CMake Error at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/NitroIap+autolinking.cmake:108 (find_package):
+C/C++:   By not providing "Findreact-native-nitro-modules.cmake" in
+C/C++:   CMAKE_MODULE_PATH this project has asked CMake to find a package
+C/C++:   configuration file provided by "react-native-nitro-modules", but CMake did
+C/C++:   not find one.
+C/C++:   Could not find a package configuration file provided by
+C/C++:   "react-native-nitro-modules" with any of the following names:
+C/C++:     react-native-nitro-modulesConfig.cmake
+C/C++:     react-native-nitro-modules-config.cmake
+C/C++:   Add the installation prefix of "react-native-nitro-modules" to
+C/C++:   CMAKE_PREFIX_PATH or set "react-native-nitro-modules_DIR" to a directory
+C/C++:   containing one of the above files.  If "react-native-nitro-modules"
+C/C++:   provides a separate development package or SDK, be sure it has been
+C/C++:   installed.
+C/C++: Call Stack (most recent call first):
+C/C++:   CMakeLists.txt:21 (include)
+
+> Task :app:processDebugMainManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
+	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :react-native-iap:compileDebugKotlin FAILED
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:4:26 Unresolved reference 'NitroModules'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:5:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:6:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:202:9 Unresolved reference 'NitroModules'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:261:82 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:459:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:460:24 Suspend function 'suspend fun await(): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:464:35 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:500:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:501:24 Suspend function 'suspend fun await(): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:506:68 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:507:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:532:39 Suspend function 'suspend fun invoke(p1: @ParameterName(...) ProductRequest): FetchProductsResult' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:567:66 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:568:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:569:55 Overload resolution ambiguity between candidates:
+fun create(value: <ERROR TYPE REF: Symbol not found for NullType>): RequestPurchaseResult
+fun create(value: Array<Purchase>): RequestPurchaseResult
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:605:32 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:616:17 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:631:41 Suspend function 'suspend fun invoke(p1: @ParameterName(...) ProductRequest): FetchProductsResult' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:743:30 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:782:83 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:783:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:809:29 Suspend function 'suspend fun getAvailableItems(type: ProductQueryType): List<Purchase>' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:812:29 Suspend function 'suspend fun invoke(p1: @ParameterName(...) PurchaseOptions?): List<Purchase>' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:829:75 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:830:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:839:51 Suspend function 'suspend fun invoke(p1: @ParameterName(...) List<String>?): List<ActiveSubscription>' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:886:75 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:887:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:895:41 Suspend function 'suspend fun invoke(p1: @ParameterName(...) List<String>?): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:918:75 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:919:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:954:29 Suspend function 'suspend fun invoke(p1: @ParameterName(...) String): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:956:29 Suspend function 'suspend fun invoke(p1: @ParameterName(...) String): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1013:35 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1014:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1017:37 Suspend function 'suspend fun getStorefront(): String' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1048:5 'memorySize' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1463:42 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1464:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1470:88 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1471:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1476:33 Suspend function 'suspend fun invoke(p1: @ParameterName(...) DeepLinkOptions?): Unit' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1486:43 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1487:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1488:49 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1492:51 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1493:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1494:50 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1498:41 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1499:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1505:54 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1506:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1509:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1514:48 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1515:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1517:13 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1521:48 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1522:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1528:75 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1529:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1556:49 Suspend function 'suspend fun invoke(p1: @ParameterName(...) VerifyPurchaseProps): VerifyPurchaseResult' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1602:44 Suspend function 'suspend fun invoke(p1: @ParameterName(...) VerifyPurchaseProps): VerifyPurchaseResult' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1660:92 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1661:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1705:38 Suspend function 'suspend fun invoke(p1: @ParameterName(...) VerifyPurchaseWithProviderProps): VerifyPurchaseWithProviderResult' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1769:54 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1770:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1775:54 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1776:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1781:53 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1782:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1787:47 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1788:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1793:43 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1794:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1799:29 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1800:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1807:63 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1808:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1813:39 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1814:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1819:46 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1820:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1825:57 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1826:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1831:53 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1832:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1952:84 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1953:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1957:43 Suspend function 'suspend fun isBillingProgramAvailable(program: BillingProgramAndroid): BillingProgramAvailabilityResultAndroid' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1976:95 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1977:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:1984:43 Suspend function 'suspend fun getBillingChoiceInfo(params: GetBillingChoiceInfoParamsAndroid): BillingChoiceInfoAndroid' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2010:8 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2011:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2018:43 Suspend function 'suspend fun createBillingProgramReportingDetails(program: BillingProgramAndroid, developerBillingType: DeveloperBillingTypeAndroid? = ...): BillingProgramReportingDetailsAndroid' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2040:8 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2041:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2044:32 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2047:30 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2074:8 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2075:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2080:32 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2083:30 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2108:91 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2109:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2118:32 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2130:30 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2145:48 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2146:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2149:17 Suspend function 'suspend fun <T> withContext(context: CoroutineContext, block: suspend CoroutineScope.() -> T): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2154:30 Suspend function 'suspend fun invoke(): Boolean' can only be called from a coroutine or another suspend function.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2278:57 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2279:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2284:59 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2285:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2290:63 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2291:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2297:64 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2298:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2303:108 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2304:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2309:112 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/src/main/java/com/margelo/nitro/iap/HybridRnIap.kt:2310:16 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/AdvancedCommerceInfoIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/AdvancedCommerceItemDetailsIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/AdvancedCommerceItemIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/AdvancedCommerceRefundIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/DeveloperBillingOptionParamsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/DeveloperProvidedBillingDetailsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/DeveloperProvidedBillingProductAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/ExternalPurchaseCustomLinkNoticeResultIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/ExternalPurchaseCustomLinkTokenResultIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/ExternalPurchaseLinkResultIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/ExternalPurchaseNoticeResultIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:14:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:15:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:16:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:29:33 Unresolved reference 'HybridObject'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:36:80 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:40:33 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:44:66 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:48:64 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:52:81 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:56:73 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:60:73 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:64:73 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:117:40 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:121:41 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:125:49 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:129:39 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:133:52 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:137:52 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:141:52 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:145:51 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:149:45 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:153:41 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:157:27 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:161:46 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:165:46 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:169:61 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:173:37 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:177:44 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:181:55 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:185:51 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:189:73 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:193:90 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:197:33 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:201:86 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:263:82 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:267:93 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:271:145 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:275:119 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:279:100 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:283:89 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:287:46 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:291:55 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:295:57 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:299:61 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:303:62 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:307:106 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:311:110 Unresolved reference 'Promise'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:314:3 'toString' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:321:60 Unresolved reference 'HybridObject'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:324:14 'initHybrid' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:326:3 'createCxxPart' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/HybridRnIapSpec.kt:326:16 'public' function exposes its 'protected (in HybridRnIapSpec)' return type 'CxxPart'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroActiveSubscription.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroAvailablePurchasesAndroidOptions.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroAvailablePurchasesIosOptions.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroAvailablePurchasesOptions.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroBillingChoiceInfoAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroBillingProgramAvailabilityResultAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroBillingResultAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroDeepLinkOptionsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroFinishTransactionAndroidParams.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroFinishTransactionParams.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroGetBillingChoiceInfoParamsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroInAppMessageParamsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroInAppMessageResultAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroLaunchExternalLinkParamsAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroProduct.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchase.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseRequest.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseVerificationGoogleOptions.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseVerificationParams.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseVerificationResultAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseVerificationResultHorizon.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroPurchaseVerificationResultIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroRenewalInfoIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroRequestPurchaseAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroRequestPurchaseIos.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroSubscriptionStatus.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithIapkitAmazonProps.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithIapkitHorizonProps.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithIapkitProps.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithIapkitResult.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithProviderError.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithProviderProps.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/NitroVerifyPurchaseWithProviderResult.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/PurchaseAndroid.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/PurchaseIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/PurchaseUpdatedListenerOptions.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RenewalInfoIOS.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RequestPurchaseResult.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RequestPurchaseResult.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RequestPurchaseResult.kt:39:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RequestPurchaseResult.kt:57:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/RequestPurchaseResult.kt:77:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/UserChoiceBillingDetails.kt:13:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceInfoIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceInfoIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceInfoIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceInfoIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceInfoIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceItemDetailsIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceItemDetailsIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceItemDetailsIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceItemDetailsIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_AdvancedCommerceItemDetailsIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AdvancedCommerceRefundIOS_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AdvancedCommerceRefundIOS_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AdvancedCommerceRefundIOS_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AdvancedCommerceRefundIOS_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AdvancedCommerceRefundIOS_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AndroidSubscriptionOfferInput_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AndroidSubscriptionOfferInput_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AndroidSubscriptionOfferInput_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AndroidSubscriptionOfferInput_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_AndroidSubscriptionOfferInput_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_DeveloperProvidedBillingProductAndroid_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_DeveloperProvidedBillingProductAndroid_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_DeveloperProvidedBillingProductAndroid_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_DeveloperProvidedBillingProductAndroid_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_DeveloperProvidedBillingProductAndroid_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_InAppMessageCategoryAndroid_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_InAppMessageCategoryAndroid_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_InAppMessageCategoryAndroid_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_InAppMessageCategoryAndroid_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_InAppMessageCategoryAndroid_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroSubscriptionStatus_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroSubscriptionStatus_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroSubscriptionStatus_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroSubscriptionStatus_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroSubscriptionStatus_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroVerifyPurchaseWithProviderError_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroVerifyPurchaseWithProviderError_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroVerifyPurchaseWithProviderError_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroVerifyPurchaseWithProviderError_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_NitroVerifyPurchaseWithProviderError_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_String_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_String_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_String_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_String_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Array_String_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Boolean.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Boolean.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Boolean.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Boolean.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Boolean.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_DeveloperBillingOptionParamsAndroid.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_DeveloperBillingOptionParamsAndroid.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_DeveloperBillingOptionParamsAndroid.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_DeveloperBillingOptionParamsAndroid.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_DeveloperBillingOptionParamsAndroid.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Double.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Double.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Double.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Double.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Double.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_InitConnectionConfig.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_InitConnectionConfig.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_InitConnectionConfig.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_InitConnectionConfig.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_InitConnectionConfig.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Map_String__String_.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Map_String__String_.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Map_String__String_.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Map_String__String_.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_Map_String__String_.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesAndroidOptions.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesAndroidOptions.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesAndroidOptions.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesAndroidOptions.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesAndroidOptions.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesIosOptions.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesIosOptions.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesIosOptions.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesIosOptions.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroAvailablePurchasesIosOptions.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionAndroidParams.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionAndroidParams.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionAndroidParams.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionAndroidParams.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionAndroidParams.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionIosParams.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionIosParams.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionIosParams.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionIosParams.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroFinishTransactionIosParams.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroIapkitProductClientPayload.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroIapkitProductClientPayload.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroIapkitProductClientPayload.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroIapkitProductClientPayload.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroIapkitProductClientPayload.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroInAppMessageParamsAndroid.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroInAppMessageParamsAndroid.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroInAppMessageParamsAndroid.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroInAppMessageParamsAndroid.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroInAppMessageParamsAndroid.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroProduct.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroProduct.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroProduct.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroProduct.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroProduct.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchase.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchase.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchase.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchase.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchase.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationAppleOptions.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationAppleOptions.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationAppleOptions.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationAppleOptions.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationAppleOptions.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationGoogleOptions.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationGoogleOptions.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationGoogleOptions.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationGoogleOptions.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationGoogleOptions.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationHorizonOptions.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationHorizonOptions.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationHorizonOptions.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationHorizonOptions.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroPurchaseVerificationHorizonOptions.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRenewalInfoIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRenewalInfoIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRenewalInfoIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRenewalInfoIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRenewalInfoIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseAndroid.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseAndroid.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseAndroid.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseAndroid.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseAndroid.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseIos.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseIos.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseIos.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseIos.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroRequestPurchaseIos.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAmazonProps.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAmazonProps.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAmazonProps.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAmazonProps.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAmazonProps.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAppleProps.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAppleProps.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAppleProps.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAppleProps.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitAppleProps.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitGoogleProps.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitGoogleProps.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitGoogleProps.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitGoogleProps.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitGoogleProps.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitHorizonProps.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitHorizonProps.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitHorizonProps.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitHorizonProps.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitHorizonProps.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitProps.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitProps.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitProps.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitProps.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitProps.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitResult.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitResult.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitResult.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitResult.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_NitroVerifyPurchaseWithIapkitResult.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PendingPurchaseUpdateAndroid.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PendingPurchaseUpdateAndroid.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PendingPurchaseUpdateAndroid.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PendingPurchaseUpdateAndroid.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PendingPurchaseUpdateAndroid.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PromotionalOfferJwsInputIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PromotionalOfferJwsInputIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PromotionalOfferJwsInputIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PromotionalOfferJwsInputIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PromotionalOfferJwsInputIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PurchaseOfferIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PurchaseOfferIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PurchaseOfferIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PurchaseOfferIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_PurchaseOfferIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalCommitmentInfoIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalCommitmentInfoIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalCommitmentInfoIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalCommitmentInfoIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalCommitmentInfoIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalInfoIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalInfoIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalInfoIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalInfoIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_RenewalInfoIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_String.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_String.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_String.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_String.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_String.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionPeriodValueIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionPeriodValueIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionPeriodValueIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionPeriodValueIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionPeriodValueIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionProductReplacementParamsAndroid.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionProductReplacementParamsAndroid.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionProductReplacementParamsAndroid.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionProductReplacementParamsAndroid.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_SubscriptionProductReplacementParamsAndroid.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_TransactionCommitmentInfoIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_TransactionCommitmentInfoIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_TransactionCommitmentInfoIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_TransactionCommitmentInfoIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_TransactionCommitmentInfoIOS.kt:57:23 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_WinBackOfferInputIOS.kt:11:26 Unresolved reference 'core'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_WinBackOfferInputIOS.kt:20:43 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_WinBackOfferInputIOS.kt:33:32 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_WinBackOfferInputIOS.kt:45:24 Unresolved reference 'NullType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/kotlin/com/margelo/nitro/iap/Variant_NullType_WinBackOfferInputIOS.kt:57:23 Unresolved reference 'NullType'.
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+
+> Task :app:mergeExtDexDebug
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':react-native-iap:configureCMakeDebug[arm64-v8a]'.
+> [CXX1429] error when building with cmake using /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/CMakeLists.txt: -- The C compiler identification is Clang 18.0.2
+  -- The CXX compiler identification is Clang 18.0.2
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring incomplete, errors occurred!
+  See also "/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a/CMakeFiles/CMakeOutput.log".
+  
+  C++ build system [configure] failed while executing:
+      /opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/cmake \
+        -H/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android \
+        -DCMAKE_SYSTEM_NAME=Android \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+        -DCMAKE_SYSTEM_VERSION=24 \
+        -DANDROID_PLATFORM=android-24 \
+        -DANDROID_ABI=arm64-v8a \
+        -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+        -DANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_ANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_TOOLCHAIN_FILE=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \
+        -DCMAKE_MAKE_PROGRAM=/opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/ninja \
+        "-DCMAKE_CXX_FLAGS=-frtti -fexceptions -Wall -Wextra -fstack-protector-all -O1 -g -O2" \
+        -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_FIND_ROOT_PATH=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/prefab/arm64-v8a/prefab \
+        -B/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a \
+        -GNinja \
+        -DCMAKE_OBJECT_PATH_MAX=1024 \
+        -DANDROID_STL=c++_shared \
+        -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON
+    from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android
+  CMake Error at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/NitroIap+autolinking.cmake:108 (find_package):
+    By not providing "Findreact-native-nitro-modules.cmake" in
+    CMAKE_MODULE_PATH this project has asked CMake to find a package
+    configuration file provided by "react-native-nitro-modules", but CMake did
+    not find one.
+  
+    Could not find a package configuration file provided by
+    "react-native-nitro-modules" with any of the following names:
+  
+      react-native-nitro-modulesConfig.cmake
+      react-native-nitro-modules-config.cmake
+  
+    Add the installation prefix of "react-native-nitro-modules" to
+    CMAKE_PREFIX_PATH or set "react-native-nitro-modules_DIR" to a directory
+    containing one of the above files.  If "react-native-nitro-modules"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  Call Stack (most recent call first):
+    CMakeLists.txt:21 (include) : com.android.ide.common.process.ProcessException: -- The C compiler identification is Clang 18.0.2
+  -- The CXX compiler identification is Clang 18.0.2
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring incomplete, errors occurred!
+  See also "/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a/CMakeFiles/CMakeOutput.log".
+  
+  C++ build system [configure] failed while executing:
+      /opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/cmake \
+        -H/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android \
+        -DCMAKE_SYSTEM_NAME=Android \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+        -DCMAKE_SYSTEM_VERSION=24 \
+        -DANDROID_PLATFORM=android-24 \
+        -DANDROID_ABI=arm64-v8a \
+        -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+        -DANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_ANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_TOOLCHAIN_FILE=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \
+        -DCMAKE_MAKE_PROGRAM=/opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/ninja \
+        "-DCMAKE_CXX_FLAGS=-frtti -fexceptions -Wall -Wextra -fstack-protector-all -O1 -g -O2" \
+        -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_FIND_ROOT_PATH=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/prefab/arm64-v8a/prefab \
+        -B/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a \
+        -GNinja \
+        -DCMAKE_OBJECT_PATH_MAX=1024 \
+        -DANDROID_STL=c++_shared \
+        -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON
+    from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android
+  CMake Error at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/NitroIap+autolinking.cmake:108 (find_package):
+    By not providing "Findreact-native-nitro-modules.cmake" in
+    CMAKE_MODULE_PATH this project has asked CMake to find a package
+    configuration file provided by "react-native-nitro-modules", but CMake did
+    not find one.
+  
+    Could not find a package configuration file provided by
+    "react-native-nitro-modules" with any of the following names:
+  
+      react-native-nitro-modulesConfig.cmake
+      react-native-nitro-modules-config.cmake
+  
+    Add the installation prefix of "react-native-nitro-modules" to
+    CMAKE_PREFIX_PATH or set "react-native-nitro-modules_DIR" to a directory
+    containing one of the above files.  If "react-native-nitro-modules"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  Call Stack (most recent call first):
+    CMakeLists.txt:21 (include)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:260)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:95)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:93)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:28)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess(ExecuteProcess.kt:93)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess$default(ExecuteProcess.kt:70)
+  	at com.android.build.gradle.tasks.CmakeQueryMetadataGenerator.executeProcess(CmakeFileApiMetadataGenerator.kt:55)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:226)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:226)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:28)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configureOneAbi(ExternalNativeJsonGenerator.kt:226)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configure(ExternalNativeJsonGenerator.kt:108)
+  	at com.android.build.gradle.tasks.ExternalNativeBuildJsonTask.doTaskAction(ExternalNativeBuildJsonTask.kt:76)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:71)
+  	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask.taskAction(UnsafeOutputsTask.kt:72)
+  	at jdk.internal.reflect.GeneratedMethodAccessor2885.invoke(Unknown Source)
+  	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+  	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+  	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+  	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+  	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+  	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+  	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+  	at org.gradle.internal.Either$Right.fold(Either.java:176)
+  	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:99)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:85)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+  	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+  	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+  	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+  	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+  	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+  	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+  	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+  	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:111)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:146)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:131)
+  	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:35)
+  	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:54)
+  	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor$ExecuteTasks.call(BuildOperationFiringBuildWorkerExecutor.java:43)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.execution.BuildOperationFiringBuildWorkerExecutor.execute(BuildOperationFiringBuildWorkerExecutor.java:40)
+  	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$executeTasks$11(DefaultBuildLifecycleController.java:323)
+  	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:304)
+  	at org.gradle.internal.model.StateTransitionController.lambda$tryTransition$9(StateTransitionController.java:215)
+  	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+  	at org.gradle.internal.model.StateTransitionController.tryTransition(StateTransitionController.java:215)
+  	at org.gradle.internal.build.DefaultBuildLifecycleController.executeTasks(DefaultBuildLifecycleController.java:314)
+  	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.runWork(DefaultBuildWorkGraphController.java:220)
+  	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:275)
+  	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)
+  	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:273)
+  	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:265)
+  	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:128)
+  	at org.gradle.composite.internal.DefaultBuildController.doRun(DefaultBuildController.java:182)
+  	at org.gradle.composite.internal.DefaultBuildController.access$000(DefaultBuildController.java:50)
+  	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.lambda$run$0(DefaultBuildController.java:199)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+  	at org.gradle.composite.internal.DefaultBuildController$BuildOpRunnable.run(DefaultBuildController.java:199)
+  	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+  	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+  	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  	at java.base/java.lang.Thread.run(Thread.java:842)
+  Caused by: com.android.ide.common.process.ProcessException: -- The C compiler identification is Clang 18.0.2
+  -- The CXX compiler identification is Clang 18.0.2
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring incomplete, errors occurred!
+  See also "/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a/CMakeFiles/CMakeOutput.log".
+  
+  C++ build system [configure] failed while executing:
+      /opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/cmake \
+        -H/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android \
+        -DCMAKE_SYSTEM_NAME=Android \
+        -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+        -DCMAKE_SYSTEM_VERSION=24 \
+        -DANDROID_PLATFORM=android-24 \
+        -DANDROID_ABI=arm64-v8a \
+        -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a \
+        -DANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_ANDROID_NDK=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006 \
+        -DCMAKE_TOOLCHAIN_FILE=/opt/homebrew/share/android-commandlinetools/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \
+        -DCMAKE_MAKE_PROGRAM=/opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/ninja \
+        "-DCMAKE_CXX_FLAGS=-frtti -fexceptions -Wall -Wextra -fstack-protector-all -O1 -g -O2" \
+        -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/build/intermediates/cxx/Debug/6u3f1240/obj/arm64-v8a \
+        -DCMAKE_BUILD_TYPE=Debug \
+        -DCMAKE_FIND_ROOT_PATH=/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/prefab/arm64-v8a/prefab \
+        -B/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android/.cxx/Debug/6u3f1240/arm64-v8a \
+        -GNinja \
+        -DCMAKE_OBJECT_PATH_MAX=1024 \
+        -DANDROID_STL=c++_shared \
+        -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON
+    from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/android
+  CMake Error at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-iap/nitrogen/generated/android/NitroIap+autolinking.cmake:108 (find_package):
+    By not providing "Findreact-native-nitro-modules.cmake" in
+    CMAKE_MODULE_PATH this project has asked CMake to find a package
+    configuration file provided by "react-native-nitro-modules", but CMake did
+    not find one.
+  
+    Could not find a package configuration file provided by
+    "react-native-nitro-modules" with any of the following names:
+  
+      react-native-nitro-modulesConfig.cmake
+      react-native-nitro-modules-config.cmake
+  
+    Add the installation prefix of "react-native-nitro-modules" to
+    CMAKE_PREFIX_PATH or set "react-native-nitro-modules_DIR" to a directory
+    containing one of the above files.  If "react-native-nitro-modules"
+    provides a separate development package or SDK, be sure it has been
+    installed.
+  Call Stack (most recent call first):
+    CMakeLists.txt:21 (include)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:241)
+  	... 186 more
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':react-native-iap:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 11s
+129 actionable tasks: 85 executed, 44 up-to-date
+yarn remove v1.22.22
+[1/2] Removing module react-native-iap...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+success Uninstalled packages.
+Done in 0.79s.
