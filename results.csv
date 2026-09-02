@@ -145,3 +145,4 @@ react-native-android-widget,0.22.1,fail-baseline
 @react-native-firebase/storage,26.3.3,fail-baseline
 @aws-amplify/react-native,1.3.3,fail-newdsl
 react-native-enriched-markdown,1.0.2,fail-newdsl
+@react-native-cookies/cookies,6.2.1,fail-baseline
