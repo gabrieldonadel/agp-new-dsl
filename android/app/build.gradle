@@ -1,5 +1,8 @@
 apply plugin: "com.android.application"
-apply plugin: "org.jetbrains.kotlin.android"
+// AGP 9 builtInKotlin replaces the standalone Kotlin plugin; applying both fails.
+if (!(findProperty("android.builtInKotlin") ?: "false").toBoolean()) {
+    apply plugin: "org.jetbrains.kotlin.android"
+}
 apply plugin: "com.facebook.react"
 
 def projectRoot = rootDir.getAbsoluteFile().getParentFile().getAbsolutePath()
