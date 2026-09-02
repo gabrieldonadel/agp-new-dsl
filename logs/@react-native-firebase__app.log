@@ -1,0 +1,923 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add @react-native-firebase/app
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 46 new dependencies.
+info Direct dependencies
+└─ @react-native-firebase/app@26.3.3
+info All dependencies
+├─ @firebase/ai@2.14.0
+├─ @firebase/analytics-compat@0.2.29
+├─ @firebase/analytics-types@0.8.4
+├─ @firebase/app-check-compat@0.4.6
+├─ @firebase/app-check-types@0.5.4
+├─ @firebase/app-compat@0.5.16
+├─ @firebase/auth-compat@0.6.9
+├─ @firebase/auth-types@0.13.1
+├─ @firebase/data-connect@0.7.3
+├─ @firebase/database-compat@2.1.6
+├─ @firebase/database-types@1.0.21
+├─ @firebase/firestore-compat@0.4.12
+├─ @firebase/firestore-types@3.0.4
+├─ @firebase/functions-compat@0.4.6
+├─ @firebase/functions-types@0.6.4
+├─ @firebase/installations-compat@0.2.23
+├─ @firebase/installations-types@0.5.4
+├─ @firebase/messaging-compat@0.2.28
+├─ @firebase/performance-compat@0.2.26
+├─ @firebase/performance-types@0.2.4
+├─ @firebase/remote-config-compat@0.2.28
+├─ @firebase/remote-config-types@0.5.1
+├─ @firebase/storage-compat@0.4.4
+├─ @firebase/storage-types@0.8.4
+├─ @firebase/webchannel-wrapper@1.0.6
+├─ @grpc/grpc-js@1.9.16
+├─ @protobufjs/aspromise@1.1.2
+├─ @protobufjs/base64@1.1.2
+├─ @protobufjs/codegen@2.0.5
+├─ @protobufjs/eventemitter@1.1.1
+├─ @protobufjs/fetch@1.1.1
+├─ @protobufjs/float@1.0.2
+├─ @protobufjs/path@1.1.2
+├─ @protobufjs/pool@1.1.0
+├─ @protobufjs/utf8@1.1.2
+├─ @react-native-firebase/app@26.3.3
+├─ faye-websocket@0.11.4
+├─ firebase@12.17.1
+├─ http-parser-js@0.5.10
+├─ lodash.camelcase@4.3.0
+├─ long@5.3.2
+├─ protobufjs@7.6.6
+├─ re2js@2.8.6
+├─ web-vitals@4.2.4
+├─ websocket-driver@0.7.5
+└─ websocket-extensions@0.1.4
+Done in 4.50s.
+› Added config plugin: @react-native-firebase/app
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors
+> Task :expo-module-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :expo-module-gradle-plugin:compileKotlin
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes
+> Task :expo-module-gradle-plugin:jar
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 34.18.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.5.0
+:react-native-firebase_app package.json found at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 26.3.3 (26,3,3 - 26003003)
+:react-native-firebase_app:android.compileSdk using custom value: 37
+:react-native-firebase_app:android.targetSdk using custom value: 36
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native
+
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :expo-modules-core:processDebugNavigationResources
+> Task :expo-log-box:processDebugNavigationResources
+> Task :app:generateAutolinkingPackageList
+> Task :react-native-firebase_app:processDebugNavigationResources
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :expo-log-box:generateDebugBuildConfig
+> Task :app:generateReactNativeEntryPoint
+> Task :react-native-firebase_app:generateDebugBuildConfig
+> Task :expo-modules-core:generateDebugResources
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:generateDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-log-box:packageDebugResources
+> Task :react-native-firebase_app:generateDebugResources
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo-modules-core:mergeDebugAssets
+> Task :expo-log-box:mergeDebugAssets
+> Task :react-native-firebase_app:packageDebugResources
+> Task :react-native-firebase_app:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:writeDebugAarMetadata
+> Task :react-native-firebase_app:javaPreCompileDebug
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-modules-core:extractDeepLinksDebug
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :react-native-firebase_app:parseDebugLocalResources
+> Task :expo-modules-core:generateDebugRFile
+> Task :react-native-firebase_app:mergeDebugAssets
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :expo-log-box:processDebugManifest
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :react-native-firebase_app:writeDebugAarMetadata
+> Task :react-native-firebase_app:generateDebugRFile
+> Task :react-native-firebase_app:extractDeepLinksDebug
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :react-native-firebase_app:compileDebugKotlin NO-SOURCE
+> Task :expo:generateInlineModules
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo:processDebugNavigationResources
+> Task :expo:generateDebugResources
+> Task :expo:packageDebugResources
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo:mergeDebugAssets
+> Task :expo:parseDebugLocalResources
+> Task :expo:writeDebugAarMetadata
+> Task :expo:extractDeepLinksDebug
+> Task :expo:generateDebugRFile
+> Task :expo:mapDebugSourceSetPaths
+> Task :expo:processDebugManifest
+> Task :expo:compileDebugLibraryResources
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :expo-constants:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :expo-constants:processDebugNavigationResources
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:generateDebugResources
+> Task :expo-constants:packageDebugResources
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo-constants:mergeDebugAssets
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-constants:generateDebugRFile
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:processDebugManifest
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :expo-modules-core:mapDebugSourceSetPaths
+> Task :expo-modules-core:compileDebugLibraryResources
+
+> Task :react-native-firebase_app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-firebase_app:processDebugJavaRes NO-SOURCE
+> Task :react-native-firebase_app:bundleLibCompileToJarDebug
+> Task :react-native-firebase_app:mapDebugSourceSetPaths
+
+> Task :react-native-firebase_app:processDebugManifest
+package="io.invertase.firebase" found in source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.invertase.firebase" from the source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/android/src/main/AndroidManifest.xml.
+
+> Task :react-native-firebase_app:compileDebugLibraryResources
+> Task :react-native-firebase_app:mergeDebugJniLibFolders
+> Task :react-native-firebase_app:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-firebase_app:bundleLibRuntimeToDirDebug
+> Task :react-native-firebase_app:copyDebugJniLibsProjectOnly
+> Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+
+> Task :app:processDebugMainManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
+	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :app:expoDebugOverrideMaxSdkConflicts
+[33m---------- Expo Max Sdk Override Plugin ----------[0m
+[32m>>> No 'android:maxSdkVersion' conflicts found[0m
+[33m--------------------------------------------------[0m
+
+> Task :app:processDebugManifest
+> Task :app:configureCMakeDebug[arm64-v8a]
+
+> Task :app:mergeExtDexDebug
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbd, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbo, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.signin.zbb, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 7: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbv, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 7: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbv, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 7: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbi, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 7: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbi, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbp, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbs, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 10: invokespecial Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.zba, but was com.google.android.gms.common.api.Api$AbstractClientBuilder.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbl, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbn, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbu, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbq, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 6: invokespecial Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.internal.auth-api.zbae, but was com.google.android.gms.common.api.Api$AbstractClientBuilder.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbh, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbg, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbm, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbk, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 17: invokespecial Lcom/google/android/gms/auth/api/signin/internal/zbl;<init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.signin.internal.zbi, but was com.google.android.gms.auth.api.signin.internal.zbl.<init>(com.google.android.gms.common.api.GoogleApiClient).
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 20: invokespecial Lcom/google/android/gms/auth/api/signin/internal/zbl;<init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.signin.internal.zbk, but was com.google.android.gms.auth.api.signin.internal.zbl.<init>(com.google.android.gms.common.api.GoogleApiClient).
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbw, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbc, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbe, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbj, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbr, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.internal.auth-api.zbay, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 6: invokespecial Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.internal.auth-api.zbak, but was com.google.android.gms.common.api.Api$AbstractClientBuilder.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbt, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.signin.internal.zbu, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 2: invokespecial Ljava/lang/Object;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.auth.api.identity.zbb, but was java.lang.Object.<init>().
+WARNING: /Users/briones/.gradle/caches/9.4.1/transforms/165dff51436d7147f1ef93b4f21d9853/transformed/play-services-auth-21.5.0-runtime.jar: D8: Invalid stack map table at instruction index 6: invokespecial Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;<init>()V, error: Constructor mismatch, expected constructor from com.google.android.gms.internal.auth-api.zbw, but was com.google.android.gms.common.api.Api$AbstractClientBuilder.<init>().
+
+> Task :app:mergeDebugResources
+
+> Task :app:buildCMakeDebug[arm64-v8a] FAILED
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+C/C++: -- GLOB mismatch!
+C/C++: ninja: error: unknown target 'react_codegen_RNKC'
+
+> Task :app:processDebugManifestForPackage
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:buildCMakeDebug[arm64-v8a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/.cxx/Debug/6g5d694x/arm64-v8a'
+  [0/2] Re-checking globbed directories...
+  [1/2] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/.cxx/Debug/6g5d694x/arm64-v8a
+  [0/2] Re-checking globbed directories...
+  
+  C++ build system [build] failed while executing:
+      /opt/homebrew/share/android-commandlinetools/cmake/3.22.1/bin/ninja \
+        -C \
+        /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/.cxx/Debug/6g5d694x/arm64-v8a \
+        appmodules \
+        react_codegen_RNKC
+    from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app
+  -- GLOB mismatch!
+  -- GLOB mismatch!
+  -- GLOB mismatch!
+  ninja: error: unknown target 'react_codegen_RNKC'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 13s
+137 actionable tasks: 123 executed, 14 up-to-date
+== retry without new DSL flags
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 34.18.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.5.0
+:react-native-firebase_app package.json found at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 26.3.3 (26,3,3 - 26003003)
+:react-native-firebase_app:android.compileSdk using custom value: 37
+:react-native-firebase_app:android.targetSdk using custom value: 36
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native
+
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :react-native-firebase_app:processDebugNavigationResources UP-TO-DATE
+> Task :expo-modules-core:processDebugNavigationResources UP-TO-DATE
+> Task :expo-log-box:processDebugNavigationResources UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-firebase_app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugResources UP-TO-DATE
+> Task :expo-log-box:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-log-box:generateDebugResources UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :react-native-firebase_app:packageDebugResources UP-TO-DATE
+> Task :expo-log-box:packageDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_app:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :expo-log-box:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug UP-TO-DATE
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :expo-log-box:mergeDebugAssets UP-TO-DATE
+> Task :expo-log-box:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-log-box:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-log-box:processDebugManifest UP-TO-DATE
+> Task :expo-log-box:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-log-box:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-log-box:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugAssets UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugAssets UP-TO-DATE
+> Task :react-native-firebase_app:processDebugJavaRes NO-SOURCE
+> Task :react-native-firebase_app:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-firebase_app:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_app:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-firebase_app:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo:generateInlineModules
+> Task :expo:generatePackagesList UP-TO-DATE
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo:processDebugNavigationResources UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :expo-constants:preDebugBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :expo-constants:processDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugAssets UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-constants:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+> Task :expo-modules-core:mergeDebugJniLibFolders
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:expoDebugOverrideMaxSdkConflicts UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:processDebugResources
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-modules-core:processDebugJavaRes
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-constants:compileDebugKotlin
+> Task :expo-log-box:compileDebugKotlin
+> Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-log-box:compileDebugJavaWithJavac
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+
+> Task :expo:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :expo:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo:processDebugJavaRes
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:bundleLibRuntimeToDirDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 7s
+173 actionable tasks: 37 executed, 136 up-to-date
+yarn remove v1.22.22
+[1/2] Removing module @react-native-firebase/app...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+success Uninstalled packages.
+Done in 1.36s.
