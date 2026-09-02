@@ -134,3 +134,4 @@ posthog-react-native-session-replay,,fail-baseline
 react-native-image-picker,8.2.1,fail-baseline
 react-native-branch,7.0.0,fail-baseline
 react-native-launch-arguments,4.1.1,fail-baseline
+rive-react-native,9.8.5,fail-baseline
