@@ -104,3 +104,4 @@ react-native-ble-plx,3.5.1,fail-baseline
 expo-mail-composer,58.0.0-canary-20260902-26df09e,fail-baseline
 mixpanel-react-native,3.6.0,fail-baseline
 react-native-onesignal,5.5.9,fail-baseline
+@react-native-firebase/remote-config,26.3.3,fail-baseline
