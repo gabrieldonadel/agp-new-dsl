@@ -149,3 +149,4 @@ react-native-enriched-markdown,1.0.2,fail-newdsl
 react-native-auth0,5.11.0,fail-baseline
 react-native-restart,0.0.29,pass
 @invertase/react-native-apple-authentication,2.5.1,fail-newdsl
+react-native-incall-manager,4.2.2,pass
