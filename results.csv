@@ -118,3 +118,4 @@ expo-sms,58.0.0-canary-20260902-26df09e,fail-baseline
 react-native-date-picker,5.0.13,fail-baseline
 @amplitude/analytics-react-native,1.8.0,fail-baseline
 @react-native-firebase/app-check,26.3.3,fail-baseline
+expo-share-intent,8.0.1,fail-baseline
