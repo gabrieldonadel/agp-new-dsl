@@ -14,7 +14,6 @@ expo-sharing,58.0.0-canary-20260902-26df09e,pass
 expo-crypto,58.0.0-canary-20260902-26df09e,pass
 react-native-safe-area-context,5.7.0,fail-baseline
 react-native-screens,4.27.0,pass
-react-native-gesture-handler,3.1.0,fail-baseline
 react-native-reanimated,4.5.1,fail-baseline
 react-native-worklets,0.10.1,fail-baseline
 expo-router,58.0.0-canary-20260902-26df09e,pass
@@ -33,7 +32,6 @@ expo-application,58.0.0-canary-20260902-26df09e,pass
 expo-video,58.0.0-canary-20260902-26df09e,pass
 @sentry/react-native,7.11.0,pass
 react-native-keyboard-controller,1.22.4,fail-newdsl
-@react-native-firebase/app,26.3.3,fail-newdsl
 react-native-maps,1.27.2,fail-newdsl
 expo-local-authentication,58.0.0-canary-20260902-26df09e,pass
 react-native-view-shot,5.1.0,pass
@@ -55,7 +53,6 @@ react-native-mmkv,4.3.2,fail-baseline
 @react-native-community/slider,5.2.0,pass
 @shopify/react-native-skia,2.6.2,pass
 @react-native-picker/picker,2.11.4,pass
-@react-native-masked-view/masked-view,0.3.2,fail-newdsl
 expo-av,16.0.8,pass
 @react-native-firebase/analytics,26.3.3,fail-baseline
 expo-screen-orientation,58.0.0-canary-20260902-26df09e,pass

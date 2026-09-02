@@ -13,7 +13,7 @@ NEW_DSL_FLAGS=(-Pandroid.newDsl=true -Pandroid.builtInKotlin=true)
 mkdir -p logs
 [ -f "$RESULTS" ] || echo "package,version,status" >"$RESULTS"
 
-gradle() { (cd android && ./gradlew "$TASK" "$@"); }
+gradle() { rm -rf android/app/.cxx; (cd android && ./gradlew "$TASK" "$@"); }
 
 echo "== baseline build with new DSL"
 if ! gradle "${COMMON_FLAGS[@]}" "${NEW_DSL_FLAGS[@]}" >logs/_baseline.log 2>&1; then
