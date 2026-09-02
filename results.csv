@@ -54,3 +54,4 @@ expo-network,58.0.0-canary-20260902-26df09e,fail-baseline
 react-native-mmkv,4.3.2,fail-baseline
 @react-native-community/slider,5.2.0,fail-baseline
 @shopify/react-native-skia,2.6.2,fail-baseline
+@react-native-picker/picker,2.11.4,fail-baseline
