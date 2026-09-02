@@ -152,3 +152,4 @@ react-native-restart,0.0.29,pass
 react-native-incall-manager,4.2.2,pass
 react-native-plaid-link-sdk,13.1.0,fail-baseline
 @op-engineering/op-sqlite,18.1.4,fail-newdsl
+react-native-image-crop-picker,0.51.1,pass
