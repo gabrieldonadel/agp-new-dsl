@@ -92,3 +92,4 @@ react-native-linear-gradient,2.8.3,pass
 react-native-permissions,5.6.1,fail-newdsl
 @notifee/react-native,9.1.8,pass
 @react-native-clipboard/clipboard,1.16.3,pass
+expo-modules-core,58.0.0-canary-20260902-26df09e,pass
