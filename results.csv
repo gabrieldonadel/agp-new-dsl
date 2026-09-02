@@ -16,3 +16,4 @@ react-native-safe-area-context,5.7.0,fail-baseline
 react-native-screens,4.27.0,pass
 react-native-gesture-handler,3.1.0,fail-baseline
 react-native-reanimated,4.5.1,fail-baseline
+react-native-worklets,0.10.1,fail-baseline
