@@ -119,3 +119,4 @@ react-native-date-picker,5.0.13,fail-baseline
 @amplitude/analytics-react-native,1.8.0,fail-newdsl
 @react-native-firebase/app-check,26.3.3,fail-baseline
 expo-share-intent,8.0.1,pass
+@braze/expo-plugin,5.2.0,fail-baseline
