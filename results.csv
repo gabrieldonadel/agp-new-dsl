@@ -132,3 +132,4 @@ react-native-ios-utilities,5.2.0,fail-baseline
 posthog-react-native-session-replay,,fail-baseline
 @rudderstack/rudder-sdk-react-native,3.2.0,fail-baseline
 react-native-image-picker,8.2.1,fail-baseline
+react-native-branch,7.0.0,fail-baseline
