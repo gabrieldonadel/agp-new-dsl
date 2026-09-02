@@ -137,3 +137,4 @@ react-native-launch-arguments,4.1.1,fail-newdsl
 rive-react-native,9.8.5,fail-newdsl
 react-native-keychain,10.0.0,fail-newdsl
 react-native-fs,2.20.0,pass
+@livekit/react-native-expo-plugin,1.0.2,fail-baseline
