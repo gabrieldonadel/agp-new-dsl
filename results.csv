@@ -72,3 +72,4 @@ expo-calendar,58.0.0-canary-20260902-26df09e,fail-baseline
 react-native-share,12.3.1,fail-baseline
 expo-contacts,58.0.0-canary-20260902-26df09e,fail-baseline
 expo-sensors,58.0.0-canary-20260902-26df09e,fail-baseline
+expo-speech-recognition,57.0.0,fail-baseline
