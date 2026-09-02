@@ -19,3 +19,4 @@ react-native-reanimated,4.5.1,fail-baseline
 react-native-worklets,0.10.1,fail-baseline
 expo-router,58.0.0-canary-20260902-26df09e,pass
 expo-clipboard,58.0.0-canary-20260902-26df09e,pass
+expo-location,58.0.0-canary-20260902-26df09e,pass
