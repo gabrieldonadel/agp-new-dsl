@@ -155,3 +155,4 @@ react-native-quick-crypto,1.1.7,fail-baseline
 react-native-nitro-image,0.15.2,fail-baseline
 react-native-gesture-handler,3.1.0,fail-newdsl
 @react-native-firebase/app,26.3.3,pass
+@react-native-masked-view/masked-view,0.3.2,pass
