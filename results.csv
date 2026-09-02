@@ -57,3 +57,4 @@ react-native-mmkv,4.3.2,fail-baseline
 @react-native-picker/picker,2.11.4,pass
 @react-native-masked-view/masked-view,0.3.2,fail-newdsl
 expo-av,16.0.8,pass
+@react-native-firebase/analytics,26.3.3,fail-baseline
