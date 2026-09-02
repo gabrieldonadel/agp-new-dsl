@@ -85,3 +85,4 @@ expo-video-thumbnails,58.0.0-canary-20260902-26df09e,fail-baseline
 react-native-fbsdk-next,13.4.3,fail-baseline
 react-native-appsflyer,7.0.2,fail-baseline
 expo-insights,58.0.0-canary-20260902-26df09e,fail-baseline
+expo-background-task,58.0.0-canary-20260902-26df09e,fail-baseline
