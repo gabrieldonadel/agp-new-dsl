@@ -42,7 +42,7 @@ while read -r pkg <&3; do
     fi
     yarn remove "$pkg" >>"$log" 2>&1
   fi
-  git checkout -q -- package.json yarn.lock
+  git checkout -q -- package.json yarn.lock app.json
 
   echo "$pkg,$version,$status" >>"$RESULTS"
   echo "   -> $status"
