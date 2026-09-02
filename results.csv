@@ -136,3 +136,4 @@ react-native-branch,7.0.0,fail-baseline
 react-native-launch-arguments,4.1.1,fail-baseline
 rive-react-native,9.8.5,fail-baseline
 react-native-keychain,10.0.0,fail-baseline
+react-native-fs,2.20.0,fail-baseline
