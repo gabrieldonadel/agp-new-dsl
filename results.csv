@@ -105,3 +105,4 @@ expo-mail-composer,58.0.0-canary-20260902-26df09e,pass
 mixpanel-react-native,3.6.0,pass
 react-native-onesignal,5.5.9,pass
 @react-native-firebase/remote-config,26.3.3,fail-baseline
+react-native-unistyles,3.3.0,fail-baseline
