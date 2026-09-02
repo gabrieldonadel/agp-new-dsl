@@ -128,3 +128,4 @@ expo-quick-actions,6.0.2,pass
 @livekit/react-native-webrtc,144.1.2,pass
 react-native-ios-utilities,5.2.0,pass
 @react-native-firebase/perf,26.3.3,fail-baseline
+@expo/dom-webview,58.0.0-canary-20260902-26df09e,pass
