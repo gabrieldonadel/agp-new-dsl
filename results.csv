@@ -347,3 +347,4 @@ react-native-avoid-softinput,9.0.0,fail-newdsl
 react-native-background-actions,4.1.0,pass
 react-native-barcode-creator,0.2.1,pass
 react-native-ble-manager,12.5.1,fail-newdsl
+react-native-bluetooth-classic,1.73.0-rc.17,fail-baseline
