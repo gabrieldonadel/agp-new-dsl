@@ -288,3 +288,4 @@ react-native-enriched-html,1.1.1,fail-newdsl
 react-native-fast-image,8.6.3,pass
 react-native-fast-tflite,3.0.1,fail-baseline
 react-native-geolocation-service,5.3.1,pass
+react-native-google-cast,4.9.1,pass
