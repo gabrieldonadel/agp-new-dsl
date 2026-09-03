@@ -162,3 +162,4 @@ react-native-gesture-handler,3.1.0,fail-newdsl
 @react-native-community/geolocation,3.4.0,pass
 @react-native-firebase/functions,26.3.3,fail-baseline
 @segment/analytics-react-native,2.24.0,fail-baseline
+@segment/sovran-react-native,1.1.4,fail-newdsl
