@@ -213,3 +213,4 @@ react-native-background-timer,2.4.1,pass
 react-native-html-to-pdf,1.3.0,fail-newdsl
 react-native-legal,1.6.5,fail-newdsl
 react-native-performance,6.0.0,pass
+react-native-persona,2.52.1,fail-newdsl
