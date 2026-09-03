@@ -312,3 +312,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @daily-co/react-native-daily-js,0.87.1,pass
 @daily-co/react-native-webrtc,124.0.6-daily.2,pass
 @datadog/mobile-react-native-webview,3.7.0,fail-baseline
+@dr.pogodin/react-native-fs,2.40.1,fail-newdsl
