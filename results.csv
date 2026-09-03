@@ -254,3 +254,4 @@ singular-react-native,4.3.0,pass
 skyflow-react-native,1.10.6,fail-newdsl
 stream-chat-expo,9.8.2,fail-newdsl
 terra-react,1.9.14,fail-baseline
+@adobe/react-native-aepedgebridge,7.0.1,fail-baseline
