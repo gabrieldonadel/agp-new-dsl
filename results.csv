@@ -175,3 +175,4 @@ react-native-nfc-manager,3.17.2,pass
 react-native-teleport,1.2.1,fail-newdsl
 sp-react-native-in-app-updates,2.0.0,pass
 @fullstory/react-native,1.10.2,fail-baseline
+@microsoft/react-native-clarity,4.7.0,fail-newdsl
