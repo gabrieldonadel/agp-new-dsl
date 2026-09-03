@@ -257,3 +257,4 @@ terra-react,1.9.14,fail-baseline
 @adobe/react-native-aepedgebridge,7.0.1,fail-baseline
 @adobe/react-native-aepedgeidentity,7.0.0,fail-baseline
 @adobe/react-native-aepmessaging,7.4.0,fail-baseline
+@adyen/react-native,2.12.0,fail-newdsl
