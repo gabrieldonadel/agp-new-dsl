@@ -344,3 +344,4 @@ llama.rn,0.13.0-rc.2,pass
 onnxruntime-react-native,1.24.3,fail-baseline
 react-native-adapty,4.0.3,fail-newdsl
 react-native-avoid-softinput,9.0.0,fail-newdsl
+react-native-background-actions,4.1.0,pass
