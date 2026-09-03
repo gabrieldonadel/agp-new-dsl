@@ -285,3 +285,4 @@ react-native-app-auth,8.4.1,fail-baseline
 react-native-context-menu-view,1.21.0,fail-newdsl
 react-native-enriched,0.8.1,fail-newdsl
 react-native-enriched-html,1.1.1,fail-newdsl
+react-native-fast-image,8.6.3,pass
