@@ -328,3 +328,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @react-native-seoul/kakao-login,6.0.4,fail-baseline
 @react-native-vector-icons/ant-design,,fail-newdsl
 @react-native-vector-icons/fontawesome,,fail-newdsl
+@react-native-vector-icons/fontawesome5,,fail-newdsl
