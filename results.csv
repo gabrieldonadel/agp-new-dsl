@@ -349,3 +349,4 @@ react-native-barcode-creator,0.2.1,pass
 react-native-ble-manager,12.5.1,fail-newdsl
 react-native-bluetooth-classic,1.73.0-rc.17,fail-baseline
 react-native-capture-protection,2.4.1,fail-baseline
+react-native-create-thumbnail,2.2.0,fail-newdsl
