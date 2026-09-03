@@ -277,3 +277,4 @@ expo-app-integrity,0.3.0,fail-baseline
 expo-blob,57.0.1,pass
 expo-image-loader,58.0.0-canary-20260902-26df09e,pass
 expo-manifests,58.0.0-canary-20260902-26df09e,pass
+expo-mesh-gradient,58.0.0-canary-20260902-26df09e,pass
