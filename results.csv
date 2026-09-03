@@ -245,3 +245,4 @@ react-native-background-geolocation,5.5.0,pass
 react-native-bouncy-checkbox,4.1.4,pass
 react-native-color-matrix-image-filters,8.0.2,pass
 react-native-file-logger,0.7.3,pass
+react-native-onetrust-cmp,202608.1.0,fail-newdsl
