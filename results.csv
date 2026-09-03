@@ -251,3 +251,4 @@ react-native-release-profiler,0.4.4,fail-newdsl
 react-native-userleap,4.3.0,fail-baseline
 react-native-zip-archive,9.4.1,pass
 singular-react-native,4.3.0,pass
+skyflow-react-native,1.10.6,fail-newdsl
