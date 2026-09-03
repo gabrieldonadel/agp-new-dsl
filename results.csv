@@ -314,3 +314,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @datadog/mobile-react-native-webview,3.7.0,fail-baseline
 @dr.pogodin/react-native-fs,2.40.1,fail-newdsl
 @giphy/react-native-sdk,6.0.3,fail-newdsl
+@google-cloud/recaptcha-enterprise-react-native,18.9.2,fail-baseline
