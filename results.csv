@@ -274,3 +274,4 @@ terra-react,1.9.14,fail-baseline
 @react-native-voice/voice,3.2.4,fail-baseline
 @twilio/voice-react-native-sdk,1.7.0,pass
 expo-app-integrity,0.3.0,fail-baseline
+expo-blob,57.0.1,pass
