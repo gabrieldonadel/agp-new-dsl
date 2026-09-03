@@ -354,3 +354,4 @@ react-native-default-preference,1.4.4,pass
 react-native-drop-shadow,1.0.3,fail-newdsl
 react-native-encrypted-storage,4.0.3,pass
 react-native-exception-handler,2.10.10,fail-baseline
+react-native-external-keyboard,1.1.0,pass
