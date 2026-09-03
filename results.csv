@@ -325,3 +325,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @react-native-kakao/core,2.4.6,fail-baseline
 @react-native-kakao/user,2.4.6,fail-baseline
 @react-native-ml-kit/face-detection,2.0.1,pass
+@react-native-seoul/kakao-login,6.0.4,fail-baseline
