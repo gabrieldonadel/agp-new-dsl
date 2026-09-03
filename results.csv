@@ -358,3 +358,4 @@ react-native-external-keyboard,1.1.0,pass
 react-native-fast-rsa,2.6.3,fail-newdsl
 react-native-is-keyboard-connected,1.1.0,pass
 react-native-live-audio-stream,1.1.1,pass
+react-native-nami-sdk,3.4.9,fail-baseline
