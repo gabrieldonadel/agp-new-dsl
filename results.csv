@@ -300,3 +300,4 @@ react-native-pulsar,1.7.0,fail-newdsl
 react-native-sha256,1.4.10,fail-baseline
 react-native-sound,0.13.0,fail-newdsl
 react-native-ssl-public-key-pinning,1.2.6,pass
+react-native-system-setting,1.7.6,pass
