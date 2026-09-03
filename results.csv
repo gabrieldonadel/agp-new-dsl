@@ -365,3 +365,4 @@ react-native-orientation-locker,1.7.0,pass
 react-native-rate,1.2.12,pass
 react-native-shared-group-preferences,1.1.24,fail-baseline
 react-native-tiktok-business-sdk,,fail-newdsl
+react-native-vision-camera-barcode-scanner,5.2.3,fail-baseline
