@@ -180,3 +180,4 @@ sp-react-native-in-app-updates,2.0.0,pass
 @react-native-documents/picker,12.0.2,fail-newdsl
 @react-native-vector-icons/ionicons,,fail-newdsl
 jail-monkey,3.0.0,pass
+react-native-audio-api,0.13.3,fail-newdsl
