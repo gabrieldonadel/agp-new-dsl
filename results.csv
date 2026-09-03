@@ -181,3 +181,4 @@ sp-react-native-in-app-updates,2.0.0,pass
 @react-native-vector-icons/ionicons,,fail-newdsl
 jail-monkey,3.0.0,pass
 react-native-audio-api,0.13.3,fail-newdsl
+react-native-bottom-tabs,1.4.0,fail-newdsl
