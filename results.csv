@@ -226,3 +226,4 @@ react-native-version-check,3.5.0,pass
 @datadome/datadome-axios,3.2.0,pass
 @expo/app-integrity,57.0.1,pass
 @fingerprintjs/fingerprintjs-pro-react-native,3.17.1,fail-baseline
+@humansecurity/expo-mobile-sdk,3.0.0,fail-baseline
