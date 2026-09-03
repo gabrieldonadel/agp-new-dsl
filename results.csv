@@ -298,3 +298,4 @@ react-native-pdf-renderer,2.3.0,fail-newdsl
 react-native-play-install-referrer,2.0.1,pass
 react-native-pulsar,1.7.0,fail-newdsl
 react-native-sha256,1.4.10,fail-baseline
+react-native-sound,0.13.0,fail-newdsl
