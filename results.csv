@@ -165,3 +165,4 @@ react-native-gesture-handler,3.1.0,fail-newdsl
 @segment/sovran-react-native,1.1.4,fail-newdsl
 burnt,0.13.0,pass
 @react-native-ml-kit/text-recognition,2.0.0,pass
+customerio-reactnative,6.10.0,fail-newdsl
