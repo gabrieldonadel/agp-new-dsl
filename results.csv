@@ -231,3 +231,4 @@ react-native-version-check,3.5.0,pass
 @react-native-community/masked-view,0.1.11,fail-baseline
 @react-native-firebase/database,26.3.3,fail-baseline
 @rive-app/react-native,0.4.20,fail-baseline
+@rudderstack/rudder-integration-firebase-react-native,2.3.1,fail-baseline
