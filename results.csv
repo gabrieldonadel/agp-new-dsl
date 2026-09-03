@@ -191,3 +191,4 @@ react-native-volume-manager,2.0.8,fail-newdsl
 @react-native-vector-icons/material-design-icons,,fail-newdsl
 expo-health-connect,0.1.1,fail-baseline
 react-native-adjust,5.8.0,pass
+react-native-biometrics,3.0.1,pass
