@@ -304,3 +304,4 @@ react-native-system-setting,1.7.6,pass
 react-native-version-number,0.3.6,pass
 react-native-video-trim,8.2.2,fail-newdsl
 react-native-vision-camera-face-detector,2.0.6,fail-baseline
+react-native-vision-camera-worklets,5.2.3,fail-baseline
