@@ -363,3 +363,4 @@ react-native-nitro-fetch,1.6.3,fail-baseline
 react-native-notify-kit,10.7.0,fail-newdsl
 react-native-orientation-locker,1.7.0,pass
 react-native-rate,1.2.12,pass
+react-native-shared-group-preferences,1.1.24,fail-baseline
