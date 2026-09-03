@@ -294,3 +294,4 @@ react-native-navigation-mode,1.2.11,fail-newdsl
 react-native-nitro-google-signin,2.1.0,fail-baseline
 react-native-otp-verify,1.2.0,pass
 react-native-passkey,3.6.1,fail-newdsl
+react-native-pdf-renderer,2.3.0,fail-newdsl
