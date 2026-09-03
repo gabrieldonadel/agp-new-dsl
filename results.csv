@@ -290,3 +290,4 @@ react-native-fast-tflite,3.0.1,fail-baseline
 react-native-geolocation-service,5.3.1,pass
 react-native-google-cast,4.9.1,pass
 react-native-nano-icons,0.2.1,fail-newdsl
+react-native-navigation-mode,1.2.11,fail-newdsl
