@@ -158,3 +158,4 @@ react-native-gesture-handler,3.1.0,fail-newdsl
 @react-native-masked-view/masked-view,0.3.2,pass
 @datadog/mobile-react-native-session-replay,3.7.0,fail-baseline
 @preeternal/react-native-cookie-manager,6.4.0,fail-newdsl
+@react-native-community/blur,4.4.1,pass
