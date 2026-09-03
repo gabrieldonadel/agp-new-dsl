@@ -306,3 +306,4 @@ react-native-video-trim,8.2.2,fail-newdsl
 react-native-vision-camera-face-detector,2.0.6,fail-baseline
 react-native-vision-camera-worklets,5.2.3,fail-baseline
 @adobe/react-native-aepplaces,7.0.1,fail-baseline
+@adobe/react-native-aepuserprofile,7.0.1,fail-baseline
