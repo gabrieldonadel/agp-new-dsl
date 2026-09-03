@@ -337,3 +337,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @stream-io/video-react-native-sdk,1.45.0,fail-baseline
 @sumsub/react-native-mobilesdk-module,1.46.1,fail-baseline
 @swmansion/react-native-bottom-sheet,0.16.2,fail-newdsl
+@walletconnect/react-native-compat,2.24.0,fail-newdsl
