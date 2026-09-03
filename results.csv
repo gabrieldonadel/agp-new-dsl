@@ -229,3 +229,4 @@ react-native-version-check,3.5.0,pass
 @humansecurity/expo-mobile-sdk,3.0.0,fail-baseline
 @iterable/react-native-sdk,3.1.0,fail-newdsl
 @react-native-community/masked-view,0.1.11,fail-baseline
+@react-native-firebase/database,26.3.3,fail-baseline
