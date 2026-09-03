@@ -296,3 +296,4 @@ react-native-otp-verify,1.2.0,pass
 react-native-passkey,3.6.1,fail-newdsl
 react-native-pdf-renderer,2.3.0,fail-newdsl
 react-native-play-install-referrer,2.0.1,pass
+react-native-pulsar,1.7.0,fail-newdsl
