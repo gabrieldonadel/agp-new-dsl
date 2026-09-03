@@ -310,3 +310,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @bam.tech/react-native-image-resizer,3.0.11,pass
 @clerk/expo-passkeys,2.0.17,fail-newdsl
 @daily-co/react-native-daily-js,0.87.1,pass
+@daily-co/react-native-webrtc,124.0.6-daily.2,pass
