@@ -221,3 +221,4 @@ react-native-version-check,3.5.0,pass
 @adobe/react-native-aepoptimize,7.2.0,fail-baseline
 @allboatsrise/expo-marketingcloudsdk,55.0.1,fail-baseline
 @atomicfi/transact-react-native,,fail-newdsl
+@aws-amplify/rtn-web-browser,1.4.0,fail-newdsl
