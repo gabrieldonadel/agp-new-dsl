@@ -333,3 +333,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @sbaiahmed1/react-native-blur,6.0.1,fail-newdsl
 @shopify/checkout-sheet-kit,3.9.0,pass
 @sparkfabrik/react-native-idfa-aaid,1.2.0,fail-newdsl
+@stream-io/react-native-webrtc,145.3.1,fail-newdsl
