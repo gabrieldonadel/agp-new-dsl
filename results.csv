@@ -198,3 +198,4 @@ react-native-in-app-review,4.4.2,pass
 react-native-passkeys,0.4.2,fail-newdsl
 react-native-track-player,4.1.2,fail-baseline
 @10play/tentap-editor,1.0.1,fail-newdsl
+@adobe/react-native-aepassurance,7.0.0,fail-baseline
