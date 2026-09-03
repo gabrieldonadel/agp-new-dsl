@@ -322,3 +322,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @react-native-documents/viewer,4.0.1,fail-newdsl
 @react-native-firebase/in-app-messaging,26.3.3,fail-baseline
 @react-native-firebase/installations,26.3.3,fail-baseline
+@react-native-kakao/core,2.4.6,fail-baseline
