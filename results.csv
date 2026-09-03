@@ -360,3 +360,4 @@ react-native-is-keyboard-connected,1.1.0,pass
 react-native-live-audio-stream,1.1.1,pass
 react-native-nami-sdk,3.4.9,fail-baseline
 react-native-nitro-fetch,1.6.3,fail-baseline
+react-native-notify-kit,10.7.0,fail-newdsl
