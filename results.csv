@@ -171,3 +171,4 @@ react-native-bootsplash,6.3.12,fail-newdsl
 react-native-document-scanner-plugin,2.0.4,fail-newdsl
 react-native-email-link,1.16.1,pass
 react-native-inappbrowser-reborn,3.7.1,pass
+react-native-nfc-manager,3.17.2,pass
