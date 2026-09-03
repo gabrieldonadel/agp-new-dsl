@@ -330,3 +330,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @react-native-vector-icons/fontawesome,,fail-newdsl
 @react-native-vector-icons/fontawesome5,,fail-newdsl
 @react-native-vector-icons/fontawesome6,,fail-newdsl
+@sbaiahmed1/react-native-blur,6.0.1,fail-newdsl
