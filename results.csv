@@ -339,3 +339,4 @@ react-native-vision-camera-worklets,5.2.3,fail-baseline
 @swmansion/react-native-bottom-sheet,0.16.2,fail-newdsl
 @walletconnect/react-native-compat,2.24.0,fail-newdsl
 expo-text-extractor,2.0.0,pass
+klaviyo-react-native-sdk,2.5.0,fail-newdsl
