@@ -194,3 +194,4 @@ react-native-adjust,5.8.0,pass
 react-native-biometrics,3.0.1,pass
 react-native-ease,0.8.0,fail-newdsl
 react-native-file-viewer,2.1.5,pass
+react-native-in-app-review,4.4.2,pass
