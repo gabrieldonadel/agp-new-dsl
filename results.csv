@@ -362,3 +362,4 @@ react-native-nami-sdk,3.4.9,fail-baseline
 react-native-nitro-fetch,1.6.3,fail-baseline
 react-native-notify-kit,10.7.0,fail-newdsl
 react-native-orientation-locker,1.7.0,pass
+react-native-rate,1.2.12,pass
