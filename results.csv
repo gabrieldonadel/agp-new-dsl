@@ -269,3 +269,4 @@ terra-react,1.9.14,fail-baseline
 @phantom/react-native-webview,1.2.4,fail-newdsl
 @powersync/react-native,2.2.0,fail-newdsl
 @privy-io/expo-native-extensions,0.0.12,pass
+@react-native-community/checkbox,0.6.0,fail-baseline
