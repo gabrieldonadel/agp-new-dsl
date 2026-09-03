@@ -184,3 +184,4 @@ react-native-audio-api,0.13.3,fail-newdsl
 react-native-bottom-tabs,1.4.0,fail-newdsl
 react-native-callkeep,4.3.16,pass
 react-native-config,1.7.2,pass
+react-native-haptic-feedback,3.0.0,pass
