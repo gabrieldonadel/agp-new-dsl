@@ -185,3 +185,4 @@ react-native-bottom-tabs,1.4.0,fail-newdsl
 react-native-callkeep,4.3.16,pass
 react-native-config,1.7.2,pass
 react-native-haptic-feedback,3.0.0,pass
+react-native-image-colors,2.6.0,fail-newdsl
