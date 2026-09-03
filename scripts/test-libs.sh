@@ -18,11 +18,14 @@ mkdir -p logs
 # build fails for a reason that has nothing to do with the DSL. Prune before a
 # build rather than during one, and stop the daemons first so nothing is holding
 # the files being deleted.
+# Default high enough to be safe on its own. A run that relies on MIN_FREE_GB
+# being exported is a run that silently loses the guard if it is not.
 ensure_disk() {
-  local avail
+  local avail min
+  min="${MIN_FREE_GB:-12}"
   avail=$(df -g / | awk 'NR==2{print $4}')
-  [ "$avail" -ge "${MIN_FREE_GB:-8}" ] && return 0
-  echo "== ${avail}G free, below ${MIN_FREE_GB:-8}G: pruning Gradle transforms" >&2
+  [ "$avail" -ge "$min" ] && return 0
+  echo "== ${avail}G free, below ${min}G: pruning Gradle transforms" >&2
   (cd android && ./gradlew --stop) >/dev/null 2>&1 || true
   pkill -f GradleDaemon >/dev/null 2>&1 || true
   sleep 2
@@ -60,6 +63,10 @@ while read -r pkg <&3; do
     yarn remove "$pkg" >>"$log" 2>&1
   fi
   git checkout -q -- package.json yarn.lock app.json
+  # Some packages copy native assets into the app source tree (llama.rn drops
+  # 2.8MB of ggml-hexagon into android/app/src/main/assets). Those are untracked
+  # and would otherwise persist into every later build in the run.
+  git clean -qfd android/app/src/main
 
   echo "$pkg,$version,$status" >>"$RESULTS"
   echo "   -> $status"
