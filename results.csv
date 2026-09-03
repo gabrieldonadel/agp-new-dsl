@@ -351,3 +351,4 @@ react-native-bluetooth-classic,1.73.0-rc.17,fail-baseline
 react-native-capture-protection,2.4.1,fail-baseline
 react-native-create-thumbnail,2.2.0,fail-newdsl
 react-native-default-preference,1.4.4,pass
+react-native-drop-shadow,1.0.3,fail-newdsl
