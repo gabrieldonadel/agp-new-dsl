@@ -282,3 +282,4 @@ expo-superwall,1.3.0,pass
 newrelic-react-native-agent,1.9.0,pass
 react-native-advertising-id,1.0.11,fail-baseline
 react-native-app-auth,8.4.1,fail-baseline
+react-native-context-menu-view,1.21.0,fail-newdsl
