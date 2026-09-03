@@ -203,3 +203,4 @@ react-native-track-player,4.1.2,fail-baseline
 @adobe/react-native-aepedge,7.0.1,fail-baseline
 @amplitude/experiment-react-native-client,1.8.0,fail-newdsl
 @amplitude/plugin-session-replay-react-native,0.5.1,fail-newdsl
+@nozbe/watermelondb,0.28.0,fail-baseline
