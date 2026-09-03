@@ -217,3 +217,4 @@ react-native-persona,2.52.1,fail-newdsl
 react-native-radar,4.36.0,fail-baseline
 react-native-shake,6.10.0,fail-newdsl
 react-native-tcp-socket,6.4.2,pass
+react-native-version-check,3.5.0,pass
