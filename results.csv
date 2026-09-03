@@ -248,3 +248,4 @@ react-native-file-logger,0.7.3,pass
 react-native-onetrust-cmp,202608.1.0,fail-newdsl
 react-native-pdf-jsi,4.4.2,fail-baseline
 react-native-release-profiler,0.4.4,fail-newdsl
+react-native-userleap,4.3.0,fail-baseline
