@@ -240,3 +240,4 @@ expo-cellular,58.0.0-canary-20260902-26df09e,pass
 expo-random,14.0.1,pass
 react-native-a11y-order,1.0.0,pass
 react-native-applifecycle,1.0.0,pass
+react-native-background-fetch,4.4.2,pass
