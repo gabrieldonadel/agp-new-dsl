@@ -169,6 +169,72 @@ and `react-native-keyboard-controller` fail at compile time.
 probe in `test-libs.sh` cannot resolve that package's `package.json`. The
 version above, 1.6.0, is read from the `yarn add` output in its log.
 
+### Upstream fixes
+
+The 29 `Failed to apply plugin` cases are one bug with one fix: apply the
+Kotlin plugin only when AGP is not already providing it. `react-native-screens`
+already does this, which is why it passes.
+
+Patches are filed for every affected library that still needed one and accepts
+pull requests. See "Not filed" below for the rest.
+State as of 2026-09-03: **4 merged, 18 open**.
+
+| Package | Usage | PR | Status |
+|---|---|---|---|
+| @react-native-community/datetimepicker | 0.288 | [react-native-datetimepicker/datetimepicker#1058](https://github.com/react-native-datetimepicker/datetimepicker/pull/1058) | open |
+| react-native-purchases | 0.136 | [RevenueCat/react-native-purchases#1934](https://github.com/RevenueCat/react-native-purchases/pull/1934) | merged 2026-09-03 |
+| @react-native-google-signin/google-signin | 0.132 | [react-native-google-signin/google-signin#1524](https://github.com/react-native-google-signin/google-signin/pull/1524) | merged 2026-09-03 |
+| react-native-nitro-modules | 0.115 | [margelo/nitro#1579](https://github.com/margelo/nitro/pull/1579) | open |
+| react-native-google-mobile-ads | 0.039 | [invertase/react-native-google-mobile-ads#886](https://github.com/invertase/react-native-google-mobile-ads/pull/886) | open |
+| react-native-edge-to-edge | 0.038 | [zoontek/react-native-edge-to-edge#108](https://github.com/zoontek/react-native-edge-to-edge/pull/108) | open |
+| @datadog/mobile-react-native | 0.029 | [DataDog/dd-sdk-reactnative#1394](https://github.com/DataDog/dd-sdk-reactnative/pull/1394) | open |
+| react-native-permissions | 0.026 | [zoontek/react-native-permissions#987](https://github.com/zoontek/react-native-permissions/pull/987) | open |
+| @react-native-menu/menu | 0.02 | [react-native-menu/menu#1226](https://github.com/react-native-menu/menu/pull/1226) | open |
+| react-native-video | 0.018 | [TheWidlarzGroup/react-native-video#5082](https://github.com/TheWidlarzGroup/react-native-video/pull/5082) | open |
+| react-native-localize | 0.017 | [zoontek/react-native-localize#343](https://github.com/zoontek/react-native-localize/pull/343) | open |
+| @maplibre/maplibre-react-native | 0.017 | [maplibre/maplibre-react-native#1645](https://github.com/maplibre/maplibre-react-native/pull/1645) | open |
+| @braze/react-native-sdk | 0.017 | [braze-inc/braze-react-native-sdk#333](https://github.com/braze-inc/braze-react-native-sdk/pull/333) | open |
+| @amplitude/analytics-react-native | 0.016 | [amplitude/Amplitude-TypeScript#1966](https://github.com/amplitude/Amplitude-TypeScript/pull/1966) | open |
+| @rudderstack/rudder-sdk-react-native | 0.013 | [rudderlabs/rudder-sdk-react-native#696](https://github.com/rudderlabs/rudder-sdk-react-native/pull/696) | open |
+| rive-react-native | 0.012 | [rive-app/rive-react-native#446](https://github.com/rive-app/rive-react-native/pull/446) | open |
+| react-native-keychain | 0.012 | [oblador/react-native-keychain#812](https://github.com/oblador/react-native-keychain/pull/812) | open |
+| @lodev09/react-native-true-sheet | 0.012 | [lodev09/react-native-true-sheet#819](https://github.com/lodev09/react-native-true-sheet/pull/819) | merged 2026-09-02 |
+| @aws-amplify/react-native | 0.011 | [aws-amplify/amplify-js#14933](https://github.com/aws-amplify/amplify-js/pull/14933) | open |
+| react-native-enriched-markdown | 0.011 | [software-mansion/enriched-markdown#744](https://github.com/software-mansion/enriched-markdown/pull/744) | merged 2026-09-03 |
+| @invertase/react-native-apple-authentication | 0.01 | [invertase/react-native-apple-authentication#390](https://github.com/invertase/react-native-apple-authentication/pull/390) | open |
+| @op-engineering/op-sqlite | 0.01 | [OP-Engineering/op-sqlite#447](https://github.com/OP-Engineering/op-sqlite/pull/447) | open |
+
+`react-native-purchases-ui` is fixed by the same PR as `react-native-purchases`.
+
+Two variants of the guard are in use. Most PRs derive the answer from the AGP
+major version and the `android.builtInKotlin` property. The RevenueCat PR checks
+for the registered extension directly, at maintainer request:
+
+```groovy
+if (project.extensions.findByName('kotlin') == null) {
+    apply plugin: 'kotlin-android'
+}
+```
+
+The second form is simpler and needs no version table. It also covers AGP 10,
+where the `android.builtInKotlin` opt-out is removed. Both forms were verified
+in this harness against AGP 9.2.1: `:app:assembleDebug` succeeds with both
+flags on and with both flags off.
+
+#### Not filed
+
+| Package | Reason |
+|---|---|
+| react-native-gesture-handler | Already guarded upstream. Tested 3.1.0, fix not yet released. |
+| lottie-react-native | Already guarded upstream. |
+| react-native-pager-view | Already guarded upstream. |
+| react-native-webview | Open PR from another contributor. |
+| react-native-maps | Open PR from another contributor. |
+| posthog-react-native-session-replay | Repo is archived and read-only. Pull requests are rejected. |
+
+A merged PR does not change `results.csv`. The rows there record the version that
+was tested, and the fixes are not released yet.
+
 ### `fail-baseline` (38)
 
 Fails both ways. Not a DSL result. Not investigated.
