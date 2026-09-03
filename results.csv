@@ -272,3 +272,4 @@ terra-react,1.9.14,fail-baseline
 @react-native-community/checkbox,0.6.0,fail-baseline
 @react-native-vector-icons/feather,,fail-newdsl
 @react-native-voice/voice,3.2.4,fail-baseline
+@twilio/voice-react-native-sdk,1.7.0,pass
