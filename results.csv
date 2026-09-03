@@ -356,3 +356,4 @@ react-native-encrypted-storage,4.0.3,pass
 react-native-exception-handler,2.10.10,fail-baseline
 react-native-external-keyboard,1.1.0,pass
 react-native-fast-rsa,2.6.3,fail-newdsl
+react-native-is-keyboard-connected,1.1.0,pass
