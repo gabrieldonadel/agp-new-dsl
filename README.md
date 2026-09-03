@@ -24,10 +24,14 @@ The scripts commit locally only.
 
 | File | Purpose |
 |---|---|
-| `lib-table.csv` | Raw input. `Package,Usage`. 108k rows, 3 malformed. Do not edit. |
-| `scripts/filter-libs.sh` | Cleans the CSV into `libs.txt`. |
+| `lib-table.csv` | Raw input. `Package,Usage`. 108142 rows: 3 do not have 2 fields and 37 more are not legal npm names. Do not edit. |
+| `scripts/filter-libs.sh` | Cleans the CSV into `libs.txt`. Usage >= 0.01 only. |
 | `libs.txt` | Packages to test, one per line. 157 entries. |
 | `libs-skipped.txt` | Cache of packages the filter rejected. Delete a line to re-check it. |
+| `scripts/scan-libs.py` | Classifies the whole CSV, not just the usage >= 0.01 slice. |
+| `libs-scan.tsv` | `package<TAB>verdict<TAB>detail` for every row. Cache, resumable. |
+| `libs-android.txt` | 3888 packages that ship a buildable Android native module. |
+| `libs-android-example-only.txt` | 94 packages whose only `android/build.gradle` is in an example or test app. |
 | `scripts/test-libs.sh` | Builds each package in `libs.txt` and records the result. |
 | `results.csv` | `package,version,status`. One row per tested package. |
 | `logs/<pkg>.log` | Full install and Gradle output per package. `/` in names becomes `__`. |
@@ -46,6 +50,69 @@ The scripts commit locally only.
 
 The script is resumable. It skips any package already in `libs.txt` or
 `libs-skipped.txt`.
+
+## Full table scan
+
+`scripts/filter-libs.sh` defaults to `MIN_USAGE=0.01`, and only 362 of the
+108k rows clear that. It processed everything above the threshold, which is why
+`libs.txt` has 157 entries. `scripts/scan-libs.py` classifies the whole table
+instead.
+
+It cannot work the same way. One tarball download per package is fine for 362
+packages and not for 108k. Instead it reads the published file list from the
+jsDelivr data API: two small JSON requests per package, no tarball. That is
+about 700x cheaper and runs in an hour.
+
+The cheap check was validated against the 345 packages `filter-libs.sh` had
+already classified: 344 agreed, 0 disagreed, 1 was a transient 403. For the
+107 packages jsDelivr refuses outright, `--tarball-fallback` falls back to the
+old tarball listing. That found 62 more Android packages the API could not see.
+
+### Results
+
+| Verdict | Count |
+|---|---|
+| ships an Android native module | **3888** |
+| Android gradle only under an example or test app | 94 |
+| no Android code | 27192 |
+| unresolved | 76927 |
+| **total classified** | **108101** |
+
+37 rows are not legal npm names and are skipped: `ngrok@^4.1.0`,
+`react-native:7.2.0`, `~utils`, `@/api` and similar. The unresolved rows are
+fully accounted for: 76802 are not published on the public registry, and 125
+have no `latest` dist-tag. None are transient failures.
+
+Most of the table is private. Names like `@acme/reorder` and
+`@member-portal/shared` are internal packages that only exist inside the app
+that reported them.
+
+### The 3888 by usage
+
+| Usage | Count |
+|---|---|
+| >= 0.1 | 60 |
+| >= 0.01 | 166 |
+| >= 0.001 | 567 |
+| == 0 | 3321 |
+
+156 of the 157 packages in `libs.txt` are in `libs-android.txt`. The one
+exception is `react-native-qrcode-svg`, and the new classifier is right to drop
+it: its only gradle files live in `Example/android/`, so it ships no native
+module. The old regex matched any path ending in `android/build.gradle`,
+including example apps. That is the same reason the 94 example-only packages
+are held separately rather than counted as native.
+
+`scan-libs.py` records every matching gradle path, not just the first, because
+a package can have both a real module and an example app. Deciding on one path
+would misclassify those.
+
+### Cost of testing them
+
+The harness runs one Gradle build per package, 1 to 3 minutes each. 3888
+packages is over 100 hours sequentially. Test a slice, not the whole set:
+the 166 packages at usage >= 0.01 are about 6 hours and cover everything with
+measurable adoption.
 
 ## How the test works
 
