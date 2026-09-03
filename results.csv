@@ -253,3 +253,4 @@ react-native-zip-archive,9.4.1,pass
 singular-react-native,4.3.0,pass
 skyflow-react-native,1.10.6,fail-newdsl
 stream-chat-expo,9.8.2,fail-newdsl
+terra-react,1.9.14,fail-baseline
