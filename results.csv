@@ -265,3 +265,4 @@ terra-react,1.9.14,fail-baseline
 @mozzius/expo-dynamic-app-icon,1.8.1,pass
 @nandorojo/galeria,3.0.3,fail-newdsl
 @phantom/react-native-fast-image,8.6.6,pass
+@phantom/react-native-juicebox-sdk,0.3.19,fail-newdsl
