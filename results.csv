@@ -234,3 +234,4 @@ react-native-version-check,3.5.0,pass
 @rudderstack/rudder-integration-firebase-react-native,2.3.1,fail-baseline
 @socure-inc/docv-react-native,5.3.0,fail-baseline
 @socure-inc/react-native-device-risk,4.11.1,fail-baseline
+@stripe/stripe-terminal-react-native,0.0.1-beta.32,fail-baseline
