@@ -262,3 +262,4 @@ terra-react,1.9.14,fail-baseline
 @expo/log-box,57.0.4,fail-baseline
 @iterable/expo-plugin,1.1.0,fail-baseline
 @logrocket/react-native,3.10.1,fail-baseline
+@mozzius/expo-dynamic-app-icon,1.8.1,pass
