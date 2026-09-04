@@ -518,3 +518,4 @@ react-native-nitro-markdown,,fail-baseline
 react-native-nitro-sound,0.2.19,fail-baseline
 react-native-nitro-web-image,0.15.2,fail-baseline
 react-native-notifications,5.2.2,fail-baseline
+react-native-passkit-wallet,0.1.6,pass
