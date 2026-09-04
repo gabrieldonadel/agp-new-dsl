@@ -586,3 +586,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @aldiand/react-native-pjsip,2.9.24,fail-baseline
 @alentoma/react-native-selectable-text,1.6.0,fail-baseline
 @alexzunik/react-native-money-input,0.5.3,fail-newdsl
+@alvie-tech/react-native-tiktok-business-sdk,1.7.1,fail-newdsl
