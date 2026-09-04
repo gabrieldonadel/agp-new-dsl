@@ -408,3 +408,4 @@ whisper.rn,,pass
 @npm_fluentco/adflow-react-native-sdk,4.1.0,fail-newdsl
 @onfido/react-native-sdk,16.4.0,fail-baseline
 @optimove-inc/react-native,3.2.0,pass
+@powersync/op-sqlite,,fail-newdsl
