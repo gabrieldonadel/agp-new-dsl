@@ -440,3 +440,4 @@ whisper.rn,,pass
 @tryvital/vital-core-react-native,6.0.2,fail-baseline
 @tryvital/vital-health-react-native,6.0.2,fail-baseline
 @ua/react-native-airship,26.12.0,fail-baseline
+@usercentrics/react-native-sdk,2.30.0,fail-baseline
