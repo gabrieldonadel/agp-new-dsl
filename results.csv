@@ -599,3 +599,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @animo-id/expo-digital-credentials-api,0.4.0,pass
 @animo-id/expo-mdoc-data-transfer,0.1.4-alpha.3,fail-baseline
 @animo-id/expo-secure-environment,0.1.5,pass
+@anorak-games/react-native-background-downloader,4.6.1-anorak.1,fail-newdsl
