@@ -550,3 +550,4 @@ react-native-vizbee-receiver-sdk,0.0.26,fail-baseline
 react-native-webgpu,0.9.0,fail-baseline
 react-native-wheel-pick,1.2.8,pass
 react-native-zendesk-messaging,0.3.2,fail-baseline
+react-native-zeroconf,0.14.0,pass
