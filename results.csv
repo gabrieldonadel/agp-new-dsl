@@ -417,3 +417,4 @@ whisper.rn,,pass
 @react-native-seoul/naver-login,5.0.1,fail-baseline
 @react-native-vector-icons/entypo,,fail-newdsl
 @react-native-vector-icons/evil-icons,,fail-newdsl
+@react-native-vector-icons/fontello,,fail-baseline
