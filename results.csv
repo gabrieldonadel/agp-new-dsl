@@ -378,3 +378,4 @@ whisper.rn,,pass
 @amplitude/react-native,2.17.3,pass
 @appmetrica/react-native-analytics,4.2.0,pass
 @aptabase/react-native,0.6.0,pass
+@bam.tech/react-native-app-security,1.0.0,fail-baseline
