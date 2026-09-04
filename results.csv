@@ -481,3 +481,4 @@ react-native-calendar-events,2.2.0,pass
 react-native-camera-kit,18.0.1,fail-newdsl
 react-native-cashfree-pg-sdk,2.4.0,pass
 react-native-change-icon,5.0.0,pass
+react-native-cloud-storage,3.1.0,fail-newdsl
