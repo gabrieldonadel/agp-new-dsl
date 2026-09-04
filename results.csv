@@ -566,3 +566,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @1selfworld/adchain-sdk-react-native,1.0.27,fail-baseline
 @2060.io/react-native-eid-reader,0.3.1,fail-newdsl
 @2c2p/pgw-sdk-react-native,4.0.5,fail-newdsl
+@42techpacks/expo-spotify-sdk,0.5.6,fail-baseline
