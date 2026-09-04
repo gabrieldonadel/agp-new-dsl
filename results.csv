@@ -393,3 +393,4 @@ whisper.rn,,pass
 @googlemaps/react-native-navigation-sdk,0.17.1,fail-baseline
 @heap/heap-react-native-bridge,0.8.4,fail-newdsl
 @howincodes/expo-dynamic-app-icon,3.0.2,pass
+@ht-sdks/events-sdk-react-native,2.22.0,fail-baseline
