@@ -403,3 +403,4 @@ whisper.rn,,pass
 @logicwind/react-native-exit-app,0.2.0,fail-newdsl
 @lottiefiles/dotlottie-react-native,,fail-newdsl
 @mattermost/react-native-paste-input,2.0.1,fail-newdsl
+@mj-studio/react-native-naver-map,2.9.0,fail-baseline
