@@ -397,3 +397,4 @@ whisper.rn,,pass
 @ht-sdks/sovran-react-native,1.2.0,fail-newdsl
 @infinitered/react-native-mlkit-face-detection,5.0.0,fail-newdsl
 @infinitered/react-native-mlkit-text-recognition,5.0.1,fail-newdsl
+@jamsch/expo-speech-recognition,0.2.15,fail-baseline
