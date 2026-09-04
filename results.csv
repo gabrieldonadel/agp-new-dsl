@@ -576,3 +576,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @adrianso/react-native-device-brightness,1.2.7,pass
 @adstage/react-native-sdk,1.0.11,fail-baseline
 @advenue/react-native,,pass
+@aguacerowx/react-native,0.0.75,fail-baseline
