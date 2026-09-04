@@ -630,3 +630,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ascendtis/react-native-voice-to-text,,fail-newdsl
 @ashworthhub/twilio-voice-expo,1.6.1-expo.14,fail-newdsl
 @asolerp/react-native-audio-chunk-recorder,0.3.11,fail-baseline
+@astondynamics/react-native-wireless,0.1.1,fail-baseline
