@@ -431,3 +431,4 @@ whisper.rn,,pass
 @seontechnologies/seon-react-native-mobile-wrapper,3.4.0,fail-newdsl
 @simform_solutions/react-native-audio-waveform,2.1.6,fail-newdsl
 @siteed/audio-studio,3.2.1,fail-newdsl
+@splitsoftware/splitio-react-native,1.5.0,pass
