@@ -395,3 +395,4 @@ whisper.rn,,pass
 @howincodes/expo-dynamic-app-icon,3.0.2,pass
 @ht-sdks/events-sdk-react-native,2.22.0,fail-baseline
 @ht-sdks/sovran-react-native,1.2.0,fail-newdsl
+@infinitered/react-native-mlkit-face-detection,5.0.0,fail-newdsl
