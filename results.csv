@@ -372,3 +372,4 @@ react-native-watch-connectivity,2.0.0,fail-baseline
 react-native-wifi-reborn,4.13.6,fail-baseline
 realm,,timeout
 rn-pendo-sdk,3.14.1,fail-baseline
+whisper.rn,,pass
