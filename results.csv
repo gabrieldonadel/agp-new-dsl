@@ -505,3 +505,4 @@ react-native-kochava-measurement-apple-tracking,5.0.0,fail-newdsl
 react-native-kochava-measurement-google,5.0.0,fail-newdsl
 react-native-kochava-measurement-google-tracking,5.0.0,fail-newdsl
 react-native-libsodium,1.7.0,pass
+react-native-localization,2.3.2,pass
