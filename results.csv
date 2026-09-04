@@ -569,3 +569,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @42techpacks/expo-spotify-sdk,0.5.6,fail-baseline
 @a-cube-io/expo-mutual-tls,1.0.5,pass
 @ada-support/react-native-sdk,3.2.8,fail-baseline
+@adapty/react-native-ui,3.1.0,fail-baseline
