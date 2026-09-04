@@ -32,7 +32,9 @@ The scripts commit locally only.
 | `libs-scan.tsv` | `package<TAB>verdict<TAB>detail` for every row. Cache, resumable. |
 | `libs-android.txt` | 3888 packages that ship a buildable Android native module. |
 | `libs-android-example-only.txt` | 94 packages whose only `android/build.gradle` is in an example or test app. |
-| `upstream-prs.md` | Every pull request filed from this harness, with live state. |
+| `upstream-prs.tsv` | The PRs filed, one per line. Source of truth; add a `note` for context. |
+| `upstream-prs.md` | Generated tracker: pending / merged / closed, with live state. |
+| `scripts/update-pr-status.py` | Refreshes `upstream-prs.md` from GitHub. `--check` to print only. |
 | `scripts/test-libs.sh` | Builds each package in `libs.txt` and records the result. |
 | `results.csv` | `package,version,status`. One row per tested package. |
 | `logs/<pkg>.log` | Full install and Gradle output per package. `/` in names becomes `__`. |
@@ -264,7 +266,10 @@ when AGP is not already providing it. `react-native-screens` already does this,
 which is why it passes.
 
 **105 pull requests are filed, covering 126 packages across 105 repositories.**
-The full list with live state is [`upstream-prs.md`](upstream-prs.md).
+The tracker is [`upstream-prs.md`](upstream-prs.md), grouped into pending, merged
+and closed. Refresh it with `scripts/update-pr-status.py`; the PR list itself
+lives in `upstream-prs.tsv`, where a `note` column records anything a maintainer
+asked for.
 
 Round 1 (22 PRs) derived the answer from the AGP major version and the
 `android.builtInKotlin` property. Round 2 (83 PRs) checks for the registered
