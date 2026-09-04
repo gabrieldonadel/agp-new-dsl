@@ -419,3 +419,4 @@ whisper.rn,,pass
 @react-native-vector-icons/evil-icons,,fail-newdsl
 @react-native-vector-icons/fontello,,fail-baseline
 @react-native-vector-icons/get-image,13.0.0,fail-newdsl
+@react-native-vector-icons/lucide,,fail-newdsl
