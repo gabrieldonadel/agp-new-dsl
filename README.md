@@ -167,75 +167,102 @@ See the git log for the exact commits.
 
 ## Findings so far
 
-All 157 packages in `libs.txt` are tested. One row each in `results.csv`.
+502 packages tested. `libs-top500.txt` is the 500 highest-usage entries
+of `libs-android.txt` with `package.json` dependencies removed; the other 2 rows
+are carried over from the original `libs.txt` run.
 
 | Status | Count |
 |---|---|
-| `pass` | 85 |
-| `fail-newdsl` | 34 |
-| `fail-baseline` | 38 |
-| `install-failed` | 0 |
-| **total** | **157** |
+| `pass` | 196 |
+| `fail-newdsl` | 152 |
+| `fail-baseline` | 153 |
+| `timeout` | 1 |
+| **total** | **502** |
 
-### `fail-newdsl` (34)
+### What breaks under the new DSL (152)
 
-Fails with `newDsl` + `builtInKotlin` on, builds with them off. Error lines are
-from the flagged build only, taken from the first `* What went wrong:` block.
+Cause taken from the first `* What went wrong:` block of the flagged build,
+before the fallback build runs.
 
-| Package | Version | First Gradle error |
+| Cause | Count | Share |
 |---|---|---|
-| @react-native-async-storage/async-storage | 2.2.0 | `:react-native-async-storage_async-storage:compileDebugKotlin` failed. First compiler error: `StorageSupplier.kt:5:17 Unresolved reference 'room'.` |
-| expo-updates | 58.0.0-canary-20260902-26df09e | Evaluating project `:expo`: Failed to apply plugin `expo-autolinking`. Root cause: `Cannot invoke BaseVariant.getSourceFolders(SourceKind) because the return value of KotlinJvmAndroidCompilation.getAndroidVariant() is null`. |
-| react-native-webview | 13.16.1 | Evaluating project `:react-native-webview`: Failed to apply plugin `kotlin-android`. |
-| @react-native-community/datetimepicker | 9.1.0 | Evaluating project `:react-native-community_datetimepicker`: Failed to apply plugin `org.jetbrains.kotlin.android`. |
-| react-native-keyboard-controller | 1.22.4 | `:app:compileDebugJavaWithJavac` failed. First compiler error: `PackageList.java:61: error: cannot find symbol` — `class KeyboardControllerPackage`. |
-| react-native-maps | 1.27.2 | Evaluating project `:react-native-maps`: Failed to apply plugin `kotlin-android`. |
-| react-native-purchases | 10.8.1 | Evaluating project `:react-native-purchases`: Failed to apply plugin `kotlin-android`. |
-| @react-native-google-signin/google-signin | 16.1.4 | Evaluating project `:react-native-google-signin_google-signin`: Failed to apply plugin `org.jetbrains.kotlin.android`. |
-| react-native-nitro-modules | 0.37.1 | Evaluating project `:react-native-nitro-modules`: Failed to apply plugin `org.jetbrains.kotlin.android`. |
-| lottie-react-native | 7.3.8 | Evaluating project `:lottie-react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-pager-view | 8.0.2 | Evaluating project `:react-native-pager-view`: Failed to apply plugin `kotlin-android`. |
-| react-native-purchases-ui | 10.8.1 | Evaluating project `:react-native-purchases-ui`: Failed to apply plugin `kotlin-android`. |
-| react-native-google-mobile-ads | 16.5.0 | Evaluating project `:react-native-google-mobile-ads`: Failed to apply plugin `kotlin-android`. |
-| react-native-edge-to-edge | 1.8.1 | Evaluating project `:react-native-edge-to-edge`: Failed to apply plugin `kotlin-android`. |
-| @datadog/mobile-react-native | 3.6.0 | Evaluating project `:datadog_mobile-react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-permissions | 5.6.1 | Evaluating project `:react-native-permissions`: Failed to apply plugin `kotlin-android`. |
-| @react-native-menu/menu | 2.0.0 | Evaluating project `:react-native-menu_menu`: Failed to apply plugin `kotlin-android`. |
-| react-native-video | 6.19.2 | Evaluating project `:react-native-video`: Failed to apply plugin `kotlin-android`. |
-| @maplibre/maplibre-react-native | 11.3.8 | Evaluating project `:maplibre_maplibre-react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-worklets-core | 1.6.3 | Configuring project `:react-native-worklets-core`: Could not get unknown property `libraryVariants` for object of type `LibraryExtensionImpl$AgpDecorated`. |
-| @braze/react-native-sdk | 23.0.0 | Evaluating project `:braze_react-native-sdk`: Failed to apply plugin `kotlin-android`. |
-| react-native-localize | 3.7.0 | Evaluating project `:react-native-localize`: Failed to apply plugin `kotlin-android`. |
-| @amplitude/analytics-react-native | 1.8.0 | Evaluating project `:amplitude_analytics-react-native`: Failed to apply plugin `kotlin-android`. |
-| posthog-react-native-session-replay | 1.6.0 | Evaluating project `:posthog-react-native-session-replay`: Failed to apply plugin `kotlin-android`. |
-| @rudderstack/rudder-sdk-react-native | 3.2.0 | Evaluating project `:rudderstack_rudder-sdk-react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-launch-arguments | 4.1.1 | Configuring project `:react-native-launch-arguments`: Could not get unknown property `libraryVariants` for object of type `LibraryExtensionImpl$AgpDecorated`. |
-| rive-react-native | 9.8.5 | Evaluating project `:rive-react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-keychain | 10.0.0 | Evaluating project `:react-native-keychain`: Failed to apply plugin `kotlin-android`. |
-| @lodev09/react-native-true-sheet | 3.11.12 | Evaluating project `:lodev09_react-native-true-sheet`: Failed to apply plugin `kotlin-android`. |
-| @aws-amplify/react-native | 1.3.3 | Evaluating project `:aws-amplify_react-native`: Failed to apply plugin `kotlin-android`. |
-| react-native-enriched-markdown | 1.0.2 | Evaluating project `:react-native-enriched-markdown`: Failed to apply plugin `kotlin-android`. |
-| @invertase/react-native-apple-authentication | 2.5.1 | Evaluating project `:invertase_react-native-apple-authentication`: Failed to apply plugin `kotlin-android`. |
-| @op-engineering/op-sqlite | 18.1.4 | Evaluating project `:op-engineering_op-sqlite`: Failed to apply plugin `kotlin-android`. |
-| react-native-gesture-handler | 3.1.0 | Evaluating project `:react-native-gesture-handler`: Failed to apply plugin `kotlin-android`. |
+| Kotlin plugin collides with AGP's built-in Kotlin | 144 | 95% |
+| Removed DSL property (`libraryVariants`, `bootClasspath`) | 5 | 3% |
+| Kotlin compile error | 1 | 1% |
+| javac compile error | 1 | 1% |
+| Other | 1 | 1% |
 
-29 of the 34 flagged builds end in the same cause line:
-`Cannot add extension with name 'kotlin', as there is an extension already
-registered with that name.` Those 29 are exactly the rows above that report
-`Failed to apply plugin 'kotlin-android'` or
-`Failed to apply plugin 'org.jetbrains.kotlin.android'`. This confirms the
-expectation recorded earlier: a library that applies `kotlin-android` or
-`org.jetbrains.kotlin.android` unconditionally cannot build under `newDsl`.
+**One bug accounts for almost all of it.** AGP 9 registers the `kotlin` extension
+itself, so a library that also applies `kotlin-android` or
+`org.jetbrains.kotlin.android` unconditionally fails during configuration. AGP
+reports it two ways, and both are the same problem:
 
-The other five fail differently. `react-native-worklets-core` and
-`react-native-launch-arguments` fail on `libraryVariants`. `expo-updates`
-fails on a null `getAndroidVariant()`. `@react-native-async-storage/async-storage`
-and `react-native-keyboard-controller` fail at compile time.
+```
+Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
+The 'org.jetbrains.kotlin.android' plugin is no longer required for Kotlin support since AGP 9.0.
+```
 
-`results.csv` records an empty version for
-`posthog-react-native-session-replay`. The `node -p require(...)` version
-probe in `test-libs.sh` cannot resolve that package's `package.json`. The
-version above, 1.6.0, is read from the `yarn add` output in its log.
+The fix is to apply the plugin only when AGP is not already providing Kotlin.
+See "Upstream fixes" below for the two guard shapes in use.
+
+The remainder are unrelated to the Kotlin plugin and each needs its own work:
+
+- **Removed DSL property (`libraryVariants`, `bootClasspath`)**: `react-native-launch-arguments`, `react-native-onetrust-cmp`, `react-native-context-menu-view`, `react-native-create-thumbnail`, `react-native-worklets-core`
+- **Kotlin compile error**: `@react-native-async-storage/async-storage`
+- **javac compile error**: `react-native-keyboard-controller`
+- **Other**: `expo-updates` fails inside `expo-autolinking`, on a null
+  `KotlinJvmAndroidCompilation.getAndroidVariant()`.
+
+The full per-package list is `results.csv`, with one log each under `logs/`.
+
+### How far the upstream PRs go
+
+144 packages hit the Kotlin plugin collision. 29
+are already handled: patched by the PRs below, fixed upstream, or carrying
+someone else's PR. **115 are not**, which is
+79% of the affected packages.
+
+That number is less alarming than it looks. The unaddressed set is the long
+tail: every one sits at usage <= 0.009, while the
+packages with real adoption were in the first 157 and have patches. Highest
+usage still unaddressed:
+
+| Package | Usage |
+|---|---|
+| @preeternal/react-native-cookie-manager | 0.009 |
+| @segment/sovran-react-native | 0.009 |
+| customerio-reactnative | 0.008 |
+| react-native-bootsplash | 0.008 |
+| react-native-document-scanner-plugin | 0.008 |
+| react-native-teleport | 0.008 |
+| @microsoft/react-native-clarity | 0.007 |
+| @posthog/react-native-plugin | 0.007 |
+| @react-native-documents/picker | 0.007 |
+| @react-native-vector-icons/ionicons | 0.007 |
+| react-native-audio-api | 0.007 |
+| react-native-bottom-tabs | 0.007 |
+| react-native-image-colors | 0.007 |
+| react-native-volume-manager | 0.007 |
+| @react-native-vector-icons/material-design-icons | 0.006 |
+
+It is the same one-line change every time, so this is mechanical work rather
+than 115 separate investigations.
+
+### `timeout` (1)
+
+`realm` hung inside `npx expo install` and was killed at the 900s deadline, so
+no build ran and it has no verdict. Worth a manual retry with a longer
+`TIMEOUT_INSTALL`.
+
+### `fail-baseline` (153)
+
+Fails with the flags on and with them off, so the harness cannot attribute it to
+the DSL. Not investigated. Note this understates new-DSL breakage: a package
+whose flagged build dies on the Kotlin collision but whose fallback build also
+fails, for a missing peer dependency or its own version assert, lands here
+rather than in `fail-newdsl`. `react-native-reanimated`,
+`react-native-worklets` and `react-native-safe-area-context` are exactly that
+case. See the notes further down.
 
 ### Upstream fixes
 
@@ -303,31 +330,6 @@ flags on and with both flags off.
 A merged PR does not change `results.csv`. The rows there record the version that
 was tested, and the fixes are not released yet.
 
-### `fail-baseline` (38)
-
-Fails both ways. Not a DSL result. Not investigated.
-
-@braze/expo-plugin, @clerk/expo, @config-plugins/react-native-branch,
-@intercom/intercom-react-native, @livekit/react-native,
-@livekit/react-native-expo-plugin, @react-native-cookies/cookies,
-@react-native-firebase/analytics, @react-native-firebase/app-check,
-@react-native-firebase/auth, @react-native-firebase/crashlytics,
-@react-native-firebase/firestore, @react-native-firebase/messaging,
-@react-native-firebase/perf, @react-native-firebase/remote-config,
-@react-native-firebase/storage, @rnmapbox/maps, @stripe/stripe-react-native,
-expo-iap, expo-widgets, react-native-android-widget, react-native-appsflyer,
-react-native-auth0, react-native-branch, react-native-compressor,
-react-native-date-picker, react-native-fbsdk-next,
-react-native-health-connect, react-native-iap, react-native-mmkv,
-react-native-nitro-image, react-native-plaid-link-sdk,
-react-native-quick-crypto, react-native-reanimated,
-react-native-safe-area-context, react-native-unistyles,
-react-native-vision-camera, react-native-worklets
-
-### `install-failed` (0)
-
-None.
-
 ### Notes on the six removed template dependencies
 
 All six were tested individually. Results:
@@ -356,6 +358,7 @@ two-build classification cannot call them. From `logs/`:
   `[Worklets] Your installed version of React Native (0.87.0) is ...`
 - `react-native-safe-area-context` fallback:
   `:react-native-safe-area-context:compileDebugKotlin` failed.
+
 A `fail-baseline` status therefore does not rule out a `newDsl` problem. It
 only means the fallback build could not prove one. `react-native-mmkv` is
 another case outside these six: its flagged build fails on the `kotlin`
