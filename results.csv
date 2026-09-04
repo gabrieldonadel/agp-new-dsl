@@ -444,3 +444,4 @@ whisper.rn,,pass
 @veriff/react-native-sdk,13.2.0,fail-baseline
 @xmartlabs/react-native-line,6.0.1,fail-baseline
 airbridge-expo-sdk,4.10.0,fail-baseline
+airbridge-react-native-sdk,4.10.0,fail-newdsl
