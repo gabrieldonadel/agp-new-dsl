@@ -503,3 +503,4 @@ react-native-klarna-inapp-sdk,2.8.2,fail-baseline
 react-native-kochava-measurement,5.0.0,fail-newdsl
 react-native-kochava-measurement-apple-tracking,5.0.0,fail-newdsl
 react-native-kochava-measurement-google,5.0.0,fail-newdsl
+react-native-kochava-measurement-google-tracking,5.0.0,fail-newdsl
