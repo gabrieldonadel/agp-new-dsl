@@ -564,3 +564,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @1interface/live-voice-stream-kit,0.1.0,pass
 @1mt/expo-on-device-ai,0.1.0,fail-baseline
 @1selfworld/adchain-sdk-react-native,1.0.27,fail-baseline
+@2060.io/react-native-eid-reader,0.3.1,fail-newdsl
