@@ -514,3 +514,4 @@ react-native-mparticle,3.3.3,fail-baseline
 react-native-navigation-bar-color,2.0.2,fail-baseline
 react-native-network-info,5.2.2,pass
 react-native-nitro-cookies,1.2.0,fail-baseline
+react-native-nitro-markdown,,fail-baseline
