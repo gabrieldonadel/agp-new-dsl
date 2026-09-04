@@ -1,10 +1,10 @@
 Starting a Gradle Daemon (subsequent builds will be faster)
-> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
@@ -26,8 +26,8 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors
 > Task :expo-module-gradle-plugin:processResources
@@ -89,100 +89,98 @@ Using expo modules
   - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
 
 
-> Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
 > Task :app:generateAutolinkingNewArchitectureFiles
 > Task :app:generateAutolinkingPackageList
 > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
 > Task :app:generateCodegenArtifactsFromSchema SKIPPED
-> Task :app:generateReactNativeEntryPoint
-> Task :app:generateDebugAssets UP-TO-DATE
 > Task :expo-log-box:processDebugNavigationResources
 > Task :expo-modules-core:processDebugNavigationResources
+> Task :app:generateReactNativeEntryPoint
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :expo-log-box:generateDebugBuildConfig
 > Task :expo-modules-core:generateDebugBuildConfig
 > Task :expo-log-box:generateDebugResources
-> Task :expo:generateInlineModules
 > Task :expo-modules-core:generateDebugResources
+> Task :expo:generateInlineModules
 > Task :expo:generatePackagesList
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
 > Task :expo:processDebugNavigationResources
 > Task :expo:generateDebugResources
+> Task :expo:packageDebugResources
+> Task :expo-log-box:packageDebugResources
+> Task :expo-modules-core:packageDebugResources
 
 > Task :expo-constants:createExpoConfig
 The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
 
 > Task :expo-constants:preBuild
-> Task :app:preBuild
 > Task :expo-constants:preDebugBuild
+> Task :app:preBuild
 > Task :app:preDebugBuild
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :expo-constants:processDebugNavigationResources
-> Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :expo-constants:generateDebugResources
+> Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :app:generateDebugResValues UP-TO-DATE
-> Task :expo-log-box:packageDebugResources
-> Task :expo:packageDebugResources
-> Task :expo-modules-core:packageDebugResources
 > Task :app:generateDebugResources UP-TO-DATE
 > Task :expo-constants:packageDebugResources
 > Task :expo:generateDebugAssets UP-TO-DATE
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :expo-log-box:javaPreCompileDebug
-> Task :expo:javaPreCompileDebug
 > Task :expo-modules-core:javaPreCompileDebug
+> Task :expo:javaPreCompileDebug
+> Task :expo-log-box:javaPreCompileDebug
 > Task :expo-constants:javaPreCompileDebug
 > Task :expo-log-box:generateDebugAssets UP-TO-DATE
-> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
 > Task :expo-constants:generateDebugAssets UP-TO-DATE
-> Task :expo:mergeDebugAssets
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets
 > Task :expo-log-box:mergeDebugAssets
-> Task :expo:extractDeepLinksDebug
+> Task :expo:mergeDebugAssets
 > Task :expo-constants:mergeDebugAssets
-> Task :expo-constants:writeDebugAarMetadata
-> Task :expo-constants:extractDeepLinksDebug
-> Task :expo:parseDebugLocalResources
-> Task :expo:generateDebugRFile
-> Task :expo-log-box:extractDeepLinksDebug
-> Task :expo-log-box:parseDebugLocalResources
-> Task :expo-log-box:generateDebugRFile
-> Task :expo:mapDebugSourceSetPaths
-> Task :expo-constants:parseDebugLocalResources
-> Task :expo:compileDebugLibraryResources
-> Task :expo-constants:mapDebugSourceSetPaths
 > Task :expo-log-box:writeDebugAarMetadata
-> Task :expo-log-box:mapDebugSourceSetPaths
-> Task :expo-log-box:compileDebugLibraryResources
-> Task :expo-constants:processDebugManifest
-> Task :expo-constants:mergeDebugJniLibFolders
-> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:extractDeepLinksDebug
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo:writeDebugAarMetadata
 > Task :expo-modules-core:parseDebugLocalResources
-> Task :expo-constants:copyDebugJniLibsProjectOnly
-> Task :expo-constants:generateDebugRFile
-> Task :expo-log-box:mergeDebugJniLibFolders
-> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
-> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :expo-modules-core:extractDeepLinksDebug
 > Task :expo:processDebugManifest
 > Task :expo-log-box:processDebugManifest
-> Task :expo-constants:compileDebugLibraryResources
-> Task :expo:writeDebugAarMetadata
-> Task :expo:mergeDebugJniLibFolders
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:copyDebugJniLibsProjectOnly
-> Task :expo-modules-core:mergeDebugAssets
-> Task :expo-modules-core:extractDeepLinksDebug
-> Task :expo-modules-core:mapDebugSourceSetPaths
-> Task :expo-modules-core:compileDebugLibraryResources
 
 > Task :expo-modules-core:processDebugManifest
 /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
 	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
 
-> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo:mapDebugSourceSetPaths
+> Task :expo-log-box:mapDebugSourceSetPaths
 > Task :expo-modules-core:generateDebugRFile
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:processDebugManifest
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo:compileDebugLibraryResources
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo:parseDebugLocalResources
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:generateDebugRFile
+> Task :expo:generateDebugRFile
+> Task :expo-constants:copyDebugJniLibsProjectOnly
 > Task :app:processDebugNavigationResources UP-TO-DATE
 > Task :app:parseDebugLocalResources UP-TO-DATE
 > Task :app:generateDebugRFile UP-TO-DATE
@@ -190,12 +188,16 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :app:mergeDebugAssets UP-TO-DATE
 > Task :app:compressDebugAssets UP-TO-DATE
 > Task :app:generateDebugGlobalSynthetics UP-TO-DATE
-> Task :app:checkDebugDuplicateClasses UP-TO-DATE
 > Task :app:desugarDebugFileDependencies UP-TO-DATE
-> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:checkDebugAarMetadata
+> Task :expo-modules-core:mapDebugSourceSetPaths
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :expo-modules-core:compileDebugKotlin
 > Task :app:mapDebugSourceSetPaths UP-TO-DATE
 > Task :app:compileDebugNavigationResources UP-TO-DATE
-> Task :app:checkDebugAarMetadata
+> Task :app:mergeDebugResources UP-TO-DATE
 > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
 > Task :app:extractDeepLinksDebug UP-TO-DATE
 
@@ -205,26 +207,24 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
 	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
 
-> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
-
 > Task :app:expoDebugOverrideMaxSdkConflicts
 [33m---------- Expo Max Sdk Override Plugin ----------[0m
 [32m>>> No 'android:maxSdkVersion' conflicts found[0m
 [33m--------------------------------------------------[0m
 
-> Task :app:mergeDebugResources
-> Task :app:processDebugManifest
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:mergeExtDexDebug
 > Task :app:configureCMakeDebug[arm64-v8a]
-> Task :app:buildCMakeDebug[arm64-v8a]
-> Task :app:mergeDebugJniLibFolders UP-TO-DATE
-> Task :app:validateSigningDebug UP-TO-DATE
-> Task :app:writeDebugAppMetadata UP-TO-DATE
-> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
-> Task :app:processDebugManifestForPackage
 > Task :app:processDebugResources
 
 > Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
 C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
 C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
 C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
 C/C++:       |     ^
@@ -232,17 +232,15 @@ C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-
 C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
 C/C++:       |     ^
 C/C++: 1 warning generated.
-C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
-C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
-C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
-C/C++:       |  ^
-C/C++: 1 warning generated.
 
 > Task :expo-modules-core:mergeDebugJniLibFolders
 > Task :expo-modules-core:mergeDebugNativeLibs
 > Task :expo-modules-core:copyDebugJniLibsProjectOnly
-> Task :app:mergeDebugNativeLibs UP-TO-DATE
-> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
 
 > Task :expo-modules-core:compileDebugKotlin
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
@@ -272,16 +270,19 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+
 > Task :expo-modules-core:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :expo-modules-core:processDebugJavaRes
 > Task :expo-modules-core:bundleLibCompileToJarDebug
-> Task :expo-modules-core:bundleLibRuntimeToDirDebug
 > Task :expo-constants:compileDebugKotlin
 > Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
 > Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
 > Task :expo-constants:processDebugJavaRes
 > Task :expo-constants:bundleLibRuntimeToDirDebug
 > Task :expo-log-box:compileDebugKotlin
@@ -314,8 +315,8 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 > Task :app:processDebugJavaRes
 > Task :app:dexBuilderDebug
 > Task :app:mergeProjectDexDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:packageDebug
 > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
 > Task :app:assembleDebug
@@ -328,5 +329,5 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD SUCCESSFUL in 44s
-155 actionable tasks: 130 executed, 25 up-to-date
+BUILD SUCCESSFUL in 1m 13s
+155 actionable tasks: 131 executed, 24 up-to-date
