@@ -602,3 +602,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @anorak-games/react-native-background-downloader,4.6.1-anorak.1,fail-newdsl
 @anorak-games/react-native-video-texture,0.5.0,fail-baseline
 @antardev/react-native-usage-stats,0.1.1,pass
+@anttech/react-native-ftp,0.2.3,fail-newdsl
