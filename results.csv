@@ -520,3 +520,4 @@ react-native-nitro-web-image,0.15.2,fail-baseline
 react-native-notifications,5.2.2,fail-baseline
 react-native-passkit-wallet,0.1.6,pass
 react-native-pdf-thumbnail,1.3.1,fail-baseline
+react-native-performance-limiter,0.3.0,fail-baseline
