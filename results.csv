@@ -525,3 +525,4 @@ react-native-photo-manipulator,1.9.2,fail-newdsl
 react-native-ping,1.2.8,pass
 react-native-push-notification,8.1.1,fail-baseline
 react-native-quick-md5,3.0.9,pass
+react-native-randombytes,3.6.2,pass
