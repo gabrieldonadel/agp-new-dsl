@@ -466,3 +466,4 @@ react-native-a11y,0.9.0,pass
 react-native-add-calendar-event,5.0.0,fail-baseline
 react-native-advanced-input-mask,1.4.6,fail-newdsl
 react-native-aes-crypto,3.3.0,pass
+react-native-akamaibmp,2.2.2,fail-baseline
