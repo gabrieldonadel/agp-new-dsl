@@ -426,3 +426,4 @@ whisper.rn,,pass
 @rnw-community/react-native-payments,2.17.1,fail-baseline
 @rokt/react-native-sdk,5.1.2,fail-newdsl
 @sayem314/react-native-keep-awake,2.0.0,pass
+@sbaiahmed1/react-native-biometrics,0.16.0,fail-newdsl
