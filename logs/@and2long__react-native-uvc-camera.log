@@ -1,0 +1,644 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add @and2long/react-native-uvc-camera
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ @and2long/react-native-uvc-camera@0.1.4
+info All dependencies
+└─ @and2long/react-native-uvc-camera@0.1.4
+Done in 1.43s.
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors
+> Task :expo-module-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :expo-module-gradle-plugin:compileKotlin
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes
+> Task :expo-module-gradle-plugin:jar
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file '/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/build.gradle' line: 22
+
+* What went wrong:
+A problem occurred evaluating project ':and2long_react-native-uvc-camera'.
+> Failed to apply plugin 'kotlin-android'.
+   > Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+A problem occurred configuring project ':and2long_react-native-uvc-camera'.
+> Android Gradle Plugin: project ':and2long_react-native-uvc-camera' does not specify `compileSdk` in build.gradle (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/build.gradle).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 8s
+28 actionable tasks: 28 executed
+== retry without new DSL flags
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :and2long_react-native-uvc-camera
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:processDebugNavigationResources
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:processDebugNavigationResources
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :expo-log-box:generateDebugBuildConfig
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :expo-modules-core:generateDebugResources
+> Task :expo-log-box:generateDebugResources
+> Task :app:generateReactNativeEntryPoint
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:packageDebugResources
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-modules-core:mergeDebugAssets
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo-log-box:mergeDebugAssets
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-modules-core:extractDeepLinksDebug
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :expo-log-box:writeDebugAarMetadata
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :expo-log-box:processDebugManifest
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :expo:generateInlineModules
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo:processDebugNavigationResources
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugResources
+> Task :expo:packageDebugResources
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo:parseDebugLocalResources
+> Task :expo:mergeDebugAssets
+> Task :expo:writeDebugAarMetadata
+> Task :expo:generateDebugRFile
+> Task :expo:extractDeepLinksDebug
+> Task :expo:mapDebugSourceSetPaths
+> Task :expo:processDebugManifest
+> Task :expo:compileDebugLibraryResources
+> Task :expo:mergeDebugJniLibFolders
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :expo-constants:preDebugBuild
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:processDebugNavigationResources
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo-constants:generateDebugResources
+> Task :expo-constants:packageDebugResources
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-constants:mergeDebugAssets
+
+> Task :and2long_react-native-uvc-camera:generateCodegenSchemaFromJavaScript
+No modules to process in combine-js-to-schema-cli. If this is unexpected, please check if you set up your NativeComponent correctly. See combine-js-to-schema.js for how codegen finds modules.
+
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-constants:generateDebugRFile
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-constants:processDebugManifest
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :expo-modules-core:mapDebugSourceSetPaths
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :and2long_react-native-uvc-camera:generateCodegenArtifactsFromSchema
+> Task :and2long_react-native-uvc-camera:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :and2long_react-native-uvc-camera:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :and2long_react-native-uvc-camera:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :and2long_react-native-uvc-camera:generateDebugBuildConfig
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :and2long_react-native-uvc-camera:generateDebugResources
+> Task :and2long_react-native-uvc-camera:packageDebugResources
+> Task :and2long_react-native-uvc-camera:processDebugNavigationResources
+> Task :and2long_react-native-uvc-camera:generateDebugAssets UP-TO-DATE
+> Task :and2long_react-native-uvc-camera:parseDebugLocalResources
+> Task :and2long_react-native-uvc-camera:javaPreCompileDebug
+> Task :and2long_react-native-uvc-camera:mergeDebugAssets
+> Task :and2long_react-native-uvc-camera:mapDebugSourceSetPaths
+> Task :and2long_react-native-uvc-camera:generateDebugRFile
+> Task :and2long_react-native-uvc-camera:compileDebugLibraryResources
+> Task :app:checkDebugDuplicateClasses
+> Task :and2long_react-native-uvc-camera:writeDebugAarMetadata
+> Task :and2long_react-native-uvc-camera:extractDeepLinksDebug
+> Task :and2long_react-native-uvc-camera:mergeDebugJniLibFolders
+> Task :and2long_react-native-uvc-camera:processDebugManifest
+> Task :and2long_react-native-uvc-camera:mergeDebugNativeLibs NO-SOURCE
+> Task :and2long_react-native-uvc-camera:copyDebugJniLibsProjectOnly
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+
+> Task :and2long_react-native-uvc-camera:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/src/main/java/com/uvccamera/UVCCameraPackage.kt:10:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/src/main/java/com/uvccamera/UVCCameraViewModule.kt:22:20 Condition is always 'true'.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/src/main/java/com/uvccamera/UVCCameraViewModule.kt:28:11 Condition is always 'true'.
+
+> Task :and2long_react-native-uvc-camera:compileDebugJavaWithJavac
+> Task :and2long_react-native-uvc-camera:bundleLibCompileToJarDebug
+> Task :and2long_react-native-uvc-camera:processDebugJavaRes
+> Task :and2long_react-native-uvc-camera:bundleLibRuntimeToDirDebug
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+
+> Task :app:processDebugMainManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
+	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :app:expoDebugOverrideMaxSdkConflicts
+[33m---------- Expo Max Sdk Override Plugin ----------[0m
+[33m>>> WARNING: Found 2 permission(s) with conflicting 'android:maxSdkVersion' declarations.[0m
+[33m    - android.permission.READ_EXTERNAL_STORAGE[0m
+[33m      > Defined WITH `android:maxSdkVersion` in: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/main/AndroidManifest.xml[0m
+[33m      > Defined WITHOUT `android:maxSdkVersion` in: /Users/briones/.gradle/caches/9.4.1/transforms/a6ccb104ced36d5558b73794d1617f19/transformed/expo.modules.filesystem-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/edeec3d4e5dda69b5882a796dcb3aa28/transformed/expo.modules.image-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/d0f58af00c0c73ffdf297208017853bd/transformed/UVCAndroid-1.0.5/AndroidManifest.xml[0m
+[33m    - android.permission.WRITE_EXTERNAL_STORAGE[0m
+[33m      > Defined WITH `android:maxSdkVersion` in: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/main/AndroidManifest.xml[0m
+[33m      > Defined WITHOUT `android:maxSdkVersion` in: /Users/briones/.gradle/caches/9.4.1/transforms/a6ccb104ced36d5558b73794d1617f19/transformed/expo.modules.filesystem-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/d0f58af00c0c73ffdf297208017853bd/transformed/UVCAndroid-1.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/35d905e23585cdb5eea92c6fd637fb42/transformed/expo.modules.webbrowser-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c93ccab7e7d1e446a7ebf5d1446aa0d3/transformed/react-android-0.87.0-debug/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/fa35465cd9e7cf29daf1e1bb22af7bf4/transformed/material-1.13.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b8b7ca8816eedfe7d05e5a03da4c7506/transformed/okhttp3-integration-5.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/d32b643fc23329de6d5241cc2eee25ec/transformed/constraintlayout-2.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/842f4f8a09282ff69a6fb81015cf00e0/transformed/window-1.5.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7139e15abe91f725160473e6351285d1/transformed/emoji2-1.4.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/71150d8d8d2e3c861bfaa9cb50334309/transformed/lifecycle-process-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6ba8a94e083475604f9d7a25c275009c/transformed/core-1.18.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6920c859e137dbf9c591405b88cfd7fd/transformed/profileinstaller-1.4.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b96b306096cda92056250722422e059e/transformed/startup-runtime-1.1.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f42a62ecb036080b75ed8af77cb6666f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/fc24243721c2e9211843ec1d0b98874f/transformed/soloader-0.12.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6e138368606ac7fb2b84600568ebe1cc/transformed/avif-1.1.1.14d8e3c4/AndroidManifest.xml, /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@and2long/react-native-uvc-camera/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml, /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml, /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/log-box/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2326f7311026b317cfad6c08bc5c2011/transformed/expo.modules.ui-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/08d791eb1ef7804486c8ec79bb3e0145/transformed/expo.modules.asset-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/45bb955ee67c81214d7a6ac4284ec83f/transformed/expo.modules.font-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/edeec3d4e5dda69b5882a796dcb3aa28/transformed/expo.modules.image-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/625c15c918e49637851df794bdbc007e/transformed/expo.modules.splashscreen-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/cb16b71addee8ef7b8d13a444b4da0c7/transformed/expo.modules.systemui-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/3ac3c59762b878914a4617aab1821f84/transformed/animated-gif-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/fae0dd5845016cc0a9c1fbaddaa667a4/transformed/webpsupport-3.7.0/AndroidManifest.xml, /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-constants/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ac5f0d37b026ea1ffdd5f987b00db40f/transformed/expo.modules.webview-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b1330f33a8ffe465863e1a0741609881/transformed/expo.modules.device-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/3da9747f0e0c9739b30a594f9272926e/transformed/expo.modules.keepawake-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/64743e4bcd425800a6606e27f78e451a/transformed/expo.modules.linking-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b19c364712c5f917c01739f7603f47ec/transformed/expo.modules.statusbar-58.0.0-canary-20260902-26df09e/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/236f6969252edd3e7f302d243bd7b1c7/transformed/window-core/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b9b246bbf6258b6a588de2fc4fef2b42/transformed/material3/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/91851c09b6c55e13a1b4d6c35ef9745e/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/d4ce321757b7a13506a5b1ea6996d63e/transformed/glide-plugin-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8e0c7d60caf54a32d005021b2c6d46a9/transformed/avif-integration-5.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/1605742a2e3de8673114f22fc5521eb6/transformed/glide-transformations-4.3.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/0afc998cf894611a6be220ec567bc544/transformed/glide-5.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/425ea2e8847ebf3ec43b3195d07bb345/transformed/awebp-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/5dec92fde9169f75068e46b652513138/transformed/apng-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/db23ef89d0cefbb072a6a1e137883d29/transformed/gif-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/14b92ca628d6c4576d7195e5c3a8888d/transformed/avif-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/593659824cdc38efbe57255f076ba07c/transformed/core-splashscreen-1.2.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8bfa3adf926dc2f09c1fec9b65b35b05/transformed/appcompat-resources-1.7.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/1ad4bebb2e57579824bff8251c95b26b/transformed/frameanimation-3.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/35887b9b5a2743425abaa38f5e7c889c/transformed/appcompat-1.7.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6b0b5d7e555b8f4b71793ff1474e8d1d/transformed/viewpager2-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e3ce60473ef4b6f2d010f16353cf7e4f/transformed/fragment-1.8.9/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6d6dc901edc2191f4644c7a5670131ea/transformed/fragment-ktx-1.8.9/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/471cd401b4e9579a964929e5a40cffc9/transformed/activity-1.8.2/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/65b54d4109b8d059727162536e7a6933/transformed/activity-ktx-1.8.2/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/5be31a6be98a1fbcf91329c4a8368fd0/transformed/activity-compose-1.8.2/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/12d553672a511420e260cfa414f8cefb/transformed/material-ripple/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/92ad525f62e579728a1831aee107f849/transformed/foundation/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ea67fbf963a70d19c49a44eb7923829c/transformed/animation-core/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/47d9c15a3193a6359cf4c8ee891756d3/transformed/animation/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7857b8ffcf33893596d02c4567846986/transformed/foundation-layout/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/d25bdcaa444442946d0e126c5692978d/transformed/ui-unit/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/cde46fc7842a2a7fa9ecffef91f3f492/transformed/ui-graphics/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8c514f26ba1cf237eec4f775d17b29b1/transformed/ui-geometry/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e20b8ecffb32b03027190e10d129817a/transformed/ui-util/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/21b2bccc8a0416fe1bacfe2aa1512a45/transformed/ui-text/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/67c68e1178125d013a472cb8bcc0ff99/transformed/ui/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/9add7b9e14bc0961a44c957b4ad5b725/transformed/zstd-kmp-okio-release/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c93c2eb5f14c28c53315680505312c04/transformed/animated-gif-lite-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c60918141049347c7f5613b0611c9507/transformed/animated-base-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ab6f79f7d6482df7f44ed5fd9be0b1b9/transformed/animated-drawable-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8a1f869fcbebbc8b7a12b9bc5c104bc6/transformed/vito-provider-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/881ee55828a4d5902bde0721a9262e95/transformed/vito-core-impl-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2f837f5df6290b2d639db26b8541e98c/transformed/vito-core-java-impl-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/4360bace95d3a2566e44df05176e1acf/transformed/vito-drawee-support-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7e72f9e0ca88ee4e8e7fc4f130a14332/transformed/vito-core-common-impl-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/3df59b65070c752de7d697cfc2cfaac4/transformed/vito-core-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c320a6b26dc418430bc8aeeba004f7f5/transformed/fresco-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2505c8adb6d5c9a0ee248c0e992e0f95/transformed/imagepipeline-okhttp3-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/97e4dc422f44bc38dbfd8e8daf7c7d3b/transformed/vito-options-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c2e9a0b2eecd8668f9b9f6f92c30f838/transformed/drawee-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7bfe0d2759441d624697d2d9e871953a/transformed/nativeimagefilters-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ccad9e195b1b15f53fd6676c3645f593/transformed/memory-type-native-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f2c3a20b779ccdbf727d299d76afa150/transformed/memory-type-java-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/82f04065517bbd08b544813eddc4b547/transformed/imagepipeline-native-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/a7ac95bf39ca8aa653cb7d9eebfce173/transformed/memory-type-ashmem-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f4b08ebbb5bfe06485fff5c3a9153812/transformed/imagepipeline-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/fd8148b744171d929fa90bbef1473d27/transformed/nativeimagetranscoder-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8e880c0315b6507a1514794ef4e75354/transformed/imagepipeline-base-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/eba17247f9450519b1fa55387239a123/transformed/urimod-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e7adb645f2ab77e6c936060be0d29a3e/transformed/vito-source-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/4bc6788ec3f61ecfb019e05347037f4e/transformed/middleware-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/bc268be96c16d8a27d99e858c4d4ba82/transformed/ui-common-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f3ce0ce0971035eb8ff4395e3e449feb/transformed/soloader-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e894527d1a8e61094ceee4ce7bb36ba1/transformed/fbcore-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c2d3c796608b9f4eecbcb8edf073077e/transformed/autofill-1.3.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/8b92436519fa5f91cf1b57246e55be44/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f5841439879cf94107fecb4053619a14/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/54b7c5caf0a71b8f82a313a43d14aa2b/transformed/graphics-shapes/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/44b121004d5f8dc863a8f07834ab3bae/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/bd12c65d00bb5d24e32e15c79032a4a1/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/a85018b90648a8b8886c1c5834d6fa5a/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/09ced79e5b2c5285f05a1c019785a754/transformed/loader-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/a5d06909f0e97cd1226ec42a973c091f/transformed/runtime-retain/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/06709800a2050197d585a58e40be8617/transformed/runtime-annotation/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6bb8c5bb9bda7e91f4910c559ae606a1/transformed/savedstate-ktx-1.4.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/86804391ab928395f4545caefaa258aa/transformed/savedstate/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/a84349c21301e131399be5e5e7825019/transformed/savedstate-compose/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/4ec7b7a05067901741a3a07ca2cb33a5/transformed/runtime/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/0f0c159b37038dfe5ea41b44c99299d9/transformed/runtime-saveable/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/31a7adb626902da75cb398c0f5288e51/transformed/lifecycle-runtime-ktx/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b98c2251f68b5d1c91cbc3253f232d7b/transformed/lifecycle-runtime-compose/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c0c54d281ecc37110547a88e617d5882/transformed/lifecycle-viewmodel-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/841aeb6f646ce06811d2a0d06c5d4205/transformed/lifecycle-viewmodel/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f3b08ee55ec80916487537237b02f4e1/transformed/lifecycle-livedata-core-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f1f0b519fcb749b483578f59fd3cf8ba/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/21947a9b4ada41466c491dc91578e6ab/transformed/lifecycle-livedata-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/869b0124a9c4a98177129684263b8c30/transformed/lifecycle-livedata-core-ktx-2.10.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7845bfa17c5955e9ea14e5d338fca073/transformed/lifecycle-runtime/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ba9a742cbc2b586ec66e3c6e08c34df6/transformed/lifecycle-viewmodel-savedstate/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/1f4161cf29038978bed36fc75e5afba8/transformed/core-ktx-1.18.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/11103aa22f942a343328596364b1f27a/transformed/documentfile-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/fe9b8aff4cbaff1ebe30b0799e4774a8/transformed/browser-1.6.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e465130600f410ba7bf20fb946becdf9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/4a08546fd35041fbd627537d636c38a2/transformed/vectordrawable-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/69d8aa84a1aa0ac6ee61f882de12d582/transformed/media-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c8d32609b4dbf709315cf68afb8f9f8d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/08490ec56ffdac028c8e5f8615d65f9f/transformed/drawerlayout-1.1.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/568334b222aae37066c25dbba1b791f1/transformed/transition-1.6.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2d3cc04ef597a736bba3c778eee42db3/transformed/dynamicanimation-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/efc7f35f0aa9d3920feb00aebf129c8f/transformed/recyclerview-1.2.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2996186c3947dd165a7b4828fe1e5750/transformed/viewpager-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/898aa83789f2ae1c6f0fff5ba0df42c9/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7ad1fc04bde80d710ea8fad0a97584ee/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/441afd38052fe2b4254e20d70e198641/transformed/customview-1.1.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/be0b5bf434e4135ec5a86fda8147b3be/transformed/graphics-path-1.0.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/7076527c899d2e7bbba5eb3f06dd6f6b/transformed/tracing-1.2.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/6927e634c7ff75b5665753231676afaa/transformed/tracing-ktx-1.2.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/012e4a2ba087b1b9783c37d26fc45362/transformed/ui-core-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/90fc4a33310972b1693cfba0b6929764/transformed/hermes-android-250829098.0.16-debug/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/aa1d688fea7bd134157caa940fe64cdb/transformed/interpolator-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/c571db43686204fb1c36fb86f6c5ade0/transformed/cardview-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/ceca67ff868b97a3fa5c9efdfe3af7b9/transformed/gifdecoder-5.0.5/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/72c3ed9a87ecab78fb77f3254035736b/transformed/exifinterface-1.3.6/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/5c557655e95cffc4c04876f294159dd3/transformed/cursoradapter-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/a9ff94a4d29b7e5c4ab5b28d69096819/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/2342cc144b42fe906920e1442711be64/transformed/print-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/e308a95808e34ceef5a9a6e596175b68/transformed/core-runtime-2.2.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/80ad1af58a19e2e0038aec7d6dcb290d/transformed/annotation-experimental-1.4.1/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/64bfdfd725ae29837fb4a803b8dfc1ab/transformed/vito-renderer-3.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/96f45e3144530ecc247d68a54be87a0f/transformed/core-viewtree-1.0.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b4cb1a78197c08dad9427699606243e9/transformed/zstd-kmp-release/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/f6848d125568c27e2cc3b551e5d17225/transformed/fbjni-0.7.0/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/5864bef7d865c5e09373a0d43c985a87/transformed/androidsvg-aar-1.4/AndroidManifest.xml, /Users/briones/.gradle/caches/9.4.1/transforms/b57ffc0b7e0f17f94ac54d4c996dc6bd/transformed/disklrucache-5.0.5/AndroidManifest.xml[0m
+[33m>>> Removing 'android:maxSdkVersion' from these permissions in the final manifest to prevent runtime issues.[0m
+[33m>>> Removed 'android:maxSdkVersion' from 2 instance(s) in the final manifest.[0m
+[33m--------------------------------------------------[0m
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexDebug
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
+
+> Task :expo-modules-core:mergeDebugJniLibFolders
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-modules-core:processDebugJavaRes
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :expo-constants:compileDebugKotlin
+> Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-log-box:compileDebugKotlin
+> Task :expo-log-box:compileDebugJavaWithJavac
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
+
+> Task :expo:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :expo:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo:processDebugJavaRes
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:bundleLibRuntimeToDirDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 25s
+177 actionable tasks: 129 executed, 48 up-to-date
+yarn remove v1.22.22
+[1/2] Removing module @and2long/react-native-uvc-camera...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+success Uninstalled packages.
+Done in 0.96s.

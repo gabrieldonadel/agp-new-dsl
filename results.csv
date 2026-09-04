@@ -592,3 +592,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ammarahmed/react-native-upload,6.33.0,fail-newdsl
 @ammarahmed/react-native-workers,1.0.0-alpha.3,fail-baseline
 @amplitude/session-replay-react-native,1.0.1,fail-newdsl
+@and2long/react-native-uvc-camera,0.1.4,fail-newdsl
