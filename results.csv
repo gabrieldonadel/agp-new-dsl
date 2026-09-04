@@ -386,3 +386,4 @@ whisper.rn,,pass
 @didit-protocol/sdk-react-native,4.7.5,fail-baseline
 @domir/react-native-measure-text,0.1.9,fail-newdsl
 @dynatrace/react-native-plugin,2.345.1,fail-baseline
+@eabdullazyanov/react-native-sms-user-consent,1.3.0,pass
