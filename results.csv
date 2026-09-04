@@ -379,3 +379,4 @@ whisper.rn,,pass
 @appmetrica/react-native-analytics,4.2.0,pass
 @aptabase/react-native,0.6.0,pass
 @bam.tech/react-native-app-security,1.0.0,fail-baseline
+@bsky.app/expo-image-crop-tool,0.5.1,pass
