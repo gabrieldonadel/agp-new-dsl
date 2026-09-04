@@ -404,3 +404,4 @@ whisper.rn,,pass
 @lottiefiles/dotlottie-react-native,,fail-newdsl
 @mattermost/react-native-paste-input,2.0.1,fail-newdsl
 @mj-studio/react-native-naver-map,2.9.0,fail-baseline
+@mykin-ai/expo-audio-stream,0.3.5,fail-baseline
