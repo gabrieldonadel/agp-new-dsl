@@ -411,3 +411,4 @@ whisper.rn,,pass
 @powersync/op-sqlite,,fail-newdsl
 @prelude.so/react-native-sdk,0.6.1,fail-baseline
 @react-native-community/image-editor,4.3.0,fail-newdsl
+@react-native-firebase/app-distribution,26.3.3,fail-baseline
