@@ -459,3 +459,4 @@ expo-network-addons,57.0.1,fail-baseline
 expo-paste-input,0.2.2,pass
 expo-pdf-text-extract,1.1.0,fail-newdsl
 fast-mlkit-translate-text,1.0.3,pass
+ffmpeg-kit-react-native,6.0.2,fail-baseline
