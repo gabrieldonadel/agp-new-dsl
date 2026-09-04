@@ -402,3 +402,4 @@ whisper.rn,,pass
 @kishannareshpal/expo-pdf,0.3.2,pass
 @logicwind/react-native-exit-app,0.2.0,fail-newdsl
 @lottiefiles/dotlottie-react-native,,fail-newdsl
+@mattermost/react-native-paste-input,2.0.1,fail-newdsl
