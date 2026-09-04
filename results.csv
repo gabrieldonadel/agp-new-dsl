@@ -507,3 +507,4 @@ react-native-kochava-measurement-google-tracking,5.0.0,fail-newdsl
 react-native-libsodium,1.7.0,pass
 react-native-localization,2.3.2,pass
 react-native-localization-settings,1.2.0,fail-newdsl
+react-native-mmkv-storage,12.0.1,fail-newdsl
