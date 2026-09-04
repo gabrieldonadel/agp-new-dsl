@@ -409,3 +409,4 @@ whisper.rn,,pass
 @onfido/react-native-sdk,16.4.0,fail-baseline
 @optimove-inc/react-native,3.2.0,pass
 @powersync/op-sqlite,,fail-newdsl
+@prelude.so/react-native-sdk,0.6.1,fail-baseline
