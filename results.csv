@@ -407,3 +407,4 @@ whisper.rn,,pass
 @mykin-ai/expo-audio-stream,0.3.5,fail-baseline
 @npm_fluentco/adflow-react-native-sdk,4.1.0,fail-newdsl
 @onfido/react-native-sdk,16.4.0,fail-baseline
+@optimove-inc/react-native,3.2.0,pass
