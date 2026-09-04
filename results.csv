@@ -617,3 +617,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @appdynamics/react-native-agent,26.6.1,fail-newdsl
 @apphud/react-native-apphud-sdk,5.1.0,fail-baseline
 @appier/react-native-sdk,2.3.1,pass
+@appmetrica/react-native-varioqub,0.1.0,pass
