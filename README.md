@@ -132,6 +132,7 @@ measurable adoption.
 | `fail-newdsl` | Fails with the flags on, builds with them off. This is the signal we want. |
 | `fail-baseline` | Fails either way. Not a DSL problem. Often needs a config plugin or manual setup. |
 | `install-failed` | `npx expo install` failed. |
+| `timeout` | `npx expo install` ran past `TIMEOUT_INSTALL` and was killed. No build was attempted. |
 
 3. Removes the package, restores `package.json` and `yarn.lock` from git.
 4. Commits `results.csv` and `logs/` with message `test(<pkg>): <status>`.
@@ -388,8 +389,17 @@ See the git log for the commits.
 ## Known limits
 
 - Sequential. One Gradle build per library, about 1 to 3 minutes each.
-- No per-build timeout. macOS has no `timeout`. Wrap the `gradle` function in
-  `gtimeout` from coreutils if a build hangs.
+- Both external steps have a deadline, via `gtimeout` from coreutils:
+  `TIMEOUT_INSTALL` (default 900s) and `TIMEOUT_BUILD` (default 2400s). This is
+  not optional hardening. `realm` hung inside `npx expo install` for 19 hours:
+  its `yarn add` finished in 6 seconds, the expo CLI wrapper never exited, and
+  no build was ever attempted. A stalled run is indistinguishable from a working
+  one unless something enforces a deadline. Watch row count over time, not just
+  whether the process is alive.
+- `ensure_disk` prunes Gradle's transforms cache when free space drops below
+  `MIN_FREE_GB` (default 12). Without it a long run fills the disk, and every
+  build after that fails for a reason unrelated to the DSL while still being
+  recorded as `fail-baseline`.
 - `fail-baseline` results are not investigated. They may be config-plugin or
   peer-dependency problems unrelated to AGP.
 - The AGP version comes from `@react-native/gradle-plugin` in `node_modules`

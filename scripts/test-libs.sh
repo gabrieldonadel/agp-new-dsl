@@ -33,7 +33,23 @@ ensure_disk() {
   echo "== $(df -g / | awk 'NR==2{print $4}')G free after prune" >&2
 }
 
-gradle() { ensure_disk; rm -rf android/app/.cxx; (cd android && ./gradlew "$TASK" "$@"); }
+# Every external step gets a deadline. `realm` hung inside `npx expo install` for
+# 19 hours: its `yarn add` finished in 6 seconds but the expo CLI wrapper never
+# exited, no build was ever started, and the run sat there. A stalled run looks
+# exactly like a working one from the outside, so the timeout is the only thing
+# that turns a hang into a recorded result.
+TIMEOUT=$(command -v gtimeout || command -v timeout)
+TIMEOUT_INSTALL="${TIMEOUT_INSTALL:-900}"
+TIMEOUT_BUILD="${TIMEOUT_BUILD:-2400}"
+
+gradle() {
+  ensure_disk
+  rm -rf android/app/.cxx
+  (cd android && "$TIMEOUT" "$TIMEOUT_BUILD" ./gradlew "$TASK" "$@")
+  local rc=$?
+  [ "$rc" -eq 124 ] && echo "== gradle build exceeded ${TIMEOUT_BUILD}s and was killed" >&2
+  return "$rc"
+}
 
 echo "== baseline build with new DSL"
 if ! gradle "${COMMON_FLAGS[@]}" "${NEW_DSL_FLAGS[@]}" >logs/_baseline.log 2>&1; then
@@ -41,14 +57,20 @@ if ! gradle "${COMMON_FLAGS[@]}" "${NEW_DSL_FLAGS[@]}" >logs/_baseline.log 2>&1;
   exit 1
 fi
 
-# ponytail: no per-build timeout; macOS lacks `timeout`. Wrap gradle in gtimeout if a build hangs.
 while read -r pkg <&3; do
   [ -z "$pkg" ] && continue
   grep -q "^$pkg," "$RESULTS" && continue
   log="logs/${pkg//\//__}.log"
   echo "== $pkg"
 
-  if ! npx expo install "$pkg" >"$log" 2>&1; then
+  "$TIMEOUT" "$TIMEOUT_INSTALL" npx expo install "$pkg" >"$log" 2>&1
+  install_rc=$?
+  if [ "$install_rc" -eq 124 ]; then
+    echo "== npx expo install exceeded ${TIMEOUT_INSTALL}s and was killed" >>"$log"
+    status=timeout
+    version=
+    pkill -f "expo install $pkg" >/dev/null 2>&1 || true
+  elif [ "$install_rc" -ne 0 ]; then
     status=install-failed
     version=
   else
