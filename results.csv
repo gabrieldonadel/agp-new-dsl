@@ -479,3 +479,4 @@ react-native-bluetooth-state-manager,2.0.4,fail-baseline
 react-native-blurhash,2.1.3,fail-newdsl
 react-native-calendar-events,2.2.0,pass
 react-native-camera-kit,18.0.1,fail-newdsl
+react-native-cashfree-pg-sdk,2.4.0,pass
