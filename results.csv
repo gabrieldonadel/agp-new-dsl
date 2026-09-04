@@ -384,3 +384,4 @@ whisper.rn,,pass
 @clerk/expo-google-signin,1.0.3,fail-newdsl
 @clevertap/clevertap-expo-plugin,1.0.0,fail-baseline
 @didit-protocol/sdk-react-native,4.7.5,fail-baseline
+@domir/react-native-measure-text,0.1.9,fail-newdsl
