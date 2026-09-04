@@ -429,3 +429,4 @@ whisper.rn,,pass
 @sbaiahmed1/react-native-biometrics,0.16.0,fail-newdsl
 @segment/analytics-react-native-plugin-advertising-id,1.3.6,fail-newdsl
 @seontechnologies/seon-react-native-mobile-wrapper,3.4.0,fail-newdsl
+@simform_solutions/react-native-audio-waveform,2.1.6,fail-newdsl
