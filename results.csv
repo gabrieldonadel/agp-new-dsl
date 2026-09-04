@@ -628,3 +628,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @arms/rum-reactnative,0.1.3-beta.4,fail-newdsl
 @artim-industries/stacktrace-sdk-react-native,,pass
 @ascendtis/react-native-voice-to-text,,fail-newdsl
+@ashworthhub/twilio-voice-expo,1.6.1-expo.14,fail-newdsl
