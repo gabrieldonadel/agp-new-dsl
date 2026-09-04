@@ -537,3 +537,4 @@ react-native-splash-screen,3.3.0,fail-baseline
 react-native-sqlite-storage,6.0.1,fail-baseline
 react-native-ssl-pinning,1.6.0,fail-baseline
 react-native-startup-time,2.1.0,pass
+react-native-store-review,0.5.0,pass
