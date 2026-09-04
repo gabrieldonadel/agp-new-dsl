@@ -484,3 +484,4 @@ react-native-change-icon,5.0.0,pass
 react-native-cloud-storage,3.1.0,fail-newdsl
 react-native-clusterer,5.0.2,fail-baseline
 react-native-contacts,8.0.10,pass
+react-native-crisp-chat-sdk,0.23.1,fail-newdsl
