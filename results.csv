@@ -546,3 +546,4 @@ react-native-udp,4.1.7,pass
 react-native-ui-lib,9.1.2,fail-baseline
 react-native-ux-cam,6.0.22,pass
 react-native-vision-camera-resizer,5.2.3,fail-baseline
+react-native-vizbee-receiver-sdk,0.0.26,fail-baseline
