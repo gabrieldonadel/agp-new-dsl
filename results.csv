@@ -437,3 +437,4 @@ whisper.rn,,pass
 @supersami/rn-foreground-service,2.2.5,pass
 @survicate/react-native-survicate,8.3.2,fail-baseline
 @theoplayer/react-native-engage,0.6.0,fail-newdsl
+@tryvital/vital-core-react-native,6.0.2,fail-baseline
