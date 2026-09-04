@@ -620,3 +620,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @appmetrica/react-native-varioqub,0.1.0,pass
 @approov/approov-service-react-native,3.5.17,pass
 @approov/react-native-approov,3.2.5,fail-baseline
+@appzung/react-native-code-push,11.0.5,pass
