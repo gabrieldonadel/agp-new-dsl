@@ -385,3 +385,4 @@ whisper.rn,,pass
 @clevertap/clevertap-expo-plugin,1.0.0,fail-baseline
 @didit-protocol/sdk-react-native,4.7.5,fail-baseline
 @domir/react-native-measure-text,0.1.9,fail-newdsl
+@dynatrace/react-native-plugin,2.345.1,fail-baseline
