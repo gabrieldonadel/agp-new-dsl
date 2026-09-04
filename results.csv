@@ -424,3 +424,4 @@ whisper.rn,,pass
 @riskified/react-native-riskified-sdk,1.4.1,fail-baseline
 @rntp/player,5.9.2,fail-newdsl
 @rnw-community/react-native-payments,2.17.1,fail-baseline
+@rokt/react-native-sdk,5.1.2,fail-newdsl
