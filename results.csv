@@ -450,3 +450,4 @@ clevertap-react-native,4.3.1,fail-newdsl
 crisp-sdk-react-native,0.4.2,pass
 expo-age-range,57.0.4,pass
 expo-barcode-scanner,13.0.1,fail-baseline
+expo-callkit-telecom,0.4.0,fail-baseline
