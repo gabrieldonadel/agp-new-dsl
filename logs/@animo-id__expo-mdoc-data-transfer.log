@@ -1,0 +1,421 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add @animo-id/expo-mdoc-data-transfer
+yarn add v1.22.22
+[1/4] Resolving packages...
+warning @animo-id/expo-mdoc-data-transfer > @expo/config-plugins > glob@7.1.6: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @animo-id/expo-mdoc-data-transfer > @expo/config-plugins > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning @animo-id/expo-mdoc-data-transfer > @expo/config-plugins > @expo/plist > @xmldom/xmldom@0.7.13: this version has critical issues, please update to the latest version
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 17 new dependencies.
+info Direct dependencies
+└─ @animo-id/expo-mdoc-data-transfer@0.1.4-alpha.3
+info All dependencies
+├─ @animo-id/expo-mdoc-data-transfer@0.1.4-alpha.3
+├─ @babel/highlight@7.25.9
+├─ buffer@6.0.3
+├─ concat-map@0.0.1
+├─ find-up@5.0.0
+├─ fs.realpath@1.0.0
+├─ ieee754@1.2.1
+├─ imurmurhash@0.1.4
+├─ inflight@1.0.6
+├─ locate-path@6.0.0
+├─ p-limit@3.1.0
+├─ p-locate@5.0.0
+├─ path-exists@4.0.0
+├─ path-is-absolute@1.0.1
+├─ slash@3.0.0
+├─ write-file-atomic@2.4.3
+└─ yocto-queue@0.1.0
+Done in 1.69s.
+› Added config plugin: @animo-id/expo-mdoc-data-transfer
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors
+> Task :expo-module-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :expo-module-gradle-plugin:compileKotlin
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes
+> Task :expo-module-gradle-plugin:jar
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+
+Using expo modules
+  - [32manimo-id-expo-mdoc-data-transfer[0m (0.1.0)
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':animo-id-expo-mdoc-data-transfer:compileDebugJavaWithJavac'.
+> Could not resolve all dependencies for configuration ':animo-id-expo-mdoc-data-transfer:debugCompileClasspath'.
+   > Could not find eu.europa.ec.eudi:eudi-lib-android-iso18013-data-transfer:0.3.0-SNAPSHOT.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://dl.google.com/dl/android/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+       - https://repo.maven.apache.org/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+       - https://www.jitpack.io/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://www.jitpack.io/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+     Required by:
+         project ':animo-id-expo-mdoc-data-transfer'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5s
+28 actionable tasks: 28 executed
+== retry without new DSL flags
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :animo-id-expo-mdoc-data-transfer
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :expo
+
+Using expo modules
+  - [32manimo-id-expo-mdoc-data-transfer[0m (0.1.0)
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':animo-id-expo-mdoc-data-transfer:compileDebugJavaWithJavac'.
+> Could not resolve all dependencies for configuration ':animo-id-expo-mdoc-data-transfer:debugCompileClasspath'.
+   > Could not find eu.europa.ec.eudi:eudi-lib-android-iso18013-data-transfer:0.3.0-SNAPSHOT.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://dl.google.com/dl/android/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+       - https://repo.maven.apache.org/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+       - https://www.jitpack.io/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/maven-metadata.xml
+       - https://www.jitpack.io/eu/europa/ec/eudi/eudi-lib-android-iso18013-data-transfer/0.3.0-SNAPSHOT/eudi-lib-android-iso18013-data-transfer-0.3.0-SNAPSHOT.pom
+     Required by:
+         project ':animo-id-expo-mdoc-data-transfer'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+28 actionable tasks: 28 up-to-date
+yarn remove v1.22.22
+[1/2] Removing module @animo-id/expo-mdoc-data-transfer...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+success Uninstalled packages.
+Done in 0.70s.
