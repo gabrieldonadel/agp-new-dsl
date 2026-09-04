@@ -454,3 +454,4 @@ expo-callkit-telecom,0.4.0,fail-baseline
 expo-dev-menu,57.0.18,fail-baseline
 expo-dynamic-app-icon,1.2.0,fail-baseline
 expo-image-crop-tool,0.4.0,pass
+expo-mlkit-ocr,0.2.7,pass
