@@ -622,3 +622,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @approov/react-native-approov,3.2.5,fail-baseline
 @appzung/react-native-code-push,11.0.5,pass
 @archimedes4/expo-msal,0.1.19,fail-baseline
+@argyleio/argyle-plugin-react-native,5.15.5,fail-baseline
