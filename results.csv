@@ -588,3 +588,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @alexzunik/react-native-money-input,0.5.3,fail-newdsl
 @alvie-tech/react-native-tiktok-business-sdk,1.7.1,fail-newdsl
 @amehmeto/expo-list-installed-apps,0.1.0,fail-baseline
+@amityco/react-native-social-uikit,4.1.0,fail-newdsl
