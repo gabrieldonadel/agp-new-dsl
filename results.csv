@@ -553,3 +553,4 @@ react-native-zendesk-messaging,0.3.2,fail-baseline
 react-native-zeroconf,0.14.0,pass
 rn-android-keyboard-adjust,2.1.2,pass
 rn-fetch-blob,0.12.0,fail-baseline
+stream-chat-react-native,9.8.2,fail-newdsl
