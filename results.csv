@@ -583,3 +583,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @akhilpulse/samadhaan-session-replay,0.6.8,fail-baseline
 @akta/react-native-passkey-autofill,1.0.0-canary.18,fail-baseline
 @aldiand/react-native-callkeep,5.3.3,pass
+@aldiand/react-native-pjsip,2.9.24,fail-baseline
