@@ -574,3 +574,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @adobe/react-native-aepcampaignclassic,7.0.0,fail-baseline
 @adobe/react-native-aeptarget,7.0.1,fail-baseline
 @adrianso/react-native-device-brightness,1.2.7,pass
+@adstage/react-native-sdk,1.0.11,fail-baseline
