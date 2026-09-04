@@ -32,6 +32,7 @@ The scripts commit locally only.
 | `libs-scan.tsv` | `package<TAB>verdict<TAB>detail` for every row. Cache, resumable. |
 | `libs-android.txt` | 3888 packages that ship a buildable Android native module. |
 | `libs-android-example-only.txt` | 94 packages whose only `android/build.gradle` is in an example or test app. |
+| `upstream-prs.md` | Every pull request filed from this harness, with live state. |
 | `scripts/test-libs.sh` | Builds each package in `libs.txt` and records the result. |
 | `results.csv` | `package,version,status`. One row per tested package. |
 | `logs/<pkg>.log` | Full install and Gradle output per package. `/` in names becomes `__`. |
@@ -217,36 +218,28 @@ The full per-package list is `results.csv`, with one log each under `logs/`.
 
 ### How far the upstream PRs go
 
-144 packages hit the Kotlin plugin collision. 29
-are already handled: patched by the PRs below, fixed upstream, or carrying
-someone else's PR. **115 are not**, which is
-79% of the affected packages.
+144 packages hit the Kotlin plugin collision. Every one that can take a pull
+request now has one. The breakdown accounts for all 144:
 
-That number is less alarming than it looks. The unaddressed set is the long
-tail: every one sits at usage <= 0.009, while the
-packages with real adoption were in the first 157 and have patches. Highest
-usage still unaddressed:
-
-| Package | Usage |
+| | Count |
 |---|---|
-| @preeternal/react-native-cookie-manager | 0.009 |
-| @segment/sovran-react-native | 0.009 |
-| customerio-reactnative | 0.008 |
-| react-native-bootsplash | 0.008 |
-| react-native-document-scanner-plugin | 0.008 |
-| react-native-teleport | 0.008 |
-| @microsoft/react-native-clarity | 0.007 |
-| @posthog/react-native-plugin | 0.007 |
-| @react-native-documents/picker | 0.007 |
-| @react-native-vector-icons/ionicons | 0.007 |
-| react-native-audio-api | 0.007 |
-| react-native-bottom-tabs | 0.007 |
-| react-native-image-colors | 0.007 |
-| react-native-volume-manager | 0.007 |
-| @react-native-vector-icons/material-design-icons | 0.006 |
+| covered by a pull request from this harness | 126 |
+| already fixed upstream before we looked | 3 |
+| carrying another contributor's pull request | 2 |
+| no repository field on npm, or not hosted on GitHub | 4 |
+| repository returns 404 | 2 |
+| repository archived and read-only | 2 |
+| no unconditional apply left upstream | 4 |
+| declares the plugin in a `plugins {}` block | 1 |
+| **total** | **144** |
 
-It is the same one-line change every time, so this is mechanical work rather
-than 115 separate investigations.
+The `plugins {}` case needs a different construction than a conditional `apply`,
+so it is left for manual work rather than patched by pattern.
+
+105 pull requests cover the 126 packages, because several repositories are
+monorepos where one PR fixes many: `oblador/react-native-vector-icons` is 41
+files across 13 packages, `THEOplayer/react-native-connectors` is 11 files, and
+`infinitered/react-native-mlkit` is 5.
 
 ### `timeout` (1)
 
@@ -266,44 +259,16 @@ case. See the notes further down.
 
 ### Upstream fixes
 
-The 29 `Failed to apply plugin` cases are one bug with one fix: apply the
-Kotlin plugin only when AGP is not already providing it. `react-native-screens`
-already does this, which is why it passes.
+The 144 collision cases are one bug with one fix: apply the Kotlin plugin only
+when AGP is not already providing it. `react-native-screens` already does this,
+which is why it passes.
 
-Patches are filed for every affected library that still needed one and accepts
-pull requests. See "Not filed" below for the rest.
-State as of 2026-09-03: **4 merged, 18 open**.
+**105 pull requests are filed, covering 126 packages across 105 repositories.**
+The full list with live state is [`upstream-prs.md`](upstream-prs.md).
 
-| Package | Usage | PR | Status |
-|---|---|---|---|
-| @react-native-community/datetimepicker | 0.288 | [react-native-datetimepicker/datetimepicker#1058](https://github.com/react-native-datetimepicker/datetimepicker/pull/1058) | open |
-| react-native-purchases | 0.136 | [RevenueCat/react-native-purchases#1934](https://github.com/RevenueCat/react-native-purchases/pull/1934) | merged 2026-09-03 |
-| @react-native-google-signin/google-signin | 0.132 | [react-native-google-signin/google-signin#1524](https://github.com/react-native-google-signin/google-signin/pull/1524) | merged 2026-09-03 |
-| react-native-nitro-modules | 0.115 | [margelo/nitro#1579](https://github.com/margelo/nitro/pull/1579) | open |
-| react-native-google-mobile-ads | 0.039 | [invertase/react-native-google-mobile-ads#886](https://github.com/invertase/react-native-google-mobile-ads/pull/886) | open |
-| react-native-edge-to-edge | 0.038 | [zoontek/react-native-edge-to-edge#108](https://github.com/zoontek/react-native-edge-to-edge/pull/108) | open |
-| @datadog/mobile-react-native | 0.029 | [DataDog/dd-sdk-reactnative#1394](https://github.com/DataDog/dd-sdk-reactnative/pull/1394) | open |
-| react-native-permissions | 0.026 | [zoontek/react-native-permissions#987](https://github.com/zoontek/react-native-permissions/pull/987) | open |
-| @react-native-menu/menu | 0.02 | [react-native-menu/menu#1226](https://github.com/react-native-menu/menu/pull/1226) | open |
-| react-native-video | 0.018 | [TheWidlarzGroup/react-native-video#5082](https://github.com/TheWidlarzGroup/react-native-video/pull/5082) | open |
-| react-native-localize | 0.017 | [zoontek/react-native-localize#343](https://github.com/zoontek/react-native-localize/pull/343) | open |
-| @maplibre/maplibre-react-native | 0.017 | [maplibre/maplibre-react-native#1645](https://github.com/maplibre/maplibre-react-native/pull/1645) | open |
-| @braze/react-native-sdk | 0.017 | [braze-inc/braze-react-native-sdk#333](https://github.com/braze-inc/braze-react-native-sdk/pull/333) | open |
-| @amplitude/analytics-react-native | 0.016 | [amplitude/Amplitude-TypeScript#1966](https://github.com/amplitude/Amplitude-TypeScript/pull/1966) | open |
-| @rudderstack/rudder-sdk-react-native | 0.013 | [rudderlabs/rudder-sdk-react-native#696](https://github.com/rudderlabs/rudder-sdk-react-native/pull/696) | open |
-| rive-react-native | 0.012 | [rive-app/rive-react-native#446](https://github.com/rive-app/rive-react-native/pull/446) | open |
-| react-native-keychain | 0.012 | [oblador/react-native-keychain#812](https://github.com/oblador/react-native-keychain/pull/812) | open |
-| @lodev09/react-native-true-sheet | 0.012 | [lodev09/react-native-true-sheet#819](https://github.com/lodev09/react-native-true-sheet/pull/819) | merged 2026-09-02 |
-| @aws-amplify/react-native | 0.011 | [aws-amplify/amplify-js#14933](https://github.com/aws-amplify/amplify-js/pull/14933) | open |
-| react-native-enriched-markdown | 0.011 | [software-mansion/enriched-markdown#744](https://github.com/software-mansion/enriched-markdown/pull/744) | merged 2026-09-03 |
-| @invertase/react-native-apple-authentication | 0.01 | [invertase/react-native-apple-authentication#390](https://github.com/invertase/react-native-apple-authentication/pull/390) | open |
-| @op-engineering/op-sqlite | 0.01 | [OP-Engineering/op-sqlite#447](https://github.com/OP-Engineering/op-sqlite/pull/447) | open |
-
-`react-native-purchases-ui` is fixed by the same PR as `react-native-purchases`.
-
-Two variants of the guard are in use. Most PRs derive the answer from the AGP
-major version and the `android.builtInKotlin` property. The RevenueCat PR checks
-for the registered extension directly, at maintainer request:
+Round 1 (22 PRs) derived the answer from the AGP major version and the
+`android.builtInKotlin` property. Round 2 (83 PRs) checks for the registered
+extension directly, at the suggestion of the RevenueCat maintainer who merged it:
 
 ```groovy
 if (project.extensions.findByName('kotlin') == null) {
@@ -311,10 +276,12 @@ if (project.extensions.findByName('kotlin') == null) {
 }
 ```
 
-The second form is simpler and needs no version table. It also covers AGP 10,
-where the `android.builtInKotlin` opt-out is removed. Both forms were verified
-in this harness against AGP 9.2.1: `:app:assembleDebug` succeeds with both
-flags on and with both flags off.
+The second form is simpler, needs no version table, and covers AGP 10 where the
+opt-out is removed. It is only correct if AGP has already registered its
+extensions, so the Kotlin apply must come after `apply plugin:
+'com.android.library'`. That ordering was checked in every file rather than
+assumed. Both forms were verified in this harness against AGP 9.2.1:
+`:app:assembleDebug` succeeds with both flags on and with both flags off.
 
 #### Not filed
 
