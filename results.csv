@@ -535,3 +535,4 @@ react-native-sherpa-onnx,0.4.3,fail-newdsl
 react-native-snackbar,3.0.1,fail-newdsl
 react-native-splash-screen,3.3.0,fail-baseline
 react-native-sqlite-storage,6.0.1,fail-baseline
+react-native-ssl-pinning,1.6.0,fail-baseline
