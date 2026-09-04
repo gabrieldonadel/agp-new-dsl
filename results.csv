@@ -432,3 +432,4 @@ whisper.rn,,pass
 @simform_solutions/react-native-audio-waveform,2.1.6,fail-newdsl
 @siteed/audio-studio,3.2.1,fail-newdsl
 @splitsoftware/splitio-react-native,1.5.0,pass
+@stream-io/react-native-callingx,0.11.0,fail-baseline
