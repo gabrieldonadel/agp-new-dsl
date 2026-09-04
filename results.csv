@@ -605,3 +605,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @anttech/react-native-ftp,0.2.3,fail-newdsl
 @aparajita/capacitor-biometric-auth,10.0.0,pass
 @aparajita/capacitor-secure-storage,8.0.0,pass
+@apescoding/ffmpeg-kit-react-native,1.0.8,fail-baseline
