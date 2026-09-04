@@ -446,3 +446,4 @@ whisper.rn,,pass
 airbridge-expo-sdk,4.10.0,fail-baseline
 airbridge-react-native-sdk,4.10.0,fail-newdsl
 appcenter,5.0.3,pass
+clevertap-react-native,4.3.1,fail-newdsl
