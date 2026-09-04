@@ -416,3 +416,4 @@ whisper.rn,,pass
 @react-native-ml-kit/barcode-scanning,2.0.0,pass
 @react-native-seoul/naver-login,5.0.1,fail-baseline
 @react-native-vector-icons/entypo,,fail-newdsl
+@react-native-vector-icons/evil-icons,,fail-newdsl
