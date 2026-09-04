@@ -562,3 +562,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @100mslive/react-native-hms,1.12.3,fail-newdsl
 @100mslive/react-native-video-plugin,1.1.4,fail-baseline
 @1interface/live-voice-stream-kit,0.1.0,pass
+@1mt/expo-on-device-ai,0.1.0,fail-baseline
