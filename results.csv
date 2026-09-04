@@ -541,3 +541,4 @@ react-native-store-review,0.5.0,pass
 react-native-system-navigation-bar,3.0.1,fail-newdsl
 react-native-thermal-receipt-printer,1.2.0-rc.2,fail-baseline
 react-native-tts,4.1.1,fail-baseline
+react-native-turbo-image,1.24.3,fail-newdsl
