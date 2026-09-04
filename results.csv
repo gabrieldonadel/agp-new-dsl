@@ -529,3 +529,4 @@ react-native-randombytes,3.6.2,pass
 react-native-restart-newarch,1.0.87,fail-newdsl
 react-native-rsa-native,2.0.5,fail-baseline
 react-native-screenshot-aware,2.1.2,fail-newdsl
+react-native-sensitive-info,6.1.5,fail-baseline
