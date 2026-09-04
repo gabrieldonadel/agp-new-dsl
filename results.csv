@@ -571,3 +571,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ada-support/react-native-sdk,3.2.8,fail-baseline
 @adapty/react-native-ui,3.1.0,fail-baseline
 @ademhatay/expo-google-signin,0.2.22,pass
+@adobe/react-native-aepcampaignclassic,7.0.0,fail-baseline
