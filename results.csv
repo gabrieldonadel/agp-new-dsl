@@ -495,3 +495,4 @@ react-native-filament,1.11.0,fail-baseline
 react-native-file-access,4.0.3,fail-newdsl
 react-native-file-viewer-turbo,0.7.5,fail-newdsl
 react-native-floating-label-input,1.4.3,pass
+react-native-freshchat-sdk,7.6.3,fail-baseline
