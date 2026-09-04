@@ -390,3 +390,4 @@ whisper.rn,,pass
 @embrace-io/react-native,7.1.0,fail-newdsl
 @fugood/react-native-audio-pcm-stream,1.1.4,pass
 @getcello/cello-react-native,0.13.0,fail-newdsl
+@googlemaps/react-native-navigation-sdk,0.17.1,fail-baseline
