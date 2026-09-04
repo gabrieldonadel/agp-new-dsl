@@ -421,3 +421,4 @@ whisper.rn,,pass
 @react-native-vector-icons/get-image,13.0.0,fail-newdsl
 @react-native-vector-icons/lucide,,fail-newdsl
 @react-native-vector-icons/octicons,,fail-newdsl
+@riskified/react-native-riskified-sdk,1.4.1,fail-baseline
