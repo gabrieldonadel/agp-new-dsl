@@ -609,3 +609,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @api.video/react-native-livestream,2.0.2,fail-baseline
 @apollohg/react-native-prose-editor,1.0.3,fail-newdsl
 @appandflow/expo-camera-characteristics,1.2.1,fail-newdsl
+@appboxo/expo-boxo-sdk,0.15.0,pass
