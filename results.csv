@@ -613,3 +613,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @appcircle/react-native-code-push,0.1.1,fail-baseline
 @appcitor/react-native-voice-to-text,,fail-newdsl
 @appcues/expo-config,5.0.0,fail-baseline
+@appcues/react-native,5.0.7,fail-baseline
