@@ -491,3 +491,4 @@ react-native-exit-app,2.0.0,pass
 react-native-exponea-sdk,4.1.0,fail-newdsl
 react-native-fast-opencv,1.0.1,fail-newdsl
 react-native-fast-squircle,1.1.5,fail-baseline
+react-native-filament,1.11.0,fail-baseline
