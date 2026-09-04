@@ -594,3 +594,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @amplitude/session-replay-react-native,1.0.1,fail-newdsl
 @and2long/react-native-uvc-camera,0.1.4,fail-newdsl
 @angelcat/react-native-honeywell-barcode-scanner,0.0.8,fail-newdsl
+@angelcat/rn-pdf-thumbnail,1.0.3,fail-baseline
