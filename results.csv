@@ -581,3 +581,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ajitpatel28/react-native-truecaller,,fail-baseline
 @akbaraditamasp/expo-lock-task,0.1.1,fail-newdsl
 @akhilpulse/samadhaan-session-replay,0.6.8,fail-baseline
+@akta/react-native-passkey-autofill,1.0.0-canary.18,fail-baseline
