@@ -375,3 +375,4 @@ rn-pendo-sdk,3.14.1,fail-baseline
 whisper.rn,,pass
 @adobe/react-native-aepedgeconsent,7.0.1,fail-baseline
 @amplitude/plugin-engagement-react-native,3.14.0,fail-newdsl
+@amplitude/react-native,2.17.3,pass
