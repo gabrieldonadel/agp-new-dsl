@@ -451,3 +451,4 @@ crisp-sdk-react-native,0.4.2,pass
 expo-age-range,57.0.4,pass
 expo-barcode-scanner,13.0.1,fail-baseline
 expo-callkit-telecom,0.4.0,fail-baseline
+expo-dev-menu,57.0.18,fail-baseline
