@@ -497,3 +497,4 @@ react-native-file-viewer-turbo,0.7.5,fail-newdsl
 react-native-floating-label-input,1.4.3,pass
 react-native-freshchat-sdk,7.6.3,fail-baseline
 react-native-gleapsdk,17.0.0,pass
+react-native-image-resizer,1.4.5,pass
