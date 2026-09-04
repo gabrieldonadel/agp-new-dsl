@@ -13,7 +13,7 @@ https://github.com/IvanIhnatsiuk/react-native-advanced-input-mask/pull/156	2	1	r
 https://github.com/JairajJangle/react-native-navigation-mode/pull/28	2	1	react-native-navigation-mode	
 https://github.com/LottieFiles/dotlottie-react-native/pull/84	2	1	@lottiefiles/dotlottie-react-native	
 https://github.com/OP-Engineering/op-sqlite/pull/447	1	1	@op-engineering/op-sqlite	
-https://github.com/PostHog/posthog-js/pull/4789	2	2	@posthog/react-native-plugin	Maintainer asked for a changeset (added) and signed commits. Signing needs a key on the account; offered squash-merge via the UI or taking the change directly as alternatives.
+https://github.com/PostHog/posthog-js/pull/4789	2	2	@posthog/react-native-plugin	Maintainer asked for a changeset (added) and signed commits (done; both commits verify). Awaiting review approval.
 https://github.com/Preeternal/react-native-cookie-manager/pull/5	2	1	@preeternal/react-native-cookie-manager	
 https://github.com/ROKT/rokt-sdk-react-native/pull/301	2	1	@rokt/react-native-sdk	
 https://github.com/RevenueCat/react-native-purchases/pull/1934	1	1	react-native-purchases	Maintainer asked for the extension check instead of the version table; switched, then merged. Round 2 follows their shape.
