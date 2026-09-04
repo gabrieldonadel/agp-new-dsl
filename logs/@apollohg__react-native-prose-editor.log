@@ -1,0 +1,1186 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add @apollohg/react-native-prose-editor
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning " > @apollohg/react-native-prose-editor@1.0.3" has unmet peer dependency "@expo/vector-icons@>=14.0.0".
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 1 new dependency.
+info Direct dependencies
+└─ @apollohg/react-native-prose-editor@1.0.3
+info All dependencies
+└─ @apollohg/react-native-prose-editor@1.0.3
+Done in 2.12s.
+› Added config plugin: @apollohg/react-native-prose-editor
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors
+> Task :expo-module-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :expo-module-gradle-plugin:compileKotlin
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes
+> Task :expo-module-gradle-plugin:jar
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :expo
+
+Using expo modules
+  - [32mapollohg-react-native-prose-editor[0m (unspecified)
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Task :apollohg-react-native-prose-editor:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:processDebugNavigationResources
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :expo-log-box:generateDebugBuildConfig
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :expo-log-box:generateDebugResources
+> Task :apollohg-react-native-prose-editor:generateDebugResources
+> Task :expo-modules-core:generateDebugResources
+> Task :app:generateReactNativeEntryPoint
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:packageDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-modules-core:processDebugNavigationResources
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:parseDebugLocalResources
+> Task :apollohg-react-native-prose-editor:packageDebugResources
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-log-box:mergeDebugAssets
+> Task :expo-modules-core:mergeDebugAssets
+> Task :apollohg-react-native-prose-editor:processDebugNavigationResources
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-log-box:writeDebugAarMetadata
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :apollohg-react-native-prose-editor:parseDebugLocalResources
+> Task :expo-modules-core:extractDeepLinksDebug
+> Task :apollohg-react-native-prose-editor:javaPreCompileDebug
+> Task :apollohg-react-native-prose-editor:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :apollohg-react-native-prose-editor:mergeDebugAssets
+> Task :expo-log-box:processDebugManifest
+> Task :apollohg-react-native-prose-editor:generateDebugRFile
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :apollohg-react-native-prose-editor:mapDebugSourceSetPaths
+> Task :apollohg-react-native-prose-editor:compileDebugLibraryResources
+> Task :apollohg-react-native-prose-editor:writeDebugAarMetadata
+> Task :apollohg-react-native-prose-editor:extractDeepLinksDebug
+> Task :apollohg-react-native-prose-editor:mergeDebugJniLibFolders
+> Task :apollohg-react-native-prose-editor:processDebugManifest
+> Task :apollohg-react-native-prose-editor:mergeDebugNativeLibs NO-SOURCE
+> Task :apollohg-react-native-prose-editor:copyDebugJniLibsProjectOnly
+> Task :expo:generateInlineModules
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo:processDebugNavigationResources
+> Task :expo:generateDebugResources
+> Task :expo:packageDebugResources
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo:mergeDebugAssets
+> Task :expo:parseDebugLocalResources
+> Task :expo:writeDebugAarMetadata
+> Task :expo:extractDeepLinksDebug
+> Task :expo:mapDebugSourceSetPaths
+> Task :expo:generateDebugRFile
+> Task :expo:processDebugManifest
+> Task :expo:compileDebugLibraryResources
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :expo-constants:preDebugBuild
+> Task :expo-constants:processDebugNavigationResources
+> Task :expo-constants:generateDebugResources
+> Task :apollohg_react-native-prose-editor:generateCodegenSchemaFromJavaScript
+> Task :expo-constants:packageDebugResources
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-constants:mergeDebugAssets
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-constants:generateDebugRFile
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:processDebugManifest
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :expo-modules-core:mapDebugSourceSetPaths
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :apollohg_react-native-prose-editor:generateCodegenArtifactsFromSchema
+> Task :apollohg_react-native-prose-editor:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :apollohg_react-native-prose-editor:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateDebugBuildConfig
+> Task :apollohg_react-native-prose-editor:generateDebugResources
+> Task :apollohg_react-native-prose-editor:packageDebugResources
+> Task :apollohg_react-native-prose-editor:processDebugNavigationResources
+> Task :apollohg_react-native-prose-editor:generateDebugAssets UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:javaPreCompileDebug
+> Task :apollohg_react-native-prose-editor:parseDebugLocalResources
+> Task :apollohg_react-native-prose-editor:mergeDebugAssets
+> Task :apollohg_react-native-prose-editor:generateDebugRFile
+> Task :apollohg_react-native-prose-editor:mapDebugSourceSetPaths
+> Task :apollohg_react-native-prose-editor:compileDebugLibraryResources
+> Task :apollohg_react-native-prose-editor:writeDebugAarMetadata
+> Task :apollohg_react-native-prose-editor:extractDeepLinksDebug
+> Task :apollohg_react-native-prose-editor:processDebugManifest
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :apollohg_react-native-prose-editor:mergeDebugJniLibFolders
+> Task :apollohg_react-native-prose-editor:mergeDebugNativeLibs
+> Task :apollohg_react-native-prose-editor:copyDebugJniLibsProjectOnly
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+
+> Task :app:processDebugMainManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
+	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :app:expoDebugOverrideMaxSdkConflicts
+[33m---------- Expo Max Sdk Override Plugin ----------[0m
+[32m>>> No 'android:maxSdkVersion' conflicts found[0m
+[33m--------------------------------------------------[0m
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexDebug
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
+
+> Task :app:processDebugResources
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-modules-core:processDebugJavaRes
+> Task :expo-modules-core:mergeDebugJniLibFolders
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :expo-constants:compileDebugKotlin
+> Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-log-box:compileDebugKotlin
+> Task :expo-log-box:compileDebugJavaWithJavac
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libjnidispatch.so. Run with --info option to learn more.
+
+> Task :apollohg_react-native-prose-editor:compileDebugKotlin FAILED
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorExpoView.kt:39:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:9:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:11:47 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:11:63 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:13:5 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:33:45 Unresolved reference 'editorV2Destroy'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:53:26 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:53:44 Unresolved reference 'editorV2Destroy'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:54:4 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:83:28 Unresolved reference 'error'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:85:20 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:86:20 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:88:23 Unresolved reference 'code'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:89:20 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:127:52 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:127:68 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:129:5 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:146:13 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:147:17 Unresolved reference 'domain'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:148:15 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:149:18 Unresolved reference 'message'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:150:20 Unresolved reference 'requestId'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:151:25 Unresolved reference 'operationIndex'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:152:16 Unresolved reference 'limit'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:153:17 Unresolved reference 'actual'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:154:22 Unresolved reference 'detailsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:168:13 Unresolved reference 'FfiJsonResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:169:22 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:169:40 Function invocation 'error(...)' expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:169:47 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:171:13 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:172:22 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:172:40 Function invocation 'error(...)' expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:172:47 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:174:13 Unresolved reference 'FfiSnapshotExportResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:174:68 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:5 Argument type mismatch: actual type is 'Pair<String, uninferred B (of fun <A, B> A.to)>', but 'Pair<uninferred K (of fun <K, V> mapOf), uninferred V (of fun <K, V> mapOf)>' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:13 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:16 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:16 Argument type mismatch: actual type is 'R? (of fun <T, R> T.let)', but 'B (of fun <A, B> A.to)' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:23 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:175:27 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:9 Not enough information to infer type argument for 'V'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:30 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:30 Not enough information to infer type argument for 'B'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:36 Unresolved reference 'metadataJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:65 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:65 Not enough information to infer type argument for 'B'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:176:71 Unresolved reference 'encodedState'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:178:5 Argument type mismatch: actual type is 'Pair<String, uninferred B (of fun <A, B> A.to)>', but 'Pair<uninferred K (of fun <K, V> mapOf), uninferred V (of fun <K, V> mapOf)>' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:178:13 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:178:16 Function invocation 'error(...)' expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:178:23 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:201:7 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:211:74 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:224:37 Unresolved reference 'FfiJsonResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:224:55 Unresolved reference 'editorV2Create'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:225:26 Unresolved reference 'FfiUnitResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:225:44 Unresolved reference 'editorV2Destroy'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:228:24 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:229:24 Unresolved reference 'error'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:236:43 Argument type mismatch: actual type is 'Any', but 'String' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:238:33 Argument type mismatch: actual type is 'Any', but 'String?' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:256:13 Unresolved reference 'FfiJsonResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:258:16 Unresolved reference 'error'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:258:40 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:259:23 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:260:31 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:260:40 Unresolved reference 'optBoolean'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:328:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:331:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:332:13 Unresolved reference 'editorV2GetState'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:334:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:335:13 Unresolved reference 'editorV2GetDocumentJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:337:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:338:13 Unresolved reference 'editorV2GetDocumentHtml'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:340:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:341:13 Unresolved reference 'editorV2GetContentSnapshot'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:344:38 Unresolved reference 'editorV2ReplaceDocument'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:347:38 Unresolved reference 'editorV2ApplyInput'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:350:38 Unresolved reference 'editorV2ApplyCommand'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:353:38 Unresolved reference 'editorV2ApplyLocalApi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:355:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:356:13 Unresolved reference 'editorV2SetSelection'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:359:38 Unresolved reference 'editorV2Undo'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:362:38 Unresolved reference 'editorV2Redo'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:373:13 Unresolved reference 'editorV2RenderUpdate'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:387:35 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:404:35 Overload resolution ambiguity between candidates:
+fun <ERROR TYPE REF: Symbol not found for FfiError>.toJSMap(): Map<String, Any?>
+fun EditorV2Error.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiJsonResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiUnitResult>.toJSMap(): Map<String, Any?>
+fun <ERROR TYPE REF: Symbol not found for FfiSnapshotExportResult>.toJSMap(): Map<String, Any?>
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:407:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:408:26 Unresolved reference 'editorV2CollaborationSetAwareness'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:417:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:418:13 Unresolved reference 'editorV2CollaborationPeers'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:421:9 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:422:13 Unresolved reference 'editorV2SnapshotExport'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorModule.kt:427:17 Unresolved reference 'editorV2SnapshotRestore'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:3:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:4:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:5:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:6:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:7:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:8:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:9:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:10:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:11:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:12:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:13:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:14:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:15:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:16:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:17:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:18:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:19:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:20:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:21:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:22:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:23:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:24:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:25:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:26:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:27:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:28:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:29:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:30:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:31:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:32:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:33:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:34:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:35:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:36:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:37:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:47:17 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:23 Unresolved reference 'domain'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:31 Argument type mismatch: actual type is 'Int', but 'String' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:31 Unresolved reference 'FfiError'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:37 Unresolved reference 'message'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:46 Unresolved reference 'requestId'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:57 Unresolved reference 'operationIndex'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:73 Unresolved reference 'limit'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:80 Unresolved reference 'actual'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:48:88 Unresolved reference 'detailsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:53:35 Unresolved reference 'FfiJsonResult'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:54:28 Unresolved reference 'value'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:55:28 Unresolved reference 'error'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:56:52 Return type mismatch: expected 'EditorV2CallResult<String>', actual 'EditorV2CallResult.Ok<Any>'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:62:19 Unresolved reference 'editorV2Create'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:65:9 Unresolved reference 'editorV2Destroy'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:68:19 Unresolved reference 'editorV2GetState'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:71:19 Unresolved reference 'editorV2GetDocumentJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:74:19 Unresolved reference 'editorV2GetDocumentHtml'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:77:19 Unresolved reference 'editorV2GetContentSnapshot'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:80:19 Unresolved reference 'editorV2ApplyInput'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:83:19 Unresolved reference 'editorV2ApplyCommand'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:86:19 Unresolved reference 'editorV2ApplyLocalApi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:89:19 Unresolved reference 'editorV2ReplaceDocument'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:92:19 Unresolved reference 'editorV2SetSelection'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:95:19 Unresolved reference 'editorV2Undo'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:98:19 Unresolved reference 'editorV2Redo'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:101:19 Unresolved reference 'editorV2CollaborationDrive'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:108:19 Unresolved reference 'editorV2CollaborationSocketOpen'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:116:19 Unresolved reference 'editorV2CollaborationReceive'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:125:19 Unresolved reference 'editorV2CollaborationSocketClose'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:131:22 Unresolved reference 'editorV2CollaborationLeaseOutbound'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:136:71 Unresolved reference 'leaseId'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:136:86 Unresolved reference 'frame'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:148:19 Unresolved reference 'editorV2CollaborationAckOutbound'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:155:19 Unresolved reference 'editorV2CollaborationNackOutbound'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:158:9 Unresolved reference 'editorV2CollaborationDetach'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:161:9 Unresolved reference 'editorV2CollaborationReattach'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:164:19 Unresolved reference 'editorV2CollaborationPeers'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:170:19 Unresolved reference 'editorV2CollaborationSetAwarenessSelection'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:173:22 Unresolved reference 'editorV2SnapshotExport'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:177:39 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:177:42 Argument type mismatch: actual type is 'Pair<uninferred A (of fun <A, B> A.to), uninferred B (of fun <A, B> A.to)>', but 'T (of class Ok<T>)' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:177:48 Unresolved reference 'metadataJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:177:61 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:177:70 Unresolved reference 'encodedState'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:194:26 Unresolved reference 'editorV2RenderUpdate'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:208:26 Unresolved reference 'editorV2RenderNative'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:216:19 Unresolved reference 'editorV2PinPositionEpoch'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:219:19 Unresolved reference 'editorV2ApplyNativeIntent'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:222:9 Unresolved reference 'editorV2ReleaseNativeBinding'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:230:26 Unresolved reference 'editorV2ResolveScalarSelection'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:236:26 Unresolved reference 'editorV2DocToScalar'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/UniffiEditorV2Backend.kt:242:26 Unresolved reference 'editorV2ScalarToDoc'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1035:34 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1035:100 Unresolved reference 'it'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:11 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:11 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T, R> T.let(block: (T) -> R): R
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:15 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:17 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:54 Unresolved reference 'attrsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:65 Unresolved reference 'optString'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:98 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:98 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.takeIf(predicate: (T) -> Boolean): T?
+    [R|Contract description]
+     <
+        CallsInPlace(predicate, EXACTLY_ONCE)
+    >
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1036:113 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun CharSequence.isNotEmpty(): Boolean
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1038:39 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1050:25 Unresolved reference 'uniffi.editor_core.FfiViewerMark'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1051:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1051:64 Unresolved reference 'attrsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1052:24 Unresolved reference 'markType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1066:112 Unresolved reference 'optDouble'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1066:147 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1066:154 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/AndroidProseLayoutEngine.kt:1066:176 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:8:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:9:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:10:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:11:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:12:8 Unresolved reference 'uniffi'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:46:55 Unresolved reference 'FfiViewerMark'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:106:18 Unresolved reference 'viewerCompile'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:107:9 Unresolved reference 'FfiViewerCompileRequest'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:108:72 Unresolved reference 'FfiViewerSourceKind'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:108:102 Unresolved reference 'FfiViewerSourceKind'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:116:23 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:116:27 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:116:64 Unresolved reference 'domain'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:116:72 Argument type mismatch: actual type is 'Int', but 'String' was expected.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:116:84 Unresolved reference 'message'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:169:39 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:171:20 Unresolved reference 'FfiViewerElement'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:172:55 Unresolved reference 'listContextJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:174:66 Unresolved reference 'depth'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:176:33 Unresolved reference 'nodeType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:177:33 Unresolved reference 'depth'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:183:20 Unresolved reference 'FfiViewerElement'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:183:107 Unresolved reference 'text'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:183:121 Unresolved reference 'marks'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:184:20 Unresolved reference 'FfiViewerElement'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:185:47 Unresolved reference 'nodeType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:185:69 Unresolved reference 'docPos'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:185:86 Unresolved reference 'attrsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:185:105 Unresolved reference 'label'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:187:20 Unresolved reference 'FfiViewerElement'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:188:29 Unresolved reference 'nodeType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:190:54 Unresolved reference 'nodeType'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:190:76 Unresolved reference 'docPos'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:190:93 Unresolved reference 'attrsJson'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:190:112 Unresolved reference 'label'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:193:17 Unresolved reference 'FfiViewerElement'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:194:63 Return type mismatch: expected 'ERROR CLASS: Cannot infer type variable TypeVariable(_L)', actual 'Unit'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/ViewerDocument.kt:226:50 Unresolved reference 'not' for operator '!'.
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':apollohg_react-native-prose-editor:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 20s
+175 actionable tasks: 157 executed, 18 up-to-date
+== retry without new DSL flags
+== 11G free, below 12G: pruning Gradle transforms
+== 14G free after prune
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :apollohg_react-native-prose-editor
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :expo
+
+Using expo modules
+  - [32mapollohg-react-native-prose-editor[0m (unspecified)
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Task :apollohg-react-native-prose-editor:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:processDebugNavigationResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:generateDebugResources UP-TO-DATE
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-log-box:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :expo-log-box:generateDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:packageDebugResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:processDebugNavigationResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :expo-log-box:packageDebugResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:preBuild UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:processDebugNavigationResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateDebugBuildConfig UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateDebugResources UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :apollohg_react-native-prose-editor:packageDebugResources UP-TO-DATE
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:processDebugNavigationResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :expo-log-box:parseDebugLocalResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:parseDebugLocalResources UP-TO-DATE
+> Task :expo-log-box:generateDebugRFile UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:generateDebugRFile UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:javaPreCompileDebug UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug UP-TO-DATE
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:javaPreCompileDebug UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:mergeDebugAssets UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:mergeDebugAssets UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:mergeDebugAssets UP-TO-DATE
+> Task :expo-log-box:writeDebugAarMetadata UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:processDebugJavaRes NO-SOURCE
+> Task :apollohg_react-native-prose-editor:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-log-box:extractDeepLinksDebug UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:mapDebugSourceSetPaths UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:compileDebugLibraryResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:compileDebugLibraryResources UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:writeDebugAarMetadata UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:writeDebugAarMetadata UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-log-box:processDebugManifest UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:generateInlineModules
+> Task :expo-log-box:mapDebugSourceSetPaths UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:processDebugManifest UP-TO-DATE
+> Task :expo:generatePackagesList UP-TO-DATE
+> Task :expo-log-box:compileDebugLibraryResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:processDebugManifest UP-TO-DATE
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo-log-box:mergeDebugJniLibFolders UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:mergeDebugJniLibFolders UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:processDebugNavigationResources UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :apollohg-react-native-prose-editor:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :apollohg-react-native-prose-editor:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:mergeDebugNativeLibs UP-TO-DATE
+> Task :apollohg_react-native-prose-editor:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :expo-constants:preDebugBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :expo-constants:processDebugNavigationResources UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugAssets UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-constants:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+
+> Task :expo-modules-core:compileDebugKotlin
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
+
+> Task :expo-modules-core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-modules-core:mergeDebugNativeLibs UP-TO-DATE
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:expoDebugOverrideMaxSdkConflicts UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-modules-core:processDebugJavaRes
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :expo-constants:compileDebugKotlin
+> Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-log-box:compileDebugKotlin
+> Task :expo-log-box:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
+
+> Task :apollohg_react-native-prose-editor:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/NativeEditorExpoView.kt:2419:80 'static field SHOW_IMPLICIT: Int' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/OkHttpCollaborationSocket.kt:84:62 The corresponding parameter in the supertype 'WebSocketListener' is named 't'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/PreparedProseViewerManager.kt:361:25 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@apollohg/react-native-prose-editor/android/src/main/java/com/apollohg/editor/viewer/PreparedProseViewerPackage.kt:10:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+> Task :apollohg_react-native-prose-editor:compileDebugJavaWithJavac
+> Task :apollohg_react-native-prose-editor:processDebugJavaRes
+> Task :apollohg_react-native-prose-editor:bundleLibCompileToJarDebug
+> Task :apollohg-react-native-prose-editor:compileDebugJavaWithJavac NO-SOURCE
+> Task :apollohg-react-native-prose-editor:bundleLibCompileToJarDebug
+> Task :apollohg-react-native-prose-editor:bundleLibRuntimeToDirDebug
+> Task :apollohg_react-native-prose-editor:bundleLibRuntimeToDirDebug
+
+> Task :expo:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :expo:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo:processDebugJavaRes
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:bundleLibRuntimeToDirDebug
+
+> Task :app:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/main/java/com/gabrieldonadel/agp10/MainActivity.kt:40:20 'constructor(activity: ReactActivity, mainComponentName: String, fabricEnabled: Boolean): DefaultReactActivityDelegate' is deprecated. Creating DefaultReactActivityDelegate with flags is deprecated.
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeLibDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 27s
+194 actionable tasks: 38 executed, 156 up-to-date
+yarn remove v1.22.22
+[1/2] Removing module @apollohg/react-native-prose-editor...
+[2/2] Regenerating lockfile and installing missing dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+success Uninstalled packages.
+Done in 1.12s.
