@@ -611,3 +611,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @appandflow/expo-camera-characteristics,1.2.1,fail-newdsl
 @appboxo/expo-boxo-sdk,0.15.0,pass
 @appcircle/react-native-code-push,0.1.1,fail-baseline
+@appcitor/react-native-voice-to-text,,fail-newdsl
