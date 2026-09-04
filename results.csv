@@ -439,3 +439,4 @@ whisper.rn,,pass
 @theoplayer/react-native-engage,0.6.0,fail-newdsl
 @tryvital/vital-core-react-native,6.0.2,fail-baseline
 @tryvital/vital-health-react-native,6.0.2,fail-baseline
+@ua/react-native-airship,26.12.0,fail-baseline
