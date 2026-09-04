@@ -543,3 +543,4 @@ react-native-thermal-receipt-printer,1.2.0-rc.2,fail-baseline
 react-native-tts,4.1.1,fail-baseline
 react-native-turbo-image,1.24.3,fail-newdsl
 react-native-udp,4.1.7,pass
+react-native-ui-lib,9.1.2,fail-baseline
