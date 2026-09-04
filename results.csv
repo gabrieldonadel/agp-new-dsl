@@ -560,3 +560,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @0610studio/zs-ui,1.0.2,pass
 @0x5e/react-native-alipay,0.2.7-beta.2,fail-baseline
 @100mslive/react-native-hms,1.12.3,fail-newdsl
+@100mslive/react-native-video-plugin,1.1.4,fail-baseline
