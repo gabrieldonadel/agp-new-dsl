@@ -636,3 +636,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @atomic.io/react-native-atomic-sdk,25.4.7,fail-baseline
 @atomiqlab/react-native-mapbox-navigation,2.0.4,fail-baseline
 @atproto/oauth-client-expo,,pass
+@attarchi/react-native-lottie-splash-screen,3.0.0,fail-baseline
