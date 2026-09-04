@@ -381,3 +381,4 @@ whisper.rn,,pass
 @bam.tech/react-native-app-security,1.0.0,fail-baseline
 @bsky.app/expo-image-crop-tool,0.5.1,pass
 @bugsnag/react-native,8.10.0,pass
+@clerk/expo-google-signin,1.0.3,fail-newdsl
