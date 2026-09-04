@@ -457,3 +457,4 @@ expo-image-crop-tool,0.4.0,pass
 expo-mlkit-ocr,0.2.7,pass
 expo-network-addons,57.0.1,fail-baseline
 expo-paste-input,0.2.2,pass
+expo-pdf-text-extract,1.1.0,fail-newdsl
