@@ -515,3 +515,4 @@ react-native-navigation-bar-color,2.0.2,fail-baseline
 react-native-network-info,5.2.2,pass
 react-native-nitro-cookies,1.2.0,fail-baseline
 react-native-nitro-markdown,,fail-baseline
+react-native-nitro-sound,0.2.19,fail-baseline
