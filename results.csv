@@ -399,3 +399,4 @@ whisper.rn,,pass
 @infinitered/react-native-mlkit-text-recognition,5.0.1,fail-newdsl
 @jamsch/expo-speech-recognition,0.2.15,fail-baseline
 @kesha-antonov/react-native-background-downloader,4.6.1,fail-newdsl
+@kishannareshpal/expo-pdf,0.3.2,pass
