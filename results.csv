@@ -556,3 +556,4 @@ rn-fetch-blob,0.12.0,fail-baseline
 stream-chat-react-native,9.8.2,fail-newdsl
 uilib-native,5.1.2,fail-baseline
 vexo-analytics,1.12.0,pass
+vision-camera-resize-plugin,3.2.0,fail-baseline
