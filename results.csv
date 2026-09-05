@@ -829,3 +829,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @codemagic/react-native-patch,,install-failed
 @codetrix-studio/capacitor-google-auth,,install-failed
 @cohorly/react-native,,install-failed
+@coinbase/cdp-app-attest,,install-failed
