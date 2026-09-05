@@ -170,94 +170,112 @@ See the git log for the exact commits.
 
 ## Findings so far
 
-502 packages tested. `libs-top500.txt` is the 500 highest-usage entries
-of `libs-android.txt` with `package.json` dependencies removed; the other 2 rows
-are carried over from the original `libs.txt` run.
+1002 packages built against the AGP 9 defaults: the 1000 highest-usage
+entries of `libs-android.txt` with `package.json` dependencies removed, plus 2
+carried over from the original `libs.txt` run.
 
 | Status | Count |
 |---|---|
-| `pass` | 196 |
-| `fail-newdsl` | 152 |
-| `fail-baseline` | 153 |
+| `pass` | 364 |
+| `fail-newdsl` | 281 |
+| `fail-baseline` | 348 |
+| `install-failed` | 8 |
 | `timeout` | 1 |
-| **total** | **502** |
+| **total** | **1002** |
 
-### What breaks under the new DSL (152)
+### What breaks under the new DSL (281)
 
 Cause taken from the first `* What went wrong:` block of the flagged build,
 before the fallback build runs.
 
 | Cause | Count | Share |
 |---|---|---|
-| Kotlin plugin collides with AGP's built-in Kotlin | 144 | 95% |
-| Removed DSL property (`libraryVariants`, `bootClasspath`) | 5 | 3% |
-| Kotlin compile error | 1 | 1% |
-| javac compile error | 1 | 1% |
-| Other | 1 | 1% |
+| Kotlin plugin collides with AGP's built-in Kotlin | 269 | 96% |
+| Removed DSL property (`libraryVariants`, `bootClasspath`) | 6 | 2% |
+| Kotlin compile error | 4 | 1% |
+| javac compile error | 1 | 0% |
+| Other | 1 | 0% |
 
-**One bug accounts for almost all of it.** AGP 9 registers the `kotlin` extension
-itself, so a library that also applies `kotlin-android` or
-`org.jetbrains.kotlin.android` unconditionally fails during configuration. AGP
-reports it two ways, and both are the same problem:
+**One bug is almost all of it, and doubling the sample did not change that.**
+It was 144 of 152 at 500 packages and 269 of 281 at 1000.
+AGP 9 registers the `kotlin` extension itself, so a library that also applies
+`kotlin-android` or `org.jetbrains.kotlin.android` unconditionally fails during
+configuration. AGP reports it two ways, both the same problem:
 
 ```
 Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
 The 'org.jetbrains.kotlin.android' plugin is no longer required for Kotlin support since AGP 9.0.
 ```
 
-The fix is to apply the plugin only when AGP is not already providing Kotlin.
-See "Upstream fixes" below for the two guard shapes in use.
+The rest are unrelated to the Kotlin plugin and each needs its own work:
 
-The remainder are unrelated to the Kotlin plugin and each needs its own work:
-
-- **Removed DSL property (`libraryVariants`, `bootClasspath`)**: `react-native-launch-arguments`, `react-native-onetrust-cmp`, `react-native-context-menu-view`, `react-native-create-thumbnail`, `react-native-worklets-core`
-- **Kotlin compile error**: `@react-native-async-storage/async-storage`
+- **Removed DSL property (`libraryVariants`, `bootClasspath`)**: `react-native-launch-arguments`, `react-native-onetrust-cmp`, `react-native-context-menu-view`, `react-native-create-thumbnail`, `react-native-worklets-core`, `@dariyd/react-native-document-scanner`
+- **Kotlin compile error**: `@react-native-async-storage/async-storage`, `@apollohg/react-native-prose-editor`, `@bhojaniasgar/react-native-otp-input`, `@datalyr/react-native`
 - **javac compile error**: `react-native-keyboard-controller`
-- **Other**: `expo-updates` fails inside `expo-autolinking`, on a null
-  `KotlinJvmAndroidCompilation.getAndroidVariant()`.
+- **Other**: `expo-updates` — `expo-updates` fails inside
+  `expo-autolinking` on a null `KotlinJvmAndroidCompilation.getAndroidVariant()`.
 
-The full per-package list is `results.csv`, with one log each under `logs/`.
+The full per-package list is `results.csv`, one log each under `logs/`.
+
+### 72 of the passes are vacuous
+
+72 of the tested packages are Capacitor or Cordova plugins, and all
+72 of them are recorded `pass`. They ship an `android/build.gradle`, so
+`scan-libs.py` selects them, but React Native autolinking ignores them entirely:
+their modules produce **no Gradle tasks** in the build. The app compiles because
+the plugin was never part of it.
+
+So `pass` is 364 nominally and **292 meaningfully**. Those
+72 say nothing about AGP 9 either way; they could be as broken as anything
+else and this harness would not see it. They cluster in the low-usage tail, so the
+first 500 are unaffected.
+
+A React Native harness cannot test them. Testing them needs a Capacitor host app,
+which is a different project.
+
+### `install-failed` (8) and `timeout` (1)
+
+All genuine, and small enough to list: 4 crash `npm`/`node` with `SIGABRT`, 1
+pins an incompatible Node engine, 2 depend on packages that are not published,
+and 1 fails its own `react-native` link step. `realm` is the single `timeout`:
+its install hung and was killed at the 900s deadline, so it has no verdict.
+
+Four separate times a systemic failure was recorded as per-package verdicts
+instead. See "Harness failures that produced fake results" below; the counts
+above are after removing all of them.
+
+### `fail-baseline` (348)
+
+Fails with the flags on and with them off, so the harness cannot attribute it to
+the DSL. Not investigated. This understates new-DSL breakage: a package whose
+flagged build dies on the Kotlin collision but whose fallback build also fails,
+for a missing peer dependency or its own version assert, lands here rather than
+in `fail-newdsl`. `react-native-reanimated`, `react-native-worklets` and
+`react-native-safe-area-context` are exactly that case.
 
 ### How far the upstream PRs go
 
-144 packages hit the Kotlin plugin collision. Every one that can take a pull
-request now has one. The breakdown accounts for all 144:
+269 packages now hit the Kotlin plugin collision, up from 144 at 500 packages.
+The PRs were filed against the first 500, where every collision case that could
+take a pull request has one:
 
 | | Count |
 |---|---|
+| collisions in the first 500 | 144 |
 | covered by a pull request from this harness | 126 |
-| already fixed upstream before we looked | 3 |
-| carrying another contributor's pull request | 2 |
-| no repository field on npm, or not hosted on GitHub | 4 |
-| repository returns 404 | 2 |
-| repository archived and read-only | 2 |
-| no unconditional apply left upstream | 4 |
-| declares the plugin in a `plugins {}` block | 1 |
-| **total** | **144** |
+| already fixed upstream, or another contributor's PR | 5 |
+| cannot take a PR (no repo, 404, archived) | 8 |
+| no unconditional apply left, or a `plugins {}` block | 5 |
 
-The `plugins {}` case needs a different construction than a conditional `apply`,
-so it is left for manual work rather than patched by pattern.
+The second 500 added **125 more collision cases** that have no PR yet. They are
+all in the tail: the highest usage among them is 0.001, and most are 0. The same
+one-line guard fixes every one, so it is mechanical work rather than 125
+investigations.
 
-105 pull requests cover the 126 packages, because several repositories are
-monorepos where one PR fixes many: `oblador/react-native-vector-icons` is 41
-files across 13 packages, `THEOplayer/react-native-connectors` is 11 files, and
+105 pull requests cover the 126, because several repositories are monorepos where
+one PR fixes many: `oblador/react-native-vector-icons` is 41 files across 13
+packages, `THEOplayer/react-native-connectors` is 11 files, and
 `infinitered/react-native-mlkit` is 5.
-
-### `timeout` (1)
-
-`realm` hung inside `npx expo install` and was killed at the 900s deadline, so
-no build ran and it has no verdict. Worth a manual retry with a longer
-`TIMEOUT_INSTALL`.
-
-### `fail-baseline` (153)
-
-Fails with the flags on and with them off, so the harness cannot attribute it to
-the DSL. Not investigated. Note this understates new-DSL breakage: a package
-whose flagged build dies on the Kotlin collision but whose fallback build also
-fails, for a missing peer dependency or its own version assert, lands here
-rather than in `fail-newdsl`. `react-native-reanimated`,
-`react-native-worklets` and `react-native-safe-area-context` are exactly that
-case. See the notes further down.
 
 ### Upstream fixes
 
@@ -337,29 +355,27 @@ another case outside these six: its flagged build fails on the `kotlin`
 extension conflict, its fallback build fails with `Project with path
 ':react-native-nitro-modules' could not be found`.
 
-### Two harness bugs found and fixed during this run
+### Harness failures that produced fake results
 
-Both produced wrong statuses and both are fixed in `scripts/test-libs.sh`.
-See the git log for the commits.
+Four times a single systemic failure was written into `results.csv` as a long run
+of per-package verdicts. Every one looked plausible from the outside, because
+`fail-baseline` and `install-failed` are ordinary outcomes. All four rows below
+were removed and re-tested, and each now has a guard.
 
-1. **`app.json` was not restored between packages.** `npx expo install` appends
-   config plugins to `app.json`, but the cleanup step restored only
-   `package.json` and `yarn.lock`. After `expo-secure-store` was tested and
-   removed, its dangling plugin entry stayed, and all 150 following builds
-   failed at `:expo-constants:createExpoConfig` with `Failed to resolve plugin
-   for module "expo-secure-store"`. All 150 were recorded `fail-baseline`.
-   Their rows and logs were removed and re-tested. `app.json` is now restored
-   with the other two files.
-2. **`android/app/.cxx` was not cleared between builds.** A build could fail on
-   the previous package's codegen target. Three logs showed it, each naming the
-   target of the package tested immediately before: `react_codegen_RNKC` from
-   keyboard-controller, `react_codegen_rnpicker` from picker,
-   `react_codegen_rnscreens` from screens. Re-tested with `.cxx` cleared, all
-   three changed status:
-   `@react-native-firebase/app` fail-newdsl to pass,
-   `@react-native-masked-view/masked-view` fail-newdsl to pass,
-   `react-native-gesture-handler` fail-baseline to fail-newdsl.
-   The `gradle` function now clears `.cxx` before every build.
+| Cause | Rows poisoned | Guard |
+|---|---|---|
+| `npx expo install` appends a config plugin to `app.json`; the cleanup restored only `package.json` and `yarn.lock`, so the dangling plugin failed `:expo-constants:createExpoConfig` for every later package | 150 | `app.json` restored with the other two |
+| `android/app/.cxx` persisted between packages, so a build could fail on the previous package's codegen target | 3 | `.cxx` cleared before every build |
+| The network dropped mid-run; every remaining install failed `EHOSTUNREACH` and was recorded `install-failed` | 306 | `net_error` waits for the registry, retries once, aborts if still down |
+| A failed install stripped the expo CLI from `node_modules`; every later package failed `expo: command not found` | 53 | `ensure_harness` checks and repairs before each package |
+
+The shape is always the same: a long contiguous block of one verdict, with no
+other outcome appearing after the first one. That is the signal to check for,
+and it is worth checking whenever a run looks unusually uniform.
+
+Two further failures stopped a run rather than corrupting it: Gradle's transforms
+cache filled the disk, and `realm` hung inside `npx expo install` for 19 hours
+because nothing enforced a deadline. `ensure_disk` and `gtimeout` cover both.
 
 ## Known limits
 
