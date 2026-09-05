@@ -884,3 +884,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dev-amirzubair/react-native-voice,1.0.4,fail-newdsl
 @dev_vlens/react-native-vlens,,fail-baseline
 @devinikhiya/react-native-tesseractocr,0.1.10,pass
+@devrev/sdk-react-native,2.3.10,fail-newdsl
