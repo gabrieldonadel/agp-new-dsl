@@ -247,16 +247,38 @@ above are after removing all of them.
 ### `fail-baseline` (348)
 
 Fails with the flags on and with them off, so the harness cannot attribute it to
-the DSL. Not investigated. This understates new-DSL breakage: a package whose
-flagged build dies on the Kotlin collision but whose fallback build also fails,
-for a missing peer dependency or its own version assert, lands here rather than
-in `fail-newdsl`. `react-native-reanimated`, `react-native-worklets` and
-`react-native-safe-area-context` are exactly that case.
+the DSL by itself. Reading the flagged builds shows how much this understates
+new-DSL breakage:
+
+| Flagged-build cause | Count |
+|---|---|
+| **the same Kotlin plugin collision** | **176** |
+| dependency resolution | 96 |
+| no recognisable signature | 24 |
+| `createExpoConfig` | 11 |
+| CMake / ninja | 11 |
+| javac compile error | 11 |
+| missing sibling project | 9 |
+| Kotlin compile error | 7 |
+| removed DSL property | 2 |
+| `expo-autolinking` | 1 |
+
+So **176 of the 348 are collisions in disguise**: the flagged build died on
+`Cannot add extension with name 'kotlin'`, and only the fallback build failed
+too, for an unrelated reason. Counting them, the collision total across the run
+is **445, not 269**. `react-native-reanimated`, `react-native-worklets` and
+`react-native-safe-area-context` are in this group. The guard fixes them whatever
+their fallback failure was.
+
+The other 172 are mostly not library bugs at all. 96 need a private Maven
+repository, credentials or a config file the bare harness does not provide.
 
 ### How far the upstream PRs go
 
-269 packages hit the Kotlin plugin collision. Every one reachable now has a pull
-request. The breakdown accounts for all 269:
+269 of the `fail-newdsl` packages hit the Kotlin plugin collision, and every one
+reachable has a pull request. A further 176 collisions are hidden inside
+`fail-baseline`, so the real total is 445; those are Tier 1 of "What to fix
+next" below and are not yet filed. The breakdown of the 269:
 
 | | Count |
 |---|---|
@@ -390,6 +412,114 @@ and it is worth checking whenever a run looks unusually uniform.
 Two further failures stopped a run rather than corrupting it: Gradle's transforms
 cache filled the disk, and `realm` hung inside `npx expo install` for 19 hours
 because nothing enforced a deadline. `ensure_disk` and `gtimeout` cover both.
+
+## What to fix next, ranked by difficulty
+
+Every failing package that does not already have a pull request, grouped by what
+the fix actually requires. Ordered so the cheap, high-yield work comes first.
+Usage is the share of apps in `lib-table.csv` that depend on the package, so the
+`sum` column is a rough measure of how much of the ecosystem a tier unblocks.
+
+The collision total is **445**, not the 269 counted earlier. 269 landed in
+`fail-newdsl`, but another **176 landed in `fail-baseline`**: their flagged build
+died on the same Kotlin collision and only their *fallback* build failed too, for
+an unrelated reason (a missing peer project, a `minSdkVersion` conflict, an
+unresolvable dependency). The guard fixes them regardless of that second failure.
+
+### Tier 1 — mechanical, tooling already exists
+
+| | |
+|---|---|
+| Packages | 112 (106 repos, 132 files) |
+| Usage sum | 0.483, max 0.097 |
+| Fix | The same four-line guard as the other 181 PRs |
+| Effort | Hours, unattended. `scripts/` plus the recon and patch pipeline already handle it |
+
+These are the 176 hidden collisions minus the unreachable ones. Nothing new to
+work out; it is the same change, already verified against AGP 9.2.1.
+
+### Tier 2 — small, and the highest-value work left
+
+| | |
+|---|---|
+| Packages | 12 |
+| Usage sum | **1.403**, max 0.735 |
+| Fix | A `plugins {}` block cannot be made conditional the way `apply plugin` can |
+
+This tier is 12 packages but more ecosystem weight than Tier 1, because it
+contains `react-native-reanimated` (0.735) and `react-native-worklets` (0.661) —
+the two highest-usage packages in the whole dataset that are still broken and
+unpatched.
+
+The guard shape has to change: declare the plugin with
+`plugins { id '...' apply false }` and then apply it conditionally, or drive it
+through `pluginManager`. Needs designing once and verifying, then it applies to
+all 12.
+
+### Tier 3 — one high-usage package each, genuine upstream work
+
+| Cause | Packages | Notable | Fix |
+|---|---|---|---|
+| Kotlin compile error | 11 | `@react-native-async-storage/async-storage` (0.753) | Unresolved `room` reference; needs a dependency or source change upstream |
+| javac compile error | 12 | `react-native-keyboard-controller` (0.161) | Missing generated symbol in `PackageList.java` |
+| expo-autolinking | 2 | `expo-updates` (0.387) | Null `KotlinJvmAndroidCompilation.getAndroidVariant()` inside `expo-autolinking`; an Expo-side fix, not a library one |
+
+Each is a real diagnosis rather than a pattern to apply. High value per package
+because of the usage, but no shared fix.
+
+### Tier 4 — real migration work, low usage
+
+| | |
+|---|---|
+| Packages | 8 |
+| Usage sum | 0.025, max 0.013 |
+| Fix | `libraryVariants` and `bootClasspath` are gone under `newDsl`; needs migrating to the new variant API |
+
+Not mechanical, and nothing here has meaningful adoption. Worth doing last among
+the fixable tiers.
+
+### Tier 5 — not library bugs
+
+| Cause | Packages | Why |
+|---|---|---|
+| Dependency resolution | 96 | Needs a private Maven repository, credentials, or a config file the bare harness does not provide |
+| Uncategorised | 24 | No recognisable error signature; each needs reading |
+| `createExpoConfig` | 11 | Needs a config plugin the harness does not set up |
+| CMake / ninja | 11 | Native build setup |
+| Missing sibling project | 9 | Needs a peer package installed alongside |
+| `install-failed` | 8 | Upstream packaging problems: unpublished deps, Node engine pins, `npm` crashes |
+| `timeout` | 1 | `realm`; retry with a longer `TIMEOUT_INSTALL` |
+
+These say more about the harness than about AGP 9. Making them testable means
+per-package setup, which is a different and much larger project than the guard.
+
+### Tier 6 — cannot be fixed by pull request
+
+| | Packages |
+|---|---|
+| Collision, but no reachable GitHub repository | 82 |
+| Collision, but no unconditional apply left upstream | 14 |
+
+The 82 are the practical ceiling. Almost all sit at usage 0.005 or below.
+
+### Already handled, no work needed
+
+- **16 packages** live in a repository that already has one of our pull requests
+  for a sibling package. One merge fixes them.
+- **10 packages** are already guarded upstream or carry another contributor's
+  pull request, including `react-native-safe-area-context` (0.948),
+  `react-native-gesture-handler` (0.741) and `react-native-webview` (0.38). They
+  are waiting on a release, not on a fix.
+
+### Suggested order
+
+1. Tier 1, because it is unattended and already built.
+2. Tier 2, because `reanimated` and `worklets` are worth more than everything in
+   Tier 1 combined.
+3. Tier 3, one package at a time, highest usage first.
+4. Tier 4 if exhaustive coverage matters.
+5. Leave Tier 5 and 6 alone unless the goal changes from "is the ecosystem AGP 9
+   ready" to "can this harness build every package".
 
 ## Known limits
 
