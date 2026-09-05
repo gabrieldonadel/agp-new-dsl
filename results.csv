@@ -937,3 +937,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @expensify/react-native-live-markdown,,install-failed
 @expensify/react-native-wallet,,install-failed
 @expo/video,,install-failed
+@expofp/react-native-efp-sdk,,install-failed
