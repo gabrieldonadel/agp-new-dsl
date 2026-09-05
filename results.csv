@@ -982,3 +982,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @getyoti/react-native-yoti-doc-scan,1.15.0,fail-baseline
 @getyoti/yoti-doc-scan-react-native,8.0.0,pass
 @gfean/react-native-bundle-drop,0.7.0,fail-newdsl
+@giulio987/expo-wallet,,install-failed
