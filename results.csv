@@ -827,3 +827,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cloudflare/realtimekit-react-native-ui,2.0.0,pass
 @code-push-next/react-native-code-push,10.4.3,fail-baseline
 @codemagic/react-native-patch,0.2.0,fail-baseline
+@codetrix-studio/capacitor-google-auth,3.4.0-rc.4,pass
