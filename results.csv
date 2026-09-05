@@ -791,3 +791,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capawesome/capacitor-apple-sign-in,0.1.4,pass
 @capawesome/capacitor-google-sign-in,0.1.4,pass
 @capawesome/capacitor-live-update,8.4.2,pass
+@capawesome/capacitor-passkeys,0.1.2,pass
