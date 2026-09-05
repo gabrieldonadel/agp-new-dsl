@@ -704,3 +704,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @britishgas-engineering/bg-react-native-torch,0.2.0,pass
 @brooons/react-native-bluetooth-escpos-printer,1.2.0,fail-baseline
 @bryandev/expo-mapbox-navigation,1.7.11,fail-baseline
+@bsky.app/expo-dynamic-app-icon,1.8.5,pass
