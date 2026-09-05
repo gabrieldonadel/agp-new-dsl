@@ -713,3 +713,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bufgix/react-native-secure-window,0.1.1,fail-baseline
 @bugfender/rn-bugfender,6.0.0,fail-baseline
 @bugsnag/plugin-react-native-span-access,3.4.1,fail-baseline
+@bugsnag/react-native-performance,3.4.1,pass
