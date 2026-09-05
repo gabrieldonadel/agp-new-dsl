@@ -661,3 +661,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bam.tech/react-native-msal,4.0.9,fail-baseline
 @bam.tech/react-native-ssl-pinning,1.0.0,fail-baseline
 @banuba/react-native,2.0.2,fail-baseline
+@baronha/react-native-multiple-image-picker,2.2.5,fail-baseline
