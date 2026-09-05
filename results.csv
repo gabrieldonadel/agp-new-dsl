@@ -744,3 +744,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/contacts,,install-failed
 @capacitor-community/facebook-login,,install-failed
 @capacitor-community/fcm,,install-failed
+@capacitor-community/in-app-review,,install-failed
