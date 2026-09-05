@@ -689,3 +689,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bnnx/react-native-label-printer,0.4.0,fail-newdsl
 @bokuhe/react-native-check-app-install,0.1.0,fail-baseline
 @boltpay/react-native,,install-failed
+@borndotcom/react-native-godot,1.0.1,fail-baseline
