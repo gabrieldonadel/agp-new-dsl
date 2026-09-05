@@ -927,3 +927,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @entrust.corporation/idvsdk-reactnative,100.8.1,fail-newdsl
 @envoy/react-native-image-colors,1.1.0,fail-baseline
 @ernestbies/react-native-android-sms-listener,1.0.2,pass
+@es-webdev/react-native-sunmi-printer,2.0.10,pass
