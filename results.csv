@@ -709,3 +709,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bsky.app/expo-translate-text,,install-failed
 @bsky.app/react-native-mmkv,,install-failed
 @bsky.app/video,,install-failed
+@bsky.app/video-compressor,,install-failed
