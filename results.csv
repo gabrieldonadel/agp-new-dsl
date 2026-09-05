@@ -991,3 +991,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @gravitate-js/expo-platform-science,0.1.12,fail-baseline
 @greeendev/react-native-zebra-bluetooth-printer,1.0.16,fail-baseline
 @grometrics/react-native,,fail-baseline
+@grouplinknetwork/rn-grouplink-sdk,2.6.0,pass
