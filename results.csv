@@ -710,3 +710,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bsky.app/react-native-mmkv,2.12.5,pass
 @bsky.app/video,0.3.6,pass
 @bsky.app/video-compressor,0.2.0,pass
+@bufgix/react-native-secure-window,0.1.1,fail-baseline
