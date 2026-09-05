@@ -922,3 +922,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @embrace-io/react-native-tracer-provider,7.1.0,fail-newdsl
 @emidre/audio-studio,3.2.2,fail-baseline
 @empower-nokta/react-native-mobile-ads,0.11.14,fail-baseline
+@encorekit/react-native,2.0.2,fail-newdsl
