@@ -771,3 +771,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/file-viewer,2.0.2,pass
 @capacitor/filesystem,8.1.3,pass
 @capacitor/geolocation,8.2.2,pass
+@capacitor/haptics,8.0.2,pass
