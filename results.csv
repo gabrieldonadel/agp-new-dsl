@@ -959,3 +959,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @foursquare/movement-sdk-react-native,4.1.0,fail-baseline
 @freshheads/react-native-http-client,0.1.3,fail-newdsl
 @freshpaint/freshpaint-react-native,0.4.0,fail-newdsl
+@freshworks/react-native-freshdesk-sdk,2.0.0,fail-baseline
