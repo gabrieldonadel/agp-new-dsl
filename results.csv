@@ -965,3 +965,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @fugood/react-native-usb-serialport,3.0.0,pass
 @fyno/react-native,5.0.0,fail-newdsl
 @g4rb4g3/react-native-carplay,2.7.22,fail-baseline
+@g9k/expo-dynamic-app-icon,2.0.8,pass
