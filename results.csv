@@ -735,3 +735,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @candlefinance/haptics,0.3.3,fail-newdsl
 @candlefinance/page-control,0.2.2,fail-newdsl
 @capacitor-community/admob,8.1.0,pass
+@capacitor-community/advertising-id,8.0.0,pass
