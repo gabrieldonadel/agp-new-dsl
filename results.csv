@@ -806,3 +806,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/native-purchases,8.7.0,pass
 @carlossts/react-native-leaflet-platform,1.0.10,fail-newdsl
 @castlabs/react-native-prestoplay,1.4.0,fail-baseline
+@castlabs/react-native-prestoplay-thumbnails,1.4.0,fail-baseline
