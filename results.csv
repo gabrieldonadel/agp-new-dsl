@@ -804,3 +804,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/capacitor-speech-recognition,,install-failed
 @capgo/capacitor-updater,,install-failed
 @capgo/native-purchases,,install-failed
+@carlossts/react-native-leaflet-platform,,install-failed
