@@ -838,3 +838,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cometchat/chat-uikit-react-native,,install-failed
 @commandersact/tcconsent-react-native,,install-failed
 @commandersact/tccore-react-native,,install-failed
+@commandersact/tcserverside-react-native,,install-failed
