@@ -371,6 +371,11 @@ See the git log for the commits.
   no build was ever attempted. A stalled run is indistinguishable from a working
   one unless something enforces a deadline. Watch row count over time, not just
   whether the process is alive.
+- A dropped network is treated as a harness failure, not a result. `npx expo
+  install` errors that look network-shaped (`EHOSTUNREACH` and friends) make the
+  run wait for `registry.npmjs.org`, retry once, and abort if it is still down.
+  Without that, one outage recorded 306 consecutive packages as `install-failed`,
+  which reads exactly like 306 broken packages.
 - `ensure_disk` prunes Gradle's transforms cache when free space drops below
   `MIN_FREE_GB` (default 12). Without it a long run fills the disk, and every
   build after that fails for a reason unrelated to the DSL while still being
