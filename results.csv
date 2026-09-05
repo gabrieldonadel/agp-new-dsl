@@ -995,3 +995,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @grupalia/react-native-photo-picker,,fail-baseline
 @gurukumparan/react-native-android-inapp-updates,2.0.2,pass
 @gutenye/ocr-react-native,1.4.8,fail-baseline
+@guulabs/react-native-app-badge,0.4.3,fail-newdsl
