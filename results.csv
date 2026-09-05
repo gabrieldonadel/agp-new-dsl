@@ -908,3 +908,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dub/react-native,0.0.3,fail-baseline
 @dylankenneally/react-native-ssh-sftp,1.11.0,pass
 @dynamic-labs-sdk/client,1.31.1,fail-newdsl
+@dynamic-labs/legacy-react-native-extension,5.6.1,fail-newdsl
