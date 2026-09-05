@@ -802,3 +802,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/capacitor-share-target,8.0.49,pass
 @capgo/capacitor-social-login,8.5.5,pass
 @capgo/capacitor-speech-recognition,8.2.0,pass
+@capgo/capacitor-updater,8.51.15,pass
