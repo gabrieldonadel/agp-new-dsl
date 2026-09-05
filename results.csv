@@ -725,3 +725,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @caf.io/react-native-face-liveness,3.2.1,fail-baseline
 @caf.io/react-native-sdk,5.2.0,fail-baseline
 @cafebazaar/react-native-poolakey,3.1.2,fail-baseline
+@callstack/polygen,0.2.1,fail-baseline
