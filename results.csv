@@ -651,3 +651,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @azerion/bluestack-sdk-react-native,6.0.2,fail-newdsl
 @azesmway/react-native-unity,1.1.1,fail-baseline
 @azizuysal/wallet-kit,,fail-newdsl
+@azzapp/react-native-skia-video,0.10.1,pass
