@@ -676,3 +676,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @biopassid/face-sdk-react-native,5.0.5,fail-newdsl
 @bishaldahal/react-native-khalti-checkout,0.2.2,fail-baseline
 @bitdrift/react-native,0.13.1,fail-newdsl
+@bitmovin/player-react-native-google-dai,0.3.0,fail-baseline
