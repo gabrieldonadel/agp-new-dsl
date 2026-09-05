@@ -727,3 +727,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cafebazaar/react-native-poolakey,,install-failed
 @callstack/polygen,,install-failed
 @callstack/repack,,install-failed
+@callstack/timezone-hermes-fix,,install-failed
