@@ -839,3 +839,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @commandersact/tcconsent-react-native,,install-failed
 @commandersact/tccore-react-native,,install-failed
 @commandersact/tcserverside-react-native,,install-failed
+@compdfkit_pdf_sdk/react_native,,install-failed
