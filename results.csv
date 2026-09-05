@@ -961,3 +961,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @freshpaint/freshpaint-react-native,0.4.0,fail-newdsl
 @freshworks/react-native-freshdesk-sdk,2.0.0,fail-baseline
 @fressh/react-native-terminal,0.1.1,fail-baseline
+@frontegg/react-native,1.2.22,fail-baseline
