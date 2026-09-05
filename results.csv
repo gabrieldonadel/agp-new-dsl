@@ -931,3 +931,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @everuribe/expo-audio-studio,2.18.4,fail-baseline
 @evervault/evervault-react-native,1.4.5,fail-newdsl
 @evervault/react-native,2.7.1,fail-newdsl
+@everypay/googlepay-rn-bridge,2.0.0,fail-newdsl
