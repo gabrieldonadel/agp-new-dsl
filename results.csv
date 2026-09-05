@@ -783,3 +783,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/splash-screen,8.0.2,pass
 @capacitor/status-bar,8.0.3,pass
 @capacitor/toast,8.0.1,pass
+@capawesome-team/capacitor-android-battery-optimization,8.0.1,pass
