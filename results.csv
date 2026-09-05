@@ -830,3 +830,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @codetrix-studio/capacitor-google-auth,3.4.0-rc.4,pass
 @cohorly/react-native,,fail-newdsl
 @coinbase/cdp-app-attest,0.0.123,fail-baseline
+@coinbase/wallet-mobile-sdk,1.1.2,fail-newdsl
