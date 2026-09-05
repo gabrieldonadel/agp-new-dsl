@@ -255,27 +255,40 @@ in `fail-newdsl`. `react-native-reanimated`, `react-native-worklets` and
 
 ### How far the upstream PRs go
 
-269 packages now hit the Kotlin plugin collision, up from 144 at 500 packages.
-The PRs were filed against the first 500, where every collision case that could
-take a pull request has one:
+269 packages hit the Kotlin plugin collision. Every one reachable now has a pull
+request. The breakdown accounts for all 269:
 
 | | Count |
 |---|---|
-| collisions in the first 500 | 144 |
-| covered by a pull request from this harness | 126 |
+| covered by a pull request from this harness | 199 |
+| no repository field on npm, or not on GitHub | 24 |
+| repository returns 404 | 16 |
+| no unconditional apply left upstream | 10 |
+| covered by a repository already patched for another package | 7 |
 | already fixed upstream, or another contributor's PR | 5 |
-| cannot take a PR (no repo, 404, archived) | 8 |
-| no unconditional apply left, or a `plugins {}` block | 5 |
+| declares the plugin in a `plugins {}` block | 4 |
+| repository archived and read-only | 2 |
+| could not be categorised | 2 |
+| **total** | **269** |
 
-The second 500 added **125 more collision cases** that have no PR yet. They are
-all in the tail: the highest usage among them is 0.001, and most are 0. The same
-one-line guard fixes every one, so it is mechanical work rather than 125
-investigations.
+40 of the 269 have no reachable GitHub repository at all, nearly all from the
+tail where usage is 0.001 or below. That is the practical ceiling on how much of
+this is fixable by pull request. A `plugins {}` block needs a different
+construction than a conditional `apply`, so those 4 are left for manual work
+rather than patched by pattern.
 
-105 pull requests cover the 126, because several repositories are monorepos where
-one PR fixes many: `oblador/react-native-vector-icons` is 41 files across 13
-packages, `THEOplayer/react-native-connectors` is 11 files, and
+181 pull requests cover the 199 packages, because several repositories are
+monorepos where one PR fixes many: `oblador/react-native-vector-icons` is 41
+files across 13 packages, `THEOplayer/react-native-connectors` is 11 files, and
 `infinitered/react-native-mlkit` is 5.
+
+Ten pull requests had to be re-filed. Two target repositories can share a
+repository name (`fivecar/react-native-background-downloader` and
+`anorak-games/react-native-background-downloader` both fork to
+`gabrieldonadel/react-native-background-downloader`), and the tooling used one
+fixed branch name, so the second push overwrote the first and those PRs showed
+unrelated commits. Each was closed with an explanation and re-filed on a branch
+named after the target owner.
 
 ### Upstream fixes
 
@@ -283,15 +296,16 @@ The 144 collision cases are one bug with one fix: apply the Kotlin plugin only
 when AGP is not already providing it. `react-native-screens` already does this,
 which is why it passes.
 
-**105 pull requests are filed, covering 126 packages across 105 repositories.**
+**181 pull requests are filed, covering 199 packages.**
 The tracker is [`upstream-prs.md`](upstream-prs.md), grouped into pending, merged
 and closed. Refresh it with `scripts/update-pr-status.py`; the PR list itself
 lives in `upstream-prs.tsv`, where a `note` column records anything a maintainer
 asked for.
 
 Round 1 (22 PRs) derived the answer from the AGP major version and the
-`android.builtInKotlin` property. Round 2 (83 PRs) checks for the registered
-extension directly, at the suggestion of the RevenueCat maintainer who merged it:
+`android.builtInKotlin` property. Rounds 2 and 3 (159 PRs) check for the
+registered extension directly, at the suggestion of the RevenueCat maintainer who
+merged it:
 
 ```groovy
 if (project.extensions.findByName('kotlin') == null) {
