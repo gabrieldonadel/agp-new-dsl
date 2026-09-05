@@ -733,3 +733,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @candlefinance/faster-image,1.7.2,fail-newdsl
 @candlefinance/financekit,0.3.22,fail-newdsl
 @candlefinance/haptics,0.3.3,fail-newdsl
+@candlefinance/page-control,0.2.2,fail-newdsl
