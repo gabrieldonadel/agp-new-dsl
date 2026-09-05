@@ -851,3 +851,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @coralogix/react-native-plugin,,install-failed
 @cordialinc/expo-module,,install-failed
 @cordialinc/react-native-sdk,,install-failed
+@cphtech-dk/expo-crash-capture,,install-failed
