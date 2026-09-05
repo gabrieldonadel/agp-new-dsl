@@ -917,3 +917,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @edkimmel/expo-audio-stream,1.1.1,fail-baseline
 @edritech93/react-native-datawedge-intents,,fail-newdsl
 @eerengine/react-native-thermal-receipt-printer-image-qr,0.0.1,fail-baseline
+@eitjuh/expo-apple-intelligence,0.1.1,fail-baseline
