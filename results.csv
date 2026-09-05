@@ -686,3 +686,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @blazejkustra/react-native-alert,1.0.0,fail-baseline
 @blueconic/blueconic-react-native,5.2.1,fail-newdsl
 @blux.ai/react-native,0.2.15,fail-newdsl
+@bnnx/react-native-label-printer,0.4.0,fail-newdsl
