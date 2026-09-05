@@ -729,3 +729,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @callstack/repack,5.3.0,fail-newdsl
 @callstack/timezone-hermes-fix,0.5.0,fail-newdsl
 @camiloarc/react-native-bluetooth-escpos-printer,0.0.8,fail-baseline
+@candlefinance/blur-view,0.5.3,fail-newdsl
