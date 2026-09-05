@@ -892,3 +892,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dimaportenko/react-native-shadow-view,0.1.7,fail-baseline
 @dittolive/ditto,5.1.0,fail-baseline
 @dnlowman/react-native-star-prnt,1.2.0,fail-baseline
+@docutain/react-native-docutain-sdk,2.0.1,fail-newdsl
