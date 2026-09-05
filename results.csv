@@ -933,3 +933,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @evervault/react-native,2.7.1,fail-newdsl
 @everypay/googlepay-rn-bridge,2.0.0,fail-newdsl
 @evrotrust/et-react-native-wl-sdk,,fail-baseline
+@exodus/react-native-screenshot-detector,1.2.8,fail-baseline
