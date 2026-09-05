@@ -975,3 +975,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @getalby/expo-shared-preferences,,install-failed
 @getpara/react-native-wallet,,install-failed
 @getquip/expo-nordic-dfu,,install-failed
+@getstoryteller/react-native-storyteller-sdk,,install-failed
