@@ -843,3 +843,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @complycube/react-native,,install-failed
 @computools/react-native-dynamic-app-icon,,install-failed
 @comscore/analytics-react-native,,install-failed
+@connectedbits/react-native-sensitive-info,,install-failed
