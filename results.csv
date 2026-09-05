@@ -844,3 +844,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @computools/react-native-dynamic-app-icon,,install-failed
 @comscore/analytics-react-native,,install-failed
 @connectedbits/react-native-sensitive-info,,install-failed
+@conodene/react-native-thermal-receipt-printer-image-qr,,install-failed
