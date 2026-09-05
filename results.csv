@@ -705,3 +705,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @brooons/react-native-bluetooth-escpos-printer,,install-failed
 @bryandev/expo-mapbox-navigation,,install-failed
 @bsky.app/expo-dynamic-app-icon,,install-failed
+@bsky.app/expo-guess-language,,install-failed
