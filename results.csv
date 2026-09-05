@@ -850,3 +850,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @coolsoftwaretyler/cool-pdf,0.1.10,pass
 @coralogix/react-native-plugin,0.11.0,fail-newdsl
 @cordialinc/expo-module,1.4.0,fail-baseline
+@cordialinc/react-native-sdk,2.4.2,fail-newdsl
