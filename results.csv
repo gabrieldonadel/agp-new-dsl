@@ -870,3 +870,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dariyd/react-native-image-filters,,install-failed
 @dariyd/react-native-pdf-page-image,,install-failed
 @dariyd/react-native-text-recognition,,install-failed
+@dashdoc/react-native-system-sounds,,install-failed
