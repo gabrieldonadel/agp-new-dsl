@@ -712,3 +712,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bsky.app/video-compressor,,install-failed
 @bufgix/react-native-secure-window,,install-failed
 @bugfender/rn-bugfender,,install-failed
+@bugsnag/plugin-react-native-span-access,,install-failed
