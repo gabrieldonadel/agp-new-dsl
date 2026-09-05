@@ -894,3 +894,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dnlowman/react-native-star-prnt,1.2.0,fail-baseline
 @docutain/react-native-docutain-sdk,2.0.1,fail-newdsl
 @dodopayments/react-native-checkout,1.2.1,fail-baseline
+@doko/react-native-pdf-editor,0.4.1,fail-baseline
