@@ -942,3 +942,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @fastlane-events/sunmi-cloud-printer,,install-failed
 @fathah_cr/react-native-ffmpeg-kit,,install-failed
 @fedimint/react-native,,install-failed
+@felipe-software/react-native-notify-kit,,install-failed
