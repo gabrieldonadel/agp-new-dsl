@@ -920,3 +920,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @eitjuh/expo-apple-intelligence,0.1.1,fail-baseline
 @embrace-io/react-native-otlp,7.1.0,fail-newdsl
 @embrace-io/react-native-tracer-provider,7.1.0,fail-newdsl
+@emidre/audio-studio,3.2.2,fail-baseline
