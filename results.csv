@@ -741,3 +741,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/barcode-scanner,,install-failed
 @capacitor-community/bluetooth-le,,install-failed
 @capacitor-community/camera-preview,,install-failed
+@capacitor-community/contacts,,install-failed
