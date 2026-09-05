@@ -905,3 +905,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dr.pogodin/react-native-static-server,0.28.0,fail-newdsl
 @dr.pogodin/react-native-webview,16.1.0,fail-newdsl
 @dream11mobile/react-native-email-picker,1.1.0,fail-baseline
+@dub/react-native,0.0.3,fail-baseline
