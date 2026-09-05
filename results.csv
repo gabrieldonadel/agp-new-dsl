@@ -796,3 +796,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/background-geolocation,,install-failed
 @capgo/capacitor-contacts,,install-failed
 @capgo/capacitor-file-compressor,,install-failed
+@capgo/capacitor-intercom,,install-failed
