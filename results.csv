@@ -641,3 +641,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @authgear/react-native,6.0.0,pass
 @avasapp/react-native-app-intents,0.2.6,fail-newdsl
 @avasapp/react-native-otp-autofill,1.1.0,pass
+@aws-amplify/pushnotification,5.0.46,fail-baseline
