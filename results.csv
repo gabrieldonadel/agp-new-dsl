@@ -803,3 +803,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/capacitor-social-login,,install-failed
 @capgo/capacitor-speech-recognition,,install-failed
 @capgo/capacitor-updater,,install-failed
+@capgo/native-purchases,,install-failed
