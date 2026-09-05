@@ -929,3 +929,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ernestbies/react-native-android-sms-listener,1.0.2,pass
 @es-webdev/react-native-sunmi-printer,2.0.10,pass
 @everuribe/expo-audio-studio,2.18.4,fail-baseline
+@evervault/evervault-react-native,1.4.5,fail-newdsl
