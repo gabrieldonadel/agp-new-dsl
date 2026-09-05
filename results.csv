@@ -911,3 +911,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dynamic-labs/legacy-react-native-extension,,install-failed
 @dynamic-labs/react-native-extension,,install-failed
 @ebarooni/capacitor-calendar,,install-failed
+@ebrimasamba/react-native-prompt,,install-failed
