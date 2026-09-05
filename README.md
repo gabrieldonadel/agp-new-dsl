@@ -318,7 +318,7 @@ The 144 collision cases are one bug with one fix: apply the Kotlin plugin only
 when AGP is not already providing it. `react-native-screens` already does this,
 which is why it passes.
 
-**181 pull requests are filed, covering 199 packages.**
+**287 pull requests are filed, covering 311 packages.**
 The tracker is [`upstream-prs.md`](upstream-prs.md), grouped into pending, merged
 and closed. Refresh it with `scripts/update-pr-status.py`; the PR list itself
 lives in `upstream-prs.tsv`, where a `note` column records anything a maintainer
@@ -426,17 +426,26 @@ died on the same Kotlin collision and only their *fallback* build failed too, fo
 an unrelated reason (a missing peer project, a `minSdkVersion` conflict, an
 unresolvable dependency). The guard fixes them regardless of that second failure.
 
-### Tier 1 — mechanical, tooling already exists
+### Tier 1 — done
 
 | | |
 |---|---|
 | Packages | 112 (106 repos, 132 files) |
 | Usage sum | 0.483, max 0.097 |
-| Fix | The same four-line guard as the other 181 PRs |
-| Effort | Hours, unattended. `scripts/` plus the recon and patch pipeline already handle it |
+| Status | **106 pull requests filed.** See `upstream-prs.md`, round 4 |
 
-These are the 176 hidden collisions minus the unreachable ones. Nothing new to
-work out; it is the same change, already verified against AGP 9.2.1.
+These were the 176 hidden collisions minus the unreachable ones. Same four-line
+guard, same tooling. All 106 audited: one commit each, expected file count, no
+unintended content.
+
+Two things this round did differently. Both the fork name and the branch name are
+derived from the target owner (`gabrieldonadel/<owner>-<repo>` and
+`fix/agp9-built-in-kotlin-<owner>`), because a single shared branch name is what
+broke ten pull requests in the previous round. And one file,
+`criipto/criipto-verify-expo`, uses CRLF line endings; reading and writing it in
+text mode rewrote all 91 lines, turning a four-line change into a whole-file
+diff. It was re-pushed preserving CRLF, going from +98/-91 to +8/-1. It was the
+only CRLF file in 362.
 
 ### Tier 2 — small, and the highest-value work left
 
@@ -513,9 +522,9 @@ The 82 are the practical ceiling. Almost all sit at usage 0.005 or below.
 
 ### Suggested order
 
-1. Tier 1, because it is unattended and already built.
-2. Tier 2, because `reanimated` and `worklets` are worth more than everything in
-   Tier 1 combined.
+1. ~~Tier 1~~ — done, 106 pull requests filed.
+2. Tier 2 next, because `reanimated` and `worklets` are worth more than
+   everything in Tier 1 combined.
 3. Tier 3, one package at a time, highest usage first.
 4. Tier 4 if exhaustive coverage matters.
 5. Leave Tier 5 and 6 alone unless the goal changes from "is the ecosystem AGP 9

@@ -2,77 +2,115 @@ url	round	files	packages	note
 https://github.com/10play/10tap-editor/pull/350	2	1	@10play/tentap-editor	
 https://github.com/20203153/expo-app-integrity/pull/1	3	1	@dalbodeule/expo-app-integrity	
 https://github.com/2060-io/react-native-eid-reader/pull/68	3	1	@2060.io/react-native-eid-reader	
+https://github.com/ATOMIQTECH/react-native-mapbox-navigation/pull/21	4	1	@atomiqlab/react-native-mapbox-navigation	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/Adyen/adyen-react-native/pull/1223	2	1	@adyen/react-native	
 https://github.com/AleksandrNikolaevich/react-native-money-input/pull/8	3	1	@alexzunik/react-native-money-input	
 https://github.com/AndrewDongminYoo/react-native-step-counter/pull/66	3	1	@dongminyu/react-native-step-counter	
 https://github.com/AngelKrak/react-native-intent-launcher/pull/1	3	1	@angelkrak/react-native-intent-launcher	
+https://github.com/AppsFlyerSDK/appsflyer-react-native-plugin/pull/704	4	1	react-native-appsflyer	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/BITNET-Infotech/react-native-razorpay-nitro/pull/1	4	1	@bitnet-infotech/react-native-razorpay-nitro	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/BITNET-Infotech/react-native-wav-to-mp3/pull/3	3	1	@bitnet-infotech/react-native-wav-to-mp3	
 https://github.com/BabylonJS/BabylonReactNative/pull/745	3	1	@babylonjs/react-native	
+https://github.com/Beatsphere/expo-apple-music-kit/pull/1	4	1	@beatsphere/expo-apple-music-kit	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/BogdanTaranenko/expo-color-thief/pull/1	3	1	@b.taranenko/expo-color-thief	
 https://github.com/Bounceapp/react-native-paypal/pull/628	3	1	@bounceapp/react-native-paypal	
+https://github.com/BryanQuezada1910/expo-mapbox-navigation/pull/1	4	1	@bryandev/expo-mapbox-navigation	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/CarlosSTS/react-native-leaflet-platform/pull/12	3	1	@carlossts/react-native-leaflet-platform	
 https://github.com/Chaitra9225/react-native-richtext-editor/pull/5	3	1	@chaitrabhairappa/react-native-rich-text-editor	
 https://github.com/ChathuraLiyanapathirana/react-native-voice-to-text/pull/3	3	1	@appcitor/react-native-voice-to-text	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/CleverTap/clevertap-react-native/pull/521	2	1	clevertap-react-native	
 https://github.com/DataDog/dd-sdk-reactnative/pull/1394	1	1	@datadog/mobile-react-native	
+https://github.com/DataDog/react-native-performance-limiter/pull/64	4	1	react-native-performance-limiter	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/Doko-Demo-Doa/react-native-pdf-editor/pull/5	4	1	@doko/react-native-pdf-editor	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/Doko-Demo-Doa/react-native-shake/pull/160	2	1	react-native-shake	
 https://github.com/DomiR/react-native-measure-text/pull/5	2	1	@domir/react-native-measure-text	
+https://github.com/EthanShoeDev/fressh/pull/17	4	1	@fressh/react-native-terminal	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/Expensify/react-native-wallet/pull/88	4	1	@expensify/react-native-wallet	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/FigurePOS/react-native-local-server/pull/107	3	1	@figuredev/react-native-local-server	
 https://github.com/FinTecSystems/xs2a-react-native/pull/111	3	1	@fintecsystems/xs2a-react-native	
 https://github.com/GFean/react-native-bundle-drop/pull/35	3	1	@gfean/react-native-bundle-drop	
 https://github.com/GetStream/react-native-webrtc/pull/67	2	1	@stream-io/react-native-webrtc	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/GetStream/stream-chat-react-native/pull/3798	2	2	stream-chat-expo	
+https://github.com/GetStream/stream-video-js/pull/2417	4	4	@stream-io/react-native-callingx,@stream-io/video-react-native-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/Giphy/giphy-react-native-sdk/pull/229	2	1	@giphy/react-native-sdk	
 https://github.com/Gitarcitano/cohorly-js/pull/1	3	1	@cohorly/react-native	
 https://github.com/Grassper/react-native-icon-picker/pull/4	3	1	@grassper/react-native-icon-picker	
 https://github.com/Iterable/react-native-sdk/pull/897	2	1	@iterable/react-native-sdk	
 https://github.com/IvanIhnatsiuk/react-native-advanced-input-mask/pull/156	2	1	react-native-advanced-input-mask	
 https://github.com/JairajJangle/react-native-navigation-mode/pull/28	2	1	react-native-navigation-mode	
+https://github.com/JiriHoffmann/react-native-clusterer/pull/70	4	1	react-native-clusterer	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/JoaoPauloCMarra/react-native-nitro-markdown/pull/76	4	1	react-native-nitro-markdown	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/Ky0-Nguyen/react-native-honeywell-barcode-scanner/pull/1	3	1	@angelcat/react-native-honeywell-barcode-scanner	
 https://github.com/LottieFiles/dotlottie-react-native/pull/84	2	1	@lottiefiles/dotlottie-react-native	
+https://github.com/NitrogenZLab/react-native-multiple-image-picker/pull/265	4	1	@baronha/react-native-multiple-image-picker	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/NitrogenZLab/ting/pull/44	4	1	@baronha/ting	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/NotGeorgeMessier/nitro-speech/pull/16	4	1	@gmessier/nitro-speech	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/Nozbe/WatermelonDB/pull/1974	4	1	@nozbe/watermelondb	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/OP-Engineering/op-sqlite/pull/447	1	1	@op-engineering/op-sqlite	
 https://github.com/PostHog/posthog-js/pull/4789	2	2	@posthog/react-native-plugin	Maintainer asked for a changeset (added) and signed commits (done; both commits verify). Awaiting review approval.
 https://github.com/Preeternal/react-native-cookie-manager/pull/5	2	1	@preeternal/react-native-cookie-manager	
 https://github.com/ROKT/rokt-sdk-react-native/pull/301	2	1	@rokt/react-native-sdk	
 https://github.com/RevenueCat/react-native-purchases/pull/1934	1	1	react-native-purchases	Maintainer asked for the extension check instead of the version table; switched, then merged. Round 2 follows their shape.
+https://github.com/Richou/react-native-android-location-enabler/pull/111	4	1	react-native-android-location-enabler	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/SimformSolutionsPvtLtd/react-native-audio-waveform/pull/215	2	1	@simform_solutions/react-native-audio-waveform	
 https://github.com/THEOplayer/react-native-connectors/pull/472	2	11	@theoplayer/react-native-engage	
 https://github.com/TheWidlarzGroup/react-native-video/pull/5082	1	1	react-native-video	
 https://github.com/Vadko/react-native-file-viewer-turbo/pull/44	2	1	react-native-file-viewer-turbo	
+https://github.com/Vydia/react-native-background-upload/pull/366	4	1	react-native-background-upload	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/WalletConnect/walletconnect-monorepo/pull/7335	2	1	@walletconnect/react-native-compat	
 https://github.com/WebsiteBeaver/react-native-document-scanner-plugin/pull/183	2	1	react-native-document-scanner-plugin	
 https://github.com/XDcobra/react-native-sherpa-onnx/pull/123	3	1	react-native-sherpa-onnx	
 https://github.com/adaptyteam/AdaptySDK-React-Native/pull/340	2	1	react-native-adapty	
 https://github.com/adelbeke/react-native-speech-to-text/pull/16	3	1	@dbkable/react-native-speech-to-text	
+https://github.com/adobe/aepsdk-react-native/pull/591	4	1	@adobe/react-native-aepmessaging	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/ahmedawaad1804/react-native-restart-newarch/pull/4	3	1	react-native-restart-newarch	
+https://github.com/ajitpatel28/react-native-truecaller/pull/8	4	1	@ajitpatel28/react-native-truecaller	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/akbaraditamasp/expo-lock-task/pull/2	3	1	@akbaraditamasp/expo-lock-task	
 https://github.com/alpha0010/react-native-file-access/pull/95	2	1	react-native-file-access	
 https://github.com/alvie-tech/react-native-tiktok-business-sdk/pull/9	3	1	@alvie-tech/react-native-tiktok-business-sdk	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/ammarahm-ed/react-native-mmkv-storage/pull/393	3	1	react-native-mmkv-storage	
 https://github.com/ammarahm-ed/react-native-upload/pull/1	3	1	@ammarahmed/react-native-upload	
+https://github.com/ammarahm-ed/react-native-workers/pull/2	4	3	@ammarahmed/react-native-workers	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/amplitude/Amplitude-TypeScript/pull/1966	1	1	@amplitude/analytics-react-native	
 https://github.com/amplitude/experiment-react-native-client/pull/69	2	1	@amplitude/experiment-react-native-client	
 https://github.com/and2long/react-native-uvc-camera/pull/7	3	1	@and2long/react-native-uvc-camera	
 https://github.com/anorak-games/react-native-background-downloader/pull/3	3	1	@anorak-games/react-native-background-downloader	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/appandflow/expo-camera-characteristics/pull/5	3	1	@appandflow/expo-camera-characteristics	
 https://github.com/appandflow/react-native-ease/pull/56	2	1	react-native-ease	
+https://github.com/appcues/appcues-expo-module/pull/21	4	1	@appcues/expo-config	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/appcues/appcues-react-native-module/pull/234	4	1	@appcues/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/apphud/ApphudSDK-React-Native/pull/101	4	1	@apphud/react-native-apphud-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/appstack-tech/react-native-appstack-sdk/pull/50	2	1	react-native-appstack-sdk	
 https://github.com/atomicfi/atomic-transact-react-native/pull/197	2	1	@atomicfi/transact-react-native	Closed on company policy: external PRs go through their internal workflow. Maintainer confirmed they are applying the change.
+https://github.com/attarchi/react-native-lottie-splash-screen/pull/7	4	1	@attarchi/react-native-lottie-splash-screen	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/auth0/react-native-auth0/pull/1654	4	1	react-native-auth0	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/avas-app/react-native-app-intents/pull/2	3	1	@avasapp/react-native-app-intents	
 https://github.com/aws-amplify/amplify-js/pull/14933	1	1	@aws-amplify/react-native	
 https://github.com/aws-solutions-library-samples/clickstream-analytics-on-aws-react-native-sdk/pull/23	3	1	@aws/clickstream-react-native	
+https://github.com/axeptio/react-native-sdk/pull/97	4	1	@axeptio/react-native-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/azizuysal/wallet-kit/pull/29	3	1	@azizuysal/wallet-kit	
+https://github.com/baeckerherz/expo-mapbox-navigation/pull/1	4	1	@baeckerherz/expo-mapbox-navigation	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/bamlab/react-native-app-security/pull/43	4	1	@bam.tech/react-native-app-security	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/bamlab/react-native-ssl-pinning/pull/8	4	1	@bam.tech/react-native-ssl-pinning	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/bbernag/react-native-date/pull/8	4	1	@bernagl/react-native-date	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/bear-block/vision-camera-ocr/pull/12	4	1	@bear-block/vision-camera-ocr	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/birdofpreyru/react-native-audio/pull/44	3	1	@dr.pogodin/react-native-audio	
 https://github.com/birdofpreyru/react-native-fs/pull/161	2	1	@dr.pogodin/react-native-fs	
 https://github.com/birdofpreyru/react-native-static-server/pull/167	3	1	@dr.pogodin/react-native-static-server	
 https://github.com/birdofpreyru/react-native-webview/pull/23	3	1	@dr.pogodin/react-native-webview	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/bitdriftlabs/capture-es/pull/293	3	1	@bitdrift/react-native	
+https://github.com/blazejkustra/react-native-alert/pull/8	4	1	@blazejkustra/react-native-alert	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/bnnx/react-native-label-printer/pull/2	3	1	@bnnx/react-native-label-printer	
+https://github.com/borndotcom/react-native-godot/pull/34	4	1	@borndotcom/react-native-godot	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/braze-inc/braze-expo-plugin/pull/50	4	1	@braze/expo-plugin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/braze-inc/braze-react-native-sdk/pull/333	1	1	@braze/react-native-sdk	
 https://github.com/breez/breez-sdk-liquid/pull/1107	3	2	@breeztech/breez-sdk-liquid-react-native	
 https://github.com/breez/spark-sdk/pull/1097	3	2	@breeztech/breez-sdk-spark-react-native	
 https://github.com/bright-hustle/react-native-usage-stats-manager/pull/3	3	1	@brighthustle/react-native-usage-stats-manager	
+https://github.com/bufgix/react-native-secure-window/pull/3	4	1	@bufgix/react-native-secure-window	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/buildonspark/spark/pull/151	3	1	@buildonspark/spark-sdk	
+https://github.com/busanid/react-native-voip/pull/1	4	1	@busanid/react-native-voip	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/cafebazaar/react-native-poolakey/pull/32	4	1	@cafebazaar/react-native-poolakey	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/callstack/react-native-bottom-tabs/pull/568	2	1	react-native-bottom-tabs	
 https://github.com/callstack/react-native-image-editor/pull/208	2	1	@react-native-community/image-editor	
 https://github.com/callstack/repack/pull/1453	3	1	@callstack/repack	
@@ -82,83 +120,141 @@ https://github.com/candlefinance/blur-view/pull/5	3	1	@candlefinance/blur-view
 https://github.com/candlefinance/faster-image/pull/92	3	1	@candlefinance/faster-image	
 https://github.com/candlefinance/haptics/pull/4	3	1	@candlefinance/haptics	
 https://github.com/candlefinance/page-control/pull/2	3	1	@candlefinance/page-control	
+https://github.com/castle/castle-react-native/pull/182	4	1	@castleio/react-native-castle	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/christopherdro/react-native-html-to-pdf/pull/338	2	1	react-native-html-to-pdf	
 https://github.com/cleanui-dev/react-native-scanner/pull/7	3	1	@cleanuidev/react-native-scanner	
 https://github.com/clerk/javascript/pull/9660	2	2	@clerk/expo-google-signin,@clerk/expo-passkeys	Closed in favour of clerk/javascript#9662, which merged with the same guard and credits us as co-author. Clerk is fixed.
 https://github.com/clerk/javascript/pull/9662	2	3	@clerk/expo-google-signin,@clerk/expo-passkeys	
 https://github.com/cmcWebCode40/react-native-mqtt-client/pull/3	3	1	@ecodevstack/react-native-mqtt-client	
 https://github.com/coinbase/wallet-mobile-sdk/pull/12	3	2	@coinbase/wallet-mobile-sdk	
+https://github.com/colloquet/react-native-zendesk-messaging/pull/1	4	1	@colloque/react-native-zendesk-messaging	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/cometchat/cometchat-uikit-react-native/pull/114	3	1	@cometchat/chat-uikit-react-native	
+https://github.com/computools/react-native-dynamic-app-icon/pull/3	4	1	@computools/react-native-dynamic-app-icon	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/connorblack/expo-audio-stream/pull/1	4	1	@cjblack/expo-audio-stream	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/cooperka/react-native-snackbar/pull/219	3	1	react-native-snackbar	
+https://github.com/craftstudiodev/expo-tiktok-business/pull/1	4	1	@craftstudiodev/expo-tiktok-business	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/criipto/criipto-verify-expo/pull/41	4	1	@criipto/verify-expo	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. Re-pushed to preserve the file's CRLF line endings.
 https://github.com/cristiangu/react-native-app-badge/pull/1	3	1	@guulabs/react-native-app-badge	
+https://github.com/crossplatformkorea/react-native-kakao-login/pull/443	4	1	@react-native-seoul/kakao-login	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/crossplatformkorea/react-native-naver-login/pull/255	4	1	@react-native-seoul/naver-login	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/customerio/customerio-reactnative/pull/652	2	1	customerio-reactnative	
+https://github.com/dariyd/react-native-image-description/pull/1	4	1	@dariyd/react-native-image-description	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/dariyd/react-native-pdf-page-image/pull/2	3	1	@dariyd/react-native-pdf-page-image	
 https://github.com/dariyd/react-native-text-recognition/pull/4	3	1	@dariyd/react-native-text-recognition	
+https://github.com/dasimems/react-native-svga/pull/2	4	1	@dasimems/react-native-svga	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/dawidzawada/bonjour-zeroconf/pull/1	4	1	@dawidzawada/bonjour-zeroconf	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/deeeed/audiolab/pull/489	2	4	@siteed/audio-studio	
+https://github.com/deeeed/audiolab/pull/490	4	4	@everuribe/expo-audio-studio	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/dengage-tech/dengage-react-sdk/pull/15	3	1	@dengage-tech/react-native-dengage	
 https://github.com/descope/descope-react-native/pull/186	3	1	@descope/react-native-sdk	
 https://github.com/deuna-developers/deuna-sdk-react-native/pull/1	3	1	@deuna/react-native-sdk	
 https://github.com/dev-amirzubair/voice/pull/2	3	1	@dev-amirzubair/react-native-voice	
+https://github.com/dev-family/react-native-wallet-manager/pull/46	4	1	react-native-wallet-manager	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/didit-protocol/sdk-react-native/pull/47	4	1	@didit-protocol/sdk-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/didomi/react-native/pull/188	3	1	@didomi/react-native	
+https://github.com/dodopayments/dodopayments-mobile-sdk/pull/25	4	2	@dodopayments/react-native-checkout	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/dolami-inc/react-native-expo-unity/pull/8	4	1	@dolami-inc/react-native-expo-unity	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/doorstep-ai/DoorstepAIDropoffReactNativeSDK/pull/1	4	1	@doorstepai/dropoff-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/douglasjunior/react-native-pdf-renderer/pull/70	2	1	react-native-pdf-renderer	
 https://github.com/dpdp-guard-ai/dpdpguard-react-native-sdk/pull/3	3	1	@dpdpguard/react-native	
+https://github.com/dubinc/dub-react-native/pull/5	4	1	@dub/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/duguyihou/react-native-turbo-image/pull/445	3	1	react-native-turbo-image	
 https://github.com/ebrimasamba/react-native-prompt/pull/1	3	1	@ebrimasamba/react-native-prompt	
 https://github.com/ebrimasamba/react-native-sms-retriever/pull/3	3	1	@ebrimasamba/react-native-sms-retriever	
+https://github.com/edkimmel/expo-audio-stream/pull/4	4	1	@edkimmel/expo-audio-stream	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/edritech93/react-native-datawedge-intents/pull/3	3	1	@edritech93/react-native-datawedge-intents	
+https://github.com/eitjuh/expo-apple-intelligence/pull/1	4	1	@eitjuh/expo-apple-intelligence	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/embrace-io/embrace-react-native-sdk/pull/1033	2	3	@embrace-io/react-native	
 https://github.com/entrig/entrig-react-native/pull/1	3	1	@entrig/react-native	
 https://github.com/evervault/evervault-js/pull/1005	3	2	@evervault/evervault-react-native,@evervault/react-native	
 https://github.com/exponea/exponea-react-native-sdk/pull/144	2	1	react-native-exponea-sdk	
+https://github.com/extole/react-native-sdk/pull/5	4	1	@extole/react-native-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/f-23/react-native-passkey/pull/116	2	1	react-native-passkey	
+https://github.com/fbeccaceci/react-native-fast-squircle/pull/30	4	1	react-native-fast-squircle	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/filipfrlic/expo-google-signin/pull/1	4	1	@filipfrlic/expo-google-signin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/fishjam-cloud/fishjam-react-native-webrtc/pull/85	3	1	@fishjam-cloud/react-native-webrtc	
 https://github.com/fivecar/react-native-background-downloader/pull/3	3	1	@fivecar/react-native-background-downloader	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
+https://github.com/foursquare/movement-sdk-react-native/pull/21	4	1	@foursquare/movement-sdk-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/frontegg/frontegg-react-native/pull/131	4	1	@frontegg/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/gabriel-sisjr/react-native-background-location/pull/50	4	1	@gabriel-sisjr/react-native-background-location	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/getcello/cello-react-native/pull/5	2	1	@getcello/cello-react-native	
+https://github.com/gmi-software/react-native-pay/pull/5	4	1	@gmisoftware/react-native-pay	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/google-pay/react-native-make-payment/pull/111	4	1	@google/react-native-make-payment	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/googlemaps/react-native-navigation-sdk/pull/644	4	1	@googlemaps/react-native-navigation-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/gr8pathik/expo-pdf-text-extract/pull/2	2	1	expo-pdf-text-extract	
 https://github.com/grafana/faro-react-native-sdk/pull/191	3	1	@grafana/faro-react-native	
+https://github.com/grupalia/react-native-photo-picker/pull/1	4	1	@grupalia/react-native-photo-picker	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/guhungry/react-native-photo-manipulator/pull/1022	3	1	react-native-photo-manipulator	
 https://github.com/hirbod/react-native-volume-manager/pull/63	2	1	react-native-volume-manager	
 https://github.com/hoanglam10499/react-native-drop-shadow/pull/47	2	1	react-native-drop-shadow	
 https://github.com/ht-sdks/events-sdk-react-native/pull/74	2	3	@ht-sdks/sovran-react-native	
 https://github.com/huextrat/react-native-screenshot-aware/pull/613	3	1	react-native-screenshot-aware	
+https://github.com/hyochan/react-native-nitro-sound/pull/846	4	1	react-native-nitro-sound	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/hyodotdev/openiap/pull/438	4	2	expo-iap,react-native-iap	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/infinitered/react-native-mlkit/pull/269	2	5	@infinitered/react-native-mlkit-face-detection,@infinitered/react-native-mlkit-text-recognition	
 https://github.com/innoveit/react-native-ble-manager/pull/1434	2	1	react-native-ble-manager	
 https://github.com/invertase/react-native-apple-authentication/pull/390	1	1	@invertase/react-native-apple-authentication	
 https://github.com/invertase/react-native-google-mobile-ads/pull/886	1	1	react-native-google-mobile-ads	
 https://github.com/jakex7/react-native-localization-settings/pull/37	3	1	react-native-localization-settings	
+https://github.com/jeffDevelops/expo-app-integrity/pull/14	4	1	expo-app-integrity	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/jerson/react-native-fast-rsa/pull/101	2	1	react-native-fast-rsa	
+https://github.com/jpudysz/react-native-unistyles/pull/1246	4	1	react-native-unistyles	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/kadiraydinli/react-native-system-navigation-bar/pull/83	3	1	react-native-system-navigation-bar	
 https://github.com/kesha-antonov/react-native-background-downloader/pull/178	2	1	@kesha-antonov/react-native-background-downloader	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/kirillzyusko/react-native-teleport/pull/191	2	1	react-native-teleport	
+https://github.com/klarna/react-native-klarna-inapp-sdk/pull/388	4	4	react-native-klarna-inapp-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/klaviyo/klaviyo-react-native-sdk/pull/416	2	1	klaviyo-react-native-sdk	
 https://github.com/kuatsu/react-native-cloud-storage/pull/85	2	1	react-native-cloud-storage	
+https://github.com/l2hyunwoo/react-native-nitro-cookies/pull/19	4	1	react-native-nitro-cookies	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/leegeunhyeok/react-native-zendesk-messaging/pull/98	4	1	react-native-zendesk-messaging	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/livekit/client-sdk-react-native-expo-plugin/pull/25	4	1	@livekit/react-native-expo-plugin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/livekit/client-sdk-react-native/pull/454	4	1	@livekit/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/lodev09/react-native-true-sheet/pull/819	1	1	@lodev09/react-native-true-sheet	
 https://github.com/logicwind/react-native-exit-app/pull/9	2	1	@logicwind/react-native-exit-app	
+https://github.com/luicfrr/react-native-vision-camera-face-detector/pull/246	4	1	react-native-vision-camera-face-detector	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/lukaszkurantdev/react-native-fast-opencv/pull/118	2	1	react-native-fast-opencv	
+https://github.com/mCodex/react-native-sensitive-info/pull/696	4	1	react-native-sensitive-info	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/mParticle/react-native-mparticle/pull/384	4	1	react-native-mparticle	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/maitrungduc1410/react-native-video-trim/pull/141	2	1	react-native-video-trim	
 https://github.com/maplibre/maplibre-react-native/pull/1645	1	1	@maplibre/maplibre-react-native	
 https://github.com/margelo/nitro/pull/1579	1	1	react-native-nitro-modules	
 https://github.com/margelo/react-native-blurhash/pull/213	2	1	react-native-blurhash	
+https://github.com/margelo/react-native-fast-tflite/pull/203	4	1	react-native-fast-tflite	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/margelo/react-native-mmkv/pull/1090	4	1	react-native-mmkv	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/margelo/react-native-nitro-fetch/pull/230	4	3	react-native-nitro-fetch	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/margelo/react-native-quick-crypto/pull/1075	4	1	react-native-quick-crypto	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/margelo/react-native-release-profiler/pull/28	2	1	react-native-release-profiler	
+https://github.com/margelo/react-native-vision-camera/pull/4181	4	5	react-native-vision-camera,react-native-vision-camera-barcode-scanner,react-native-vision-camera-resizer,react-native-vision-camera-worklets	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/mateusz1913/react-native-avoid-softinput/pull/293	2	1	react-native-avoid-softinput	
+https://github.com/matinzd/react-native-health-connect/pull/273	4	1	react-native-health-connect	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/mattermost/react-native-paste-input/pull/57	2	1	@mattermost/react-native-paste-input	
+https://github.com/mike-stewart-dev/expo-native-fonts/pull/9	4	1	@bittingz/expo-native-fonts	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/mixpanel/mixpanel-react-native-session-replay/pull/82	2	1	@mixpanel/react-native-session-replay	
+https://github.com/mrousavy/react-native-nitro-image/pull/178	4	2	react-native-nitro-image,react-native-nitro-web-image	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/mrousavy/vision-camera-resize-plugin/pull/98	4	1	vision-camera-resize-plugin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/mtebele/react-native-tiktok-business-sdk/pull/41	2	1	react-native-tiktok-business-sdk	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
+https://github.com/mym0404/react-native-kakao/pull/78	4	6	@react-native-kakao/core	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/mym0404/react-native-naver-map/pull/196	4	1	@mj-studio/react-native-naver-map	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/nandorojo/galeria/pull/130	2	1	@nandorojo/galeria	
+https://github.com/numandev1/react-native-compressor/pull/419	4	1	react-native-compressor	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/oblador/react-native-keychain/pull/812	1	1	react-native-keychain	
 https://github.com/oblador/react-native-vector-icons/pull/1928	2	41	@react-native-vector-icons/ant-design,@react-native-vector-icons/entypo,@react-native-vector-icons/evil-icons,@react-native-vector-icons/feather,@react-native-vector-icons/fontawesome,@react-native-vector-icons/fontawesome5,@react-native-vector-icons/fontawesome6,@react-native-vector-icons/get-image,@react-native-vector-icons/ionicons,@react-native-vector-icons/lucide,@react-native-vector-icons/material-design-icons,@react-native-vector-icons/material-icons,@react-native-vector-icons/octicons	
 https://github.com/osamaqarem/react-native-image-colors/pull/114	2	1	react-native-image-colors	
+https://github.com/outsung/expo-dynamic-app-icon/pull/36	4	1	expo-dynamic-app-icon	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/peterferguson/react-native-passkeys/pull/71	2	1	react-native-passkeys	
 https://github.com/phantom/react-native-juicebox-sdk/pull/31	2	1	@phantom/react-native-juicebox-sdk	
 https://github.com/phantom/react-native-webview/pull/57	2	1	@phantom/react-native-webview	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
 https://github.com/pioner92/react-native-auto-skeleton/pull/21	2	1	react-native-auto-skeleton	
 https://github.com/powersync-ja/powersync-js/pull/1091	2	1	@powersync/op-sqlite,@powersync/react-native	
 https://github.com/pusher/pusher-websocket-react-native/pull/219	2	1	@pusher/pusher-websocket-react-native	
+https://github.com/radarlabs/react-native-radar/pull/451	4	1	react-native-radar	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/react-native-datetimepicker/datetimepicker/pull/1058	1	1	@react-native-community/datetimepicker	
 https://github.com/react-native-documents/document-picker/pull/1004	2	2	@react-native-documents/picker,@react-native-documents/viewer	
 https://github.com/react-native-google-signin/google-signin/pull/1524	1	1	@react-native-google-signin/google-signin	
 https://github.com/react-native-menu/menu/pull/1226	1	1	@react-native-menu/menu	
+https://github.com/react-native-nitro-google-sign-in/google-signin/pull/62	4	1	react-native-nitro-google-signin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/return764/react-native-mqtt/pull/2	3	1	@arkyutao/react-native-mqtt	
+https://github.com/rive-app/rive-nitro-react-native/pull/377	4	2	@rive-app/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/rive-app/rive-react-native/pull/446	1	1	rive-react-native	
 https://github.com/rudderlabs/rudder-sdk-react-native/pull/696	1	1	@rudderstack/rudder-sdk-react-native	CodeRabbit asked for an AGP 10 guard (taken) and an android.newDsl check (declined, with reasoning in the thread).
 https://github.com/sbaiahmed1/react-native-biometrics/pull/101	2	1	@sbaiahmed1/react-native-biometrics	
@@ -172,9 +268,19 @@ https://github.com/software-mansion/pulsar/pull/258	2	1	react-native-pulsar
 https://github.com/software-mansion/react-native-audio-api/pull/1271	2	2	react-native-audio-api	
 https://github.com/software-mansion/react-native-enriched-html/pull/787	2	1	react-native-enriched,react-native-enriched-html	
 https://github.com/software-mansion/react-native-executorch/pull/1412	2	2	react-native-executorch	
+https://github.com/songsterq/react-native-pdf-thumbnail/pull/95	4	1	react-native-pdf-thumbnail	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/stripe/stripe-identity-react-native/pull/276	4	1	@stripe/stripe-identity-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/stripe/stripe-react-native/pull/2602	4	1	@stripe/stripe-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/stripe/stripe-terminal-react-native/pull/1134	4	1	@stripe/stripe-terminal-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/sufyan297/react-native-voice-to-text/pull/2	3	1	@ascendtis/react-native-voice-to-text	Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation.
+https://github.com/talsec/Free-RASP-ReactNative/pull/160	4	1	freerasp-react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/teslamotors/react-native-camera-kit/pull/810	2	1	react-native-camera-kit	
+https://github.com/uju777/expo-mapbox-navigation/pull/44	4	1	@badatgil/expo-mapbox-navigation	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/urbanairship/react-native-airship/pull/761	4	1	@ua/react-native-airship	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/walterholohan/react-native-crisp-chat-sdk/pull/212	2	1	react-native-crisp-chat-sdk	
+https://github.com/watch-connectivity/react-native-watch-connectivity/pull/136	4	1	react-native-watch-connectivity	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/wn-na/react-native-capture-protection/pull/134	4	1	react-native-capture-protection	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/xmartlabs/react-native-line/pull/225	4	1	@xmartlabs/react-native-line	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/zmxv/react-native-sound/pull/899	2	1	react-native-sound	
 https://github.com/zoontek/react-native-bootsplash/pull/798	2	1	react-native-bootsplash	
 https://github.com/zoontek/react-native-edge-to-edge/pull/108	1	1	react-native-edge-to-edge	
