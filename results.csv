@@ -644,3 +644,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @aws-amplify/pushnotification,5.0.46,fail-baseline
 @aws-amplify/rtn-passkeys,1.1.2,fail-baseline
 @aws-amplify/rtn-push-notification,1.3.1,fail-newdsl
+@aws/clickstream-react-native,0.3.3,fail-newdsl
