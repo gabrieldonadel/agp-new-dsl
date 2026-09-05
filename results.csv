@@ -728,3 +728,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @callstack/polygen,,install-failed
 @callstack/repack,,install-failed
 @callstack/timezone-hermes-fix,,install-failed
+@camiloarc/react-native-bluetooth-escpos-printer,,install-failed
