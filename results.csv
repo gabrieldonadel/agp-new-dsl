@@ -862,3 +862,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cryptr/cryptr-react-native,1.0.1,fail-baseline
 @curity/identityserver-haapi-react-native-sdk,,install-failed
 @curity/react-native-haapi-module,0.6.0,fail-baseline
+@d4l/react-native-wear-connectivity,0.3.1,fail-baseline
