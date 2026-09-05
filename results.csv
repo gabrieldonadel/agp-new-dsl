@@ -718,3 +718,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @buildonspark/spark-sdk,,install-failed
 @burnt-labs/expo-satya-attest,,install-failed
 @busanid/react-native-voip,,install-failed
+@byteplus/react-native-live-pull,,install-failed
