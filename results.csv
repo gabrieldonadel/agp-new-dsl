@@ -682,3 +682,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bitrise/code-push-sdk,10.5.5,fail-baseline
 @bittingz/expo-native-fonts,3.1.0,fail-baseline
 @bittingz/expo-widgets,3.0.2,pass
+@bkey-inc/bmoni_embedded_sdk,0.0.1,fail-baseline
