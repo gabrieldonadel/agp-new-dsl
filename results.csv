@@ -875,3 +875,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @datadome/react-native-datadome,2.0.8,pass
 @datalogic/react-native-datalogic-module,2.0.3,fail-baseline
 @datalyr/react-native,,fail-newdsl
+@dawidzawada/bonjour-zeroconf,2.2.0,fail-baseline
