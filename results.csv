@@ -749,3 +749,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/media,9.1.0,pass
 @capacitor-community/native-audio,8.0.0,pass
 @capacitor-community/speech-recognition,7.0.1,pass
+@capacitor-community/sqlite,8.1.1,pass
