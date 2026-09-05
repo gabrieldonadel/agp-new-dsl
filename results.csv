@@ -761,3 +761,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/action-sheet,8.1.1,pass
 @capacitor/app,8.1.1,pass
 @capacitor/app-launcher,8.0.1,pass
+@capacitor/barcode-scanner,3.1.2,pass
