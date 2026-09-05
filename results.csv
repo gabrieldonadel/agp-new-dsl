@@ -648,3 +648,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @axelmarciano/react-native-esc-pos-printer,4.5.1,pass
 @axeptio/react-native-sdk,2.4.0,fail-baseline
 @axonpack/expo-devtools,2.5.4,pass
+@azerion/bluestack-sdk-react-native,6.0.2,fail-newdsl
