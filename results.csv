@@ -667,3 +667,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @batch.com/expo-plugin,,install-failed
 @batch.com/react-native-plugin,12.2.0,pass
 @bear-block/vision-camera-ocr,4.0.2,fail-baseline
+@beatsphere/expo-apple-music-kit,0.1.0,fail-baseline
