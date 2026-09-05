@@ -726,3 +726,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @caf.io/react-native-sdk,,install-failed
 @cafebazaar/react-native-poolakey,,install-failed
 @callstack/polygen,,install-failed
+@callstack/repack,,install-failed
