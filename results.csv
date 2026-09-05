@@ -645,3 +645,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @aws-amplify/rtn-passkeys,1.1.2,fail-baseline
 @aws-amplify/rtn-push-notification,1.3.1,fail-newdsl
 @aws/clickstream-react-native,0.3.3,fail-newdsl
+@axelmarciano/react-native-esc-pos-printer,4.5.1,pass
