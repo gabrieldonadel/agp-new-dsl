@@ -768,3 +768,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/device,,install-failed
 @capacitor/dialog,,install-failed
 @capacitor/file-transfer,,install-failed
+@capacitor/file-viewer,,install-failed
