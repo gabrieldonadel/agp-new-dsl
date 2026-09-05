@@ -985,3 +985,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @giulio987/expo-wallet,,install-failed
 @gmessier/nitro-speech,0.4.8,fail-baseline
 @gmisoftware/react-native-pay,0.0.16,fail-baseline
+@goroga/react-native-serialport-turbo,2.0.0,pass
