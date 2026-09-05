@@ -685,3 +685,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bkey-inc/bmoni_embedded_sdk,0.0.1,fail-baseline
 @blazejkustra/react-native-alert,1.0.0,fail-baseline
 @blueconic/blueconic-react-native,5.2.1,fail-newdsl
+@blux.ai/react-native,0.2.15,fail-newdsl
