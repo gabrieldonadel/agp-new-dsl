@@ -739,3 +739,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/apple-sign-in,,install-failed
 @capacitor-community/background-geolocation,,install-failed
 @capacitor-community/barcode-scanner,,install-failed
+@capacitor-community/bluetooth-le,,install-failed
