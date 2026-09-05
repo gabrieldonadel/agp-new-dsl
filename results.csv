@@ -939,3 +939,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @expo/video,,install-failed
 @expofp/react-native-efp-sdk,,install-failed
 @extole/react-native-sdk,,install-failed
+@fastlane-events/sunmi-cloud-printer,,install-failed
