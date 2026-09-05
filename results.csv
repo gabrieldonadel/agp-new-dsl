@@ -919,3 +919,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @eerengine/react-native-thermal-receipt-printer-image-qr,,install-failed
 @eitjuh/expo-apple-intelligence,,install-failed
 @embrace-io/react-native-otlp,,install-failed
+@embrace-io/react-native-tracer-provider,,install-failed
