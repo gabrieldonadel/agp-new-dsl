@@ -997,3 +997,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @gutenye/ocr-react-native,1.4.8,fail-baseline
 @guulabs/react-native-app-badge,0.4.3,fail-newdsl
 @gyjshow/react-native-alipay,1.0.8,fail-newdsl
+@gymbrosinc/react-native-mediapipe-pose,1.0.8,pass
