@@ -666,3 +666,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @baronha/ting,1.2.3,fail-baseline
 @batch.com/expo-plugin,,install-failed
 @batch.com/react-native-plugin,12.2.0,pass
+@bear-block/vision-camera-ocr,4.0.2,fail-baseline
