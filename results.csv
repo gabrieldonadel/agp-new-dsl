@@ -654,3 +654,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @azzapp/react-native-skia-video,0.10.1,pass
 @b.taranenko/expo-color-thief,0.0.1,fail-newdsl
 @babylonjs/react-native,2.0.5,fail-newdsl
+@backtrace/react-native,0.2.2,fail-baseline
