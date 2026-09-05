@@ -935,3 +935,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @evrotrust/et-react-native-wl-sdk,,install-failed
 @exodus/react-native-screenshot-detector,,install-failed
 @expensify/react-native-live-markdown,,install-failed
+@expensify/react-native-wallet,,install-failed
