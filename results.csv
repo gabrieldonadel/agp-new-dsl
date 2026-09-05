@@ -865,3 +865,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @d4l/react-native-wear-connectivity,0.3.1,fail-baseline
 @dalbodeule/expo-app-integrity,0.4.8,fail-newdsl
 @danielsaraldi/react-native-blur-view,3.0.3,pass
+@dariyd/react-native-document-scanner,2.0.19,fail-newdsl
