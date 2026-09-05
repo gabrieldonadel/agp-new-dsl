@@ -800,3 +800,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/capacitor-native-biometric,8.6.7,pass
 @capgo/capacitor-photo-library,8.0.23,pass
 @capgo/capacitor-share-target,8.0.49,pass
+@capgo/capacitor-social-login,8.5.5,pass
