@@ -40,3 +40,6 @@ example
 
 # generated native folders
 /ios
+
+# Gradle output that some libraries emit at the repo root
+Build/
