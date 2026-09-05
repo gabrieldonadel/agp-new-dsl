@@ -782,3 +782,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/share,8.0.1,pass
 @capacitor/splash-screen,8.0.2,pass
 @capacitor/status-bar,8.0.3,pass
+@capacitor/toast,8.0.1,pass
