@@ -989,3 +989,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @grafana/faro-react-native,1.3.1,fail-newdsl
 @grassper/react-native-icon-picker,1.0.11,fail-newdsl
 @gravitate-js/expo-platform-science,0.1.12,fail-baseline
+@greeendev/react-native-zebra-bluetooth-printer,1.0.16,fail-baseline
