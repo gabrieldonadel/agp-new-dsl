@@ -888,3 +888,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dhana-cs/react-native-truecaller,1.0.3,pass
 @didomi/react-native,2.34.1,fail-newdsl
 @digiotech/react-native,2.0.15,fail-baseline
+@digitalartlab/expo-plugin-localization,3.0.0,fail-baseline
