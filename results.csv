@@ -731,3 +731,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @camiloarc/react-native-bluetooth-escpos-printer,,install-failed
 @candlefinance/blur-view,,install-failed
 @candlefinance/faster-image,,install-failed
+@candlefinance/financekit,,install-failed
