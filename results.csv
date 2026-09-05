@@ -742,3 +742,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/bluetooth-le,8.3.0,pass
 @capacitor-community/camera-preview,8.0.1,pass
 @capacitor-community/contacts,8.0.0,pass
+@capacitor-community/facebook-login,8.1.0,pass
