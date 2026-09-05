@@ -898,3 +898,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dolami-inc/react-native-expo-unity,0.5.15,fail-baseline
 @dominicvonk/react-native-apk-installer,2.2.2,fail-baseline
 @domore-hr/expo-iap,2.1.1,pass
+@dongminyu/react-native-step-counter,0.4.0,fail-newdsl
