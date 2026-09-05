@@ -756,3 +756,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-firebase/authentication,,install-failed
 @capacitor-firebase/crashlytics,,install-failed
 @capacitor-firebase/messaging,,install-failed
+@capacitor-mlkit/barcode-scanning,,install-failed
