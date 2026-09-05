@@ -752,3 +752,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/sqlite,,install-failed
 @capacitor-community/stripe,,install-failed
 @capacitor-community/text-to-speech,,install-failed
+@capacitor-firebase/app-check,,install-failed
