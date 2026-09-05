@@ -681,3 +681,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bitnet-infotech/react-native-wav-to-mp3,2.0.8,fail-newdsl
 @bitrise/code-push-sdk,10.5.5,fail-baseline
 @bittingz/expo-native-fonts,3.1.0,fail-baseline
+@bittingz/expo-widgets,3.0.2,pass
