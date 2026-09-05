@@ -974,3 +974,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @gennadysx/react-native-background-thread,1.2.2,fail-baseline
 @getalby/expo-shared-preferences,0.0.1,fail-newdsl
 @getpara/react-native-wallet,,pass
+@getquip/expo-nordic-dfu,3.0.2,pass
