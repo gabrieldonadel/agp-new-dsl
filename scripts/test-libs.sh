@@ -47,6 +47,21 @@ net_error() { grep -qE "EHOSTUNREACH|ENOTFOUND|ETIMEDOUT|ECONNRESET|EAI_AGAIN|EN
 
 registry_up() { curl -sf -o /dev/null --max-time 15 https://registry.npmjs.org/react; }
 
+# A failed install can leave node_modules without the expo CLI, and then every
+# later package fails with "expo: command not found" and is recorded
+# install-failed. One package did exactly that and took the next 53 with it.
+# Check the harness is intact before each package and repair it if not.
+ensure_harness() {
+  [ -x node_modules/.bin/expo ] && return 0
+  echo "== expo CLI missing from node_modules, repairing" >&2
+  yarn install >/dev/null 2>&1
+  if [ ! -x node_modules/.bin/expo ]; then
+    echo "harness broken: expo CLI still missing after yarn install; stopping" >&2
+    exit 1
+  fi
+  echo "== harness repaired" >&2
+}
+
 wait_for_registry() {
   local waited=0
   until registry_up; do
@@ -82,6 +97,7 @@ while read -r pkg <&3; do
   grep -q "^$pkg," "$RESULTS" && continue
   log="logs/${pkg//\//__}.log"
   echo "== $pkg"
+  ensure_harness
 
   "$TIMEOUT" "$TIMEOUT_INSTALL" npx expo install "$pkg" >"$log" 2>&1
   install_rc=$?

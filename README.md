@@ -371,6 +371,11 @@ See the git log for the commits.
   no build was ever attempted. A stalled run is indistinguishable from a working
   one unless something enforces a deadline. Watch row count over time, not just
   whether the process is alive.
+- A failed install can strip the expo CLI out of `node_modules`, after which every
+  package fails with `expo: command not found` and is recorded `install-failed`.
+  One package did that and took the next 53 with it. `ensure_harness` checks the
+  CLI is present before each package, repairs with `yarn install`, and stops if it
+  cannot.
 - A dropped network is treated as a harness failure, not a result. `npx expo
   install` errors that look network-shaped (`EHOSTUNREACH` and friends) make the
   run wait for `registry.npmjs.org`, retry once, and abort if it is still down.
