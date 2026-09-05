@@ -957,3 +957,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @flittpayments/react-native-flitt,1.2.3,pass
 @flyerhq/react-native-android-uri-path,2.3.0,fail-newdsl
 @foursquare/movement-sdk-react-native,4.1.0,fail-baseline
+@freshheads/react-native-http-client,0.1.3,fail-newdsl
