@@ -794,3 +794,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capawesome/capacitor-passkeys,0.1.2,pass
 @capawesome/capacitor-password-autofill,0.1.2,pass
 @capgo/background-geolocation,8.4.3,pass
+@capgo/capacitor-contacts,8.1.2,pass
