@@ -698,3 +698,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bravemobile/react-native-code-push,,install-failed
 @breakr/react-native-device-activity-android,,install-failed
 @breeztech/breez-sdk-liquid-react-native,,install-failed
+@breeztech/breez-sdk-spark-react-native,,install-failed
