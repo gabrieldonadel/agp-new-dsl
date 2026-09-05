@@ -775,3 +775,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/inappbrowser,,install-failed
 @capacitor/keyboard,,install-failed
 @capacitor/local-notifications,,install-failed
+@capacitor/network,,install-failed
