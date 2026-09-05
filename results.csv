@@ -900,3 +900,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @domore-hr/expo-iap,2.1.1,pass
 @dongminyu/react-native-step-counter,0.4.0,fail-newdsl
 @doorstepai/dropoff-sdk,2.2.3,fail-baseline
+@dpdpguard/react-native,2.0.0,fail-newdsl
