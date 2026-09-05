@@ -43,3 +43,6 @@ example
 
 # Gradle output that some libraries emit at the repo root
 Build/
+
+# Scaffolding emitted by nodejs-mobile-react-native at the repo root
+nodejs-assets/
