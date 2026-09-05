@@ -809,3 +809,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @castlabs/react-native-prestoplay-thumbnails,1.4.0,fail-baseline
 @castleio/react-native-castle,4.0.0,fail-baseline
 @ccdilan/react-native-bluetooth-escpos-printer,0.2.0,fail-baseline
+@ccm19/sdk-react-native,,fail-newdsl
