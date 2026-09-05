@@ -719,3 +719,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @burnt-labs/expo-satya-attest,3.7.0,pass
 @busanid/react-native-voip,1.1.3,fail-baseline
 @byteplus/react-native-live-pull,1.5.0,fail-baseline
+@byteplus/react-native-rtc,1.3.2,fail-baseline
