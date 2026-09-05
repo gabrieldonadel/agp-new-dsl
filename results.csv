@@ -887,3 +887,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @devrev/sdk-react-native,2.3.10,fail-newdsl
 @dhana-cs/react-native-truecaller,1.0.3,pass
 @didomi/react-native,2.34.1,fail-newdsl
+@digiotech/react-native,2.0.15,fail-baseline
