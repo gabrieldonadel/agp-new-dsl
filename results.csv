@@ -873,3 +873,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dashdoc/react-native-system-sounds,2.0.0,pass
 @dasimems/react-native-svga,0.1.4,fail-baseline
 @datadome/react-native-datadome,2.0.8,pass
+@datalogic/react-native-datalogic-module,2.0.3,fail-baseline
