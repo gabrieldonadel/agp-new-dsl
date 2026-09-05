@@ -988,3 +988,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @goroga/react-native-serialport-turbo,2.0.0,pass
 @grafana/faro-react-native,1.3.1,fail-newdsl
 @grassper/react-native-icon-picker,1.0.11,fail-newdsl
+@gravitate-js/expo-platform-science,0.1.12,fail-baseline
