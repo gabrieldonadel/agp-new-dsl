@@ -1,0 +1,151 @@
+Dependency validation might be unreliable when using canary SDK versions
+› Installing 1 other package using yarn
+> yarn add @gaozh1024/expo-veepoo-sdk
+yarn add v1.22.22
+[1/4] Resolving packages...
+warning @gaozh1024/expo-veepoo-sdk > @expo/config-plugins > glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @gaozh1024/expo-veepoo-sdk > react-native > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @gaozh1024/expo-veepoo-sdk > react-native > @react-native/codegen > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @gaozh1024/expo-veepoo-sdk > react-native > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning @gaozh1024/expo-veepoo-sdk > expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-plugin-istanbul > test-exclude > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+warning @gaozh1024/expo-veepoo-sdk > expo > @expo/cli > @react-native/dev-middleware > chromium-edge-launcher > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning @gaozh1024/expo-veepoo-sdk > expo > @expo/cli > @react-native/dev-middleware > chromium-edge-launcher > rimraf > glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-dynamic-import@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-export-default-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-nullish-coalescing-operator@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-syntax-optional-chaining@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-block-scoping@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-properties@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-class-static-block@7.29.7" has unmet peer dependency "@babel/core@^7.12.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-destructuring@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-export-namespace-from@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-for-of@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-logical-assignment-operators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-modules-commonjs@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-nullish-coalescing-operator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-object-rest-spread@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-catch-binding@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-optional-chaining@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-parameters@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-methods@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-private-property-in-object@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-display-name@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx-development@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-pure-annotations@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-unicode-regex@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/preset-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-proposal-decorators > @babel/plugin-syntax-decorators@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-classes > @babel/helper-replace-supers@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-flow-strip-types > @babel/plugin-syntax-flow@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-named-capturing-groups-regex > @babel/helper-create-regexp-features-plugin@7.29.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-react-jsx > @babel/plugin-syntax-jsx@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.4.17" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.13.0" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
+warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest@29.7.0" has unmet peer dependency "@babel/core@^7.8.0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > @react-native/codegen@0.81.6" has unmet peer dependency "@babel/core@*".
+warning "@gaozh1024/expo-veepoo-sdk > expo > babel-preset-expo > @babel/preset-react@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > expo > babel-preset-expo > @react-native/babel-preset@0.81.5" has unmet peer dependency "@babel/core@*".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest@29.6.3" has unmet peer dependency "@babel/core@^7.0.0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax@1.2.0" has unmet peer dependency "@babel/core@^7.0.0 || ^8.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-bigint@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-async-generators@7.8.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-class-properties@7.12.13" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-class-static-block@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-attributes@7.29.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-meta@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-object-rest-spread@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-private-property-in-object@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-numeric-separator@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-logical-assignment-operators@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-json-strings@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-top-level-await@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@gaozh1024/expo-veepoo-sdk > react-native > babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-optional-catch-binding@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > @gaozh1024/expo-veepoo-sdk@1.2.8" has unmet peer dependency "expo-modules-core@>=1.0.0".
+
+<--- Last few GCs --->
+
+[58542:0xbe880c000]    27105 ms: Scavenge (during sweeping) 4064.4 (4087.0) -> 4055.2 (4090.5) MB, pooled: 0.0 MB, 8.80 / 0.00 ms (average mu = 0.206, current mu = 0.125) allocation failure; 
+[58542:0xbe880c000]    28194 ms: Incremental Mark-Compact (reduce) 4063.2 (4090.8) -> 4054.3 (4063.3) MB, pooled: 0.0 MB, 1069.33 / 0.00 ms (+ 2.7 ms in 124 steps since start of marking, biggest step 2.6 ms, walltime since start of marking 1082 ms) (avera
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0x106c5ac70 node::(anonymous namespace)::DefaultAbortHandler(char const*, char const*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 2: 0x106c5c500 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 3: 0x105eff154 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 4: 0x1060b1450 v8::internal::Heap::StartIncrementalMarking(v8::base::Flags<v8::internal::GCFlag, unsigned char, unsigned char>, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags, v8::internal::GarbageCollector, char const*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 5: 0x1060b11fc v8::internal::Heap::CompleteArrayBufferSweeping() [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 6: 0x1060b030c v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags, v8::internal::PerformHeapLimitCheck, v8::internal::PerformIneffectiveMarkCompactCheck) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 7: 0x106051d0c v8::internal::StackGuard::HandleInterrupts(v8::internal::StackGuard::InterruptLevel) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 8: 0x1063681ac v8::internal::Runtime_HandleNoHeapWritesInterrupts(int, unsigned long*, v8::internal::Isolate*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+ 9: 0x105ae8cac Builtins_CEntry_Return1_ArgvOnStack_NoBuiltinExit [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+10: 0x1173f4780 
+11: 0x1173f5510 
+12: 0x1173f7d28 
+13: 0x1173d04a4 
+14: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+15: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+16: 0x105a8622c Builtins_GeneratorPrototypeNext [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+17: 0x1172587f4 
+18: 0x1171542dc 
+19: 0x11727ef9c 
+20: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+21: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+22: 0x105a8622c Builtins_GeneratorPrototypeNext [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+23: 0x1172587f4 
+24: 0x1171542dc 
+25: 0x11727ef9c 
+26: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+27: 0x105a45424 Builtins_InterpreterEntryTrampoline [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+28: 0x105a8622c Builtins_GeneratorPrototypeNext [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+29: 0x1171519d8 
+30: 0x105b61458 Builtins_PromiseFulfillReactionJob [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+31: 0x105a72904 Builtins_RunMicrotasks [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+32: 0x105a42678 Builtins_JSRunMicrotasksEntry [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+33: 0x106027990 v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+34: 0x106028190 v8::internal::(anonymous namespace)::InvokeWithTryCatch(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+35: 0x106050074 v8::internal::MicrotaskQueue::PerformCheckpointInternal(v8::Isolate*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+36: 0x105c2b888 node::InternalCallbackScope::Close() [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+37: 0x105c2be90 node::InternalMakeCallback(node::Environment*, v8::Local<v8::Object>, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*, node::async_context, v8::Local<v8::Value>) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+38: 0x105c4232c node::AsyncWrap::MakeCallback(v8::Local<v8::Function>, int, v8::Local<v8::Value>*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+39: 0x105d12234 node::fs::FSReqCallback::Resolve(v8::Local<v8::Value>) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+40: 0x105d13c04 node::fs::AfterNoArgs(uv_fs_s*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+41: 0x105d03384 node::MakeLibuvRequestCallback<uv_fs_s, void (*)(uv_fs_s*)>::Wrapper(uv_fs_s*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+42: 0x102376e64 uv__work_done [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+43: 0x10237a3cc uv__async_io [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+44: 0x1023891b0 uv__io_poll [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+45: 0x10237ab64 uv_run [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+46: 0x105c2c608 node::SpinEventLoopInternal(node::Environment*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+47: 0x105d59664 node::NodeMainInstance::Run(node::ExitCode*, node::Environment*) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+48: 0x105d593b8 node::NodeMainInstance::Run() [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+49: 0x105ccbf30 node::Start(int, char**) [/opt/homebrew/Cellar/node/26.8.1/lib/libnode.147.dylib]
+50: 0x18eb9dd54 start [/usr/lib/dyld]
+Error: yarnpkg add @gaozh1024/expo-veepoo-sdk exited with signal: SIGABRT
+Error: yarnpkg add @gaozh1024/expo-veepoo-sdk exited with signal: SIGABRT
+    at ChildProcess.completionListener (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/spawn-async/build/spawnAsync.js:112:23)
+    at ChildProcess.wrapper (node:events:639:12)
+    at ChildProcess.emit (node:events:514:20)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    ...
+    at spawnAsync (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/spawn-async/build/spawnAsync.js:9:23)
+    at YarnPackageManager.runAsync (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/package-manager/build/node/BasePackageManager.js:75:42)
+    at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/package-manager/build/node/YarnPackageManager.js:52:30
+    at /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@expo/package-manager/build/utils/spawn.js:20:34
