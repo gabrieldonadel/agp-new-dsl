@@ -930,3 +930,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @es-webdev/react-native-sunmi-printer,2.0.10,pass
 @everuribe/expo-audio-studio,2.18.4,fail-baseline
 @evervault/evervault-react-native,1.4.5,fail-newdsl
+@evervault/react-native,2.7.1,fail-newdsl
