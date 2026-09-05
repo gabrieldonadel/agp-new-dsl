@@ -817,3 +817,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @checkout.com/checkout-react-native-components,1.0.0-beta8,fail-baseline
 @christhuong/expo-digital-ink,0.1.1,fail-baseline
 @christhuong/expo-mlkit-translation,0.1.1,fail-baseline
+@christhuong/expo-stylus-interaction,1.0.1,pass
