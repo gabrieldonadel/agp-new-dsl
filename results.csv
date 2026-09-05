@@ -861,3 +861,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @crossmint/expo-device-signer,0.1.2,pass
 @cryptr/cryptr-react-native,1.0.1,fail-baseline
 @curity/identityserver-haapi-react-native-sdk,,install-failed
+@curity/react-native-haapi-module,0.6.0,fail-baseline
