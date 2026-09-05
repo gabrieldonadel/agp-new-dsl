@@ -978,3 +978,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @getstoryteller/react-native-storyteller-sdk,11.5.0,fail-baseline
 @getvolume/react-native,3.3.1,fail-baseline
 @getvouch/mobile-sdk,,install-failed
+@getvouch/react-native-sdk,0.9.9,fail-baseline
