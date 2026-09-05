@@ -786,3 +786,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capawesome-team/capacitor-android-battery-optimization,8.0.1,pass
 @capawesome-team/capacitor-file-opener,8.0.4,pass
 @capawesome/capacitor-android-edge-to-edge-support,8.0.8,pass
+@capawesome/capacitor-app-shortcuts,8.0.2,pass
