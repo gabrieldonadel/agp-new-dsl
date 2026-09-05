@@ -784,3 +784,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/status-bar,,install-failed
 @capacitor/toast,,install-failed
 @capawesome-team/capacitor-android-battery-optimization,,install-failed
+@capawesome-team/capacitor-file-opener,,install-failed
