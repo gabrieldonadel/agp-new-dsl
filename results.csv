@@ -993,3 +993,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @grometrics/react-native,,fail-baseline
 @grouplinknetwork/rn-grouplink-sdk,2.6.0,pass
 @grupalia/react-native-photo-picker,,fail-baseline
+@gurukumparan/react-native-android-inapp-updates,2.0.2,pass
