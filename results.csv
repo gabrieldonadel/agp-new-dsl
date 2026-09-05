@@ -879,3 +879,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dbkable/react-native-speech-to-text,1.2.1,fail-newdsl
 @deeplinknow/react-native,,fail-baseline
 @dengage-tech/react-native-dengage,2.1.4,fail-newdsl
+@descope/react-native-sdk,0.13.0,fail-newdsl
