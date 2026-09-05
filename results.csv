@@ -912,3 +912,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dynamic-labs/react-native-extension,4.95.1,fail-newdsl
 @ebarooni/capacitor-calendar,8.5.0,pass
 @ebrimasamba/react-native-prompt,1.1.0,fail-newdsl
+@ebrimasamba/react-native-sms-retriever,2.1.1,fail-newdsl
