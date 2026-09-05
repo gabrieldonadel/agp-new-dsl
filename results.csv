@@ -716,3 +716,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @bugsnag/react-native-performance,3.4.1,pass
 @bugsplat/expo,0.7.0,fail-baseline
 @buildonspark/spark-sdk,,fail-newdsl
+@burnt-labs/expo-satya-attest,3.7.0,pass
