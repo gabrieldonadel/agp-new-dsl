@@ -773,3 +773,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/geolocation,,install-failed
 @capacitor/haptics,,install-failed
 @capacitor/inappbrowser,,install-failed
+@capacitor/keyboard,,install-failed
