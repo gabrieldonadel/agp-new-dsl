@@ -831,3 +831,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cohorly/react-native,,fail-newdsl
 @coinbase/cdp-app-attest,0.0.123,fail-baseline
 @coinbase/wallet-mobile-sdk,1.1.2,fail-newdsl
+@colaquecez/react-native-selectable-text,1.62.7,fail-baseline
