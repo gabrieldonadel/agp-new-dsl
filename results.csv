@@ -950,3 +950,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @finan-me/react-native-zywell-thermal-printer,,install-failed
 @fintecsystems/xs2a-react-native,,fail-newdsl
 @fishjam-cloud/react-native-webrtc,0.30.0,fail-newdsl
+@fivecar/react-native-background-downloader,4.5.6,fail-newdsl
