@@ -732,3 +732,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @candlefinance/blur-view,,install-failed
 @candlefinance/faster-image,,install-failed
 @candlefinance/financekit,,install-failed
+@candlefinance/haptics,,install-failed
