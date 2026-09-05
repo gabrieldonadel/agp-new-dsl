@@ -1000,3 +1000,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @gymbrosinc/react-native-mediapipe-pose,1.0.8,pass
 @hackler/react-native-sdk,4.0.0,fail-baseline
 @hackler/react-native-webview-plugin,2.0.0,fail-baseline
+@haileyok/bluesky-video,0.3.2,pass
