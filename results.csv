@@ -915,3 +915,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @ebrimasamba/react-native-sms-retriever,2.1.1,fail-newdsl
 @ecodevstack/react-native-mqtt-client,0.3.2,fail-newdsl
 @edkimmel/expo-audio-stream,1.1.1,fail-baseline
+@edritech93/react-native-datawedge-intents,,fail-newdsl
