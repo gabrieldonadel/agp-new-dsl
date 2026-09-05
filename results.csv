@@ -779,3 +779,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/preferences,8.0.1,pass
 @capacitor/push-notifications,8.1.2,pass
 @capacitor/screen-orientation,8.0.1,pass
+@capacitor/share,8.0.1,pass
