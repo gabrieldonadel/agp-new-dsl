@@ -797,3 +797,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capgo/capacitor-contacts,8.1.2,pass
 @capgo/capacitor-file-compressor,8.1.3,pass
 @capgo/capacitor-intercom,8.1.12,pass
+@capgo/capacitor-native-biometric,8.6.7,pass
