@@ -833,3 +833,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @coinbase/wallet-mobile-sdk,1.1.2,fail-newdsl
 @colaquecez/react-native-selectable-text,1.62.7,fail-baseline
 @colloque/react-native-zendesk-messaging,0.3.3,fail-baseline
+@comapeo/nodejs-mobile-react-native,18.20.4-2,pass
