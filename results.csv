@@ -999,3 +999,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @gyjshow/react-native-alipay,1.0.8,fail-newdsl
 @gymbrosinc/react-native-mediapipe-pose,1.0.8,pass
 @hackler/react-native-sdk,4.0.0,fail-baseline
+@hackler/react-native-webview-plugin,2.0.0,fail-baseline
