@@ -700,3 +700,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @breeztech/breez-sdk-liquid-react-native,,fail-newdsl
 @breeztech/breez-sdk-spark-react-native,,fail-newdsl
 @breeztech/react-native-breez-sdk-liquid,0.11.13,fail-baseline
+@brighthustle/react-native-usage-stats-manager,0.1.5,fail-newdsl
