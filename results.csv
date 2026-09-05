@@ -652,3 +652,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @azesmway/react-native-unity,1.1.1,fail-baseline
 @azizuysal/wallet-kit,,fail-newdsl
 @azzapp/react-native-skia-video,0.10.1,pass
+@b.taranenko/expo-color-thief,0.0.1,fail-newdsl
