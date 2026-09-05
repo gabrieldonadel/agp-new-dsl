@@ -866,3 +866,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @dalbodeule/expo-app-integrity,,install-failed
 @danielsaraldi/react-native-blur-view,,install-failed
 @dariyd/react-native-document-scanner,,install-failed
+@dariyd/react-native-image-description,,install-failed
