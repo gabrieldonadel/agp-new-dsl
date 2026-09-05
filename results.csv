@@ -954,3 +954,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @fkeulen/react-native-spotify-remote,0.3.11-5,fail-baseline
 @flarelane/react-native-sdk,1.11.2,pass
 @flashcatcloud/mobile-react-native,0.1.5,fail-baseline
+@flittpayments/react-native-flitt,1.2.3,pass
