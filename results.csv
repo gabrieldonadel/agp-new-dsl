@@ -825,3 +825,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @cloudflare/react-native-webrtc,137.0.1,pass
 @cloudflare/realtimekit-react-native,2.0.0,fail-baseline
 @cloudflare/realtimekit-react-native-ui,2.0.0,pass
+@code-push-next/react-native-code-push,10.4.3,fail-baseline
