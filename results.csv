@@ -813,3 +813,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @chaitrabhairappa/react-native-rich-text-editor,3.5.2,fail-newdsl
 @charles-johnson/react-native-ping,1.2.18,pass
 @charmy.tech/react-native-stroke-text,1.2.3,pass
+@chathura_dev/expo-msal,0.1.15,fail-baseline
