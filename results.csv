@@ -882,3 +882,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @descope/react-native-sdk,0.13.0,fail-newdsl
 @deuna/react-native-sdk,2.1.5,fail-newdsl
 @dev-amirzubair/react-native-voice,1.0.4,fail-newdsl
+@dev_vlens/react-native-vlens,,fail-baseline
