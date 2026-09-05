@@ -788,3 +788,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capawesome/capacitor-android-edge-to-edge-support,,install-failed
 @capawesome/capacitor-app-shortcuts,,install-failed
 @capawesome/capacitor-app-update,,install-failed
+@capawesome/capacitor-apple-sign-in,,install-failed
