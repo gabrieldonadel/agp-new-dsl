@@ -843,3 +843,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @complycube/react-native,1.2.4,fail-baseline
 @computools/react-native-dynamic-app-icon,,fail-baseline
 @comscore/analytics-react-native,1.2.0,fail-baseline
+@connectedbits/react-native-sensitive-info,6.0.0-alpha.14,fail-baseline
