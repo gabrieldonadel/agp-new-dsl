@@ -691,3 +691,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @boltpay/react-native,,install-failed
 @borndotcom/react-native-godot,1.0.1,fail-baseline
 @boterop/react-native-background-timer,2.6.0,pass
+@boudra/expo-two-way-audio,0.1.4,pass
