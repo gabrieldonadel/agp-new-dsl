@@ -740,3 +740,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor-community/background-geolocation,1.2.26,pass
 @capacitor-community/barcode-scanner,4.0.1,pass
 @capacitor-community/bluetooth-le,8.3.0,pass
+@capacitor-community/camera-preview,8.0.1,pass
