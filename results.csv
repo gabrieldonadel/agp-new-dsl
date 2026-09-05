@@ -643,3 +643,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @avasapp/react-native-otp-autofill,1.1.0,pass
 @aws-amplify/pushnotification,5.0.46,fail-baseline
 @aws-amplify/rtn-passkeys,1.1.2,fail-baseline
+@aws-amplify/rtn-push-notification,1.3.1,fail-newdsl
