@@ -846,3 +846,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @connectedbits/react-native-sensitive-info,6.0.0-alpha.14,fail-baseline
 @conodene/react-native-thermal-receipt-printer-image-qr,0.2.0,fail-baseline
 @contentsquare/react-native-bridge,6.5.2,fail-newdsl
+@cookieinformation/react-native-sdk,2.0.0,fail-newdsl
