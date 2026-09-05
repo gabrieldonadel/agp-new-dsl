@@ -819,3 +819,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @christhuong/expo-mlkit-translation,0.1.1,fail-baseline
 @christhuong/expo-stylus-interaction,1.0.1,pass
 @circle-fin/w3s-pw-react-native-sdk,2.2.3,fail-baseline
+@cjblack/expo-audio-stream,0.2.26,fail-baseline
