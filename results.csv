@@ -766,3 +766,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capacitor/camera,8.2.4,pass
 @capacitor/clipboard,8.0.1,pass
 @capacitor/device,8.0.3,pass
+@capacitor/dialog,8.0.1,pass
