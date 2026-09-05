@@ -835,3 +835,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @colloque/react-native-zendesk-messaging,0.3.3,fail-baseline
 @comapeo/nodejs-mobile-react-native,18.20.4-2,pass
 @cometchat/calls-sdk-react-native,5.0.5,pass
+@cometchat/chat-uikit-react-native,5.4.1,fail-newdsl
