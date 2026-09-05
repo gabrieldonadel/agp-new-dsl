@@ -657,3 +657,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @backtrace/react-native,0.2.2,fail-baseline
 @badatgil/expo-mapbox-navigation,1.6.2,fail-baseline
 @baeckerherz/expo-mapbox-navigation,1.0.6,fail-baseline
+@balloman/expo-google-maps,2.0.1,fail-baseline
