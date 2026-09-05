@@ -790,3 +790,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @capawesome/capacitor-app-update,,install-failed
 @capawesome/capacitor-apple-sign-in,,install-failed
 @capawesome/capacitor-google-sign-in,,install-failed
+@capawesome/capacitor-live-update,,install-failed
