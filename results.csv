@@ -807,3 +807,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @carlossts/react-native-leaflet-platform,,install-failed
 @castlabs/react-native-prestoplay,,install-failed
 @castlabs/react-native-prestoplay-thumbnails,,install-failed
+@castleio/react-native-castle,,install-failed
