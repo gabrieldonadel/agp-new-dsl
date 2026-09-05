@@ -720,3 +720,4 @@ vision-camera-resize-plugin,3.2.0,fail-baseline
 @busanid/react-native-voip,,install-failed
 @byteplus/react-native-live-pull,,install-failed
 @byteplus/react-native-rtc,,install-failed
+@byteplus/react-native-vod-player,,install-failed
