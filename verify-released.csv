@@ -2,3 +2,4 @@ package,version,status
 @react-native-google-signin/google-signin,16.1.5,pass
 @maplibre/maplibre-react-native,11.3.9,fail-newdsl
 @lodev09/react-native-true-sheet,3.11.13,fail-newdsl
+@preeternal/react-native-cookie-manager,6.4.1,pass
