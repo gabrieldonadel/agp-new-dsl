@@ -5,3 +5,4 @@ package,version,status
 @preeternal/react-native-cookie-manager,6.4.1,pass
 react-native-volume-manager,2.2.0,pass
 react-native-navigation-mode,1.2.13,pass
+@dr.pogodin/react-native-fs,2.40.2,pass
