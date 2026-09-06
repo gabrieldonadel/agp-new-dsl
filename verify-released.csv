@@ -3,3 +3,4 @@ package,version,status
 @maplibre/maplibre-react-native,11.3.9,fail-newdsl
 @lodev09/react-native-true-sheet,3.11.13,fail-newdsl
 @preeternal/react-native-cookie-manager,6.4.1,pass
+react-native-volume-manager,2.2.0,pass
