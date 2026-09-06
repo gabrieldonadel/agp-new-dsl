@@ -19,14 +19,14 @@ if (project.extensions.findByName('kotlin') == null) {
 
 | State | Count |
 |---|---|
-| open | 263 |
-| merged | 22 |
+| open | 260 |
+| merged | 25 |
 | closed | 2 |
 | **total** | **287** |
 
 287 pull requests covering 311 packages.
 
-## Pending (263)
+## Pending (260)
 
 Waiting on maintainers. `Discussion` is the number of comments and review
 comments, so a non-zero value is worth a look.
@@ -142,7 +142,7 @@ comments, so a non-zero value is worth a look.
 | `react-native-mmkv-storage` | 0.001 | 3 | 1 | https://github.com/ammarahm-ed/react-native-mmkv-storage/pull/393 | 1 |  |
 | `react-native-appstack-sdk` | 0.001 | 2 | 1 | https://github.com/appstack-tech/react-native-appstack-sdk/pull/50 | 1 |  |
 | `@bam.tech/react-native-app-security` | 0.001 | 4 | 1 | https://github.com/bamlab/react-native-app-security/pull/43 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@react-native-community/image-editor` | 0.001 | 2 | 1 | https://github.com/callstack/react-native-image-editor/pull/208 |  |  |
+| `@react-native-community/image-editor` | 0.001 | 2 | 1 | https://github.com/callstack/react-native-image-editor/pull/208 | 1 |  |
 | `react-native-snackbar` | 0.001 | 3 | 1 | https://github.com/cooperka/react-native-snackbar/pull/219 |  |  |
 | `@react-native-seoul/naver-login` | 0.001 | 4 | 1 | https://github.com/crossplatformkorea/react-native-naver-login/pull/255 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@siteed/audio-studio` | 0.001 | 2 | 4 | https://github.com/deeeed/audiolab/pull/489 | 1 |  |
@@ -184,7 +184,6 @@ comments, so a non-zero value is worth a look.
 | `@dalbodeule/expo-app-integrity` | 0 | 3 | 1 | https://github.com/20203153/expo-app-integrity/pull/1 |  |  |
 | `@2060.io/react-native-eid-reader` | 0 | 3 | 1 | https://github.com/2060-io/react-native-eid-reader/pull/68 |  |  |
 | `@atomiqlab/react-native-mapbox-navigation` | 0 | 4 | 1 | https://github.com/ATOMIQTECH/react-native-mapbox-navigation/pull/21 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@alexzunik/react-native-money-input` | 0 | 3 | 1 | https://github.com/AleksandrNikolaevich/react-native-money-input/pull/8 |  |  |
 | `@angelkrak/react-native-intent-launcher` | 0 | 3 | 1 | https://github.com/AngelKrak/react-native-intent-launcher/pull/1 |  |  |
 | `@bitnet-infotech/react-native-razorpay-nitro` | 0 | 4 | 1 | https://github.com/BITNET-Infotech/react-native-razorpay-nitro/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bitnet-infotech/react-native-wav-to-mp3` | 0 | 3 | 1 | https://github.com/BITNET-Infotech/react-native-wav-to-mp3/pull/3 |  |  |
@@ -206,7 +205,7 @@ comments, so a non-zero value is worth a look.
 | `@grassper/react-native-icon-picker` | 0 | 3 | 1 | https://github.com/Grassper/react-native-icon-picker/pull/4 |  |  |
 | `@baronha/react-native-multiple-image-picker` | 0 | 4 | 1 | https://github.com/NitrogenZLab/react-native-multiple-image-picker/pull/265 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@baronha/ting` | 0 | 4 | 1 | https://github.com/NitrogenZLab/ting/pull/44 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@gmessier/nitro-speech` | 0 | 4 | 1 | https://github.com/NotGeorgeMessier/nitro-speech/pull/16 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@gmessier/nitro-speech` | 0 | 4 | 1 | https://github.com/NotGeorgeMessier/nitro-speech/pull/16 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@dbkable/react-native-speech-to-text` | 0 | 3 | 1 | https://github.com/adelbeke/react-native-speech-to-text/pull/16 |  |  |
 | `@ajitpatel28/react-native-truecaller` | 0 | 4 | 1 | https://github.com/ajitpatel28/react-native-truecaller/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@akbaraditamasp/expo-lock-task` | 0 | 3 | 1 | https://github.com/akbaraditamasp/expo-lock-task/pull/2 |  |  |
@@ -223,7 +222,7 @@ comments, so a non-zero value is worth a look.
 | `@avasapp/react-native-app-intents` | 0 | 3 | 1 | https://github.com/avas-app/react-native-app-intents/pull/2 |  |  |
 | `@aws/clickstream-react-native` | 0 | 3 | 1 | https://github.com/aws-solutions-library-samples/clickstream-analytics-on-aws-react-native-sdk/pull/23 |  |  |
 | `@axeptio/react-native-sdk` | 0 | 4 | 1 | https://github.com/axeptio/react-native-sdk/pull/97 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@azizuysal/wallet-kit` | 0 | 3 | 1 | https://github.com/azizuysal/wallet-kit/pull/29 |  |  |
+| `@azizuysal/wallet-kit` | 0 | 3 | 1 | https://github.com/azizuysal/wallet-kit/pull/29 | 1 |  |
 | `@baeckerherz/expo-mapbox-navigation` | 0 | 4 | 1 | https://github.com/baeckerherz/expo-mapbox-navigation/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bam.tech/react-native-ssl-pinning` | 0 | 4 | 1 | https://github.com/bamlab/react-native-ssl-pinning/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bernagl/react-native-date` | 0 | 4 | 1 | https://github.com/bbernag/react-native-date/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -232,13 +231,11 @@ comments, so a non-zero value is worth a look.
 | `@dr.pogodin/react-native-static-server` | 0 | 3 | 1 | https://github.com/birdofpreyru/react-native-static-server/pull/167 |  |  |
 | `@dr.pogodin/react-native-webview` | 0 | 3 | 1 | https://github.com/birdofpreyru/react-native-webview/pull/23 |  | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `@bitdrift/react-native` | 0 | 3 | 1 | https://github.com/bitdriftlabs/capture-es/pull/293 | 1 |  |
-| `@blazejkustra/react-native-alert` | 0 | 4 | 1 | https://github.com/blazejkustra/react-native-alert/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bnnx/react-native-label-printer` | 0 | 3 | 1 | https://github.com/bnnx/react-native-label-printer/pull/2 |  |  |
 | `@borndotcom/react-native-godot` | 0 | 4 | 1 | https://github.com/borndotcom/react-native-godot/pull/34 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@breeztech/breez-sdk-liquid-react-native` | 0 | 3 | 2 | https://github.com/breez/breez-sdk-liquid/pull/1107 |  |  |
 | `@breeztech/breez-sdk-spark-react-native` | 0 | 3 | 2 | https://github.com/breez/spark-sdk/pull/1097 |  |  |
 | `@brighthustle/react-native-usage-stats-manager` | 0 | 3 | 1 | https://github.com/bright-hustle/react-native-usage-stats-manager/pull/3 |  |  |
-| `@bufgix/react-native-secure-window` | 0 | 4 | 1 | https://github.com/bufgix/react-native-secure-window/pull/3 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@buildonspark/spark-sdk` | 0 | 3 | 1 | https://github.com/buildonspark/spark/pull/151 |  |  |
 | `@busanid/react-native-voip` | 0 | 4 | 1 | https://github.com/busanid/react-native-voip/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@cafebazaar/react-native-poolakey` | 0 | 4 | 1 | https://github.com/cafebazaar/react-native-poolakey/pull/32 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -288,7 +285,7 @@ comments, so a non-zero value is worth a look.
 | `@fivecar/react-native-background-downloader` | 0 | 3 | 1 | https://github.com/fivecar/react-native-background-downloader/pull/3 |  | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `@foursquare/movement-sdk-react-native` | 0 | 4 | 1 | https://github.com/foursquare/movement-sdk-react-native/pull/21 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@frontegg/react-native` | 0 | 4 | 1 | https://github.com/frontegg/frontegg-react-native/pull/131 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@gabriel-sisjr/react-native-background-location` | 0 | 4 | 1 | https://github.com/gabriel-sisjr/react-native-background-location/pull/50 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@gabriel-sisjr/react-native-background-location` | 0 | 4 | 1 | https://github.com/gabriel-sisjr/react-native-background-location/pull/50 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@gmisoftware/react-native-pay` | 0 | 4 | 1 | https://github.com/gmi-software/react-native-pay/pull/5 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@grafana/faro-react-native` | 0 | 3 | 1 | https://github.com/grafana/faro-react-native-sdk/pull/191 | 1 |  |
 | `@grupalia/react-native-photo-picker` | 0 | 4 | 1 | https://github.com/grupalia/react-native-photo-picker/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -297,7 +294,7 @@ comments, so a non-zero value is worth a look.
 | `@ascendtis/react-native-voice-to-text` | 0 | 3 | 1 | https://github.com/sufyan297/react-native-voice-to-text/pull/2 |  | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `@badatgil/expo-mapbox-navigation` | 0 | 4 | 1 | https://github.com/uju777/expo-mapbox-navigation/pull/44 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 
-## Merged (22)
+## Merged (25)
 
 | Package(s) | Usage | Round | Files | PR | Merged | Note |
 |---|---|---|---|---|---|---|
@@ -321,8 +318,11 @@ comments, so a non-zero value is worth a look.
 | `@kesha-antonov/react-native-background-downloader` | 0.001 | 2 | 1 | https://github.com/kesha-antonov/react-native-background-downloader/pull/178 | 2026-09-05 | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `react-native-cloud-storage` | 0.001 | 2 | 1 | https://github.com/kuatsu/react-native-cloud-storage/pull/85 | 2026-09-04 |  |
 | `@mattermost/react-native-paste-input` | 0.001 | 2 | 1 | https://github.com/mattermost/react-native-paste-input/pull/57 | 2026-09-05 |  |
+| `@alexzunik/react-native-money-input` | 0 | 3 | 1 | https://github.com/AleksandrNikolaevich/react-native-money-input/pull/8 | 2026-09-05 |  |
 | `@dongminyu/react-native-step-counter` | 0 | 3 | 1 | https://github.com/AndrewDongminYoo/react-native-step-counter/pull/66 | 2026-09-05 |  |
 | `@angelcat/react-native-honeywell-barcode-scanner` | 0 | 3 | 1 | https://github.com/Ky0-Nguyen/react-native-honeywell-barcode-scanner/pull/1 | 2026-09-05 |  |
+| `@blazejkustra/react-native-alert` | 0 | 4 | 1 | https://github.com/blazejkustra/react-native-alert/pull/8 | 2026-09-05 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@bufgix/react-native-secure-window` | 0 | 4 | 1 | https://github.com/bufgix/react-native-secure-window/pull/3 | 2026-09-05 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 
 ## Closed without merging (2)
 

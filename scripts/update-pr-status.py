@@ -17,6 +17,7 @@ import json
 import os
 import re
 import subprocess
+import time
 import sys
 from collections import Counter
 
@@ -41,21 +42,33 @@ def usage_map():
     return u
 
 
-def fetch(rec):
+def fetch(rec, tries=3):
+    """Read one PR's live state. Retries, because a single transient API failure
+    would otherwise be written into the document as 'unreachable', which reads as
+    a deleted repository rather than a blip."""
     m = PR_RE.match(rec["url"])
     if not m:
         rec["state"] = "unknown"
         return rec
     repo, num = m.group(1), m.group(2)
-    p = subprocess.run(
-        ["gh", "api", f"repos/{repo}/pulls/{num}", "--jq",
-         '[.state,(.merged|tostring),(.merged_at//"-"),(.comments|tostring),'
-         '(.review_comments|tostring),(.additions|tostring),(.changed_files|tostring)]'
-         '|join("|")'],
-        capture_output=True, text=True, stdin=subprocess.DEVNULL)
-    if p.returncode != 0 or not p.stdout.strip():
+    out = ""
+    for attempt in range(tries):
+        p = subprocess.run(
+            ["gh", "api", f"repos/{repo}/pulls/{num}", "--jq",
+             '[.state,(.merged|tostring),(.merged_at//"-"),(.comments|tostring),'
+             '(.review_comments|tostring),(.additions|tostring),(.changed_files|tostring)]'
+             '|join("|")'],
+            capture_output=True, text=True, stdin=subprocess.DEVNULL)
+        if p.returncode == 0 and p.stdout.strip():
+            out = p.stdout
+            break
+        if "Not Found" in p.stderr:
+            break          # a real 404, not worth retrying
+        time.sleep(2 * (attempt + 1))
+    if not out.strip():
         rec["state"] = "unreachable"
         return rec
+    p = type("R", (), {"stdout": out})
     st, merged, at, comments, rcomments, adds, files = p.stdout.strip().split("|")
     rec["repo"] = repo
     rec["number"] = num
