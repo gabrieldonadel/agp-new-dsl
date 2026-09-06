@@ -4,3 +4,4 @@ package,version,status
 @lodev09/react-native-true-sheet,3.11.13,fail-newdsl
 @preeternal/react-native-cookie-manager,6.4.1,pass
 react-native-volume-manager,2.2.0,pass
+react-native-navigation-mode,1.2.13,pass
