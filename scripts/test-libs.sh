@@ -6,7 +6,7 @@ set -u
 cd "$(dirname "$0")/.."
 
 LIBS="${LIBS:-libs.txt}"
-RESULTS=results.csv
+RESULTS="${RESULTS:-results.csv}"
 TASK=:app:assembleDebug
 COMMON_FLAGS=(-PreactNativeArchitectures=arm64-v8a --console=plain)
 NEW_DSL_FLAGS=(-Pandroid.newDsl=true -Pandroid.builtInKotlin=true)
