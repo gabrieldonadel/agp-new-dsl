@@ -62,7 +62,7 @@ https://github.com/WebsiteBeaver/react-native-document-scanner-plugin/pull/183	2
 https://github.com/XDcobra/react-native-sherpa-onnx/pull/123	3	1	react-native-sherpa-onnx	
 https://github.com/adaptyteam/AdaptySDK-React-Native/pull/340	2	1	react-native-adapty	
 https://github.com/adelbeke/react-native-speech-to-text/pull/16	3	1	@dbkable/react-native-speech-to-text	
-https://github.com/adobe/aepsdk-react-native/pull/591	4	1	@adobe/react-native-aepmessaging	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/adobe/aepsdk-react-native/pull/591	4	1	@adobe/react-native-aepmessaging	CLA cleared by closing and reopening the PR, which is what the adobe-cla-bot summary instructs. Check now reports success.
 https://github.com/ahmedawaad1804/react-native-restart-newarch/pull/4	3	1	react-native-restart-newarch	
 https://github.com/ajitpatel28/react-native-truecaller/pull/8	4	1	@ajitpatel28/react-native-truecaller	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/akbaraditamasp/expo-lock-task/pull/2	3	1	@akbaraditamasp/expo-lock-task	
@@ -120,7 +120,7 @@ https://github.com/candlefinance/blur-view/pull/5	3	1	@candlefinance/blur-view
 https://github.com/candlefinance/faster-image/pull/92	3	1	@candlefinance/faster-image	
 https://github.com/candlefinance/haptics/pull/4	3	1	@candlefinance/haptics	
 https://github.com/candlefinance/page-control/pull/2	3	1	@candlefinance/page-control	
-https://github.com/castle/castle-react-native/pull/182	4	1	@castleio/react-native-castle	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/castle/castle-react-native/pull/182	4	1	@castleio/react-native-castle	Approved, then closed: the maintainer requires signed commits, so they re-created the change themselves as castle-react-native#185, which merged. The fix landed.
 https://github.com/christopherdro/react-native-html-to-pdf/pull/338	2	1	react-native-html-to-pdf	
 https://github.com/cleanui-dev/react-native-scanner/pull/7	3	1	@cleanuidev/react-native-scanner	
 https://github.com/clerk/javascript/pull/9660	2	2	@clerk/expo-google-signin,@clerk/expo-passkeys	Closed in favour of clerk/javascript#9662, which merged with the same guard and credits us as co-author. Clerk is fixed.

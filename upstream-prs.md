@@ -86,7 +86,7 @@ comments, so a non-zero value is worth a look.
 | `skyflow-react-native` | 0.004 | 2 | 1 | https://github.com/skyflowapi/skyflow-react-native/pull/159 |  |  |
 | `@stripe/stripe-terminal-react-native` | 0.004 | 4 | 1 | https://github.com/stripe/stripe-terminal-react-native/pull/1134 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@adyen/react-native` | 0.003 | 2 | 1 | https://github.com/Adyen/adyen-react-native/pull/1223 |  |  |
-| `@adobe/react-native-aepmessaging` | 0.003 | 4 | 1 | https://github.com/adobe/aepsdk-react-native/pull/591 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@adobe/react-native-aepmessaging` | 0.003 | 4 | 1 | https://github.com/adobe/aepsdk-react-native/pull/591 |  | CLA cleared by closing and reopening the PR, which is what the adobe-cla-bot summary instructs. Check now reports success. |
 | `react-native-pdf-renderer` | 0.003 | 2 | 1 | https://github.com/douglasjunior/react-native-pdf-renderer/pull/70 |  |  |
 | `react-native-passkey` | 0.003 | 2 | 1 | https://github.com/f-23/react-native-passkey/pull/116 |  |  |
 | `expo-app-integrity` | 0.003 | 4 | 1 | https://github.com/jeffDevelops/expo-app-integrity/pull/14 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -101,7 +101,7 @@ comments, so a non-zero value is worth a look.
 | `react-native-adapty` | 0.002 | 2 | 1 | https://github.com/adaptyteam/AdaptySDK-React-Native/pull/340 | 2 |  |
 | `@react-native-seoul/kakao-login` | 0.002 | 4 | 1 | https://github.com/crossplatformkorea/react-native-kakao-login/pull/443 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `react-native-wallet-manager` | 0.002 | 4 | 1 | https://github.com/dev-family/react-native-wallet-manager/pull/46 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@google/react-native-make-payment` | 0.002 | 4 | 1 | https://github.com/google-pay/react-native-make-payment/pull/111 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@google/react-native-make-payment` | 0.002 | 4 | 1 | https://github.com/google-pay/react-native-make-payment/pull/111 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `react-native-drop-shadow` | 0.002 | 2 | 1 | https://github.com/hoanglam10499/react-native-drop-shadow/pull/47 |  |  |
 | `react-native-ble-manager` | 0.002 | 2 | 1 | https://github.com/innoveit/react-native-ble-manager/pull/1434 |  |  |
 | `klaviyo-react-native-sdk` | 0.002 | 2 | 1 | https://github.com/klaviyo/klaviyo-react-native-sdk/pull/416 | 2 |  |
@@ -138,7 +138,7 @@ comments, so a non-zero value is worth a look.
 | `react-native-exponea-sdk` | 0.001 | 2 | 1 | https://github.com/exponea/exponea-react-native-sdk/pull/144 |  |  |
 | `react-native-fast-squircle` | 0.001 | 4 | 1 | https://github.com/fbeccaceci/react-native-fast-squircle/pull/30 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@getcello/cello-react-native` | 0.001 | 2 | 1 | https://github.com/getcello/cello-react-native/pull/5 |  |  |
-| `@googlemaps/react-native-navigation-sdk` | 0.001 | 4 | 1 | https://github.com/googlemaps/react-native-navigation-sdk/pull/644 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@googlemaps/react-native-navigation-sdk` | 0.001 | 4 | 1 | https://github.com/googlemaps/react-native-navigation-sdk/pull/644 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `expo-pdf-text-extract` | 0.001 | 2 | 1 | https://github.com/gr8pathik/expo-pdf-text-extract/pull/2 |  |  |
 | `react-native-photo-manipulator` | 0.001 | 3 | 1 | https://github.com/guhungry/react-native-photo-manipulator/pull/1022 |  |  |
 | `@ht-sdks/sovran-react-native` | 0.001 | 2 | 3 | https://github.com/ht-sdks/events-sdk-react-native/pull/74 | 1 |  |
@@ -332,5 +332,5 @@ through their own process rather than rejecting it.
 |---|---|---|---|---|---|---|
 | `@atomicfi/transact-react-native` | 0.004 | 2 | 1 | https://github.com/atomicfi/atomic-transact-react-native/pull/197 | 1 | Closed on company policy: external PRs go through their internal workflow. Maintainer confirmed they are applying the change. |
 | `@clerk/expo-google-signin`, `@clerk/expo-passkeys` | 0.002 | 2 | 2 | https://github.com/clerk/javascript/pull/9660 | 4 | Closed in favour of clerk/javascript#9662, which merged with the same guard and credits us as co-author. Clerk is fixed. |
-| `@castleio/react-native-castle` | 0 | 4 | 1 | https://github.com/castle/castle-react-native/pull/182 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@castleio/react-native-castle` | 0 | 4 | 1 | https://github.com/castle/castle-react-native/pull/182 | 1 | Approved, then closed: the maintainer requires signed commits, so they re-created the change themselves as castle-react-native#185, which merged. The fix landed. |
 
