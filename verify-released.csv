@@ -9,3 +9,4 @@ package,version,status
 @clerk/expo-passkeys,2.0.18,pass
 @criipto/verify-expo,4.0.2,fail-baseline
 @dbkable/react-native-speech-to-text,1.2.2,pass
+@didit-protocol/sdk-react-native,4.7.7,fail-baseline
