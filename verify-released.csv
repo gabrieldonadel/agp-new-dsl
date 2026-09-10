@@ -6,3 +6,4 @@ package,version,status
 @blazejkustra/react-native-alert,1.1.0,fail-baseline
 @breeztech/breez-sdk-spark-react-native,,pass
 @clerk/expo-google-signin,1.0.4,pass
+@clerk/expo-passkeys,2.0.18,pass
