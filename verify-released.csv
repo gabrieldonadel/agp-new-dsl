@@ -49,3 +49,4 @@ react-native-nitro-cookies,1.2.1,fail-baseline
 react-native-nitro-markdown,,fail-baseline
 react-native-nitro-sound,0.2.20,fail-baseline
 react-native-passkey,3.6.2,pass
+react-native-purchases,10.9.1,pass
