@@ -11,3 +11,4 @@ package,version,status
 @dbkable/react-native-speech-to-text,1.2.2,pass
 @didit-protocol/sdk-react-native,4.7.7,fail-baseline
 @domir/react-native-measure-text,0.1.10,pass
+@dr.pogodin/react-native-fs,2.40.2,pass
