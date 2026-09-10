@@ -5,3 +5,4 @@ package,version,status
 @bear-block/vision-camera-ocr,4.0.3,fail-baseline
 @blazejkustra/react-native-alert,1.1.0,fail-baseline
 @breeztech/breez-sdk-spark-react-native,,pass
+@clerk/expo-google-signin,1.0.4,pass
