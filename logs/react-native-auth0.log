@@ -58,9 +58,9 @@ success Saved lockfile.
 warning Workspaces can only be enabled in private projects.
 success Saved 25 new dependencies.
 info Direct dependencies
-└─ react-native-auth0@5.11.0
+└─ react-native-auth0@5.11.1
 info All dependencies
-├─ @auth0/auth0-auth-js@1.13.0
+├─ @auth0/auth0-auth-js@1.14.0
 ├─ @auth0/auth0-spa-js@2.24.1
 ├─ base-64@1.0.0
 ├─ browser-tabs-lock@1.3.0
@@ -72,27 +72,30 @@ info All dependencies
 ├─ get-intrinsic@1.3.0
 ├─ get-proto@1.0.1
 ├─ has-symbols@1.1.0
-├─ jose@6.2.10
+├─ jose@6.2.12
 ├─ jwt-decode@4.0.0
 ├─ lodash@4.18.1
 ├─ math-intrinsics@1.1.0
-├─ oauth4webapi@3.8.7
-├─ openid-client@6.8.7
+├─ oauth4webapi@3.8.8
+├─ openid-client@6.8.8
 ├─ punycode@1.4.1
 ├─ qs@6.16.0
-├─ react-native-auth0@5.11.0
+├─ react-native-auth0@5.11.1
 ├─ side-channel-list@1.0.1
 ├─ side-channel-weakmap@1.0.2
 ├─ side-channel@1.1.1
 └─ url@0.11.4
-Done in 1.83s.
+Done in 1.80s.
 › Added config plugin: react-native-auth0
-> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+== 6G free, below 12G: pruning Gradle transforms
+== 8G free after prune
+Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
@@ -113,26 +116,26 @@ Done in 1.83s.
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors
 > Task :expo-module-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
-> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
 > Task :gradle-plugin:react-native-gradle-plugin:processResources
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
-> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar
 > Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
 > Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
 > Task :gradle-plugin:react-native-gradle-plugin:classes
@@ -142,10 +145,6 @@ Done in 1.83s.
 > Task :expo-module-gradle-plugin:classes
 > Task :expo-module-gradle-plugin:jar
 
-> Configure project :app
- ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
-  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
-
 > Configure project :
 [32m[ExpoRootProject][0m Using the following versions:
   - buildTools:  [32m37.0.0[0m
@@ -155,6 +154,10 @@ Done in 1.83s.
   - ndk:         [32m27.1.12297006[0m
   - kotlin:      [32m2.2.0[0m
   - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
 
 > Configure project :expo
 
@@ -177,192 +180,31 @@ Using expo modules
   - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
 
 
-[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
-
-FAILURE: Build completed with 2 failures.
-
-1: Task failed with an exception.
------------
-* Where:
-Build file '/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/build.gradle' line: 28
-
-* What went wrong:
-A problem occurred evaluating project ':react-native-auth0'.
-> Failed to apply plugin 'kotlin-android'.
-   > Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights from a Build Scan (powered by Develocity).
-> Get more help at https://help.gradle.org.
-==============================================================================
-
-2: Task failed with an exception.
------------
-* What went wrong:
-A problem occurred configuring project ':react-native-auth0'.
-> Android Gradle Plugin: project ':react-native-auth0' does not specify `compileSdk` in build.gradle (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/build.gradle).
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights from a Build Scan (powered by Develocity).
-> Get more help at https://help.gradle.org.
-==============================================================================
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
-
-You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
-
-For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
-
-BUILD FAILED in 2s
-28 actionable tasks: 28 executed
-== retry without new DSL flags
-> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
-> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
-> Task :gradle-plugin:shared:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
-> Task :gradle-plugin:shared:processResources NO-SOURCE
-> Task :gradle-plugin:shared:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
-> Task :gradle-plugin:shared:jar UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
-> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
-> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
-> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
-> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
-> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
-> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
-> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
-> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
-> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
-> Task :expo-module-gradle-plugin:classes UP-TO-DATE
-> Task :expo-module-gradle-plugin:jar UP-TO-DATE
-
-> Configure project :app
- ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
-  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
-
-> Configure project :
-[32m[ExpoRootProject][0m Using the following versions:
-  - buildTools:  [32m37.0.0[0m
-  - minSdk:      [32m24[0m
-  - compileSdk:  [32m37[0m
-  - targetSdk:   [32m36[0m
-  - ndk:         [32m27.1.12297006[0m
-  - kotlin:      [32m2.2.0[0m
-  - ksp:         [32m2.2.0-2.0.2[0m
-
-> Configure project :expo
-
-Using expo modules
-  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
-  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
-  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
-  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
-
-
-> Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
-> Task :expo-modules-core:processDebugNavigationResources
-> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-log-box:processDebugNavigationResources
-> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingNewArchitectureFiles
-> Task :expo-modules-core:generateDebugBuildConfig
-> Task :expo-log-box:generateDebugBuildConfig
-> Task :expo-log-box:generateDebugResources
 > Task :app:generateAutolinkingPackageList
 > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
 > Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :expo-log-box:processDebugNavigationResources
+> Task :expo-modules-core:processDebugNavigationResources
 > Task :app:generateReactNativeEntryPoint
-> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:packageDebugResources
-> Task :expo-log-box:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:javaPreCompileDebug
-> Task :expo-log-box:parseDebugLocalResources
-> Task :expo-log-box:mergeDebugAssets
+> Task :expo-log-box:generateDebugBuildConfig
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :expo-log-box:generateDebugResources
 > Task :expo-modules-core:generateDebugResources
-> Task :expo-log-box:writeDebugAarMetadata
-> Task :expo-log-box:extractDeepLinksDebug
-> Task :expo-log-box:generateDebugRFile
-> Task :expo-log-box:mapDebugSourceSetPaths
-> Task :expo-log-box:processDebugManifest
-> Task :expo-modules-core:packageDebugResources
-> Task :expo-log-box:compileDebugLibraryResources
-> Task :expo-log-box:mergeDebugJniLibFolders
-> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
-> Task :expo-modules-core:javaPreCompileDebug
-> Task :expo-log-box:copyDebugJniLibsProjectOnly
-> Task :expo-modules-core:mergeDebugAssets
-> Task :expo-modules-core:parseDebugLocalResources
-> Task :expo-modules-core:writeDebugAarMetadata
-> Task :expo-modules-core:extractDeepLinksDebug
-> Task :expo-modules-core:generateDebugRFile
-
-> Task :expo-modules-core:processDebugManifest
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
-	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
-
 > Task :expo:generateInlineModules
 > Task :expo:generatePackagesList
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
 > Task :expo:processDebugNavigationResources
-> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo:generateDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-log-box:packageDebugResources
+> Task :expo:packageDebugResources
 
 > Task :expo-constants:createExpoConfig
 The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
@@ -370,137 +212,145 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :expo-constants:preBuild
 > Task :expo-constants:preDebugBuild
 > Task :expo-constants:processDebugNavigationResources
-> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo:packageDebugResources
 > Task :expo-constants:generateDebugResources
-> Task :expo:javaPreCompileDebug
-> Task :expo:generateDebugAssets UP-TO-DATE
-> Task :expo:mergeDebugAssets
 > Task :expo-constants:packageDebugResources
-> Task :expo:parseDebugLocalResources
-> Task :expo:writeDebugAarMetadata
-> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo:generateDebugAssets UP-TO-DATE
 > Task :expo-constants:javaPreCompileDebug
-> Task :expo:extractDeepLinksDebug
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo-log-box:javaPreCompileDebug
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets
+> Task :expo-log-box:mergeDebugAssets
+> Task :expo:mergeDebugAssets
+> Task :react-native-auth0:generateCodegenSchemaFromJavaScript
 > Task :expo-constants:mergeDebugAssets
+> Task :expo:extractDeepLinksDebug
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-log-box:writeDebugAarMetadata
 > Task :expo-constants:writeDebugAarMetadata
-> Task :expo:generateDebugRFile
+> Task :expo:writeDebugAarMetadata
+> Task :expo-log-box:extractDeepLinksDebug
 > Task :expo-constants:extractDeepLinksDebug
-> Task :expo-constants:parseDebugLocalResources
+> Task :expo-modules-core:extractDeepLinksDebug
 > Task :expo:mapDebugSourceSetPaths
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo:parseDebugLocalResources
+> Task :expo-modules-core:parseDebugLocalResources
 > Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:generateDebugRFile
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :expo-log-box:processDebugManifest
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
 > Task :expo-constants:processDebugManifest
 > Task :expo:processDebugManifest
-> Task :expo:compileDebugLibraryResources
-> Task :expo:mergeDebugJniLibFolders
-> Task :expo-constants:generateDebugRFile
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:copyDebugJniLibsProjectOnly
-> Task :expo-constants:mergeDebugJniLibFolders
-> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
-> Task :expo-constants:compileDebugLibraryResources
-> Task :expo-constants:copyDebugJniLibsProjectOnly
-> Task :react-native-auth0:generateCodegenSchemaFromJavaScript
-> Task :expo-modules-core:mapDebugSourceSetPaths
-> Task :expo-modules-core:compileDebugLibraryResources
 > Task :react-native-auth0:generateCodegenArtifactsFromSchema
 > Task :react-native-auth0:preBuild
 > Task :app:preBuild
 > Task :react-native-auth0:preDebugBuild
 > Task :app:preDebugBuild
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :react-native-auth0:processDebugNavigationResources
+> Task :react-native-auth0:generateDebugBuildConfig
 > Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :app:generateDebugResValues UP-TO-DATE
-> Task :app:generateDebugResources UP-TO-DATE
-> Task :react-native-auth0:processDebugNavigationResources
-> Task :react-native-auth0:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :react-native-auth0:generateDebugBuildConfig
 > Task :react-native-auth0:generateDebugResources
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo:compileDebugLibraryResources
+> Task :app:generateDebugResources UP-TO-DATE
 > Task :react-native-auth0:packageDebugResources
+> Task :expo-log-box:mergeDebugJniLibFolders
 > Task :react-native-auth0:generateDebugAssets UP-TO-DATE
-> Task :react-native-auth0:javaPreCompileDebug
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :expo:copyDebugJniLibsProjectOnly
 > Task :react-native-auth0:parseDebugLocalResources
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-auth0:javaPreCompileDebug
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :expo:generateDebugRFile
 > Task :react-native-auth0:mergeDebugAssets
 > Task :react-native-auth0:extractDeepLinksDebug
+> Task :react-native-auth0:generateDebugRFile
+> Task :react-native-auth0:writeDebugAarMetadata
 
 > Task :react-native-auth0:processDebugManifest
 package="com.auth0.react" found in source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/AndroidManifest.xml.
 Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
 Recommendation: remove package="com.auth0.react" from the source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/AndroidManifest.xml.
 
+> Task :expo-modules-core:mapDebugSourceSetPaths
 > Task :react-native-auth0:mapDebugSourceSetPaths
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :react-native-auth0:compileDebugLibraryResources
 > Task :react-native-auth0:mergeDebugJniLibFolders
 > Task :react-native-auth0:mergeDebugNativeLibs NO-SOURCE
-> Task :react-native-auth0:compileDebugLibraryResources
-> Task :react-native-auth0:generateDebugRFile
 > Task :react-native-auth0:copyDebugJniLibsProjectOnly
-> Task :react-native-auth0:writeDebugAarMetadata
+
+> Task :react-native-auth0:compileDebugKotlin FAILED
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:43:74 Unresolved reference 'A0Auth0Spec'.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:126:5 'webAuth' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:212:5 'resumeWebAuthSession' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:268:5 'getBundleIdentifier' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:274:5 'initializeAuth0WithConfiguration' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:345:5 'hasValidAuth0InstanceWithConfiguration' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:355:5 'getCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:389:5 'saveCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:400:5 'clearCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:417:5 'hasValidCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:422:5 'getApiCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:457:5 'clearApiCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:462:5 'getConstants' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:466:5 'getName' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:469:5 'webAuthLogout' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:516:5 'getDPoPHeaders' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:573:5 'clearDPoPKey' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:589:5 'getSSOCredentials' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:619:5 'customTokenExchange' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:666:5 'getMfaAuthenticators' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:672:5 'mfaEnroll' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:678:5 'mfaChallenge' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:684:5 'mfaVerify' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:690:5 'passkeySignupChallenge' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:750:5 'passkeyLoginChallenge' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:781:5 'getTokenByPasskey' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:825:5 'passwordlessChallengeWithEmail' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:835:5 'passwordlessChallengeWithPhoneNumber' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:846:5 'passwordlessLoginWithOTP' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:857:5 'passkeyEnrollmentChallenge' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:871:5 'enrollPasskey' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:887:5 'getAuthenticationMethods' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:896:5 'getAuthenticationMethodById' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:905:5 'updateAuthenticationMethodById' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:916:5 'deleteAuthenticationMethodById' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:925:5 'enrollPhone' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:935:5 'enrollEmail' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:944:5 'enrollTOTP' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:952:5 'enrollPushNotification' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:960:5 'enrollRecoveryCode' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:968:5 'confirmEnrollmentWithOtp' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:979:5 'confirmEnrollment' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:989:5 'getFactors' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:1010:5 'resumeWebAuth' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:1015:5 'cancelWebAuth' overrides nothing.
+e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:12:16 Return type mismatch: expected 'NativeModule?', actual 'A0Auth0Module?'.
+
 > Task :app:processDebugNavigationResources UP-TO-DATE
-> Task :app:parseDebugLocalResources UP-TO-DATE
-> Task :app:generateDebugRFile UP-TO-DATE
-> Task :app:javaPreCompileDebug UP-TO-DATE
-> Task :app:mergeDebugAssets
-> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
-> Task :app:compressDebugAssets
-> Task :app:desugarDebugFileDependencies UP-TO-DATE
-> Task :app:mapDebugSourceSetPaths UP-TO-DATE
-> Task :app:compileDebugNavigationResources UP-TO-DATE
 > Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
-> Task :app:checkDebugDuplicateClasses
-> Task :app:checkDebugAarMetadata
-
-> Task :react-native-auth0:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:374:44 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:379:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:442:44 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:447:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:508:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:734:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:765:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:813:36 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:9:24 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:24:47 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:66:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:109:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:149:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:173:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:204:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:250:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:273:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:295:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:319:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:343:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:369:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:390:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:409:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
-
-> Task :react-native-auth0:compileDebugJavaWithJavac
-> Task :react-native-auth0:processDebugJavaRes
-> Task :react-native-auth0:bundleLibCompileToJarDebug
-> Task :react-native-auth0:bundleLibRuntimeToDirDebug
-> Task :app:mergeDebugResources
-
-> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
-C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
-C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
-C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
-C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
-C/C++:       |  ^
-C/C++: 1 warning generated.
-
-> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
-> Task :app:extractDeepLinksDebug UP-TO-DATE
-
-> Task :app:processDebugMainManifest FAILED
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
-	Attribute data@host at AndroidManifest.xml requires a placeholder substitution but no value for <auth0Domain> is provided.
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
-	Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <auth0Scheme> is provided.
-
-See https://developer.android.com/r/studio-ui/build/manifest-merger for more information about the manifest merger.
-
 
 > Task :expo-modules-core:compileDebugKotlin
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
@@ -530,7 +380,328 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-auth0:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 45s
+115 actionable tasks: 110 executed, 5 up-to-date
+== retry without new DSL flags
+== 6G free, below 12G: pruning Gradle transforms
+== 8G free after prune
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m37.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m37[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m27.1.12297006[0m
+  - kotlin:      [32m2.2.0[0m
+  - ksp:         [32m2.2.0-2.0.2[0m
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Configure project :expo
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+Using expo modules
+  - [32mexpo-log-box[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-constants[0m (58.0.0-canary-20260902-26df09e)
+  - [32mexpo-modules-core[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-dom-webview[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-asset[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-device[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-file-system[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-font[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-image[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-linking[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-splash-screen[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-status-bar[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-system-ui[0m (58.0.0-canary-20260902-26df09e)
+  - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
+
+
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
+> Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:processDebugNavigationResources UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:processDebugNavigationResources UP-TO-DATE
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-log-box:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-log-box:generateDebugResources UP-TO-DATE
+> Task :react-native-auth0:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :expo-log-box:packageDebugResources UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-auth0:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-auth0:preBuild UP-TO-DATE
+> Task :react-native-auth0:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :react-native-auth0:processDebugNavigationResources UP-TO-DATE
+> Task :react-native-auth0:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-auth0:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-auth0:generateDebugResources UP-TO-DATE
+> Task :react-native-auth0:packageDebugResources UP-TO-DATE
+> Task :expo-log-box:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-auth0:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :expo-log-box:generateDebugRFile UP-TO-DATE
+> Task :react-native-auth0:generateDebugRFile UP-TO-DATE
+> Task :expo-log-box:javaPreCompileDebug UP-TO-DATE
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:mergeDebugAssets UP-TO-DATE
+> Task :expo:generateInlineModules
+> Task :expo-log-box:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:generatePackagesList UP-TO-DATE
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo-log-box:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugNavigationResources UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :expo-log-box:processDebugManifest UP-TO-DATE
+> Task :expo-log-box:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo-log-box:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo-log-box:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :expo-constants:preDebugBuild
+> Task :expo-constants:processDebugNavigationResources UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugAssets UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-constants:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :react-native-auth0:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-auth0:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets UP-TO-DATE
+> Task :react-native-auth0:mergeDebugAssets UP-TO-DATE
+> Task :react-native-auth0:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-auth0:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-auth0:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :react-native-auth0:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo-modules-core:mapDebugSourceSetPaths UP-TO-DATE
+> Task :react-native-auth0:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-auth0:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-auth0:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-auth0:copyDebugJniLibsProjectOnly UP-TO-DATE
+
+> Task :react-native-auth0:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:374:44 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:379:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:442:44 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:447:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:508:44 The corresponding parameter in the supertype 'Callback' is named 'error'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:734:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:765:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Module.kt:813:36 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:9:24 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/A0Auth0Package.kt:24:47 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:66:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:109:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:149:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:173:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:204:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:250:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:273:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:295:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:319:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:343:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:369:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:390:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native-auth0/android/src/main/java/com/auth0/react/MyAccount.kt:409:40 The corresponding parameter in the supertype 'Callback' is named 'result'. This may cause problems when calling this function with named arguments.
+
+> Task :react-native-auth0:compileDebugJavaWithJavac
+> Task :react-native-auth0:bundleLibCompileToJarDebug
+> Task :react-native-auth0:processDebugJavaRes
+> Task :react-native-auth0:bundleLibRuntimeToDirDebug
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:checkDebugAarMetadata
+
 > Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
 C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
 C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
 C/C++:       |     ^
@@ -539,7 +710,91 @@ C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : Ra
 C/C++:       |     ^
 C/C++: 1 warning generated.
 
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+
+> Task :expo-modules-core:mergeDebugJniLibFolders
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-modules-core:processDebugJavaRes
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :expo-constants:compileDebugKotlin
+> Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-constants:processDebugJavaRes
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-log-box:compileDebugKotlin
+> Task :expo-log-box:compileDebugJavaWithJavac
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
 > Task :app:mergeExtDexDebug
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+
+> Task :expo:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :expo:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo:processDebugJavaRes
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:bundleLibRuntimeToDirDebug
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:mergeLibDexDebug
+
+> Task :app:processDebugMainManifest FAILED
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
+	Attribute data@host at AndroidManifest.xml requires a placeholder substitution but no value for <auth0Domain> is provided.
+/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
+	Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <auth0Scheme> is provided.
+
+See https://developer.android.com/r/studio-ui/build/manifest-merger for more information about the manifest merger.
+
+
+> Task :app:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/main/java/com/gabrieldonadel/agp10/MainActivity.kt:40:20 'constructor(activity: ReactActivity, mainComponentName: String, fabricEnabled: Boolean): DefaultReactActivityDelegate' is deprecated. Creating DefaultReactActivityDelegate with flags is deprecated.
 
 [Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
 
@@ -561,8 +816,8 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 13s
-136 actionable tasks: 94 executed, 42 up-to-date
+BUILD FAILED in 1m 10s
+158 actionable tasks: 39 executed, 119 up-to-date
 yarn remove v1.22.22
 [1/2] Removing module react-native-auth0...
 [2/2] Regenerating lockfile and installing missing dependencies...
@@ -614,4 +869,4 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/
 warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
 warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
 success Uninstalled packages.
-Done in 0.98s.
+Done in 1.95s.

@@ -39,3 +39,4 @@ package,version,status
 @react-native-vector-icons/octicons,,pass
 @sbaiahmed1/react-native-biometrics,0.16.1,fail-newdsl
 expo-iap,5.5.1,pass
+react-native-auth0,5.11.1,fail-baseline
