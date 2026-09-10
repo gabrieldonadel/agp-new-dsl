@@ -1,14 +1,2 @@
 package,version,status
-@react-native-google-signin/google-signin,16.1.5,pass
-@maplibre/maplibre-react-native,11.3.9,fail-newdsl
-@lodev09/react-native-true-sheet,3.11.13,fail-newdsl
-@preeternal/react-native-cookie-manager,6.4.1,pass
-react-native-volume-manager,2.2.0,pass
-react-native-navigation-mode,1.2.13,pass
-@dr.pogodin/react-native-fs,2.40.2,pass
-@kesha-antonov/react-native-background-downloader,4.6.2,fail-newdsl
-react-native-restart-newarch,1.0.88,pass
-react-native-screenshot-aware,2.1.3,pass
 @alexzunik/react-native-money-input,0.5.4,pass
-@bear-block/vision-camera-ocr,4.0.3,fail-baseline
-@blazejkustra/react-native-alert,1.1.0,fail-baseline
