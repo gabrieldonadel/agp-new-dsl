@@ -1,3 +1,4 @@
 package,version,status
 @alexzunik/react-native-money-input,0.5.4,pass
 @appcitor/react-native-voice-to-text,,pass
+@atomiqlab/react-native-mapbox-navigation,2.2.0,fail-baseline
