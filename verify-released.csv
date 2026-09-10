@@ -21,3 +21,4 @@ package,version,status
 @maplibre/maplibre-react-native,11.3.10,fail-newdsl
 @posthog/react-native-plugin,2.6.0,pass
 @powersync/react-native,2.2.1,pass
+@preeternal/react-native-cookie-manager,6.4.1,pass
