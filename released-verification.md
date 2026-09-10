@@ -1,71 +1,58 @@
 # Did the merged fixes actually work?
 
 Merged, released and fixed are three different things. This checks all three for
-every merged pull request.
+every merged pull request, by **building** each published package rather than
+reading its gradle file.
 
-Method: for each merged PR, read the latest published version from npm, look for
-the guard in the published tarball, and then **build the package** against the
-AGP 9 flags rather than trusting the file contents.
+Re-run with `RESULTS=verify-released.csv LIBS=<list> scripts/test-libs.sh`.
 
-## Release status of the 32 merged pull requests
+## Latest run: 2026-09-10, all 56 shipped packages
 
-| | Count |
+76 pull requests are merged. 56 of the packages they cover have the fix
+published on npm; 36 are merged but unreleased.
+
+| Result | Count |
 |---|---|
-| fix published on npm | 13 |
-| merged but not released yet | 19 |
-| gradle file not at the root path (needs a manual look) | 1 |
+| **pass** | **37** |
+| fail-baseline | 12 |
+| fail-newdsl | 7 |
+| **total built** | **56** |
 
-`react-native-purchases` (usage 0.136) is the notable unreleased one: the PR is
-merged but the latest npm version predates the merge.
+**37 of 56 build clean under AGP 9.** The 19 that do not almost all fail on
+something the collision was previously hiding:
 
-## Build result for the 13 published fixes
-
-| Package | Version | Result |
+| Cause | Count | Highest usage |
 |---|---|---|
-| `@react-native-google-signin/google-signin` | 16.1.5 | pass |
-| `@preeternal/react-native-cookie-manager` | 6.4.1 | pass |
-| `react-native-volume-manager` | 2.2.0 | pass |
-| `react-native-navigation-mode` | 1.2.13 | pass |
-| `@dr.pogodin/react-native-fs` | 2.40.2 | pass |
-| `react-native-restart-newarch` | 1.0.88 | pass |
-| `react-native-screenshot-aware` | 2.1.3 | pass |
-| `@alexzunik/react-native-money-input` | 0.5.4 | pass |
-| `@maplibre/maplibre-react-native` | 11.3.9 | fail-newdsl |
-| `@lodev09/react-native-true-sheet` | 3.11.13 | fail-newdsl |
-| `@kesha-antonov/react-native-background-downloader` | 4.6.2 | fail-newdsl |
-| `@bear-block/vision-camera-ocr` | 4.0.3 | fail-baseline |
-| `@blazejkustra/react-native-alert` | 1.1.0 | fail-baseline |
+| Kotlin compile error | 7 | `react-native-iap` 0.02, `@maplibre/maplibre-react-native` 0.017 |
+| Missing sibling project | 4 | the nitro packages; needs a peer installed, a harness gap not an AGP one |
+| `kotlinOptions()` removed | 3 | `@lodev09/react-native-true-sheet` 0.012 |
+| Collision still present | 2 | `@react-native-community/datetimepicker` 0.288 |
+| dependency resolution / javac / other | 3 | low usage |
 
-**8 of 13 now build clean.** Raw results in `verify-released.csv`.
+## The two that still collide are not regressions
 
-## The guard worked in all 13
+`@react-native-community/datetimepicker` is the important one, at 0.288 the
+highest-usage package in the whole set.
 
-`Cannot add extension with name 'kotlin'` appears in **zero** of the 13 logs. The
-collision is gone everywhere the fix shipped, including in the five that still
-fail. Those five now fail *later in the build* than before, on problems the
-collision was previously hiding:
+- The fix **is** shipped in 9.2.1, and the guard is present in the published
+  tarball.
+- `npx expo install` pinned **9.1.0**, because that is the version matched to the
+  Expo SDK. So the first run tested a pre-fix version and reported a collision
+  that no longer exists.
+- Re-tested at 9.2.1 explicitly: the collision is gone, and it now fails with
+  `Could not find method kotlinOptions()`.
 
-| Package | What it hits now |
-|---|---|
-| `@lodev09/react-native-true-sheet` | `Could not find method kotlinOptions()` — the DSL block is removed under built-in Kotlin |
-| `@maplibre/maplibre-react-native` | Kotlin compile: unresolved `LocationEngine` |
-| `@kesha-antonov/react-native-background-downloader` | Kotlin compile: unresolved `RNBackgroundDownloader…` |
-| `@blazejkustra/react-native-alert` | Kotlin compile: `getCurrentActivity` invocation |
-| `@bear-block/vision-camera-ocr` | Needs `react-native-vision-camera` installed alongside; a harness gap, not an AGP problem |
+So it needs a second pull request, not a re-run. `@criipto/verify-expo` is the
+same shape: its published version predates the merge.
 
-`kotlinOptions()` is the second wave predicted when the guard work started: every
-one of the 269 collision packages failed at *plugin application*, the earliest
-point in configuration, so nothing downstream had ever run. Now that
-configuration completes, the next incompatibility surfaces. Per the
-[Android migration guide](https://developer.android.com/build/migrate-to-built-in-kotlin),
-`android.kotlinOptions{}` becomes `kotlin { compilerOptions { … } }`.
+This is a limitation of the harness worth remembering: `expo install` resolves to
+the SDK-matched version, so verifying a fix sometimes means installing the exact
+version by hand. Only 1 of 56 was affected here, but it was the one that mattered
+most.
 
-## What this means
+## What this says overall
 
-The guard is doing exactly what it was meant to do, and it is not the whole
-story. Expect a share of the 287 pull requests to unblock configuration and then
-reveal a `kotlinOptions` or compile-time problem behind it. That is progress —
-those problems were always there, just unreachable — but "merged" should not be
-read as "this package now builds".
-
-Re-run this check with `RESULTS=verify-released.csv LIBS=<list> scripts/test-libs.sh`.
+The guard works. Across 56 shipped packages the collision survives in exactly two
+places, and in both the published version simply predates the merge. What remains
+is the second wave: `kotlinOptions()` and compile errors that were unreachable
+while configuration failed at plugin application.
