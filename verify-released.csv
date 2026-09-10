@@ -3,3 +3,4 @@ package,version,status
 @appcitor/react-native-voice-to-text,,pass
 @atomiqlab/react-native-mapbox-navigation,2.2.0,fail-baseline
 @bear-block/vision-camera-ocr,4.0.3,fail-baseline
+@blazejkustra/react-native-alert,1.1.0,fail-baseline

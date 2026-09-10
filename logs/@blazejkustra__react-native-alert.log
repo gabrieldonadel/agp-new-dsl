@@ -61,18 +61,18 @@ info Direct dependencies
 └─ @blazejkustra/react-native-alert@1.1.0
 info All dependencies
 └─ @blazejkustra/react-native-alert@1.1.0
-Done in 1.07s.
-== 9G free, below 12G: pruning Gradle transforms
+Done in 0.89s.
+== 8G free, below 12G: pruning Gradle transforms
 == 9G free after prune
 Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:pluginDescriptors
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :gradle-plugin:settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
 > Task :gradle-plugin:shared:processResources NO-SOURCE
 > Task :gradle-plugin:shared:compileKotlin
@@ -93,8 +93,8 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
 > Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors
 > Task :expo-module-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
@@ -157,25 +157,25 @@ Using expo modules
 
 > Task :expo-log-box:preBuild UP-TO-DATE
 > Task :expo-modules-core:preBuild UP-TO-DATE
-> Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :app:generateAutolinkingNewArchitectureFiles
 > Task :app:generateAutolinkingPackageList
 > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
 > Task :app:generateCodegenArtifactsFromSchema SKIPPED
-> Task :expo-log-box:processDebugNavigationResources
 > Task :expo-modules-core:processDebugNavigationResources
+> Task :expo-log-box:processDebugNavigationResources
 > Task :app:generateReactNativeEntryPoint
 > Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:generateDebugBuildConfig
 > Task :expo:generateInlineModules
+> Task :expo-log-box:generateDebugBuildConfig
 > Task :expo:generatePackagesList
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
-> Task :expo-log-box:generateDebugBuildConfig
-> Task :expo-modules-core:generateDebugBuildConfig
-> Task :expo:processDebugNavigationResources
-> Task :expo-log-box:generateDebugResources
 > Task :expo-modules-core:generateDebugResources
+> Task :expo-log-box:generateDebugResources
+> Task :expo:processDebugNavigationResources
 > Task :expo:generateDebugResources
 
 > Task :expo-constants:createExpoConfig
@@ -185,42 +185,41 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :expo-constants:preDebugBuild
 > Task :expo-constants:processDebugNavigationResources
 > Task :expo-constants:generateDebugResources
-> Task :blazejkustra_react-native-alert:generateCodegenSchemaFromJavaScript
-> Task :expo-constants:packageDebugResources
-> Task :expo-modules-core:packageDebugResources
-> Task :expo:packageDebugResources
 > Task :expo-log-box:packageDebugResources
+> Task :expo:packageDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-constants:packageDebugResources
+> Task :blazejkustra_react-native-alert:generateCodegenSchemaFromJavaScript
 > Task :expo:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:javaPreCompileDebug
-> Task :expo-constants:javaPreCompileDebug
-> Task :expo-modules-core:javaPreCompileDebug
 > Task :expo:javaPreCompileDebug
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo-log-box:javaPreCompileDebug
 > Task :expo-constants:generateDebugAssets UP-TO-DATE
-> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
 > Task :expo-log-box:generateDebugAssets UP-TO-DATE
-> Task :expo:mergeDebugAssets
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
 > Task :expo-modules-core:mergeDebugAssets
+> Task :expo:mergeDebugAssets
 > Task :expo-log-box:mergeDebugAssets
+> Task :expo-constants:mergeDebugAssets
 > Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo:extractDeepLinksDebug
 > Task :expo:writeDebugAarMetadata
 > Task :expo-log-box:writeDebugAarMetadata
-> Task :expo:extractDeepLinksDebug
-> Task :expo-constants:mergeDebugAssets
-> Task :expo-log-box:extractDeepLinksDebug
-> Task :expo-modules-core:extractDeepLinksDebug
 > Task :expo-constants:writeDebugAarMetadata
 > Task :expo-constants:extractDeepLinksDebug
-> Task :expo-constants:parseDebugLocalResources
-> Task :expo:parseDebugLocalResources
-> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :expo-modules-core:extractDeepLinksDebug
 > Task :expo-log-box:parseDebugLocalResources
+> Task :expo:parseDebugLocalResources
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-modules-core:parseDebugLocalResources
 > Task :expo:mapDebugSourceSetPaths
-> Task :expo-modules-core:mapDebugSourceSetPaths
-> Task :expo-log-box:mapDebugSourceSetPaths
-> Task :expo-modules-core:generateDebugRFile
-> Task :expo:generateDebugRFile
 > Task :expo-log-box:generateDebugRFile
+> Task :expo-modules-core:generateDebugRFile
 > Task :expo-constants:generateDebugRFile
+> Task :expo:generateDebugRFile
+> Task :expo-log-box:mapDebugSourceSetPaths
 > Task :expo-constants:mapDebugSourceSetPaths
 > Task :blazejkustra_react-native-alert:generateCodegenArtifactsFromSchema
 > Task :blazejkustra_react-native-alert:preBuild
@@ -228,48 +227,49 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :blazejkustra_react-native-alert:preDebugBuild
 > Task :app:preDebugBuild
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :expo-log-box:processDebugManifest
 > Task :blazejkustra_react-native-alert:processDebugNavigationResources
-> Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :blazejkustra_react-native-alert:generateDebugBuildConfig
+> Task :expo:processDebugManifest
 
 > Task :expo-modules-core:processDebugManifest
 /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
 	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
 
-> Task :expo:processDebugManifest
-> Task :expo-log-box:processDebugManifest
 > Task :expo-constants:processDebugManifest
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :blazejkustra_react-native-alert:generateDebugBuildConfig
 > Task :app:generateDebugResValues UP-TO-DATE
 > Task :blazejkustra_react-native-alert:generateDebugResources
 > Task :app:generateDebugResources UP-TO-DATE
 > Task :blazejkustra_react-native-alert:packageDebugResources
 > Task :blazejkustra_react-native-alert:generateDebugAssets UP-TO-DATE
 > Task :blazejkustra_react-native-alert:javaPreCompileDebug
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :blazejkustra_react-native-alert:mergeDebugAssets
-> Task :blazejkustra_react-native-alert:writeDebugAarMetadata
 > Task :blazejkustra_react-native-alert:parseDebugLocalResources
-> Task :blazejkustra_react-native-alert:extractDeepLinksDebug
+> Task :blazejkustra_react-native-alert:mergeDebugAssets
+> Task :app:packageDebugResources UP-TO-DATE
 > Task :blazejkustra_react-native-alert:generateDebugRFile
+> Task :expo:compileDebugLibraryResources
 > Task :expo-constants:mergeDebugJniLibFolders
 > Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:compileDebugLibraryResources
-> Task :expo:mergeDebugJniLibFolders
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:copyDebugJniLibsProjectOnly
-> Task :expo-constants:compileDebugLibraryResources
-> Task :expo-log-box:compileDebugLibraryResources
 > Task :expo-constants:copyDebugJniLibsProjectOnly
 > Task :expo-log-box:mergeDebugJniLibFolders
 > Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo-log-box:compileDebugLibraryResources
 > Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :blazejkustra_react-native-alert:writeDebugAarMetadata
+> Task :expo-modules-core:mapDebugSourceSetPaths
+> Task :blazejkustra_react-native-alert:extractDeepLinksDebug
+> Task :expo-modules-core:compileDebugLibraryResources
 > Task :blazejkustra_react-native-alert:mapDebugSourceSetPaths
 > Task :blazejkustra_react-native-alert:processDebugManifest
 > Task :blazejkustra_react-native-alert:compileDebugLibraryResources
 > Task :blazejkustra_react-native-alert:mergeDebugJniLibFolders
 > Task :blazejkustra_react-native-alert:mergeDebugNativeLibs NO-SOURCE
 > Task :blazejkustra_react-native-alert:copyDebugJniLibsProjectOnly
-> Task :expo-modules-core:compileDebugLibraryResources
 
 > Task :blazejkustra_react-native-alert:compileDebugKotlin FAILED
 e: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@blazejkustra/react-native-alert/android/src/main/java/com/blazejkustra/reactnativealert/ReactNativeAlertModule.kt:48:20 Function invocation 'getCurrentActivity()' expected.
@@ -326,15 +326,15 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 47s
+BUILD FAILED in 39s
 115 actionable tasks: 110 executed, 5 up-to-date
 == retry without new DSL flags
-== 7G free, below 12G: pruning Gradle transforms
+== 6G free, below 12G: pruning Gradle transforms
 == 9G free after prune
 Starting a Gradle Daemon (subsequent builds will be faster)
-> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
@@ -344,11 +344,11 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :gradle-plugin:shared:compileJava NO-SOURCE
 > Task :gradle-plugin:shared:processResources NO-SOURCE
 > Task :gradle-plugin:shared:classes UP-TO-DATE
-> Task :gradle-plugin:shared:jar UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
@@ -358,24 +358,24 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-module-gradle-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
 > Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
@@ -467,13 +467,13 @@ Using expo modules
 > Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:processDebugNavigationResources UP-TO-DATE
-> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-modules-core:processDebugNavigationResources UP-TO-DATE
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
 > Task :blazejkustra_react-native-alert:generateCodegenSchemaFromJavaScript UP-TO-DATE
-> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
 > Task :expo-log-box:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
 > Task :expo-log-box:generateDebugResources UP-TO-DATE
 > Task :expo-modules-core:generateDebugResources UP-TO-DATE
 > Task :blazejkustra_react-native-alert:generateCodegenArtifactsFromSchema UP-TO-DATE
@@ -482,33 +482,33 @@ Using expo modules
 > Task :blazejkustra_react-native-alert:processDebugNavigationResources UP-TO-DATE
 > Task :blazejkustra_react-native-alert:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
 > Task :blazejkustra_react-native-alert:generateDebugBuildConfig UP-TO-DATE
 > Task :expo-log-box:packageDebugResources UP-TO-DATE
-> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
 > Task :expo-modules-core:packageDebugResources UP-TO-DATE
-> Task :blazejkustra_react-native-alert:generateDebugResources UP-TO-DATE
-> Task :app:generateCodegenArtifactsFromSchema SKIPPED
 > Task :app:generateReactNativeEntryPoint UP-TO-DATE
 > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :blazejkustra_react-native-alert:generateDebugResources UP-TO-DATE
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :blazejkustra_react-native-alert:packageDebugResources UP-TO-DATE
-> Task :blazejkustra_react-native-alert:parseDebugLocalResources UP-TO-DATE
 > Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
 > Task :expo-log-box:parseDebugLocalResources UP-TO-DATE
+> Task :blazejkustra_react-native-alert:parseDebugLocalResources UP-TO-DATE
 > Task :expo-modules-core:generateDebugRFile UP-TO-DATE
-> Task :expo-log-box:generateDebugRFile UP-TO-DATE
 > Task :blazejkustra_react-native-alert:generateDebugRFile UP-TO-DATE
+> Task :expo-log-box:generateDebugRFile UP-TO-DATE
 > Task :expo-log-box:javaPreCompileDebug UP-TO-DATE
 > Task :expo-log-box:generateDebugAssets UP-TO-DATE
 > Task :expo-log-box:mergeDebugAssets UP-TO-DATE
 > Task :expo-log-box:writeDebugAarMetadata UP-TO-DATE
-> Task :expo:generateInlineModules
 > Task :expo-log-box:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:generateInlineModules
 > Task :expo:generatePackagesList UP-TO-DATE
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
-> Task :expo:processDebugNavigationResources UP-TO-DATE
 > Task :expo-log-box:processDebugManifest UP-TO-DATE
+> Task :expo:processDebugNavigationResources UP-TO-DATE
 > Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-log-box:mapDebugSourceSetPaths UP-TO-DATE
 > Task :expo:generateDebugResources UP-TO-DATE
@@ -516,8 +516,20 @@ Using expo modules
 > Task :expo-log-box:mergeDebugJniLibFolders UP-TO-DATE
 > Task :expo:packageDebugResources UP-TO-DATE
 > Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:parseDebugLocalResources UP-TO-DATE
 > Task :expo-log-box:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo:mapDebugSourceSetPaths UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
 
 > Task :expo-constants:createExpoConfig
 The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
@@ -525,38 +537,26 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :expo-constants:preBuild
 > Task :app:preBuild
 > Task :app:preDebugBuild
-> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
 > Task :expo-constants:preDebugBuild
 > Task :expo-constants:processDebugNavigationResources UP-TO-DATE
 > Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :expo-constants:generateDebugResources UP-TO-DATE
-> Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :app:generateDebugResValues UP-TO-DATE
 > Task :expo-constants:packageDebugResources UP-TO-DATE
 > Task :expo-constants:parseDebugLocalResources UP-TO-DATE
 > Task :expo-constants:generateDebugRFile UP-TO-DATE
 > Task :expo-constants:javaPreCompileDebug UP-TO-DATE
-> Task :app:generateDebugResources UP-TO-DATE
-> Task :expo:javaPreCompileDebug UP-TO-DATE
-> Task :expo:generateDebugAssets UP-TO-DATE
-> Task :expo:mergeDebugAssets UP-TO-DATE
 > Task :expo-constants:generateDebugAssets UP-TO-DATE
 > Task :expo-constants:mergeDebugAssets UP-TO-DATE
-> Task :expo:writeDebugAarMetadata UP-TO-DATE
 > Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
-> Task :app:packageDebugResources UP-TO-DATE
-> Task :expo:extractDeepLinksDebug UP-TO-DATE
-> Task :expo:processDebugManifest UP-TO-DATE
 > Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
 > Task :expo-constants:processDebugManifest UP-TO-DATE
-> Task :expo:mapDebugSourceSetPaths UP-TO-DATE
-> Task :expo:compileDebugLibraryResources UP-TO-DATE
 > Task :expo-constants:mapDebugSourceSetPaths UP-TO-DATE
 > Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
-> Task :expo:mergeDebugJniLibFolders UP-TO-DATE
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:copyDebugJniLibsProjectOnly UP-TO-DATE
 > Task :expo-constants:mergeDebugJniLibFolders UP-TO-DATE
 > Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
 > Task :expo-constants:copyDebugJniLibsProjectOnly UP-TO-DATE
@@ -566,12 +566,12 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :expo-modules-core:generateDebugAssets UP-TO-DATE
 > Task :expo-modules-core:mergeDebugAssets UP-TO-DATE
 > Task :blazejkustra_react-native-alert:mergeDebugAssets UP-TO-DATE
-> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
 > Task :blazejkustra_react-native-alert:writeDebugAarMetadata UP-TO-DATE
-> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
 > Task :blazejkustra_react-native-alert:extractDeepLinksDebug UP-TO-DATE
-> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
 > Task :blazejkustra_react-native-alert:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
 > Task :expo-modules-core:mapDebugSourceSetPaths UP-TO-DATE
 > Task :blazejkustra_react-native-alert:mapDebugSourceSetPaths UP-TO-DATE
 > Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
@@ -635,7 +635,7 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 36s
+BUILD FAILED in 35s
 115 actionable tasks: 5 executed, 110 up-to-date
 yarn remove v1.22.22
 [1/2] Removing module @blazejkustra/react-native-alert...
@@ -688,4 +688,4 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/
 warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
 warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
 success Uninstalled packages.
-Done in 1.05s.
+Done in 1.90s.
