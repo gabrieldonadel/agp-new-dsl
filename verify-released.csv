@@ -31,3 +31,4 @@ package,version,status
 @react-native-vector-icons/fontawesome,,pass
 @react-native-vector-icons/fontawesome5,,pass
 @react-native-vector-icons/fontawesome6,,pass
+@react-native-vector-icons/get-image,13.0.1,pass
