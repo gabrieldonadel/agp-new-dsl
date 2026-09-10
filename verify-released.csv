@@ -14,3 +14,4 @@ package,version,status
 @dr.pogodin/react-native-fs,2.40.2,pass
 @figuredev/react-native-local-server,0.17.11,pass
 @filipfrlic/expo-google-signin,0.5.1,fail-baseline
+@fishjam-cloud/react-native-webrtc,0.30.3,pass
