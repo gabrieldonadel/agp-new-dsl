@@ -47,3 +47,4 @@ react-native-legal,1.7.0,fail-newdsl
 react-native-navigation-mode,1.2.13,pass
 react-native-nitro-cookies,1.2.1,fail-baseline
 react-native-nitro-markdown,,fail-baseline
+react-native-nitro-sound,0.2.20,fail-baseline
