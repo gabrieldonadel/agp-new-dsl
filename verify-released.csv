@@ -24,3 +24,4 @@ package,version,status
 @preeternal/react-native-cookie-manager,6.4.1,pass
 @react-native-community/datetimepicker,9.1.0,fail-newdsl
 @react-native-google-signin/google-signin,16.1.5,pass
+@react-native-vector-icons/ant-design,,pass
