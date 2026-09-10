@@ -42,3 +42,4 @@ expo-iap,5.5.1,pass
 react-native-auth0,5.11.1,fail-baseline
 react-native-ble-manager,12.5.2,pass
 react-native-executorch,0.10.1,fail-baseline
+react-native-iap,16.5.1,fail-baseline
