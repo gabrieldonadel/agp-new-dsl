@@ -9,3 +9,5 @@
    -> pass
 == @appcues/expo-config
    -> fail-baseline
+== @appcues/react-native
+   -> pass
