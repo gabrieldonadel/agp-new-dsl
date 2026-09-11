@@ -11,3 +11,5 @@
    -> fail-baseline
 == @appcues/react-native
    -> pass
+== @azizuysal/wallet-kit
+   -> pass
