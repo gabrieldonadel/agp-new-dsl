@@ -1,3 +1,5 @@
 == baseline build with new DSL
 == @stream-io/react-native-callingx
    -> fail-baseline
+== @stream-io/video-react-native-sdk
+   -> fail-baseline
