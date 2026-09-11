@@ -13,3 +13,5 @@
    -> pass
 == @azizuysal/wallet-kit
    -> pass
+== react-native-vision-camera-face-detector
+   -> fail-baseline

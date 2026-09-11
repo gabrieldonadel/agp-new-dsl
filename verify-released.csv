@@ -62,3 +62,4 @@ react-native-adapty,4.1.0,pass
 @appcues/expo-config,5.0.1,fail-baseline
 @appcues/react-native,5.0.8,pass
 @azizuysal/wallet-kit,,pass
+react-native-vision-camera-face-detector,2.1.0,fail-baseline
