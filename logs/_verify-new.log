@@ -5,3 +5,5 @@
    -> fail-baseline
 == @op-engineering/op-sqlite
    -> pass
+== react-native-adapty
+   -> pass

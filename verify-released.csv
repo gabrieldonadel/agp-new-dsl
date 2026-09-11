@@ -58,3 +58,4 @@ react-native-volume-manager,2.2.0,pass
 @stream-io/react-native-callingx,0.11.4,fail-baseline
 @stream-io/video-react-native-sdk,1.45.2,fail-baseline
 @op-engineering/op-sqlite,18.2.1,pass
+react-native-adapty,4.1.0,pass
