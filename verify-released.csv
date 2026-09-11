@@ -57,3 +57,4 @@ react-native-teleport,1.2.2,pass
 react-native-volume-manager,2.2.0,pass
 @stream-io/react-native-callingx,0.11.4,fail-baseline
 @stream-io/video-react-native-sdk,1.45.2,fail-baseline
+@op-engineering/op-sqlite,18.2.1,pass
