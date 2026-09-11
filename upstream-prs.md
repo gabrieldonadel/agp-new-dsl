@@ -19,14 +19,14 @@ if (project.extensions.findByName('kotlin') == null) {
 
 | State | Count |
 |---|---|
-| open | 204 |
-| merged | 78 |
+| open | 203 |
+| merged | 79 |
 | closed | 5 |
 | **total** | **287** |
 
 287 pull requests covering 311 packages.
 
-## Pending (204)
+## Pending (203)
 
 Waiting on maintainers. `Discussion` is the number of comments and review
 comments, so a non-zero value is worth a look.
@@ -68,7 +68,7 @@ comments, so a non-zero value is worth a look.
 | `react-native-passkeys` | 0.006 | 2 | 1 | https://github.com/peterferguson/react-native-passkeys/pull/71 | 1 |  |
 | `@10play/tentap-editor` | 0.005 | 2 | 1 | https://github.com/10play/10tap-editor/pull/350 |  |  |
 | `react-native-shake` | 0.005 | 2 | 1 | https://github.com/Doko-Demo-Doa/react-native-shake/pull/160 | 1 |  |
-| `@nozbe/watermelondb` | 0.005 | 4 | 1 | https://github.com/Nozbe/WatermelonDB/pull/1974 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@nozbe/watermelondb` | 0.005 | 4 | 1 | https://github.com/Nozbe/WatermelonDB/pull/1974 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@amplitude/experiment-react-native-client` | 0.005 | 2 | 1 | https://github.com/amplitude/experiment-react-native-client/pull/69 |  |  |
 | `react-native-html-to-pdf` | 0.005 | 2 | 1 | https://github.com/christopherdro/react-native-html-to-pdf/pull/338 |  |  |
 | `react-native-radar` | 0.005 | 4 | 1 | https://github.com/radarlabs/react-native-radar/pull/451 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -175,7 +175,6 @@ comments, so a non-zero value is worth a look.
 | `@avasapp/react-native-app-intents` | 0 | 3 | 1 | https://github.com/avas-app/react-native-app-intents/pull/2 |  |  |
 | `@aws/clickstream-react-native` | 0 | 3 | 1 | https://github.com/aws-solutions-library-samples/clickstream-analytics-on-aws-react-native-sdk/pull/23 |  |  |
 | `@axeptio/react-native-sdk` | 0 | 4 | 1 | https://github.com/axeptio/react-native-sdk/pull/97 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@azizuysal/wallet-kit` | 0 | 3 | 2 | https://github.com/azizuysal/wallet-kit/pull/29 | 2 | All maintainer review items addressed in code, no replies posted (owner responds manually): main.kotlin.srcDir, top-level kotlin.compilerOptions, and an android-agp9 CI job forcing AGP 9.2.1 + Gradle 9.6.1 across both flag configurations. The CI job is written but unrun on my side. |
 | `@baeckerherz/expo-mapbox-navigation` | 0 | 4 | 1 | https://github.com/baeckerherz/expo-mapbox-navigation/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bam.tech/react-native-ssl-pinning` | 0 | 4 | 1 | https://github.com/bamlab/react-native-ssl-pinning/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bernagl/react-native-date` | 0 | 4 | 1 | https://github.com/bbernag/react-native-date/pull/8 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -231,14 +230,14 @@ comments, so a non-zero value is worth a look.
 | `@foursquare/movement-sdk-react-native` | 0 | 4 | 1 | https://github.com/foursquare/movement-sdk-react-native/pull/21 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@frontegg/react-native` | 0 | 4 | 1 | https://github.com/frontegg/frontegg-react-native/pull/131 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@gmisoftware/react-native-pay` | 0 | 4 | 1 | https://github.com/gmi-software/react-native-pay/pull/5 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@grafana/faro-react-native` | 0 | 3 | 1 | https://github.com/grafana/faro-react-native-sdk/pull/191 | 2 |  |
+| `@grafana/faro-react-native` | 0 | 3 | 1 | https://github.com/grafana/faro-react-native-sdk/pull/191 | 3 |  |
 | `@grupalia/react-native-photo-picker` | 0 | 4 | 1 | https://github.com/grupalia/react-native-photo-picker/pull/1 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@bittingz/expo-native-fonts` | 0 | 4 | 1 | https://github.com/mike-stewart-dev/expo-native-fonts/pull/9 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@arkyutao/react-native-mqtt` | 0 | 3 | 1 | https://github.com/return764/react-native-mqtt/pull/2 |  |  |
 | `@ascendtis/react-native-voice-to-text` | 0 | 3 | 1 | https://github.com/sufyan297/react-native-voice-to-text/pull/2 |  | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `@badatgil/expo-mapbox-navigation` | 0 | 4 | 1 | https://github.com/uju777/expo-mapbox-navigation/pull/44 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 
-## Merged (78)
+## Merged (79)
 
 | Package(s) | Usage | Round | Files | PR | Merged | Note |
 |---|---|---|---|---|---|---|
@@ -311,6 +310,7 @@ comments, so a non-zero value is worth a look.
 | `@dbkable/react-native-speech-to-text` | 0 | 3 | 1 | https://github.com/adelbeke/react-native-speech-to-text/pull/16 | 2026-09-07 |  |
 | `@appcues/expo-config` | 0 | 4 | 1 | https://github.com/appcues/appcues-expo-module/pull/21 | 2026-09-10 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@appcues/react-native` | 0 | 4 | 1 | https://github.com/appcues/appcues-react-native-module/pull/234 | 2026-09-10 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@azizuysal/wallet-kit` | 0 | 3 | 2 | https://github.com/azizuysal/wallet-kit/pull/29 | 2026-09-10 | All maintainer review items addressed in code, no replies posted (owner responds manually): main.kotlin.srcDir, top-level kotlin.compilerOptions, and an android-agp9 CI job forcing AGP 9.2.1 + Gradle 9.6.1 across both flag configurations. The CI job is written but unrun on my side. |
 | `@bear-block/vision-camera-ocr` | 0 | 4 | 1 | https://github.com/bear-block/vision-camera-ocr/pull/12 | 2026-09-06 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@blazejkustra/react-native-alert` | 0 | 4 | 1 | https://github.com/blazejkustra/react-native-alert/pull/8 | 2026-09-05 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@breeztech/breez-sdk-liquid-react-native` | 0 | 3 | 2 | https://github.com/breez/breez-sdk-liquid/pull/1107 | 2026-09-10 |  |

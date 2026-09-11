@@ -1,0 +1,8 @@
+@stream-io/react-native-callingx
+@stream-io/video-react-native-sdk
+@op-engineering/op-sqlite
+react-native-adapty
+@appcues/expo-config
+@appcues/react-native
+@azizuysal/wallet-kit
+react-native-vision-camera-face-detector
