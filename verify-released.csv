@@ -59,3 +59,4 @@ react-native-volume-manager,2.2.0,pass
 @stream-io/video-react-native-sdk,1.45.2,fail-baseline
 @op-engineering/op-sqlite,18.2.1,pass
 react-native-adapty,4.1.0,pass
+@appcues/expo-config,5.0.1,fail-baseline

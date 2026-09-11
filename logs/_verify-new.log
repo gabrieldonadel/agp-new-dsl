@@ -7,3 +7,5 @@
    -> pass
 == react-native-adapty
    -> pass
+== @appcues/expo-config
+   -> fail-baseline
