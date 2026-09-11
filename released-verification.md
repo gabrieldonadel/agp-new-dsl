@@ -6,28 +6,38 @@ reading its gradle file.
 
 Re-run with `RESULTS=verify-released.csv LIBS=<list> scripts/test-libs.sh`.
 
-## Latest run: 2026-09-10, all 56 shipped packages
+## Latest run: 2026-09-11, all 64 shipped packages
 
-76 pull requests are merged. 56 of the packages they cover have the fix
-published on npm; 36 are merged but unreleased.
+79 pull requests are merged. 64 of the packages they cover have the fix
+published on npm; 32 are merged but unreleased.
 
 | Result | Count |
 |---|---|
-| **pass** | **37** |
-| fail-baseline | 12 |
+| **pass** | **41** |
+| fail-baseline | 16 |
 | fail-newdsl | 7 |
-| **total built** | **56** |
+| **total built** | **64** |
 
-**37 of 56 build clean under AGP 9.** The 19 that do not almost all fail on
-something the collision was previously hiding:
+**41 of 64 build clean under AGP 9.** Four of the eight packages added in this
+run passed. The other four never reached an AGP 9 code path at all:
 
-| Cause | Count | Highest usage |
-|---|---|---|
-| Kotlin compile error | 7 | `react-native-iap` 0.02, `@maplibre/maplibre-react-native` 0.017 |
-| Missing sibling project | 4 | the nitro packages; needs a peer installed, a harness gap not an AGP one |
-| `kotlinOptions()` removed | 3 | `@lodev09/react-native-true-sheet` 0.012 |
-| Collision still present | 2 | `@react-native-community/datetimepicker` 0.288 |
-| dependency resolution / javac / other | 3 | low usage |
+| Package | Stopped at |
+|---|---|
+| `@stream-io/react-native-callingx` | missing sibling `:react-native-firebase_app` |
+| `@stream-io/video-react-native-sdk` | missing sibling `:stream-io_react-native-webrtc` |
+| `react-native-vision-camera-face-detector` | missing sibling `:react-native-nitro-modules` |
+| `@appcues/expo-config` | config plugin needs `ios.bundleIdentifier` in app config |
+
+The first three declare those siblings as `peerDependencies`. The harness installs
+only the package under test, so the peer is absent and Gradle fails before it
+configures anything. This is a harness gap, not a library or AGP 9 defect. The
+fourth is an Expo config plugin whose iOS branch throws during
+`:expo-constants:createExpoConfig`, so the Android build never starts.
+
+`@azizuysal/wallet-kit` records an empty version because
+`require('<pkg>/package.json')` is blocked by the package's `exports` map. The
+build itself is real: `:azizuysal_wallet-kit:compileDebugKotlin` ran and the
+build succeeded.
 
 ## The two that still collide are not regressions
 

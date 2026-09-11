@@ -15,3 +15,7 @@
    -> pass
 == react-native-vision-camera-face-detector
    -> fail-baseline
+done. summary:
+  16 fail-baseline
+   7 fail-newdsl
+  41 pass
