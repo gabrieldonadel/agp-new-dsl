@@ -19,15 +19,15 @@ if (project.extensions.findByName('kotlin') == null) {
 
 | State | Count |
 |---|---|
-| open | 123 |
+| open | 122 |
 | merged | 139 |
-| closed | 24 |
+| closed | 25 |
 | unreachable | 1 |
 | **total** | **287** |
 
 287 pull requests covering 311 packages.
 
-## Pending (123)
+## Pending (122)
 
 Waiting on maintainers. `Discussion` is the number of comments and review
 comments, so a non-zero value is worth a look.
@@ -39,7 +39,7 @@ comments, so a non-zero value is worth a look.
 | `@stripe/stripe-react-native` | 0.053 | 4 | 1 | https://github.com/stripe/stripe-react-native/pull/2602 | 4 | CLA cleared. cla-assistant did not respond to a 'recheck' comment; an empty commit (a synchronize event) is what made it re-evaluate. |
 | `react-native-vision-camera`, `react-native-vision-camera-barcode-scanner`, `react-native-vision-camera-resizer`, `react-native-vision-camera-worklets` | 0.036 | 4 | 5 | https://github.com/margelo/react-native-vision-camera/pull/4181 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `react-native-health-connect` | 0.021 | 4 | 1 | https://github.com/matinzd/react-native-health-connect/pull/273 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
-| `@rudderstack/rudder-sdk-react-native` | 0.013 | 1 | 1 | https://github.com/rudderlabs/rudder-sdk-react-native/pull/696 | 11 | Maintainer review addressed: switched to the extension check (covers the per-module built-in-kotlin plugin and ignores the stale AGP 8.7.2 pin), and mirrored java.srcDirs into kotlin.srcDirs. Declined the hasPlugin suggestion with probe output showing it reads false on stock AGP 9. |
+| `@rudderstack/rudder-sdk-react-native` | 0.013 | 1 | 1 | https://github.com/rudderlabs/rudder-sdk-react-native/pull/696 | 12 | Maintainer review addressed: switched to the extension check, mirrored java.srcDirs into kotlin.srcDirs, declined hasPlugin with probe output. 2026-11-06: builds and tests pass; maintainer asks for the RudderStack CLA (their own form, not a status check) before merging. |
 | `react-native-keychain` | 0.012 | 1 | 1 | https://github.com/oblador/react-native-keychain/pull/812 | 2 |  |
 | `rive-react-native` | 0.012 | 1 | 1 | https://github.com/rive-app/rive-react-native/pull/446 | 1 |  |
 | `@aws-amplify/react-native` | 0.011 | 1 | 1 | https://github.com/aws-amplify/amplify-js/pull/14933 | 2 |  |
@@ -55,7 +55,7 @@ comments, so a non-zero value is worth a look.
 | `react-native-html-to-pdf` | 0.005 | 2 | 1 | https://github.com/christopherdro/react-native-html-to-pdf/pull/338 |  |  |
 | `@iterable/react-native-sdk` | 0.004 | 2 | 1 | https://github.com/Iterable/react-native-sdk/pull/897 |  |  |
 | `react-native-release-profiler` | 0.004 | 2 | 1 | https://github.com/margelo/react-native-release-profiler/pull/28 |  |  |
-| `@rive-app/react-native` | 0.004 | 4 | 2 | https://github.com/rive-app/rive-nitro-react-native/pull/377 | 4 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `@rive-app/react-native` | 0.004 | 4 | 2 | https://github.com/rive-app/rive-nitro-react-native/pull/377 | 5 | Approved 2026-11-02. 2026-11-23: rebased onto main and added the Nitrogen kotlin.srcDirs line to rive-debug-utils as the maintainer asked. Full built-in-Kotlin builds also need a Nitro release with kotlin.srcDirs (margelo/nitro#1579 alone is not enough). |
 | `skyflow-react-native` | 0.004 | 2 | 1 | https://github.com/skyflowapi/skyflow-react-native/pull/159 |  |  |
 | `@adobe/react-native-aepmessaging` | 0.003 | 4 | 1 | https://github.com/adobe/aepsdk-react-native/pull/591 |  | CLA cleared by closing and reopening the PR, which is what the adobe-cla-bot summary instructs. Check now reports success. |
 | `expo-app-integrity` | 0.003 | 4 | 1 | https://github.com/jeffDevelops/expo-app-integrity/pull/14 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
@@ -91,7 +91,6 @@ comments, so a non-zero value is worth a look.
 | `@stripe/stripe-identity-react-native` | 0.001 | 4 | 1 | https://github.com/stripe/stripe-identity-react-native/pull/276 | 4 | CLA cleared. cla-assistant did not respond to a 'recheck' comment; an empty commit (a synchronize event) is what made it re-evaluate. |
 | `freerasp-react-native` | 0.001 | 4 | 1 | https://github.com/talsec/Free-RASP-ReactNative/pull/160 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `react-native-camera-kit` | 0.001 | 2 | 1 | https://github.com/teslamotors/react-native-camera-kit/pull/810 |  |  |
-| `react-native-crisp-chat-sdk` | 0.001 | 2 | 1 | https://github.com/walterholohan/react-native-crisp-chat-sdk/pull/212 | 1 |  |
 | `@xmartlabs/react-native-line` | 0.001 | 4 | 1 | https://github.com/xmartlabs/react-native-line/pull/225 |  | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@dalbodeule/expo-app-integrity` | 0 | 3 | 1 | https://github.com/20203153/expo-app-integrity/pull/1 |  |  |
 | `@2060.io/react-native-eid-reader` | 0 | 3 | 1 | https://github.com/2060-io/react-native-eid-reader/pull/68 |  |  |
@@ -302,7 +301,7 @@ comments, so a non-zero value is worth a look.
 | `@ascendtis/react-native-voice-to-text` | 0 | 3 | 1 | https://github.com/sufyan297/react-native-voice-to-text/pull/2 | 2026-10-06 | Re-filed on a unique branch. The first attempt shared a fork branch with another repository of the same name and showed unrelated commits; that PR was closed with an explanation. |
 | `@badatgil/expo-mapbox-navigation` | 0 | 4 | 1 | https://github.com/uju777/expo-mapbox-navigation/pull/44 | 2026-11-16 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 
-## Closed without merging (24)
+## Closed without merging (25)
 
 Check each one: so far every closure has been a maintainer taking the change
 through their own process rather than rejecting it.
@@ -324,6 +323,7 @@ through their own process rather than rejecting it.
 | `react-native-zendesk-messaging` | 0.001 | 4 | 1 | https://github.com/leegeunhyeok/react-native-zendesk-messaging/pull/98 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `react-native-mparticle` | 0.001 | 4 | 1 | https://github.com/mParticle/react-native-mparticle/pull/384 | 2 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@mj-studio/react-native-naver-map` | 0.001 | 4 | 1 | https://github.com/mym0404/react-native-naver-map/pull/196 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
+| `react-native-crisp-chat-sdk` | 0.001 | 2 | 1 | https://github.com/walterholohan/react-native-crisp-chat-sdk/pull/212 | 1 | Package is unmaintained; its successor crisp-sdk-react-native is an Expo module (expo-module-gradle-plugin), so it does not have the collision. Nothing to file there. |
 | `@cohorly/react-native` | 0 | 3 | 1 | https://github.com/Gitarcitano/cohorly-js/pull/1 | 4 | Repo is a mirror; maintainer ported the guard to their monorepo and also moved the JVM target to kotlin.compilerOptions under built-in Kotlin. Released in @cohorly/react-native@1.7.1, synced as 79cac04. The fix landed. |
 | `@gmessier/nitro-speech` | 0 | 4 | 1 | https://github.com/NotGeorgeMessier/nitro-speech/pull/16 | 3 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |
 | `@ajitpatel28/react-native-truecaller` | 0 | 4 | 1 | https://github.com/ajitpatel28/react-native-truecaller/pull/8 | 1 | Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason. |

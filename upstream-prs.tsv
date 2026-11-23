@@ -254,7 +254,7 @@ https://github.com/react-native-google-signin/google-signin/pull/1524	1	1	@react
 https://github.com/react-native-menu/menu/pull/1226	1	1	@react-native-menu/menu	
 https://github.com/react-native-nitro-google-sign-in/google-signin/pull/62	4	1	react-native-nitro-google-signin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/return764/react-native-mqtt/pull/2	3	1	@arkyutao/react-native-mqtt	
-https://github.com/rive-app/rive-nitro-react-native/pull/377	4	2	@rive-app/react-native	Approved 2026-11-02. Maintainer asked for a rebase and the Nitrogen kotlin.srcDirs line in rive-debug-utils too. Full built-in-Kotlin builds also need a Nitro release with kotlin.srcDirs (margelo/nitro#1579 alone is not enough).
+https://github.com/rive-app/rive-nitro-react-native/pull/377	4	2	@rive-app/react-native	Approved 2026-11-02. 2026-11-23: rebased onto main and added the Nitrogen kotlin.srcDirs line to rive-debug-utils as the maintainer asked. Full built-in-Kotlin builds also need a Nitro release with kotlin.srcDirs (margelo/nitro#1579 alone is not enough).
 https://github.com/rive-app/rive-react-native/pull/446	1	1	rive-react-native	
 https://github.com/rudderlabs/rudder-sdk-react-native/pull/696	1	1	@rudderstack/rudder-sdk-react-native	Maintainer review addressed: switched to the extension check, mirrored java.srcDirs into kotlin.srcDirs, declined hasPlugin with probe output. 2026-11-06: builds and tests pass; maintainer asks for the RudderStack CLA (their own form, not a status check) before merging.
 https://github.com/sbaiahmed1/react-native-biometrics/pull/101	2	1	@sbaiahmed1/react-native-biometrics	
