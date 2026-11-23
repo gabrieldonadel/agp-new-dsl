@@ -30,7 +30,14 @@ ensure_disk() {
   pkill -f GradleDaemon >/dev/null 2>&1 || true
   sleep 2
   rm -rf "$HOME"/.gradle/caches/*/transforms "$HOME"/.gradle/daemon
-  echo "== $(df -g / | awk 'NR==2{print $4}')G free after prune" >&2
+  avail=$(df -g / | awk 'NR==2{print $4}')
+  echo "== ${avail}G free after prune" >&2
+  # A full disk fails every later install, which records as a run of fake
+  # install-failed verdicts. Stop instead.
+  if [ "$avail" -lt "${MIN_HARD_GB:-5}" ]; then
+    echo "== only ${avail}G free after prune, below ${MIN_HARD_GB:-5}G: stopping" >&2
+    exit 1
+  fi
 }
 
 # Every external step gets a deadline. `realm` hung inside `npx expo install` for
@@ -98,6 +105,7 @@ while read -r pkg <&3; do
   log="logs/${pkg//\//__}.log"
   echo "== $pkg"
   ensure_harness
+  ensure_disk
 
   "$TIMEOUT" "$TIMEOUT_INSTALL" npx expo install "$pkg" >"$log" 2>&1
   install_rc=$?

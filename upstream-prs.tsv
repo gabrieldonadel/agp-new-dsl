@@ -33,7 +33,7 @@ https://github.com/GetStream/react-native-webrtc/pull/67	2	1	@stream-io/react-na
 https://github.com/GetStream/stream-chat-react-native/pull/3798	2	2	stream-chat-expo	
 https://github.com/GetStream/stream-video-js/pull/2417	4	4	@stream-io/react-native-callingx,@stream-io/video-react-native-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/Giphy/giphy-react-native-sdk/pull/229	2	1	@giphy/react-native-sdk	
-https://github.com/Gitarcitano/cohorly-js/pull/1	3	1	@cohorly/react-native	
+https://github.com/Gitarcitano/cohorly-js/pull/1	3	1	@cohorly/react-native	Repo is a mirror; maintainer ported the guard to their monorepo and also moved the JVM target to kotlin.compilerOptions under built-in Kotlin. Released in @cohorly/react-native@1.7.1, synced as 79cac04. The fix landed.
 https://github.com/Grassper/react-native-icon-picker/pull/4	3	1	@grassper/react-native-icon-picker	
 https://github.com/Iterable/react-native-sdk/pull/897	2	1	@iterable/react-native-sdk	
 https://github.com/IvanIhnatsiuk/react-native-advanced-input-mask/pull/156	2	1	react-native-advanced-input-mask	
@@ -143,8 +143,8 @@ https://github.com/dariyd/react-native-pdf-page-image/pull/2	3	1	@dariyd/react-n
 https://github.com/dariyd/react-native-text-recognition/pull/4	3	1	@dariyd/react-native-text-recognition	
 https://github.com/dasimems/react-native-svga/pull/2	4	1	@dasimems/react-native-svga	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/dawidzawada/bonjour-zeroconf/pull/1	4	1	@dawidzawada/bonjour-zeroconf	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
-https://github.com/deeeed/audiolab/pull/489	2	4	@siteed/audio-studio	
-https://github.com/deeeed/audiolab/pull/490	4	4	@everuribe/expo-audio-studio	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/deeeed/audiolab/pull/489	2	4	@siteed/audio-studio	Closed as a duplicate of audiolab#490, which carries the same change.
+https://github.com/deeeed/audiolab/pull/490	4	4	@everuribe/expo-audio-studio	Landed via audiolab#533, which carries our commit (authorship kept) plus the android.kotlinOptions migration for moonshine.rn, react-native-essentia and sherpa-onnx.rn. The fix landed.
 https://github.com/dengage-tech/dengage-react-sdk/pull/15	3	1	@dengage-tech/react-native-dengage	
 https://github.com/descope/descope-react-native/pull/186	3	1	@descope/react-native-sdk	
 https://github.com/deuna-developers/deuna-sdk-react-native/pull/1	3	1	@deuna/react-native-sdk	
@@ -182,7 +182,7 @@ https://github.com/gmi-software/react-native-pay/pull/5	4	1	@gmisoftware/react-n
 https://github.com/google-pay/react-native-make-payment/pull/111	4	1	@google/react-native-make-payment	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/googlemaps/react-native-navigation-sdk/pull/644	4	1	@googlemaps/react-native-navigation-sdk	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/gr8pathik/expo-pdf-text-extract/pull/2	2	1	expo-pdf-text-extract	
-https://github.com/grafana/faro-react-native-sdk/pull/191	3	1	@grafana/faro-react-native	
+https://github.com/grafana/faro-react-native-sdk/pull/191	3	1	@grafana/faro-react-native	Approved 2026-11-16. Still blocked by branch protection requiring signed commits; see signing-required.md.
 https://github.com/grupalia/react-native-photo-picker/pull/1	4	1	@grupalia/react-native-photo-picker	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/guhungry/react-native-photo-manipulator/pull/1022	3	1	react-native-photo-manipulator	
 https://github.com/hirbod/react-native-volume-manager/pull/63	2	1	react-native-volume-manager	
@@ -254,9 +254,9 @@ https://github.com/react-native-google-signin/google-signin/pull/1524	1	1	@react
 https://github.com/react-native-menu/menu/pull/1226	1	1	@react-native-menu/menu	
 https://github.com/react-native-nitro-google-sign-in/google-signin/pull/62	4	1	react-native-nitro-google-signin	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/return764/react-native-mqtt/pull/2	3	1	@arkyutao/react-native-mqtt	
-https://github.com/rive-app/rive-nitro-react-native/pull/377	4	2	@rive-app/react-native	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
+https://github.com/rive-app/rive-nitro-react-native/pull/377	4	2	@rive-app/react-native	Approved 2026-11-02. Maintainer asked for a rebase and the Nitrogen kotlin.srcDirs line in rive-debug-utils too. Full built-in-Kotlin builds also need a Nitro release with kotlin.srcDirs (margelo/nitro#1579 alone is not enough).
 https://github.com/rive-app/rive-react-native/pull/446	1	1	rive-react-native	
-https://github.com/rudderlabs/rudder-sdk-react-native/pull/696	1	1	@rudderstack/rudder-sdk-react-native	Maintainer review addressed: switched to the extension check (covers the per-module built-in-kotlin plugin and ignores the stale AGP 8.7.2 pin), and mirrored java.srcDirs into kotlin.srcDirs. Declined the hasPlugin suggestion with probe output showing it reads false on stock AGP 9.
+https://github.com/rudderlabs/rudder-sdk-react-native/pull/696	1	1	@rudderstack/rudder-sdk-react-native	Maintainer review addressed: switched to the extension check, mirrored java.srcDirs into kotlin.srcDirs, declined hasPlugin with probe output. 2026-11-06: builds and tests pass; maintainer asks for the RudderStack CLA (their own form, not a status check) before merging.
 https://github.com/sbaiahmed1/react-native-biometrics/pull/101	2	1	@sbaiahmed1/react-native-biometrics	
 https://github.com/sbaiahmed1/react-native-blur/pull/165	2	1	@sbaiahmed1/react-native-blur	
 https://github.com/segmentio/analytics-react-native/pull/1325	2	3	@segment/analytics-react-native-plugin-advertising-id,@segment/sovran-react-native	
@@ -277,7 +277,7 @@ https://github.com/talsec/Free-RASP-ReactNative/pull/160	4	1	freerasp-react-nati
 https://github.com/teslamotors/react-native-camera-kit/pull/810	2	1	react-native-camera-kit	
 https://github.com/uju777/expo-mapbox-navigation/pull/44	4	1	@badatgil/expo-mapbox-navigation	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/urbanairship/react-native-airship/pull/761	4	1	@ua/react-native-airship	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
-https://github.com/walterholohan/react-native-crisp-chat-sdk/pull/212	2	1	react-native-crisp-chat-sdk	
+https://github.com/walterholohan/react-native-crisp-chat-sdk/pull/212	2	1	react-native-crisp-chat-sdk	Package is unmaintained; its successor crisp-sdk-react-native is an Expo module (expo-module-gradle-plugin), so it does not have the collision. Nothing to file there.
 https://github.com/watch-connectivity/react-native-watch-connectivity/pull/136	4	1	react-native-watch-connectivity	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/wn-na/react-native-capture-protection/pull/134	4	1	react-native-capture-protection	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
 https://github.com/xmartlabs/react-native-line/pull/225	4	1	@xmartlabs/react-native-line	Hidden collision: the flagged build died on the Kotlin collision but the harness filed it fail-baseline because the fallback build also failed for an unrelated reason.
