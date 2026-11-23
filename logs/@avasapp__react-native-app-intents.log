@@ -56,22 +56,60 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plug
 success Saved lockfile.
 success Saved 2 new dependencies.
 info Direct dependencies
-└─ @avasapp/react-native-app-intents@0.2.6
+└─ @avasapp/react-native-app-intents@0.2.7
 info All dependencies
-├─ @avasapp/react-native-app-intents@0.2.6
+├─ @avasapp/react-native-app-intents@0.2.7
 └─ @babel/highlight@7.25.9
-Done in 3.06s.
+Done in 1.77s.
 › Added config plugin: @avasapp/react-native-app-intents
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@3022648a.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.27.0/91b2c29d8a6148b5e2e4930f070d4840e2e48e34' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.27.0/91b2c29d8a6148b5e2e4930f070d4840e2e48e34' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
 > Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:pluginDescriptors
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :gradle-plugin:settings-plugin:processResources
-> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
 > Task :gradle-plugin:shared:compileKotlin
 > Task :gradle-plugin:shared:compileJava NO-SOURCE
 > Task :gradle-plugin:shared:classes UP-TO-DATE
@@ -80,6 +118,44 @@ Done in 3.06s.
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@5811e7e6.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/8.5.0/b67b3f37071bee0d38a4b1e7ce5b9da9ba9ca139' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/8.5.0/b67b3f37071bee0d38a4b1e7ce5b9da9ba9ca139' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
 > Task :gradle-plugin:settings-plugin:compileKotlin
 > Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
 > Task :gradle-plugin:settings-plugin:classes
@@ -88,18 +164,56 @@ Done in 3.06s.
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@4b3eb678.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.27.0/91b2c29d8a6148b5e2e4930f070d4840e2e48e34' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.27.0/91b2c29d8a6148b5e2e4930f070d4840e2e48e34' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors
 > Task :expo-module-gradle-plugin:processResources
-> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
-> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
-> Task :gradle-plugin:react-native-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes
@@ -116,10 +230,82 @@ Done in 3.06s.
 > Task :expo-module-gradle-plugin:compileJava NO-SOURCE
 > Task :expo-module-gradle-plugin:classes
 > Task :expo-module-gradle-plugin:jar
-
-> Configure project :app
- ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
-  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@3f8351a2.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2-proto/9.2.1-15009934/acf00ea97102064130c6fce33ed18eef59bc692e' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2-proto/9.2.1-15009934/acf00ea97102064130c6fce33ed18eef59bc692e' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@68e48ffa.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.9/db9165a3bf908ded6b08612d583a15d1d0c7bda0' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.9/db9165a3bf908ded6b08612d583a15d1d0c7bda0' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
 
 > Configure project :
 [32m[ExpoRootProject][0m Using the following versions:
@@ -131,39 +317,596 @@ Done in 3.06s.
   - kotlin:      [32m2.2.0[0m
   - ksp:         [32m2.2.0-2.0.2[0m
 
-[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@25ca85fc.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.17.0/7edf1e3aa96dc3861f7a8f24556c714e9c5b292' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.17.0/7edf1e3aa96dc3861f7a8f24556c714e9c5b292' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@39bf6421.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/d0024e4f695a89e3c5602ed2c4395713' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/d0024e4f695a89e3c5602ed2c4395713' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@71b9c1be.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/a608c836877c0fe4c8812b868894c8ff' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/a608c836877c0fe4c8812b868894c8ff' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@6c536ca3.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/cc3011638b895b2e8ae1d434ac221476' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/cc3011638b895b2e8ae1d434ac221476' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@1ac71527.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/b2c8f989327d6598e79a9cc2d56f45e4' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/b2c8f989327d6598e79a9cc2d56f45e4' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@3073b30d.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/d2933c71c3b71d9736b1f54c7e0b5bec' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/d2933c71c3b71d9736b1f54c7e0b5bec' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@696aa898.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/ed46c7a0dd6e2e1fa58c1df376b3ffc1' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/ed46c7a0dd6e2e1fa58c1df376b3ffc1' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@1371aa0c.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/757722d75d7aa360266eb9d181034cfa' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/757722d75d7aa360266eb9d181034cfa' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@7c0421fc.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/8bfe138cc31503d87c964a6ab501c4bc' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/8bfe138cc31503d87c964a6ab501c4bc' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@300737f9.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/bf75e7c1088fe01bedbb14e115a8d2c2' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/bf75e7c1088fe01bedbb14e115a8d2c2' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@f1736d0.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/5cad2962db508ec33299b65c46b1a0e8' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/5cad2962db508ec33299b65c46b1a0e8' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@1790e47.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/352fff9e21cbba4f3cc6bb1f9d12592e' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/352fff9e21cbba4f3cc6bb1f9d12592e' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@3f06615d.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/b0517001ecb49be6cdddeb934f3b4302' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/b0517001ecb49be6cdddeb934f3b4302' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@1a4ade97.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/31611a23eafefa306c21bd072ca022ef' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/31611a23eafefa306c21bd072ca022ef' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
+Failed to execute org.gradle.cache.internal.AsyncCacheAccessDecoratedCache$$Lambda$552/0x000000e001487650@18259ef7.
+java.io.UncheckedIOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/74b33c1c642353975db9b50d2e9a98a4' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:161)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.lambda$put$1(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:272)
+	at org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator$UnitOfWorkFileAccess.writeFile(DefaultCacheCoordinator.java:488)
+	at org.gradle.cache.internal.DefaultMultiProcessSafeIndexedCache.put(DefaultMultiProcessSafeIndexedCache.java:67)
+	at org.gradle.cache.internal.AsyncCacheAccessDecoratedCache.lambda$putLater$1(AsyncCacheAccessDecoratedCache.java:56)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker$1.run(ExclusiveCacheAccessingWorker.java:179)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.lambda$toSupplier$2(DefaultCacheCoordinator.java:241)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:262)
+	at org.gradle.cache.internal.DefaultCacheCoordinator.useCache(DefaultCacheCoordinator.java:236)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.flushOperations(ExclusiveCacheAccessingWorker.java:169)
+	at org.gradle.cache.internal.ExclusiveCacheAccessingWorker.run(ExclusiveCacheAccessingWorker.java:139)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Could not add entry '/Users/briones/.gradle/caches/9.4.1/transforms/74b33c1c642353975db9b50d2e9a98a4' to cache file-access.bin (/Users/briones/.gradle/caches/journal-1/file-access.bin).
+	... 19 more
+Caused by: org.gradle.cache.internal.btree.CorruptedCacheException: block pointer must be >= -1, but was-6577336850885165665
+	at org.gradle.cache.internal.btree.BlockPointer.pos(BlockPointer.java:30)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.read(BTreePersistentIndexedCache.java:393)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore$BlockImpl.read(FileBackedBlockStore.java:254)
+	at org.gradle.cache.internal.btree.FileBackedBlockStore.read(FileBackedBlockStore.java:123)
+	at org.gradle.cache.internal.btree.CachingBlockStore.read(CachingBlockStore.java:100)
+	at org.gradle.cache.internal.btree.FreeListBlockStore.read(FreeListBlockStore.java:86)
+	at org.gradle.cache.internal.btree.StateCheckBlockStore.read(StateCheckBlockStore.java:67)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.load(BTreePersistentIndexedCache.java:181)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.access$1200(BTreePersistentIndexedCache.java:49)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.find(BTreePersistentIndexedCache.java:494)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache$IndexBlock.access$600(BTreePersistentIndexedCache.java:364)
+	at org.gradle.cache.internal.btree.BTreePersistentIndexedCache.put(BTreePersistentIndexedCache.java:143)
+	... 18 more
 
-FAILURE: Build completed with 2 failures.
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
 
-1: Task failed with an exception.
------------
+FAILURE: Build failed with an exception.
+
 * Where:
-Build file '/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@avasapp/react-native-app-intents/android/build.gradle' line: 29
+Build file '/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@avasapp/react-native-app-intents/android/build.gradle' line: 54
 
 * What went wrong:
 A problem occurred evaluating project ':avasapp_react-native-app-intents'.
-> Failed to apply plugin 'kotlin-android'.
-   > Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
+> Could not find method kotlinOptions() for arguments [build_9c6guwdap7u4unxnooapaigsc$_run_closure1$_closure7@722c4314] on object of type com.android.build.gradle.internal.dsl.LibraryExtensionImpl$AgpDecorated.
 
 * Try:
 > Run with --stacktrace option to get the stack trace.
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights from a Build Scan (powered by Develocity).
 > Get more help at https://help.gradle.org.
-==============================================================================
-
-2: Task failed with an exception.
------------
-* What went wrong:
-A problem occurred configuring project ':avasapp_react-native-app-intents'.
-> Android Gradle Plugin: project ':avasapp_react-native-app-intents' does not specify `compileSdk` in build.gradle (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@avasapp/react-native-app-intents/android/build.gradle).
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights from a Build Scan (powered by Develocity).
-> Get more help at https://help.gradle.org.
-==============================================================================
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
 
@@ -171,16 +914,16 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 4s
+BUILD FAILED in 13s
 28 actionable tasks: 28 executed
 == retry without new DSL flags
-== 11G free, below 12G: pruning Gradle transforms
-== 14G free after prune
+== 5G free, below 6G: pruning Gradle transforms
+== 8G free after prune
 Starting a Gradle Daemon (subsequent builds will be faster)
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
@@ -204,23 +947,23 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-module-gradle-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
 > Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
@@ -307,19 +1050,19 @@ Using expo modules
   - [33m[📦][0m [32mexpo-web-browser[0m (58.0.0-canary-20260902-26df09e)
 
 
-> Task :expo-log-box:preBuild UP-TO-DATE
 > Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :avasapp_react-native-app-intents:preBuild UP-TO-DATE
+> Task :expo-log-box:preBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
-> Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :avasapp_react-native-app-intents:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :app:generateAutolinkingNewArchitectureFiles
-> Task :expo-log-box:processDebugNavigationResources
 > Task :avasapp_react-native-app-intents:processDebugNavigationResources
-> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :avasapp_react-native-app-intents:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:processDebugNavigationResources
 > Task :expo-modules-core:processDebugNavigationResources
+> Task :avasapp_react-native-app-intents:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingPackageList
 > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
 > Task :app:generateCodegenArtifactsFromSchema SKIPPED
@@ -327,21 +1070,59 @@ Using expo modules
 > Task :app:generateReactNativeEntryPoint
 > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:generateDebugBuildConfig
 > Task :expo-modules-core:generateDebugBuildConfig
-> Task :expo-log-box:generateDebugResources
+> Task :expo-log-box:generateDebugBuildConfig
 > Task :expo-modules-core:generateDebugResources
+> Task :expo-log-box:generateDebugResources
+> Task :avasapp_react-native-app-intents:packageDebugResources
+> Task :expo-log-box:packageDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :avasapp_react-native-app-intents:generateDebugAssets UP-TO-DATE
+> Task :avasapp_react-native-app-intents:javaPreCompileDebug
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :expo-log-box:javaPreCompileDebug
+> Task :avasapp_react-native-app-intents:mergeDebugAssets
+> Task :expo-log-box:mergeDebugAssets
+> Task :expo-modules-core:mergeDebugAssets
 > Task :expo:generateInlineModules
+> Task :expo-log-box:writeDebugAarMetadata
+> Task :expo-log-box:extractDeepLinksDebug
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :avasapp_react-native-app-intents:writeDebugAarMetadata
+> Task :expo-modules-core:extractDeepLinksDebug
 > Task :expo:generatePackagesList
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
+> Task :avasapp_react-native-app-intents:extractDeepLinksDebug
 > Task :expo:processDebugNavigationResources
 > Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo:generateDebugResources
-> Task :avasapp_react-native-app-intents:packageDebugResources
+> Task :avasapp_react-native-app-intents:mapDebugSourceSetPaths
+> Task :expo-modules-core:mapDebugSourceSetPaths
 > Task :expo:packageDebugResources
-> Task :expo-modules-core:packageDebugResources
-> Task :expo-log-box:packageDebugResources
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :avasapp_react-native-app-intents:parseDebugLocalResources
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :expo-log-box:parseDebugLocalResources
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:javaPreCompileDebug
+> Task :expo:parseDebugLocalResources
+> Task :expo:mergeDebugAssets
+> Task :expo:writeDebugAarMetadata
+> Task :expo:extractDeepLinksDebug
+> Task :expo:generateDebugRFile
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo:mapDebugSourceSetPaths
+> Task :expo:processDebugManifest
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :expo-log-box:processDebugManifest
+> Task :avasapp_react-native-app-intents:processDebugManifest
 
 > Task :expo-constants:createExpoConfig
 The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
@@ -354,84 +1135,46 @@ The NODE_ENV environment variable is required but was not specified. Ensure the 
 > Task :expo-constants:processDebugNavigationResources
 > Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :expo-constants:generateDebugResources
-> Task :expo:javaPreCompileDebug
-> Task :expo-modules-core:javaPreCompileDebug
-> Task :expo-log-box:javaPreCompileDebug
-> Task :avasapp_react-native-app-intents:javaPreCompileDebug
-> Task :avasapp_react-native-app-intents:generateDebugAssets UP-TO-DATE
-> Task :expo:generateDebugAssets UP-TO-DATE
 > Task :app:generateDebugResValues UP-TO-DATE
-> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:generateDebugResources
 > Task :app:generateDebugResources UP-TO-DATE
-> Task :expo:mergeDebugAssets
-> Task :expo-log-box:mergeDebugAssets
-> Task :expo-modules-core:mergeDebugAssets
 > Task :expo-constants:packageDebugResources
-> Task :avasapp_react-native-app-intents:mergeDebugAssets
-> Task :expo-log-box:writeDebugAarMetadata
-> Task :expo:writeDebugAarMetadata
-> Task :avasapp_react-native-app-intents:writeDebugAarMetadata
-> Task :expo-modules-core:writeDebugAarMetadata
-> Task :expo-constants:javaPreCompileDebug
-> Task :expo:extractDeepLinksDebug
-> Task :expo-log-box:extractDeepLinksDebug
-> Task :avasapp_react-native-app-intents:extractDeepLinksDebug
-> Task :expo-constants:generateDebugAssets UP-TO-DATE
 > Task :app:packageDebugResources UP-TO-DATE
-> Task :expo-constants:parseDebugLocalResources
-> Task :expo-log-box:parseDebugLocalResources
-> Task :expo-modules-core:extractDeepLinksDebug
-> Task :expo:parseDebugLocalResources
-> Task :avasapp_react-native-app-intents:parseDebugLocalResources
-> Task :expo-modules-core:parseDebugLocalResources
-
-> Task :expo-modules-core:processDebugManifest
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
-	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
-
-> Task :expo:mapDebugSourceSetPaths
-> Task :expo-log-box:generateDebugRFile
-> Task :avasapp_react-native-app-intents:mapDebugSourceSetPaths
-> Task :expo-modules-core:generateDebugRFile
+> Task :expo:mergeDebugJniLibFolders
 > Task :avasapp_react-native-app-intents:compileDebugLibraryResources
-> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-modules-core:compileDebugLibraryResources
 > Task :expo:compileDebugLibraryResources
 > Task :avasapp_react-native-app-intents:mergeDebugJniLibFolders
 > Task :avasapp_react-native-app-intents:mergeDebugNativeLibs NO-SOURCE
-> Task :expo-log-box:compileDebugLibraryResources
-> Task :expo-log-box:processDebugManifest
-> Task :expo:generateDebugRFile
-> Task :expo-constants:mergeDebugAssets
-> Task :expo:mergeDebugJniLibFolders
-> Task :expo:processDebugManifest
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :avasapp_react-native-app-intents:generateDebugRFile
-> Task :expo-log-box:mergeDebugJniLibFolders
-> Task :expo-constants:extractDeepLinksDebug
-> Task :expo-constants:writeDebugAarMetadata
-> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
 > Task :expo:copyDebugJniLibsProjectOnly
-> Task :avasapp_react-native-app-intents:processDebugManifest
-> Task :avasapp_react-native-app-intents:copyDebugJniLibsProjectOnly
-> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :avasapp_react-native-app-intents:generateDebugRFile
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources
+> Task :expo-constants:mergeDebugAssets
 > Task :expo-constants:generateDebugRFile
+> Task :expo-constants:extractDeepLinksDebug
 > Task :expo-constants:processDebugManifest
 > Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:javaPreCompileDebug
 > Task :expo-constants:compileDebugLibraryResources
+> Task :expo-constants:writeDebugAarMetadata
+> Task :avasapp_react-native-app-intents:copyDebugJniLibsProjectOnly
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
 > Task :expo-constants:mergeDebugJniLibFolders
 > Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
 > Task :expo-constants:copyDebugJniLibsProjectOnly
-> Task :expo-modules-core:mapDebugSourceSetPaths
-> Task :expo-modules-core:compileDebugLibraryResources
 
 > Task :avasapp_react-native-app-intents:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@avasapp/react-native-app-intents/android/src/main/java/com/reactnativeappintents/ReactNativeAppIntentsPackage.kt:9:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@avasapp/react-native-app-intents/android/src/main/java/com/reactnativeappintents/ReactNativeAppIntentsPackage.kt:9:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
 
 > Task :avasapp_react-native-app-intents:compileDebugJavaWithJavac NO-SOURCE
-> Task :avasapp_react-native-app-intents:processDebugJavaRes
 > Task :avasapp_react-native-app-intents:bundleLibCompileToJarDebug
+> Task :avasapp_react-native-app-intents:processDebugJavaRes
 > Task :avasapp_react-native-app-intents:bundleLibRuntimeToDirDebug
 > Task :app:processDebugNavigationResources UP-TO-DATE
 > Task :app:parseDebugLocalResources UP-TO-DATE
@@ -440,14 +1183,14 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 > Task :app:mergeDebugAssets
 > Task :app:generateDebugGlobalSynthetics UP-TO-DATE
 > Task :app:compressDebugAssets
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
 > Task :app:desugarDebugFileDependencies UP-TO-DATE
-> Task :app:checkDebugDuplicateClasses
 > Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
 
 > Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
-C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/2bg4f4z2/arm64-v8a'
-C/C++: In file included from /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
-C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/551d4n2v/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
 C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
 C/C++:       |  ^
 C/C++: 1 warning generated.
@@ -455,93 +1198,74 @@ C/C++: 1 warning generated.
 > Task :expo-modules-core:compileDebugKotlin
 
 > Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
-C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
 C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
 C/C++:       |     ^
-C/C++: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
 C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
 C/C++:       |     ^
 C/C++: 1 warning generated.
 
-> Task :app:checkDebugAarMetadata
-> Task :expo-modules-core:mergeDebugJniLibFolders
-
 > Task :expo-modules-core:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
 - To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
 - To keep applying to the value parameter only, use the '@param:' annotation target.
 
 See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 
+> Task :expo-modules-core:mergeDebugJniLibFolders
 > Task :app:mergeExtDexDebug
-> Task :expo-modules-core:mergeDebugNativeLibs
 
 > Task :expo-modules-core:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :expo-modules-core:processDebugJavaRes
-> Task :expo-modules-core:copyDebugJniLibsProjectOnly
 > Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :expo-modules-core:mergeDebugNativeLibs
+> Task :expo-modules-core:copyDebugJniLibsProjectOnly
+> Task :app:mergeExtDexDebug UP-TO-DATE
 > Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
 > Task :expo-constants:compileDebugKotlin
 > Task :expo-constants:compileDebugJavaWithJavac NO-SOURCE
 > Task :expo-constants:bundleLibCompileToJarDebug
+> Task :app:checkDebugAarMetadata
 > Task :expo-constants:processDebugJavaRes
 > Task :expo-constants:bundleLibRuntimeToDirDebug
-> Task :expo-log-box:compileDebugKotlin
-> Task :expo-log-box:compileDebugJavaWithJavac
-> Task :expo-log-box:bundleLibCompileToJarDebug
-> Task :expo-log-box:processDebugJavaRes
-> Task :expo-log-box:bundleLibRuntimeToDirDebug
-> Task :app:mapDebugSourceSetPaths UP-TO-DATE
-> Task :app:compileDebugNavigationResources UP-TO-DATE
-
-> Task :expo:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
-
-> Task :expo:compileDebugJavaWithJavac NO-SOURCE
-> Task :expo:processDebugJavaRes
-> Task :expo:bundleLibCompileToJarDebug
-> Task :expo:bundleLibRuntimeToDirDebug
+> Task :app:mergeDebugResources UP-TO-DATE
 > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
 > Task :app:extractDeepLinksDebug UP-TO-DATE
 
 > Task :app:processDebugMainManifest
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
+/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
 	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
+/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Warning:
 	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :expo-log-box:compileDebugKotlin
 
 > Task :app:expoDebugOverrideMaxSdkConflicts
 [33m---------- Expo Max Sdk Override Plugin ----------[0m
@@ -549,32 +1273,49 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 [33m--------------------------------------------------[0m
 
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-
-> Task :app:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/main/java/com/gabrieldonadel/agp10/MainActivity.kt:40:20 'constructor(activity: ReactActivity, mainComponentName: String, fabricEnabled: Boolean): DefaultReactActivityDelegate' is deprecated. Creating DefaultReactActivityDelegate with flags is deprecated.
-
+> Task :expo-log-box:compileDebugJavaWithJavac
+> Task :expo-log-box:bundleLibCompileToJarDebug
+> Task :expo-log-box:processDebugJavaRes
+> Task :expo-log-box:bundleLibRuntimeToDirDebug
 > Task :app:configureCMakeDebug[arm64-v8a]
-> Task :app:compileDebugJavaWithJavac
-> Task :app:processDebugJavaRes
-> Task :app:mergeLibDexDebug
-> Task :app:mergeDebugJavaResource
+
+> Task :expo:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ExpoModulesPackage.kt:34:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:22:8 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:102:43 'class ReactInstanceManager : Any' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/ReactActivityDelegateWrapper.kt:103:21 'val reactInstanceManager: ReactInstanceManager' is deprecated. Deprecated in Java.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:15:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:33:39 'constructor(reactContext: ReactContext): ForwardingCookieHandler' is deprecated. Use the default constructor.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/ExpoFetchModule.kt:111:27 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:44:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo/android/src/main/java/expo/modules/fetch/NativeResponse.kt:46:11 'fun deallocate(): Unit' is deprecated. Use sharedObjectDidRelease() instead.
+
+> Task :expo:compileDebugJavaWithJavac NO-SOURCE
+> Task :expo:processDebugJavaRes
+> Task :expo:bundleLibCompileToJarDebug
+> Task :expo:bundleLibRuntimeToDirDebug
 > Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:processDebugManifestForPackage
+> Task :app:compileDebugKotlin
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes UP-TO-DATE
 > Task :app:mergeDebugJniLibFolders UP-TO-DATE
 > Task :app:validateSigningDebug UP-TO-DATE
 > Task :app:writeDebugAppMetadata UP-TO-DATE
 > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
-> Task :app:processDebugManifestForPackage
 > Task :app:processDebugResources
 > Task :app:dexBuilderDebug
 > Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :app:packageDebug
 > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
 > Task :app:assembleDebug
 
-[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
 
@@ -582,8 +1323,8 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD SUCCESSFUL in 1m 15s
-173 actionable tasks: 126 executed, 47 up-to-date
+BUILD SUCCESSFUL in 1m 14s
+173 actionable tasks: 122 executed, 51 up-to-date
 yarn remove v1.22.22
 [1/2] Removing module @avasapp/react-native-app-intents...
 [2/2] Regenerating lockfile and installing missing dependencies...
@@ -635,4 +1376,4 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/
 warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
 warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
 success Uninstalled packages.
-Done in 1.75s.
+Done in 1.74s.

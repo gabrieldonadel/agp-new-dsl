@@ -51,14 +51,16 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/
 warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
 [4/4] Building fresh packages...
 success Saved lockfile.
-success Saved 46 new dependencies.
+success Saved 48 new dependencies.
 info Direct dependencies
-└─ @castleio/react-native-castle@4.0.0
+└─ @castleio/react-native-castle@4.1.0
 info All dependencies
+├─ @babel/core@7.29.13
+├─ @babel/helpers@7.29.15
 ├─ @babel/plugin-bugfix-firefox-class-in-computed-class-key@7.29.7
 ├─ @babel/plugin-bugfix-safari-class-field-initializer-scope@7.29.7
 ├─ @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.29.7
-├─ @babel/plugin-bugfix-safari-rest-destructuring-rhs-array@7.29.7
+├─ @babel/plugin-bugfix-safari-rest-destructuring-rhs-array@7.29.13
 ├─ @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.29.7
 ├─ @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.29.7
 ├─ @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2
@@ -67,51 +69,54 @@ info All dependencies
 ├─ @babel/plugin-syntax-unicode-sets-regex@7.18.6
 ├─ @babel/plugin-transform-arrow-functions@7.29.7
 ├─ @babel/plugin-transform-block-scoped-functions@7.29.7
-├─ @babel/plugin-transform-computed-properties@7.29.7
+├─ @babel/plugin-transform-computed-properties@7.29.15
 ├─ @babel/plugin-transform-dotall-regex@7.29.7
-├─ @babel/plugin-transform-duplicate-keys@7.29.7
+├─ @babel/plugin-transform-duplicate-keys@7.29.15
 ├─ @babel/plugin-transform-duplicate-named-capturing-groups-regex@7.29.7
 ├─ @babel/plugin-transform-dynamic-import@7.29.7
-├─ @babel/plugin-transform-explicit-resource-management@7.29.7
+├─ @babel/plugin-transform-explicit-resource-management@7.29.15
 ├─ @babel/plugin-transform-exponentiation-operator@7.29.7
 ├─ @babel/plugin-transform-function-name@7.29.7
 ├─ @babel/plugin-transform-json-strings@7.29.7
 ├─ @babel/plugin-transform-literals@7.29.7
 ├─ @babel/plugin-transform-member-expression-literals@7.29.7
-├─ @babel/plugin-transform-modules-amd@7.29.7
-├─ @babel/plugin-transform-modules-systemjs@7.29.8
-├─ @babel/plugin-transform-modules-umd@7.29.7
+├─ @babel/plugin-transform-modules-amd@7.29.14
+├─ @babel/plugin-transform-modules-systemjs@7.29.15
+├─ @babel/plugin-transform-modules-umd@7.29.14
 ├─ @babel/plugin-transform-new-target@7.29.7
 ├─ @babel/plugin-transform-numeric-separator@7.29.7
 ├─ @babel/plugin-transform-object-super@7.29.7
 ├─ @babel/plugin-transform-property-literals@7.29.7
-├─ @babel/plugin-transform-regenerator@7.29.8
+├─ @babel/plugin-transform-regenerator@7.29.15
 ├─ @babel/plugin-transform-regexp-modifiers@7.29.7
 ├─ @babel/plugin-transform-reserved-words@7.29.7
 ├─ @babel/plugin-transform-shorthand-properties@7.29.7
-├─ @babel/plugin-transform-spread@7.29.8
+├─ @babel/plugin-transform-spread@7.29.15
 ├─ @babel/plugin-transform-sticky-regex@7.29.7
 ├─ @babel/plugin-transform-template-literals@7.29.7
 ├─ @babel/plugin-transform-typeof-symbol@7.29.7
 ├─ @babel/plugin-transform-unicode-escapes@7.29.7
 ├─ @babel/plugin-transform-unicode-property-regex@7.29.7
 ├─ @babel/plugin-transform-unicode-sets-regex@7.29.7
-├─ @babel/preset-env@7.29.7
+├─ @babel/preset-env@7.29.14
 ├─ @babel/preset-modules@0.1.6-no-external-plugins
-├─ @castleio/react-native-castle@4.0.0
+├─ @castleio/react-native-castle@4.1.0
 ├─ babel-plugin-polyfill-corejs3@0.14.2
 └─ esutils@2.0.3
-Done in 1.93s.
+Done in 3.96s.
+== 4G free, below 6G: pruning Gradle transforms
+== 6G free after prune
+Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:pluginDescriptors
-> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors
 > Task :gradle-plugin:settings-plugin:processResources
-> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
 > Task :gradle-plugin:shared:compileKotlin
 > Task :gradle-plugin:shared:compileJava NO-SOURCE
 > Task :gradle-plugin:shared:classes UP-TO-DATE
@@ -128,17 +133,17 @@ Done in 1.93s.
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors
 > Task :expo-module-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors
-> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources
 > Task :expo-gradle-plugin:expo-autolinking-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
 > Task :gradle-plugin:react-native-gradle-plugin:processResources
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
@@ -157,10 +162,6 @@ Done in 1.93s.
 > Task :expo-module-gradle-plugin:classes
 > Task :expo-module-gradle-plugin:jar
 
-> Configure project :app
- ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
-  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
-
 > Configure project :
 [32m[ExpoRootProject][0m Using the following versions:
   - buildTools:  [32m37.0.0[0m
@@ -171,39 +172,26 @@ Done in 1.93s.
   - kotlin:      [32m2.2.0[0m
   - ksp:         [32m2.2.0-2.0.2[0m
 
-[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+> Configure project :app
+ ℹ️  [33mApplying gradle plugin[0m '[32mexpo-max-sdk-override-plugin[0m'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
 
-FAILURE: Build completed with 2 failures.
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
 
-1: Task failed with an exception.
------------
+FAILURE: Build failed with an exception.
+
 * Where:
-Build file '/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build.gradle' line: 18
+Build file '/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build.gradle' line: 55
 
 * What went wrong:
 A problem occurred evaluating project ':castleio_react-native-castle'.
-> Failed to apply plugin 'org.jetbrains.kotlin.android'.
-   > Cannot add extension with name 'kotlin', as there is an extension already registered with that name.
+> Could not find method kotlinOptions() for arguments [build_3jsd8hvw491prct6p7dvv989l$_run_closure1$_closure9@21b67ff8] on object of type com.android.build.gradle.internal.dsl.LibraryExtensionImpl$AgpDecorated.
 
 * Try:
 > Run with --stacktrace option to get the stack trace.
 > Run with --info or --debug option to get more log output.
 > Run with --scan to get full insights from a Build Scan (powered by Develocity).
 > Get more help at https://help.gradle.org.
-==============================================================================
-
-2: Task failed with an exception.
------------
-* What went wrong:
-A problem occurred configuring project ':castleio_react-native-castle'.
-> Android Gradle Plugin: project ':castleio_react-native-castle' does not specify `compileSdk` in build.gradle (/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build.gradle).
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights from a Build Scan (powered by Develocity).
-> Get more help at https://help.gradle.org.
-==============================================================================
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
 
@@ -211,13 +199,13 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 4s
+BUILD FAILED in 36s
 28 actionable tasks: 28 executed
 == retry without new DSL flags
 > Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
@@ -225,41 +213,41 @@ BUILD FAILED in 4s
 > Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
 > Task :gradle-plugin:shared:compileJava NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
 > Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
 > Task :gradle-plugin:shared:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
-> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
 > Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
 > Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
-> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
-> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-module-gradle-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
 > Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:pluginDescriptors UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:processResources UP-TO-DATE
-> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
-> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-max-sdk-override-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
 > Task :expo-gradle-plugin:expo-max-sdk-override-plugin:jar UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
 > Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
@@ -345,128 +333,136 @@ Using expo modules
 
 
 > Task :castleio_react-native-castle:preBuild UP-TO-DATE
-> Task :castleio_react-native-castle:preDebugBuild UP-TO-DATE
 > Task :expo-modules-core:preBuild UP-TO-DATE
 > Task :expo-log-box:preBuild UP-TO-DATE
+> Task :castleio_react-native-castle:preDebugBuild UP-TO-DATE
 > Task :expo-modules-core:preDebugBuild UP-TO-DATE
 > Task :expo-log-box:preDebugBuild UP-TO-DATE
-> Task :expo-log-box:processDebugNavigationResources
-> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingNewArchitectureFiles
-> Task :expo-modules-core:processDebugNavigationResources
-> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateAutolinkingPackageList
-> Task :expo-modules-core:generateDebugBuildConfig
 > Task :app:generateCodegenSchemaFromJavaScript SKIPPED
-> Task :castleio_react-native-castle:processDebugNavigationResources
 > Task :app:generateCodegenArtifactsFromSchema SKIPPED
-> Task :castleio_react-native-castle:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateReactNativeEntryPoint
-> Task :expo-log-box:generateDebugBuildConfig
 > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
 > Task :app:generateDebugAssets UP-TO-DATE
+> Task :castleio_react-native-castle:processDebugNavigationResources
+> Task :expo-log-box:processDebugNavigationResources
+> Task :expo-modules-core:processDebugNavigationResources
+> Task :castleio_react-native-castle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-log-box:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :castleio_react-native-castle:generateDebugResources
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :expo-log-box:generateDebugBuildConfig
 > Task :expo-modules-core:generateDebugResources
 > Task :expo-log-box:generateDebugResources
-> Task :castleio_react-native-castle:generateDebugResources
-> Task :expo-modules-core:packageDebugResources
+> Task :castleio_react-native-castle:packageDebugResources
 > Task :expo-log-box:packageDebugResources
+> Task :expo-modules-core:packageDebugResources
+> Task :castleio_react-native-castle:generateDebugAssets UP-TO-DATE
+> Task :expo-log-box:generateDebugAssets UP-TO-DATE
+> Task :castleio_react-native-castle:javaPreCompileDebug
 > Task :expo-modules-core:generateDebugAssets UP-TO-DATE
 > Task :expo-modules-core:javaPreCompileDebug
-> Task :expo-modules-core:parseDebugLocalResources
-> Task :expo-log-box:generateDebugAssets UP-TO-DATE
 > Task :expo-log-box:javaPreCompileDebug
-> Task :expo-log-box:parseDebugLocalResources
-> Task :castleio_react-native-castle:packageDebugResources
+> Task :castleio_react-native-castle:mergeDebugAssets
 > Task :expo-modules-core:mergeDebugAssets
 > Task :expo-log-box:mergeDebugAssets
 > Task :expo-log-box:writeDebugAarMetadata
 > Task :expo-modules-core:writeDebugAarMetadata
-> Task :expo-log-box:generateDebugRFile
-> Task :expo-modules-core:generateDebugRFile
+> Task :castleio_react-native-castle:writeDebugAarMetadata
+> Task :castleio_react-native-castle:extractDeepLinksDebug
 > Task :expo-log-box:extractDeepLinksDebug
-> Task :castleio_react-native-castle:parseDebugLocalResources
 > Task :expo-modules-core:extractDeepLinksDebug
-> Task :castleio_react-native-castle:javaPreCompileDebug
-> Task :expo-log-box:mapDebugSourceSetPaths
-> Task :castleio_react-native-castle:generateDebugAssets UP-TO-DATE
-> Task :expo-log-box:processDebugManifest
-> Task :castleio_react-native-castle:generateDebugRFile
-> Task :expo-log-box:compileDebugLibraryResources
-> Task :castleio_react-native-castle:mergeDebugAssets
-> Task :expo-log-box:mergeDebugJniLibFolders
-> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
-> Task :expo-log-box:copyDebugJniLibsProjectOnly
 > Task :expo:generateInlineModules
 > Task :expo:generatePackagesList
 > Task :expo:preBuild
 > Task :expo:preDebugBuild
+> Task :expo-log-box:mapDebugSourceSetPaths
+> Task :expo-modules-core:mapDebugSourceSetPaths
 > Task :expo:processDebugNavigationResources
+> Task :expo-log-box:parseDebugLocalResources
 > Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :castleio_react-native-castle:parseDebugLocalResources
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :castleio_react-native-castle:mapDebugSourceSetPaths
 > Task :expo:generateDebugResources
 > Task :expo:packageDebugResources
 > Task :expo:javaPreCompileDebug
 > Task :expo:generateDebugAssets UP-TO-DATE
-> Task :expo:mergeDebugAssets
 > Task :expo:parseDebugLocalResources
+> Task :expo:mergeDebugAssets
+> Task :castleio_react-native-castle:generateDebugRFile
 > Task :expo:writeDebugAarMetadata
-> Task :expo:extractDeepLinksDebug
 
 > Task :expo-constants:createExpoConfig
 The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
 
+> Task :expo:generateDebugRFile
 > Task :expo-constants:preBuild
-> Task :expo-constants:preDebugBuild
 > Task :app:preBuild
+> Task :expo-constants:preDebugBuild
 > Task :app:preDebugBuild
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
-> Task :app:generateDebugBuildConfig UP-TO-DATE
-> Task :app:generateDebugResValues UP-TO-DATE
-> Task :expo:mapDebugSourceSetPaths
-> Task :expo:generateDebugRFile
-> Task :app:generateDebugResources UP-TO-DATE
+> Task :expo:extractDeepLinksDebug
 > Task :expo-constants:processDebugNavigationResources
 > Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
-> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
 > Task :expo-constants:generateDebugResources
-> Task :expo:processDebugManifest
+> Task :expo:mapDebugSourceSetPaths
+> Task :app:generateDebugResources UP-TO-DATE
 > Task :expo-constants:packageDebugResources
-> Task :expo-constants:javaPreCompileDebug
-> Task :expo-constants:generateDebugAssets UP-TO-DATE
-> Task :expo-constants:mergeDebugAssets
-> Task :expo-constants:parseDebugLocalResources
-> Task :expo-constants:extractDeepLinksDebug
-> Task :expo-constants:writeDebugAarMetadata
-> Task :expo-constants:mapDebugSourceSetPaths
-> Task :expo-constants:compileDebugLibraryResources
-> Task :expo-constants:generateDebugRFile
-> Task :expo-constants:mergeDebugJniLibFolders
-> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:compileDebugLibraryResources
-> Task :expo-constants:copyDebugJniLibsProjectOnly
-> Task :expo:mergeDebugJniLibFolders
-> Task :expo:mergeDebugNativeLibs NO-SOURCE
-> Task :expo:copyDebugJniLibsProjectOnly
-> Task :expo-constants:processDebugManifest
-> Task :expo-modules-core:mapDebugSourceSetPaths
-
-> Task :expo-modules-core:processDebugManifest
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
-	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
-
-> Task :expo-modules-core:compileDebugLibraryResources
-> Task :castleio_react-native-castle:writeDebugAarMetadata
-> Task :castleio_react-native-castle:extractDeepLinksDebug
-> Task :castleio_react-native-castle:mapDebugSourceSetPaths
+> Task :app:packageDebugResources UP-TO-DATE
 
 > Task :castleio_react-native-castle:processDebugManifest
-package="com.reactnativecastle" found in source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/AndroidManifest.xml.
+package="com.reactnativecastle" found in source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/AndroidManifest.xml.
 Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
-Recommendation: remove package="com.reactnativecastle" from the source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/AndroidManifest.xml.
+Recommendation: remove package="com.reactnativecastle" from the source AndroidManifest.xml: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/AndroidManifest.xml.
 
+> Task :expo-log-box:processDebugManifest
+> Task :expo:processDebugManifest
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo-constants:parseDebugLocalResources
+
+> Task :expo-modules-core:processDebugManifest
+/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :expo-constants:mergeDebugAssets
+> Task :expo-constants:generateDebugRFile
+> Task :expo-log-box:compileDebugLibraryResources
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-constants:mapDebugSourceSetPaths
+> Task :expo-constants:processDebugManifest
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:compileDebugLibraryResources
+> Task :expo-log-box:mergeDebugJniLibFolders
+> Task :expo-log-box:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :expo-log-box:copyDebugJniLibsProjectOnly
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo-log-box:generateDebugRFile
+> Task :expo-modules-core:generateDebugRFile
 > Task :castleio_react-native-castle:compileDebugLibraryResources
+> Task :expo:compileDebugLibraryResources
 > Task :castleio_react-native-castle:mergeDebugJniLibFolders
 > Task :castleio_react-native-castle:mergeDebugNativeLibs NO-SOURCE
 > Task :castleio_react-native-castle:copyDebugJniLibsProjectOnly
+
+> Task :castleio_react-native-castle:compileDebugKotlin
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/java/com/reactnativecastle/CastlePackage.kt:11:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+> Task :castleio_react-native-castle:compileDebugJavaWithJavac NO-SOURCE
+> Task :castleio_react-native-castle:processDebugJavaRes
+> Task :castleio_react-native-castle:bundleLibRuntimeToDirDebug
+> Task :castleio_react-native-castle:bundleLibCompileToJarDebug
 > Task :app:processDebugNavigationResources UP-TO-DATE
 > Task :app:parseDebugLocalResources UP-TO-DATE
 > Task :app:generateDebugRFile UP-TO-DATE
@@ -474,26 +470,21 @@ Recommendation: remove package="com.reactnativecastle" from the source AndroidMa
 > Task :app:mergeDebugAssets
 > Task :app:generateDebugGlobalSynthetics UP-TO-DATE
 > Task :app:compressDebugAssets
-
-> Task :castleio_react-native-castle:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/src/main/java/com/reactnativecastle/CastlePackage.kt:11:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
-
-> Task :castleio_react-native-castle:compileDebugJavaWithJavac NO-SOURCE
-> Task :castleio_react-native-castle:bundleLibCompileToJarDebug
-> Task :castleio_react-native-castle:processDebugJavaRes
-> Task :castleio_react-native-castle:bundleLibRuntimeToDirDebug
 > Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:checkDebugAarMetadata
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeExtDexDebug
+> Task :expo-modules-core:compileDebugKotlin
 > Task :app:mapDebugSourceSetPaths UP-TO-DATE
 > Task :app:compileDebugNavigationResources UP-TO-DATE
 > Task :app:mergeDebugResources UP-TO-DATE
 > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
 > Task :app:extractDeepLinksDebug UP-TO-DATE
-> Task :app:checkDebugAarMetadata
-> Task :app:checkDebugDuplicateClasses
 
 > Task :app:processDebugMainManifest FAILED
-/Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
-	uses-sdk:minSdkVersion 24 cannot be smaller than version 26 declared in library [:castleio_react-native-castle] /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml as the library might be using APIs not available in 24
+/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/app/src/debug/AndroidManifest.xml Error:
+	uses-sdk:minSdkVersion 24 cannot be smaller than version 26 declared in library [:castleio_react-native-castle] /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml as the library might be using APIs not available in 24
 	Suggestion: use a compatible library with a minSdk of at most 24,
 		or increase this project's minSdk version to at least 26,
 		or use tools:overrideLibrary="com.reactnativecastle" to force usage (may lead to runtime failures)
@@ -501,43 +492,56 @@ w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-n
 See https://developer.android.com/r/studio-ui/build/manifest-merger for more information about the manifest merger.
 
 
-> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/.cxx/Debug/551d4n2v/arm64-v8a'
+C/C++: In file included from /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/common/cpp/EventEmitter.cpp:5:
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/cxxreact/ErrorUtils.h:10:2: warning: Deprecated: use <jserrorhandler/ErrorUtils.h> instead. [-W#warnings]
+C/C++:    10 | #warning Deprecated: use <jserrorhandler/ErrorUtils.h> instead.
+C/C++:       |  ^
+C/C++: 1 warning generated.
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/cpp/fabric/ExpoComponentDescriptorFactory.cpp:17:5: warning: 'RawPropsParser' is deprecated [-Wdeprecated-declarations]
+C/C++:    17 |     react::RawPropsParser(/*useRawPropsJsiValue=*/true)
+C/C++:       |     ^
+C/C++: /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/react-native/ReactCommon/react/renderer/core/RawPropsParser.h:31:5: note: 'RawPropsParser' has been explicitly marked deprecated here
+C/C++:    31 |   [[deprecated]] explicit RawPropsParser(bool /* ignored */) : RawPropsParser() {}
+C/C++:       |     ^
+C/C++: 1 warning generated.
 
 > Task :expo-modules-core:compileDebugKotlin
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/CppType.kt:42:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:38:10 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/JavaCallback.kt:96:45 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:49:15 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:64:30 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:66:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:74:39 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:75:7 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:80:37 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:86:47 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:23 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:92:43 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:95:41 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/NativeArrayBuffer.kt:105:14 'constructor(byteBuffer: ByteBuffer): NativeArrayBuffer' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ColorCompat.kt:115:5 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
 - To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
 - To keep applying to the value parameter only, use the '@param:' annotation target.
 
 See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
-w: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:7:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:245:55 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/JSTypeConverter.kt:247:19 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:6:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/ReturnType.kt:45:5 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:19:8 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
+w: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/types/TypeConverterProvider.kt:254:7 'class NativeArrayBuffer : Destructible' is deprecated. Use ArrayBuffer instead.
 
-[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
+[Incubating] Problems report is available at: file:///Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/android/build/reports/problems/problems-report.html
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:processDebugMainManifest'.
-> Manifest merger failed : uses-sdk:minSdkVersion 24 cannot be smaller than version 26 declared in library [:castleio_react-native-castle] /Users/briones/.config/tuft/sessions/1788364493.114729/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml as the library might be using APIs not available in 24
+> Manifest merger failed : uses-sdk:minSdkVersion 24 cannot be smaller than version 26 declared in library [:castleio_react-native-castle] /Users/briones/.config/tuft/sessions/1795456431.782209/worktrees/agp-new-dsl/node_modules/@castleio/react-native-castle/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml as the library might be using APIs not available in 24
   	Suggestion: use a compatible library with a minSdk of at most 24,
   		or increase this project's minSdk version to at least 26,
   		or use tools:overrideLibrary="com.reactnativecastle" to force usage (may lead to runtime failures)
@@ -554,8 +558,8 @@ You can use '--warning-mode all' to show the individual deprecation warnings and
 
 For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
 
-BUILD FAILED in 5s
-130 actionable tasks: 87 executed, 43 up-to-date
+BUILD FAILED in 1m 10s
+132 actionable tasks: 89 executed, 43 up-to-date
 yarn remove v1.22.22
 [1/2] Removing module @castleio/react-native-castle...
 [2/2] Regenerating lockfile and installing missing dependencies...
@@ -607,4 +611,4 @@ warning "expo > babel-preset-expo > @babel/plugin-transform-typescript > @babel/
 warning "react-native > @react-native/codegen@0.87.0" has unmet peer dependency "@babel/core@*".
 warning "expo > babel-preset-expo > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.8" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
 success Uninstalled packages.
-Done in 0.82s.
+Done in 1.96s.
