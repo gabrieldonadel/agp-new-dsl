@@ -553,7 +553,9 @@ The 82 are the practical ceiling. Almost all sit at usage 0.005 or below.
 - `ensure_disk` prunes Gradle's transforms cache when free space drops below
   `MIN_FREE_GB` (default 12). Without it a long run fills the disk, and every
   build after that fails for a reason unrelated to the DSL while still being
-  recorded as `fail-baseline`.
+  recorded as `fail-baseline`. If pruning cannot get back above `MIN_HARD_GB`
+  (default 5) it stops the run: on 2026-11-23 a full disk recorded 39
+  consecutive packages as `install-failed` before this existed.
 - `fail-baseline` results are not investigated. They may be config-plugin or
   peer-dependency problems unrelated to AGP.
 - The AGP version comes from `@react-native/gradle-plugin` in `node_modules`
